@@ -1,6 +1,6 @@
 {
- "schema_version": "1.1.0",
- "generated_at": "2026-10-09T19:04:44-05:00",
+ "schema_version": "1.2.0",
+ "generated_at": "2026-10-09T19:21:30-05:00",
  "run_id": "2026-10-09_bootstrap",
  "window": {
   "start": "2026-09-25",
@@ -40,6 +40,12 @@
     "name": "New Phyrexia"
    },
    "is_reprint": true,
+   "reprint_count": 9,
+   "latest_reprint_set": {
+    "code": "slz",
+    "name": "The Zeta Set"
+   },
+   "latest_reprint_date": "2026-09-02",
    "reprint_set": {
     "code": "slz",
     "name": "The Zeta Set"
@@ -78,6 +84,9 @@
     "name": "Reality Fracture"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "format": "modern",
@@ -113,6 +122,9 @@
     "name": "Modern Horizons 3"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "format": "modern",
@@ -148,6 +160,9 @@
     "name": "Arabian Nights"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "format": "commander",
@@ -182,9 +197,18 @@
     "code": "pmh2",
     "name": "Modern Horizons 2 Promos"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "slc",
+    "name": "Secret Lair Countdown"
+   },
+   "latest_reprint_date": "2025-11-03",
+   "reprint_set": {
+    "code": "slc",
+    "name": "Secret Lair Countdown"
+   },
+   "reprint_released": "2025-11-03",
    "format": "modern",
    "action": "dont_ban",
    "stance": "against",
@@ -217,9 +241,18 @@
     "code": "c20",
     "name": "Commander 2020"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "cmm",
+    "name": "Commander Masters"
+   },
+   "latest_reprint_date": "2023-08-04",
+   "reprint_set": {
+    "code": "cmm",
+    "name": "Commander Masters"
+   },
+   "reprint_released": "2023-08-04",
    "format": "pauper",
    "action": "unban",
    "stance": "reports",
@@ -253,6 +286,12 @@
     "name": "Ice Age"
    },
    "is_reprint": true,
+   "reprint_count": 27,
+   "latest_reprint_set": {
+    "code": "frc",
+    "name": "Reality Fracture Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
    "reprint_set": {
     "code": "frc",
     "name": "Reality Fracture Commander"
@@ -314,6 +353,9 @@
      "name": "Reality Fracture"
     },
     "is_reprint": false,
+    "reprint_count": 1,
+    "latest_reprint_set": null,
+    "latest_reprint_date": null,
     "reprint_set": null,
     "reprint_released": null
    },
@@ -324,9 +366,18 @@
      "code": "ths",
      "name": "Theros"
     },
-    "is_reprint": false,
-    "reprint_set": null,
-    "reprint_released": null
+    "is_reprint": true,
+    "reprint_count": 10,
+    "latest_reprint_set": {
+     "code": "msh",
+     "name": "Marvel Super Heroes"
+    },
+    "latest_reprint_date": "2026-06-26",
+    "reprint_set": {
+     "code": "msh",
+     "name": "Marvel Super Heroes"
+    },
+    "reprint_released": "2026-06-26"
    }
   },
   {
@@ -361,6 +412,9 @@
      "name": "Reality Fracture"
     },
     "is_reprint": false,
+    "reprint_count": 1,
+    "latest_reprint_set": null,
+    "latest_reprint_date": null,
     "reprint_set": null,
     "reprint_released": null
    },
@@ -372,6 +426,9 @@
      "name": "Foundations"
     },
     "is_reprint": false,
+    "reprint_count": 1,
+    "latest_reprint_set": null,
+    "latest_reprint_date": null,
     "reprint_set": null,
     "reprint_released": null
    }
@@ -408,6 +465,9 @@
      "name": "Reality Fracture"
     },
     "is_reprint": false,
+    "reprint_count": 1,
+    "latest_reprint_set": null,
+    "latest_reprint_date": null,
     "reprint_set": null,
     "reprint_released": null
    },
@@ -418,9 +478,18 @@
      "code": "m19",
      "name": "Core Set 2019"
     },
-    "is_reprint": false,
-    "reprint_set": null,
-    "reprint_released": null
+    "is_reprint": true,
+    "reprint_count": 2,
+    "latest_reprint_set": {
+     "code": "j25",
+     "name": "Foundations Jumpstart"
+    },
+    "latest_reprint_date": "2024-11-15",
+    "reprint_set": {
+     "code": "j25",
+     "name": "Foundations Jumpstart"
+    },
+    "reprint_released": "2024-11-15"
    }
   },
   {
@@ -455,6 +524,9 @@
      "name": "Reality Fracture"
     },
     "is_reprint": false,
+    "reprint_count": 1,
+    "latest_reprint_set": null,
+    "latest_reprint_date": null,
     "reprint_set": null,
     "reprint_released": null
    },
@@ -466,6 +538,12 @@
      "name": "Dominaria"
     },
     "is_reprint": true,
+    "reprint_count": 3,
+    "latest_reprint_set": {
+     "code": "hoc",
+     "name": "The Hobbit Eternal"
+    },
+    "latest_reprint_date": "2026-08-14",
     "reprint_set": {
      "code": "hoc",
      "name": "The Hobbit Eternal"
@@ -505,6 +583,9 @@
      "name": "Reality Fracture"
     },
     "is_reprint": false,
+    "reprint_count": 1,
+    "latest_reprint_set": null,
+    "latest_reprint_date": null,
     "reprint_set": null,
     "reprint_released": null
    },
@@ -516,6 +597,9 @@
      "name": "Modern Horizons 3"
     },
     "is_reprint": false,
+    "reprint_count": 1,
+    "latest_reprint_set": null,
+    "latest_reprint_date": null,
     "reprint_set": null,
     "reprint_released": null
    }
@@ -552,6 +636,9 @@
      "name": "Reality Fracture"
     },
     "is_reprint": false,
+    "reprint_count": 1,
+    "latest_reprint_set": null,
+    "latest_reprint_date": null,
     "reprint_set": null,
     "reprint_released": null
    },
@@ -562,9 +649,18 @@
      "code": "m19",
      "name": "Core Set 2019"
     },
-    "is_reprint": false,
-    "reprint_set": null,
-    "reprint_released": null
+    "is_reprint": true,
+    "reprint_count": 7,
+    "latest_reprint_set": {
+     "code": "fic",
+     "name": "Final Fantasy Commander"
+    },
+    "latest_reprint_date": "2025-06-13",
+    "reprint_set": {
+     "code": "fic",
+     "name": "Final Fantasy Commander"
+    },
+    "reprint_released": "2025-06-13"
    }
   }
  ],
@@ -580,6 +676,9 @@
     "name": "Reality Fracture"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -650,9 +749,18 @@
     "code": "clb",
     "name": "Commander Legends: Battle for Baldur's Gate"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "latest_reprint_date": "2026-02-09",
+   "reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "reprint_released": "2026-02-09",
    "vibe": "positive",
    "score": 1.0,
    "positive": 5,
@@ -722,6 +830,9 @@
     "name": "Reality Fracture"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -792,9 +903,18 @@
     "code": "lea",
     "name": "Limited Edition Alpha"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 24,
+   "latest_reprint_set": {
+    "code": "cmm",
+    "name": "Commander Masters"
+   },
+   "latest_reprint_date": "2023-08-04",
+   "reprint_set": {
+    "code": "cmm",
+    "name": "Commander Masters"
+   },
+   "reprint_released": "2023-08-04",
    "vibe": "positive",
    "score": 0.75,
    "positive": 3,
@@ -863,9 +983,18 @@
     "code": "nph",
     "name": "New Phyrexia"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "mm2",
+    "name": "Modern Masters 2015"
+   },
+   "latest_reprint_date": "2015-05-22",
+   "reprint_set": {
+    "code": "mm2",
+    "name": "Modern Masters 2015"
+   },
+   "reprint_released": "2015-05-22",
    "vibe": "negative",
    "score": -1.0,
    "positive": 0,
@@ -934,9 +1063,18 @@
     "code": "aer",
     "name": "Aether Revolt"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 6,
+   "latest_reprint_set": {
+    "code": "fic",
+    "name": "Final Fantasy Commander"
+   },
+   "latest_reprint_date": "2025-06-13",
+   "reprint_set": {
+    "code": "fic",
+    "name": "Final Fantasy Commander"
+   },
+   "reprint_released": "2025-06-13",
    "vibe": "neutral",
    "score": -0.33,
    "positive": 1,
@@ -1005,9 +1143,18 @@
     "code": "m19",
     "name": "Core Set 2019"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "j25",
+    "name": "Foundations Jumpstart"
+   },
+   "latest_reprint_date": "2024-11-15",
+   "reprint_set": {
+    "code": "j25",
+    "name": "Foundations Jumpstart"
+   },
+   "reprint_released": "2024-11-15",
    "vibe": "positive",
    "score": 1.0,
    "positive": 2,
@@ -1065,6 +1212,12 @@
     "name": "Throne of Eldraine"
    },
    "is_reprint": true,
+   "reprint_count": 10,
+   "latest_reprint_set": {
+    "code": "frc",
+    "name": "Reality Fracture Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
    "reprint_set": {
     "code": "frc",
     "name": "Reality Fracture Commander"
@@ -1129,6 +1282,9 @@
     "name": "Edge of Eternities"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -1187,9 +1343,18 @@
     "code": "pmh2",
     "name": "Modern Horizons 2 Promos"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 4,
+   "latest_reprint_set": {
+    "code": "fca",
+    "name": "Final Fantasy: Through the Ages"
+   },
+   "latest_reprint_date": "2025-06-13",
+   "reprint_set": {
+    "code": "fca",
+    "name": "Final Fantasy: Through the Ages"
+   },
+   "reprint_released": "2025-06-13",
    "vibe": "positive",
    "score": 1.0,
    "positive": 2,
@@ -1246,9 +1411,18 @@
     "code": "mh1",
     "name": "Modern Horizons"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 3,
+   "latest_reprint_set": {
+    "code": "fca",
+    "name": "Final Fantasy: Through the Ages"
+   },
+   "latest_reprint_date": "2025-06-13",
+   "reprint_set": {
+    "code": "fca",
+    "name": "Final Fantasy: Through the Ages"
+   },
+   "reprint_released": "2025-06-13",
    "vibe": "neutral",
    "score": 0.0,
    "positive": 1,
@@ -1306,6 +1480,9 @@
     "name": "Lorwyn Eclipsed"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -1365,6 +1542,9 @@
     "name": "Edge of Eternities"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -1423,9 +1603,18 @@
     "code": "rtr",
     "name": "Return to Ravnica"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 9,
+   "latest_reprint_set": {
+    "code": "mar",
+    "name": "Marvel Universe"
+   },
+   "latest_reprint_date": "2025-09-26",
+   "reprint_set": {
+    "code": "mar",
+    "name": "Marvel Universe"
+   },
+   "reprint_released": "2025-09-26",
    "vibe": "positive",
    "score": 1.0,
    "positive": 4,
@@ -1494,9 +1683,18 @@
     "code": "lea",
     "name": "Limited Edition Alpha"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 29,
+   "latest_reprint_set": {
+    "code": "fdn",
+    "name": "Foundations"
+   },
+   "latest_reprint_date": "2024-11-15",
+   "reprint_set": {
+    "code": "fdn",
+    "name": "Foundations"
+   },
+   "reprint_released": "2024-11-15",
    "vibe": "positive",
    "score": 0.67,
    "positive": 2,
@@ -1566,6 +1764,9 @@
     "name": "The Hobbit"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -1639,6 +1840,12 @@
     "name": "Planechase 2012"
    },
    "is_reprint": true,
+   "reprint_count": 16,
+   "latest_reprint_set": {
+    "code": "slz",
+    "name": "The Zeta Set"
+   },
+   "latest_reprint_date": "2026-09-02",
    "reprint_set": {
     "code": "slz",
     "name": "The Zeta Set"
@@ -1703,6 +1910,9 @@
     "name": "Avatar: The Last Airbender"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -1762,6 +1972,9 @@
     "name": "Reality Fracture"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "neutral",
@@ -1820,9 +2033,18 @@
     "code": "rtr",
     "name": "Return to Ravnica"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 8,
+   "latest_reprint_set": {
+    "code": "soa",
+    "name": "Secrets of Strixhaven Mystical Archive"
+   },
+   "latest_reprint_date": "2026-04-24",
+   "reprint_set": {
+    "code": "soa",
+    "name": "Secrets of Strixhaven Mystical Archive"
+   },
+   "reprint_released": "2026-04-24",
    "vibe": "neutral",
    "score": 0.0,
    "positive": 0,
@@ -1880,6 +2102,12 @@
     "name": "New Phyrexia"
    },
    "is_reprint": true,
+   "reprint_count": 9,
+   "latest_reprint_set": {
+    "code": "slz",
+    "name": "The Zeta Set"
+   },
+   "latest_reprint_date": "2026-09-02",
    "reprint_set": {
     "code": "slz",
     "name": "The Zeta Set"
@@ -1941,9 +2169,18 @@
     "code": "drk",
     "name": "The Dark"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "5ed",
+    "name": "Fifth Edition"
+   },
+   "latest_reprint_date": "1997-03-24",
+   "reprint_set": {
+    "code": "5ed",
+    "name": "Fifth Edition"
+   },
+   "reprint_released": "1997-03-24",
    "vibe": "positive",
    "score": 1.0,
    "positive": 2,
@@ -2001,11 +2238,17 @@
     "name": "Modern Horizons"
    },
    "is_reprint": true,
-   "reprint_set": {
-    "code": "sld",
-    "name": "Secret Lair Drop"
+   "reprint_count": 5,
+   "latest_reprint_set": {
+    "code": "mar",
+    "name": "Marvel Universe"
    },
-   "reprint_released": "2026-08-31",
+   "latest_reprint_date": "2026-06-26",
+   "reprint_set": {
+    "code": "mar",
+    "name": "Marvel Universe"
+   },
+   "reprint_released": "2026-06-26",
    "vibe": "positive",
    "score": 1.0,
    "positive": 2,
@@ -2063,6 +2306,9 @@
     "name": "Bloomburrow"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "neutral",
@@ -2122,6 +2368,9 @@
     "name": "Bloomburrow"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -2181,6 +2430,9 @@
     "name": "Phyrexia: All Will Be One"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -2240,6 +2492,9 @@
     "name": "Edge of Eternities"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -2299,6 +2554,9 @@
     "name": "Foundations"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -2357,9 +2615,18 @@
     "code": "pmh2",
     "name": "Modern Horizons 2 Promos"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 4,
+   "latest_reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "latest_reprint_date": "2025-06-09",
+   "reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "reprint_released": "2025-06-09",
    "vibe": "positive",
    "score": 1.0,
    "positive": 2,
@@ -2416,9 +2683,18 @@
     "code": "pnph",
     "name": "New Phyrexia Promos"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 5,
+   "latest_reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "latest_reprint_date": "2025-09-22",
+   "reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "reprint_released": "2025-09-22",
    "vibe": "positive",
    "score": 1.0,
    "positive": 2,
@@ -2475,9 +2751,18 @@
     "code": "hou",
     "name": "Hour of Devastation"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 3,
+   "latest_reprint_set": {
+    "code": "c21",
+    "name": "Commander 2021"
+   },
+   "latest_reprint_date": "2021-04-23",
+   "reprint_set": {
+    "code": "c21",
+    "name": "Commander 2021"
+   },
+   "reprint_released": "2021-04-23",
    "vibe": "positive",
    "score": 1.0,
    "positive": 2,
@@ -2534,9 +2819,18 @@
     "code": "rav",
     "name": "Ravnica: City of Guilds"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 9,
+   "latest_reprint_set": {
+    "code": "ecl",
+    "name": "Lorwyn Eclipsed"
+   },
+   "latest_reprint_date": "2026-01-23",
+   "reprint_set": {
+    "code": "ecl",
+    "name": "Lorwyn Eclipsed"
+   },
+   "reprint_released": "2026-01-23",
    "vibe": "positive",
    "score": 1.0,
    "positive": 2,
@@ -2594,6 +2888,9 @@
     "name": "The Brothers' War"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -2653,6 +2950,9 @@
     "name": "Modern Horizons 3"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -2712,6 +3012,9 @@
     "name": "Reality Fracture"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -2759,6 +3062,9 @@
     "name": "Final Fantasy"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "negative",
@@ -2805,9 +3111,18 @@
     "code": "c18",
     "name": "Commander 2018"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 3,
+   "latest_reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "latest_reprint_date": "2023-09-22",
+   "reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "reprint_released": "2023-09-22",
    "vibe": "neutral",
    "score": 0.0,
    "positive": 0,
@@ -2854,9 +3169,18 @@
     "code": "c19",
     "name": "Commander 2019"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "latest_reprint_date": "2025-03-24",
+   "reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "reprint_released": "2025-03-24",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -2902,6 +3226,9 @@
     "name": "Foundations"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -2948,9 +3275,18 @@
     "code": "mh1",
     "name": "Modern Horizons"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "c20",
+    "name": "Commander 2020"
+   },
+   "latest_reprint_date": "2020-04-17",
+   "reprint_set": {
+    "code": "c20",
+    "name": "Commander 2020"
+   },
+   "reprint_released": "2020-04-17",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -2996,6 +3332,9 @@
     "name": "Marvel Super Heroes"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -3042,9 +3381,18 @@
     "code": "bfz",
     "name": "Battle for Zendikar"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "cmm",
+    "name": "Commander Masters"
+   },
+   "latest_reprint_date": "2023-08-04",
+   "reprint_set": {
+    "code": "cmm",
+    "name": "Commander Masters"
+   },
+   "reprint_released": "2023-08-04",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -3090,6 +3438,9 @@
     "name": "The Hobbit"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "negative",
@@ -3137,6 +3488,12 @@
     "name": "Limited Edition Alpha"
    },
    "is_reprint": true,
+   "reprint_count": 28,
+   "latest_reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
    "reprint_set": {
     "code": "fdc",
     "name": "Foundations Commander"
@@ -3186,9 +3543,18 @@
     "code": "lci",
     "name": "The Lost Caverns of Ixalan"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 3,
+   "latest_reprint_set": {
+    "code": "soa",
+    "name": "Secrets of Strixhaven Mystical Archive"
+   },
+   "latest_reprint_date": "2026-04-24",
+   "reprint_set": {
+    "code": "soa",
+    "name": "Secrets of Strixhaven Mystical Archive"
+   },
+   "reprint_released": "2026-04-24",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -3233,9 +3599,18 @@
     "code": "ktk",
     "name": "Khans of Tarkir"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 3,
+   "latest_reprint_set": {
+    "code": "clb",
+    "name": "Commander Legends: Battle for Baldur's Gate"
+   },
+   "latest_reprint_date": "2022-06-10",
+   "reprint_set": {
+    "code": "clb",
+    "name": "Commander Legends: Battle for Baldur's Gate"
+   },
+   "reprint_released": "2022-06-10",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -3280,9 +3655,18 @@
     "code": "c20",
     "name": "Commander 2020"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "cmm",
+    "name": "Commander Masters"
+   },
+   "latest_reprint_date": "2023-08-04",
+   "reprint_set": {
+    "code": "cmm",
+    "name": "Commander Masters"
+   },
+   "reprint_released": "2023-08-04",
    "vibe": "neutral",
    "score": 0.0,
    "positive": 0,
@@ -3328,6 +3712,9 @@
     "name": "Modern Horizons 2"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -3374,9 +3761,18 @@
     "code": "ala",
     "name": "Shards of Alara"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 11,
+   "latest_reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "latest_reprint_date": "2022-11-28",
+   "reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "reprint_released": "2022-11-28",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -3422,6 +3818,12 @@
     "name": "Ice Age"
    },
    "is_reprint": true,
+   "reprint_count": 27,
+   "latest_reprint_set": {
+    "code": "frc",
+    "name": "Reality Fracture Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
    "reprint_set": {
     "code": "frc",
     "name": "Reality Fracture Commander"
@@ -3471,9 +3873,18 @@
     "code": "uds",
     "name": "Urza's Destiny"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "7ed",
+    "name": "Seventh Edition"
+   },
+   "latest_reprint_date": "2001-04-11",
+   "reprint_set": {
+    "code": "7ed",
+    "name": "Seventh Edition"
+   },
+   "reprint_released": "2001-04-11",
    "vibe": "neutral",
    "score": 0.0,
    "positive": 0,
@@ -3520,9 +3931,18 @@
     "code": "clb",
     "name": "Commander Legends: Battle for Baldur's Gate"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "cmm",
+    "name": "Commander Masters"
+   },
+   "latest_reprint_date": "2023-08-04",
+   "reprint_set": {
+    "code": "cmm",
+    "name": "Commander Masters"
+   },
+   "reprint_released": "2023-08-04",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -3567,9 +3987,18 @@
     "code": "m11",
     "name": "Magic 2011"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 3,
+   "latest_reprint_set": {
+    "code": "inr",
+    "name": "Innistrad Remastered"
+   },
+   "latest_reprint_date": "2025-01-24",
+   "reprint_set": {
+    "code": "inr",
+    "name": "Innistrad Remastered"
+   },
+   "reprint_released": "2025-01-24",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -3615,6 +4044,9 @@
     "name": "Reality Fracture"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "negative",
@@ -3662,6 +4094,9 @@
     "name": "Reality Fracture"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -3708,9 +4143,18 @@
     "code": "pm15",
     "name": "Magic 2015 Promos"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 7,
+   "latest_reprint_set": {
+    "code": "fic",
+    "name": "Final Fantasy Commander"
+   },
+   "latest_reprint_date": "2025-06-13",
+   "reprint_set": {
+    "code": "fic",
+    "name": "Final Fantasy Commander"
+   },
+   "reprint_released": "2025-06-13",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -3756,6 +4200,9 @@
     "name": "Zendikar Rising"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "negative",
@@ -3802,9 +4249,18 @@
     "code": "mmq",
     "name": "Mercadian Masques"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 6,
+   "latest_reprint_set": {
+    "code": "tle",
+    "name": "Avatar: The Last Airbender Eternal"
+   },
+   "latest_reprint_date": "2025-11-21",
+   "reprint_set": {
+    "code": "tle",
+    "name": "Avatar: The Last Airbender Eternal"
+   },
+   "reprint_released": "2025-11-21",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -3849,9 +4305,18 @@
     "code": "rtr",
     "name": "Return to Ravnica"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 3,
+   "latest_reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "latest_reprint_date": "2024-04-08",
+   "reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "reprint_released": "2024-04-08",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -3896,9 +4361,18 @@
     "code": "avr",
     "name": "Avacyn Restored"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 6,
+   "latest_reprint_set": {
+    "code": "drc",
+    "name": "Aetherdrift Commander"
+   },
+   "latest_reprint_date": "2025-02-14",
+   "reprint_set": {
+    "code": "drc",
+    "name": "Aetherdrift Commander"
+   },
+   "reprint_released": "2025-02-14",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -3943,9 +4417,18 @@
     "code": "mh1",
     "name": "Modern Horizons"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 3,
+   "latest_reprint_set": {
+    "code": "lcc",
+    "name": "The Lost Caverns of Ixalan Commander"
+   },
+   "latest_reprint_date": "2023-11-17",
+   "reprint_set": {
+    "code": "lcc",
+    "name": "The Lost Caverns of Ixalan Commander"
+   },
+   "reprint_released": "2023-11-17",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -3990,9 +4473,18 @@
     "code": "stx",
     "name": "Strixhaven: School of Mages"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 7,
+   "latest_reprint_set": {
+    "code": "soa",
+    "name": "Secrets of Strixhaven Mystical Archive"
+   },
+   "latest_reprint_date": "2026-04-24",
+   "reprint_set": {
+    "code": "soa",
+    "name": "Secrets of Strixhaven Mystical Archive"
+   },
+   "reprint_released": "2026-04-24",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -4038,6 +4530,12 @@
     "name": "New Capenna Commander"
    },
    "is_reprint": true,
+   "reprint_count": 4,
+   "latest_reprint_set": {
+    "code": "frc",
+    "name": "Reality Fracture Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
    "reprint_set": {
     "code": "frc",
     "name": "Reality Fracture Commander"
@@ -4088,6 +4586,9 @@
     "name": "Dark Ascension"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -4134,9 +4635,18 @@
     "code": "c17",
     "name": "Commander 2017"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 5,
+   "latest_reprint_set": {
+    "code": "tdc",
+    "name": "Tarkir: Dragonstorm Commander"
+   },
+   "latest_reprint_date": "2025-04-11",
+   "reprint_set": {
+    "code": "tdc",
+    "name": "Tarkir: Dragonstorm Commander"
+   },
+   "reprint_released": "2025-04-11",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -4181,9 +4691,18 @@
     "code": "bok",
     "name": "Betrayers of Kamigawa"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 3,
+   "latest_reprint_set": {
+    "code": "who",
+    "name": "Doctor Who"
+   },
+   "latest_reprint_date": "2023-10-13",
+   "reprint_set": {
+    "code": "who",
+    "name": "Doctor Who"
+   },
+   "reprint_released": "2023-10-13",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -4228,9 +4747,18 @@
     "code": "scg",
     "name": "Scourge"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 10,
+   "latest_reprint_set": {
+    "code": "dsc",
+    "name": "Duskmourn: House of Horror Commander"
+   },
+   "latest_reprint_date": "2024-09-27",
+   "reprint_set": {
+    "code": "dsc",
+    "name": "Duskmourn: House of Horror Commander"
+   },
+   "reprint_released": "2024-09-27",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -4275,9 +4803,18 @@
     "code": "bro",
     "name": "The Brothers' War"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 5,
+   "latest_reprint_set": {
+    "code": "fic",
+    "name": "Final Fantasy Commander"
+   },
+   "latest_reprint_date": "2025-06-13",
+   "reprint_set": {
+    "code": "fic",
+    "name": "Final Fantasy Commander"
+   },
+   "reprint_released": "2025-06-13",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -4322,9 +4859,18 @@
     "code": "fem",
     "name": "Fallen Empires"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 3,
+   "latest_reprint_set": {
+    "code": "6ed",
+    "name": "Classic Sixth Edition"
+   },
+   "latest_reprint_date": "1999-04-21",
+   "reprint_set": {
+    "code": "6ed",
+    "name": "Classic Sixth Edition"
+   },
+   "reprint_released": "1999-04-21",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -4370,6 +4916,9 @@
     "name": "Secrets of Strixhaven"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -4416,9 +4965,18 @@
     "code": "m10",
     "name": "Magic 2010"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 11,
+   "latest_reprint_set": {
+    "code": "m19",
+    "name": "Core Set 2019"
+   },
+   "latest_reprint_date": "2018-07-13",
+   "reprint_set": {
+    "code": "m19",
+    "name": "Core Set 2019"
+   },
+   "reprint_released": "2018-07-13",
    "vibe": "negative",
    "score": -1.0,
    "positive": 0,
@@ -4463,9 +5021,18 @@
     "code": "leg",
     "name": "Legends"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 6,
+   "latest_reprint_set": {
+    "code": "mbs",
+    "name": "Mirrodin Besieged"
+   },
+   "latest_reprint_date": "2011-02-04",
+   "reprint_set": {
+    "code": "mbs",
+    "name": "Mirrodin Besieged"
+   },
+   "reprint_released": "2011-02-04",
    "vibe": "negative",
    "score": -1.0,
    "positive": 0,
@@ -4510,9 +5077,18 @@
     "code": "clb",
     "name": "Commander Legends: Battle for Baldur's Gate"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "latest_reprint_date": "2026-02-23",
+   "reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "reprint_released": "2026-02-23",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -4558,6 +5134,9 @@
     "name": "Tempest"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -4605,6 +5184,9 @@
     "name": "Edge of Eternities"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -4651,9 +5233,18 @@
     "code": "shm",
     "name": "Shadowmoor"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "latest_reprint_date": "2020-11-30",
+   "reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "reprint_released": "2020-11-30",
    "vibe": "neutral",
    "score": 0.0,
    "positive": 0,
@@ -4700,9 +5291,18 @@
     "code": "pmh2",
     "name": "Modern Horizons 2 Promos"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 5,
+   "latest_reprint_set": {
+    "code": "ecc",
+    "name": "Lorwyn Eclipsed Commander"
+   },
+   "latest_reprint_date": "2026-01-23",
+   "reprint_set": {
+    "code": "ecc",
+    "name": "Lorwyn Eclipsed Commander"
+   },
+   "reprint_released": "2026-01-23",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -4747,9 +5347,18 @@
     "code": "mir",
     "name": "Mirage"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 5,
+   "latest_reprint_set": {
+    "code": "tle",
+    "name": "Avatar: The Last Airbender Eternal"
+   },
+   "latest_reprint_date": "2025-11-21",
+   "reprint_set": {
+    "code": "tle",
+    "name": "Avatar: The Last Airbender Eternal"
+   },
+   "reprint_released": "2025-11-21",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -4795,6 +5404,9 @@
     "name": "Final Fantasy"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -4842,6 +5454,12 @@
     "name": "Modern Horizons 2 Promos"
    },
    "is_reprint": true,
+   "reprint_count": 3,
+   "latest_reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "latest_reprint_date": "2026-09-28",
    "reprint_set": {
     "code": "sld",
     "name": "Secret Lair Drop"
@@ -4892,6 +5510,9 @@
     "name": "Duskmourn: House of Horror Commander"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -4938,9 +5559,18 @@
     "code": "ala",
     "name": "Shards of Alara"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 5,
+   "latest_reprint_set": {
+    "code": "j22",
+    "name": "Jumpstart 2022"
+   },
+   "latest_reprint_date": "2022-12-02",
+   "reprint_set": {
+    "code": "j22",
+    "name": "Jumpstart 2022"
+   },
+   "reprint_released": "2022-12-02",
    "vibe": "neutral",
    "score": 0.0,
    "positive": 0,
@@ -4988,6 +5618,9 @@
     "name": "Bloomburrow"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "negative",
@@ -5035,6 +5668,9 @@
     "name": "Modern Horizons 3"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -5082,6 +5718,9 @@
     "name": "Reality Fracture"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -5128,9 +5767,18 @@
     "code": "war",
     "name": "War of the Spark"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "cmm",
+    "name": "Commander Masters"
+   },
+   "latest_reprint_date": "2023-08-04",
+   "reprint_set": {
+    "code": "cmm",
+    "name": "Commander Masters"
+   },
+   "reprint_released": "2023-08-04",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -5176,6 +5824,9 @@
     "name": "Bloomburrow Commander"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -5223,6 +5874,9 @@
     "name": "Commander 2020"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -5270,6 +5924,9 @@
     "name": "Duskmourn: House of Horror"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -5317,6 +5974,12 @@
     "name": "Avacyn Restored"
    },
    "is_reprint": true,
+   "reprint_count": 6,
+   "latest_reprint_set": {
+    "code": "slz",
+    "name": "The Zeta Set"
+   },
+   "latest_reprint_date": "2026-09-02",
    "reprint_set": {
     "code": "slz",
     "name": "The Zeta Set"
@@ -5367,6 +6030,9 @@
     "name": "Reality Fracture"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "negative",
@@ -5413,9 +6079,18 @@
     "code": "mrd",
     "name": "Mirrodin"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 11,
+   "latest_reprint_set": {
+    "code": "msc",
+    "name": "Marvel Super Heroes Commander"
+   },
+   "latest_reprint_date": "2026-06-26",
+   "reprint_set": {
+    "code": "msc",
+    "name": "Marvel Super Heroes Commander"
+   },
+   "reprint_released": "2026-06-26",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -5462,9 +6137,18 @@
     "code": "mid",
     "name": "Innistrad: Midnight Hunt"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "dbl",
+    "name": "Innistrad: Double Feature"
+   },
+   "latest_reprint_date": "2022-01-28",
+   "reprint_set": {
+    "code": "dbl",
+    "name": "Innistrad: Double Feature"
+   },
+   "reprint_released": "2022-01-28",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -5509,9 +6193,18 @@
     "code": "chk",
     "name": "Champions of Kamigawa"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 6,
+   "latest_reprint_set": {
+    "code": "fca",
+    "name": "Final Fantasy: Through the Ages"
+   },
+   "latest_reprint_date": "2025-06-13",
+   "reprint_set": {
+    "code": "fca",
+    "name": "Final Fantasy: Through the Ages"
+   },
+   "reprint_released": "2025-06-13",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -5556,9 +6249,18 @@
     "code": "rav",
     "name": "Ravnica: City of Guilds"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 3,
+   "latest_reprint_set": {
+    "code": "mm3",
+    "name": "Modern Masters 2017"
+   },
+   "latest_reprint_date": "2017-03-17",
+   "reprint_set": {
+    "code": "mm3",
+    "name": "Modern Masters 2017"
+   },
+   "reprint_released": "2017-03-17",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -5603,9 +6305,18 @@
     "code": "dka",
     "name": "Dark Ascension"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 4,
+   "latest_reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "latest_reprint_date": "2021-10-15",
+   "reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "reprint_released": "2021-10-15",
    "vibe": "negative",
    "score": -1.0,
    "positive": 0,
@@ -5650,9 +6361,18 @@
     "code": "m12",
     "name": "Magic 2012"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 6,
+   "latest_reprint_set": {
+    "code": "big",
+    "name": "The Big Score"
+   },
+   "latest_reprint_date": "2024-04-19",
+   "reprint_set": {
+    "code": "big",
+    "name": "The Big Score"
+   },
+   "reprint_released": "2024-04-19",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -5698,6 +6418,9 @@
     "name": "Alchemy: Outlaws of Thunder Junction"
    },
    "is_reprint": false,
+   "reprint_count": 0,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -5736,6 +6459,9 @@
     "name": "Journey into Nyx"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -5782,9 +6508,18 @@
     "code": "mh3",
     "name": "Modern Horizons 3"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "mar",
+    "name": "Marvel Universe"
+   },
+   "latest_reprint_date": "2026-06-26",
+   "reprint_set": {
+    "code": "mar",
+    "name": "Marvel Universe"
+   },
+   "reprint_released": "2026-06-26",
    "vibe": "negative",
    "score": -1.0,
    "positive": 0,
@@ -5829,9 +6564,18 @@
     "code": "tsp",
     "name": "Time Spiral"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 4,
+   "latest_reprint_set": {
+    "code": "cmm",
+    "name": "Commander Masters"
+   },
+   "latest_reprint_date": "2023-08-04",
+   "reprint_set": {
+    "code": "cmm",
+    "name": "Commander Masters"
+   },
+   "reprint_released": "2023-08-04",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -5877,6 +6621,12 @@
     "name": "Battle for Zendikar"
    },
    "is_reprint": true,
+   "reprint_count": 20,
+   "latest_reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
    "reprint_set": {
     "code": "fdc",
     "name": "Foundations Commander"
@@ -5927,6 +6677,9 @@
     "name": "Bloomburrow"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -5974,6 +6727,9 @@
     "name": "Outlaws of Thunder Junction"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "negative",
@@ -6021,6 +6777,9 @@
     "name": "Outlaws of Thunder Junction"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -6068,6 +6827,12 @@
     "name": "Innistrad: Crimson Vow"
    },
    "is_reprint": true,
+   "reprint_count": 8,
+   "latest_reprint_set": {
+    "code": "slz",
+    "name": "The Zeta Set"
+   },
+   "latest_reprint_date": "2026-09-02",
    "reprint_set": {
     "code": "slz",
     "name": "The Zeta Set"
@@ -6118,6 +6883,9 @@
     "name": "Duskmourn: House of Horror"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -6164,9 +6932,18 @@
     "code": "lrw",
     "name": "Lorwyn"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 7,
+   "latest_reprint_set": {
+    "code": "gn3",
+    "name": "Game Night: Free-for-All"
+   },
+   "latest_reprint_date": "2022-10-14",
+   "reprint_set": {
+    "code": "gn3",
+    "name": "Game Night: Free-for-All"
+   },
+   "reprint_released": "2022-10-14",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -6212,6 +6989,9 @@
     "name": "Jurassic World Collection"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "negative",
@@ -6258,9 +7038,18 @@
     "code": "mid",
     "name": "Innistrad: Midnight Hunt"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 10,
+   "latest_reprint_set": {
+    "code": "soc",
+    "name": "Secrets of Strixhaven Commander"
+   },
+   "latest_reprint_date": "2026-04-24",
+   "reprint_set": {
+    "code": "soc",
+    "name": "Secrets of Strixhaven Commander"
+   },
+   "reprint_released": "2026-04-24",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -6306,6 +7095,9 @@
     "name": "Murders at Karlov Manor"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -6352,9 +7144,18 @@
     "code": "mid",
     "name": "Innistrad: Midnight Hunt"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "dbl",
+    "name": "Innistrad: Double Feature"
+   },
+   "latest_reprint_date": "2022-01-28",
+   "reprint_set": {
+    "code": "dbl",
+    "name": "Innistrad: Double Feature"
+   },
+   "reprint_released": "2022-01-28",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -6400,6 +7201,9 @@
     "name": "Phyrexia: All Will Be One"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "negative",
@@ -6447,6 +7251,9 @@
     "name": "Modern Horizons 3"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "negative",
@@ -6494,6 +7301,9 @@
     "name": "Adventures in the Forgotten Realms"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -6541,6 +7351,9 @@
     "name": "Teenage Mutant Ninja Turtles Eternal"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -6587,9 +7400,18 @@
     "code": "tsp",
     "name": "Time Spiral"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 7,
+   "latest_reprint_set": {
+    "code": "inr",
+    "name": "Innistrad Remastered"
+   },
+   "latest_reprint_date": "2025-01-24",
+   "reprint_set": {
+    "code": "inr",
+    "name": "Innistrad Remastered"
+   },
+   "reprint_released": "2025-01-24",
    "vibe": "negative",
    "score": -1.0,
    "positive": 0,
@@ -6635,6 +7457,9 @@
     "name": "Reality Fracture"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -6682,6 +7507,9 @@
     "name": "Reality Fracture"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "neutral",
@@ -6730,9 +7558,18 @@
     "code": "ody",
     "name": "Odyssey"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "9ed",
+    "name": "Ninth Edition"
+   },
+   "latest_reprint_date": "2005-07-29",
+   "reprint_set": {
+    "code": "9ed",
+    "name": "Ninth Edition"
+   },
+   "reprint_released": "2005-07-29",
    "vibe": "neutral",
    "score": 0.0,
    "positive": 0,
@@ -6779,9 +7616,18 @@
     "code": "m12",
     "name": "Magic 2012"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 4,
+   "latest_reprint_set": {
+    "code": "gnt",
+    "name": "Game Night"
+   },
+   "latest_reprint_date": "2018-11-16",
+   "reprint_set": {
+    "code": "gnt",
+    "name": "Game Night"
+   },
+   "reprint_released": "2018-11-16",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -6827,6 +7673,9 @@
     "name": "Weatherlight"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -6874,6 +7723,9 @@
     "name": "Reality Fracture"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -6921,6 +7773,9 @@
     "name": "Reality Fracture"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -6967,9 +7822,18 @@
     "code": "ktk",
     "name": "Khans of Tarkir"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 6,
+   "latest_reprint_set": {
+    "code": "bro",
+    "name": "The Brothers' War"
+   },
+   "latest_reprint_date": "2022-11-18",
+   "reprint_set": {
+    "code": "bro",
+    "name": "The Brothers' War"
+   },
+   "reprint_released": "2022-11-18",
    "vibe": "negative",
    "score": -1.0,
    "positive": 0,
@@ -7015,6 +7879,9 @@
     "name": "Judgment"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -7061,9 +7928,18 @@
     "code": "roe",
     "name": "Rise of the Eldrazi"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "mm3",
+    "name": "Modern Masters 2017"
+   },
+   "latest_reprint_date": "2017-03-17",
+   "reprint_set": {
+    "code": "mm3",
+    "name": "Modern Masters 2017"
+   },
+   "reprint_released": "2017-03-17",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -7109,6 +7985,12 @@
     "name": "Dominaria"
    },
    "is_reprint": true,
+   "reprint_count": 3,
+   "latest_reprint_set": {
+    "code": "hoc",
+    "name": "The Hobbit Eternal"
+   },
+   "latest_reprint_date": "2026-08-14",
    "reprint_set": {
     "code": "hoc",
     "name": "The Hobbit Eternal"
@@ -7158,9 +8040,18 @@
     "code": "lea",
     "name": "Limited Edition Alpha"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 3,
+   "latest_reprint_set": {
+    "code": "2ed",
+    "name": "Unlimited Edition"
+   },
+   "latest_reprint_date": "1993-12-01",
+   "reprint_set": {
+    "code": "2ed",
+    "name": "Unlimited Edition"
+   },
+   "reprint_released": "1993-12-01",
    "vibe": "negative",
    "score": -1.0,
    "positive": 0,
@@ -7205,9 +8096,18 @@
     "code": "grn",
     "name": "Guilds of Ravnica"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 8,
+   "latest_reprint_set": {
+    "code": "spg",
+    "name": "Special Guests"
+   },
+   "latest_reprint_date": "2026-04-24",
+   "reprint_set": {
+    "code": "spg",
+    "name": "Special Guests"
+   },
+   "reprint_released": "2026-04-24",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -7253,6 +8153,9 @@
     "name": "Reality Fracture"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -7299,9 +8202,18 @@
     "code": "jmp",
     "name": "Jumpstart"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 3,
+   "latest_reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "latest_reprint_date": "2023-08-28",
+   "reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "reprint_released": "2023-08-28",
    "vibe": "negative",
    "score": -1.0,
    "positive": 0,
@@ -7347,6 +8259,9 @@
     "name": "Scars of Mirrodin"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "neutral",
@@ -7395,9 +8310,18 @@
     "code": "ice",
     "name": "Ice Age"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 8,
+   "latest_reprint_set": {
+    "code": "wot",
+    "name": "Wilds of Eldraine: Enchanting Tales"
+   },
+   "latest_reprint_date": "2023-09-08",
+   "reprint_set": {
+    "code": "wot",
+    "name": "Wilds of Eldraine: Enchanting Tales"
+   },
+   "reprint_released": "2023-09-08",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -7443,6 +8367,9 @@
     "name": "War of the Spark"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "negative",
@@ -7490,6 +8417,9 @@
     "name": "Phyrexia: All Will Be One Commander"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -7536,9 +8466,18 @@
     "code": "pmh2",
     "name": "Modern Horizons 2 Promos"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "j25",
+    "name": "Foundations Jumpstart"
+   },
+   "latest_reprint_date": "2024-11-15",
+   "reprint_set": {
+    "code": "j25",
+    "name": "Foundations Jumpstart"
+   },
+   "reprint_released": "2024-11-15",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -7584,6 +8523,9 @@
     "name": "Duskmourn: House of Horror"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -7631,6 +8573,9 @@
     "name": "Avatar: The Last Airbender"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -7678,6 +8623,9 @@
     "name": "Modern Horizons 3"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -7725,6 +8673,9 @@
     "name": "Fallen Empires"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -7772,11 +8723,17 @@
     "name": "Kaldheim"
    },
    "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "latest_reprint_date": "2024-08-19",
    "reprint_set": {
     "code": "sld",
     "name": "Secret Lair Drop"
    },
-   "reprint_released": "2026-08-31",
+   "reprint_released": "2024-08-19",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -7822,6 +8779,9 @@
     "name": "Reality Fracture"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -7869,6 +8829,9 @@
     "name": "Avatar: The Last Airbender"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "negative",
@@ -7915,9 +8878,18 @@
     "code": "stx",
     "name": "Strixhaven: School of Mages"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 4,
+   "latest_reprint_set": {
+    "code": "soc",
+    "name": "Secrets of Strixhaven Commander"
+   },
+   "latest_reprint_date": "2026-04-24",
+   "reprint_set": {
+    "code": "soc",
+    "name": "Secrets of Strixhaven Commander"
+   },
+   "reprint_released": "2026-04-24",
    "vibe": "negative",
    "score": -1.0,
    "positive": 0,
@@ -7963,6 +8935,9 @@
     "name": "Secrets of Strixhaven"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "negative",
@@ -8009,9 +8984,18 @@
     "code": "con",
     "name": "Conflux"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 5,
+   "latest_reprint_set": {
+    "code": "fdn",
+    "name": "Foundations"
+   },
+   "latest_reprint_date": "2024-11-15",
+   "reprint_set": {
+    "code": "fdn",
+    "name": "Foundations"
+   },
+   "reprint_released": "2024-11-15",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -8057,6 +9041,9 @@
     "name": "Reality Fracture"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -8104,6 +9091,9 @@
     "name": "Secrets of Strixhaven"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -8151,6 +9141,9 @@
     "name": "Worldwake"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "neutral",
@@ -8200,6 +9193,9 @@
     "name": "Mercadian Masques"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "neutral",
@@ -8248,9 +9244,18 @@
     "code": "dom",
     "name": "Dominaria"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 3,
+   "latest_reprint_set": {
+    "code": "spg",
+    "name": "Special Guests"
+   },
+   "latest_reprint_date": "2024-08-02",
+   "reprint_set": {
+    "code": "spg",
+    "name": "Special Guests"
+   },
+   "reprint_released": "2024-08-02",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -8296,6 +9301,9 @@
     "name": "Kaladesh"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -8343,6 +9351,12 @@
     "name": "Tales of Middle-earth Commander"
    },
    "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "hoc",
+    "name": "The Hobbit Eternal"
+   },
+   "latest_reprint_date": "2026-08-14",
    "reprint_set": {
     "code": "hoc",
     "name": "The Hobbit Eternal"
@@ -8393,6 +9407,9 @@
     "name": "Reality Fracture"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "neutral",
@@ -8442,6 +9459,12 @@
     "name": "Aether Revolt"
    },
    "is_reprint": true,
+   "reprint_count": 11,
+   "latest_reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
    "reprint_set": {
     "code": "fdc",
     "name": "Foundations Commander"
@@ -8492,6 +9515,9 @@
     "name": "Reality Fracture"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -8538,9 +9564,18 @@
     "code": "soi",
     "name": "Shadows over Innistrad"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 6,
+   "latest_reprint_set": {
+    "code": "inr",
+    "name": "Innistrad Remastered"
+   },
+   "latest_reprint_date": "2025-01-24",
+   "reprint_set": {
+    "code": "inr",
+    "name": "Innistrad Remastered"
+   },
+   "reprint_released": "2025-01-24",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -8585,9 +9620,18 @@
     "code": "lea",
     "name": "Limited Edition Alpha"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 6,
+   "latest_reprint_set": {
+    "code": "sum",
+    "name": "Summer Magic / Edgar"
+   },
+   "latest_reprint_date": "1994-06-21",
+   "reprint_set": {
+    "code": "sum",
+    "name": "Summer Magic / Edgar"
+   },
+   "reprint_released": "1994-06-21",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -8633,6 +9677,12 @@
     "name": "Champions of Kamigawa"
    },
    "is_reprint": true,
+   "reprint_count": 6,
+   "latest_reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "latest_reprint_date": "2026-09-28",
    "reprint_set": {
     "code": "sld",
     "name": "Secret Lair Drop"
@@ -8683,6 +9733,12 @@
     "name": "Fate Reforged"
    },
    "is_reprint": true,
+   "reprint_count": 13,
+   "latest_reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
    "reprint_set": {
     "code": "fdc",
     "name": "Foundations Commander"
@@ -8735,6 +9791,9 @@
     "name": "The Hobbit Eternal"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "negative",
@@ -8781,9 +9840,18 @@
     "code": "rna",
     "name": "Ravnica Allegiance"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 5,
+   "latest_reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "latest_reprint_date": "2025-03-30",
+   "reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "reprint_released": "2025-03-30",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -8828,9 +9896,18 @@
     "code": "usg",
     "name": "Urza's Saga"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 6,
+   "latest_reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "latest_reprint_date": "2025-10-13",
+   "reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "reprint_released": "2025-10-13",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -8875,9 +9952,18 @@
     "code": "znr",
     "name": "Zendikar Rising"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "scd",
+    "name": "Starter Commander Decks"
+   },
+   "latest_reprint_date": "2022-12-02",
+   "reprint_set": {
+    "code": "scd",
+    "name": "Starter Commander Decks"
+   },
+   "reprint_released": "2022-12-02",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -8923,6 +10009,12 @@
     "name": "Theros Beyond Death"
    },
    "is_reprint": true,
+   "reprint_count": 10,
+   "latest_reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
    "reprint_set": {
     "code": "fdc",
     "name": "Foundations Commander"
@@ -8973,6 +10065,12 @@
     "name": "Rise of the Eldrazi"
    },
    "is_reprint": true,
+   "reprint_count": 3,
+   "latest_reprint_set": {
+    "code": "spg",
+    "name": "Special Guests"
+   },
+   "latest_reprint_date": "2026-10-02",
    "reprint_set": {
     "code": "spg",
     "name": "Special Guests"
@@ -9023,6 +10121,9 @@
     "name": "Edge of Eternities"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -9070,6 +10171,9 @@
     "name": "Secrets of Strixhaven Commander"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -9119,6 +10223,9 @@
     "name": "Reality Fracture"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -9165,9 +10272,18 @@
     "code": "m19",
     "name": "Core Set 2019"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 7,
+   "latest_reprint_set": {
+    "code": "fic",
+    "name": "Final Fantasy Commander"
+   },
+   "latest_reprint_date": "2025-06-13",
+   "reprint_set": {
+    "code": "fic",
+    "name": "Final Fantasy Commander"
+   },
+   "reprint_released": "2025-06-13",
    "vibe": "negative",
    "score": -1.0,
    "positive": 0,
@@ -9212,9 +10328,18 @@
     "code": "atq",
     "name": "Antiquities"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 11,
+   "latest_reprint_set": {
+    "code": "eos",
+    "name": "Edge of Eternities: Stellar Sights"
+   },
+   "latest_reprint_date": "2025-08-01",
+   "reprint_set": {
+    "code": "eos",
+    "name": "Edge of Eternities: Stellar Sights"
+   },
+   "reprint_released": "2025-08-01",
    "vibe": "neutral",
    "score": 0.0,
    "positive": 0,
@@ -9259,9 +10384,18 @@
     "code": "pmh2",
     "name": "Modern Horizons 2 Promos"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 4,
+   "latest_reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "latest_reprint_date": "2025-06-09",
+   "reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "reprint_released": "2025-06-09",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -9307,6 +10441,9 @@
     "name": "Strixhaven: School of Mages"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -9354,6 +10491,12 @@
     "name": "Tales of Middle-earth Commander"
    },
    "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "hoc",
+    "name": "The Hobbit Eternal"
+   },
+   "latest_reprint_date": "2026-08-14",
    "reprint_set": {
     "code": "hoc",
     "name": "The Hobbit Eternal"
@@ -9404,6 +10547,9 @@
     "name": "Avatar: The Last Airbender"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -9451,6 +10597,12 @@
     "name": "The Lord of the Rings: Tales of Middle-earth"
    },
    "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "hoc",
+    "name": "The Hobbit Eternal"
+   },
+   "latest_reprint_date": "2026-08-14",
    "reprint_set": {
     "code": "hoc",
     "name": "The Hobbit Eternal"
@@ -9501,6 +10653,9 @@
     "name": "Reality Fracture"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -9548,6 +10703,9 @@
     "name": "Murders at Karlov Manor"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -9594,9 +10752,18 @@
     "code": "lea",
     "name": "Limited Edition Alpha"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 3,
+   "latest_reprint_set": {
+    "code": "2ed",
+    "name": "Unlimited Edition"
+   },
+   "latest_reprint_date": "1993-12-01",
+   "reprint_set": {
+    "code": "2ed",
+    "name": "Unlimited Edition"
+   },
+   "reprint_released": "1993-12-01",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -9642,6 +10809,9 @@
     "name": "Vanguard Series"
    },
    "is_reprint": false,
+   "reprint_count": 0,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -9680,6 +10850,12 @@
     "name": "The Brothers' War"
    },
    "is_reprint": true,
+   "reprint_count": 4,
+   "latest_reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "latest_reprint_date": "2026-08-17",
    "reprint_set": {
     "code": "sld",
     "name": "Secret Lair Drop"
@@ -9729,9 +10905,18 @@
     "code": "drk",
     "name": "The Dark"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 9,
+   "latest_reprint_set": {
+    "code": "dmr",
+    "name": "Dominaria Remastered"
+   },
+   "latest_reprint_date": "2023-01-13",
+   "reprint_set": {
+    "code": "dmr",
+    "name": "Dominaria Remastered"
+   },
+   "reprint_released": "2023-01-13",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -9777,6 +10962,9 @@
     "name": "Final Fantasy"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "negative",
@@ -9824,6 +11012,9 @@
     "name": "Antiquities"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -9870,9 +11061,18 @@
     "code": "c16",
     "name": "Commander 2016"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 3,
+   "latest_reprint_set": {
+    "code": "fca",
+    "name": "Final Fantasy: Through the Ages"
+   },
+   "latest_reprint_date": "2025-06-13",
+   "reprint_set": {
+    "code": "fca",
+    "name": "Final Fantasy: Through the Ages"
+   },
+   "reprint_released": "2025-06-13",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -9918,6 +11118,9 @@
     "name": "Final Fantasy"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -9965,6 +11168,12 @@
     "name": "Limited Edition Alpha"
    },
    "is_reprint": true,
+   "reprint_count": 27,
+   "latest_reprint_set": {
+    "code": "fra",
+    "name": "Reality Fracture"
+   },
+   "latest_reprint_date": "2026-10-02",
    "reprint_set": {
     "code": "fra",
     "name": "Reality Fracture"
@@ -10014,9 +11223,18 @@
     "code": "inv",
     "name": "Invasion"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 4,
+   "latest_reprint_set": {
+    "code": "scd",
+    "name": "Starter Commander Decks"
+   },
+   "latest_reprint_date": "2022-12-02",
+   "reprint_set": {
+    "code": "scd",
+    "name": "Starter Commander Decks"
+   },
+   "reprint_released": "2022-12-02",
    "vibe": "neutral",
    "score": 0.0,
    "positive": 0,
@@ -10064,6 +11282,12 @@
     "name": "Return to Ravnica"
    },
    "is_reprint": true,
+   "reprint_count": 6,
+   "latest_reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
    "reprint_set": {
     "code": "fdc",
     "name": "Foundations Commander"
@@ -10113,9 +11337,18 @@
     "code": "mid",
     "name": "Innistrad: Midnight Hunt"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 8,
+   "latest_reprint_set": {
+    "code": "msc",
+    "name": "Marvel Super Heroes Commander"
+   },
+   "latest_reprint_date": "2026-06-26",
+   "reprint_set": {
+    "code": "msc",
+    "name": "Marvel Super Heroes Commander"
+   },
+   "reprint_released": "2026-06-26",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -10160,9 +11393,18 @@
     "code": "pc2",
     "name": "Planechase 2012"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 5,
+   "latest_reprint_set": {
+    "code": "scd",
+    "name": "Starter Commander Decks"
+   },
+   "latest_reprint_date": "2022-12-02",
+   "reprint_set": {
+    "code": "scd",
+    "name": "Starter Commander Decks"
+   },
+   "reprint_released": "2022-12-02",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -10207,9 +11449,18 @@
     "code": "usg",
     "name": "Urza's Saga"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 16,
+   "latest_reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "latest_reprint_date": "2026-02-09",
+   "reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "reprint_released": "2026-02-09",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -10256,9 +11507,18 @@
     "code": "neo",
     "name": "Kamigawa: Neon Dynasty"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 3,
+   "latest_reprint_set": {
+    "code": "eoe",
+    "name": "Edge of Eternities"
+   },
+   "latest_reprint_date": "2025-08-01",
+   "reprint_set": {
+    "code": "eoe",
+    "name": "Edge of Eternities"
+   },
+   "reprint_released": "2025-08-01",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -10304,11 +11564,17 @@
     "name": "Dragon's Maze"
    },
    "is_reprint": true,
-   "reprint_set": {
-    "code": "plst",
-    "name": "The List"
+   "reprint_count": 4,
+   "latest_reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
    },
-   "reprint_released": "2026-08-10",
+   "latest_reprint_date": "2023-08-29",
+   "reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "reprint_released": "2023-08-29",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -10354,6 +11620,9 @@
     "name": "Reality Fracture"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -10401,11 +11670,17 @@
     "name": "Battle for Zendikar"
    },
    "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "latest_reprint_date": "2022-04-12",
    "reprint_set": {
     "code": "sld",
     "name": "Secret Lair Drop"
    },
-   "reprint_released": "2026-09-28",
+   "reprint_released": "2022-04-12",
    "vibe": "negative",
    "score": -1.0,
    "positive": 0,
@@ -10450,9 +11725,18 @@
     "code": "one",
     "name": "Phyrexia: All Will Be One"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "ecc",
+    "name": "Lorwyn Eclipsed Commander"
+   },
+   "latest_reprint_date": "2026-01-23",
+   "reprint_set": {
+    "code": "ecc",
+    "name": "Lorwyn Eclipsed Commander"
+   },
+   "reprint_released": "2026-01-23",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -10498,6 +11782,9 @@
     "name": "Commander Masters"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "neutral",
@@ -10546,9 +11833,18 @@
     "code": "mmq",
     "name": "Mercadian Masques"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 3,
+   "latest_reprint_set": {
+    "code": "soc",
+    "name": "Secrets of Strixhaven Commander"
+   },
+   "latest_reprint_date": "2026-04-24",
+   "reprint_set": {
+    "code": "soc",
+    "name": "Secrets of Strixhaven Commander"
+   },
+   "reprint_released": "2026-04-24",
    "vibe": "negative",
    "score": -1.0,
    "positive": 0,
@@ -10594,6 +11890,9 @@
     "name": "Reality Fracture"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -10641,6 +11940,9 @@
     "name": "Reality Fracture"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -10688,11 +11990,17 @@
     "name": "Fifth Dawn"
    },
    "is_reprint": true,
-   "reprint_set": {
-    "code": "sld",
-    "name": "Secret Lair Drop"
+   "reprint_count": 27,
+   "latest_reprint_set": {
+    "code": "hoc",
+    "name": "The Hobbit Eternal"
    },
-   "reprint_released": "2026-08-17",
+   "latest_reprint_date": "2026-08-14",
+   "reprint_set": {
+    "code": "hoc",
+    "name": "The Hobbit Eternal"
+   },
+   "reprint_released": "2026-08-14",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -10738,6 +12046,9 @@
     "name": "Magic 2013"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "negative",
@@ -10785,6 +12096,9 @@
     "name": "Judgment"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "neutral",
@@ -10834,6 +12148,9 @@
     "name": "Reality Fracture"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -10881,6 +12198,9 @@
     "name": "Reality Fracture"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "vibe": "positive",
@@ -10927,9 +12247,18 @@
     "code": "bfz",
     "name": "Battle for Zendikar"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 10,
+   "latest_reprint_set": {
+    "code": "soc",
+    "name": "Secrets of Strixhaven Commander"
+   },
+   "latest_reprint_date": "2026-04-24",
+   "reprint_set": {
+    "code": "soc",
+    "name": "Secrets of Strixhaven Commander"
+   },
+   "reprint_released": "2026-04-24",
    "vibe": "positive",
    "score": 1.0,
    "positive": 1,
@@ -10979,6 +12308,12 @@
     "name": "Throne of Eldraine"
    },
    "is_reprint": true,
+   "reprint_count": 10,
+   "latest_reprint_set": {
+    "code": "frc",
+    "name": "Reality Fracture Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
    "reprint_set": {
     "code": "frc",
     "name": "Reality Fracture Commander"
@@ -11036,6 +12371,9 @@
     "name": "The Hobbit"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "channels": 1,
@@ -11102,6 +12440,12 @@
     "name": "Planechase 2012"
    },
    "is_reprint": true,
+   "reprint_count": 16,
+   "latest_reprint_set": {
+    "code": "slz",
+    "name": "The Zeta Set"
+   },
+   "latest_reprint_date": "2026-09-02",
    "reprint_set": {
     "code": "slz",
     "name": "The Zeta Set"
@@ -11158,9 +12502,18 @@
     "code": "c18",
     "name": "Commander 2018"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 3,
+   "latest_reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "latest_reprint_date": "2023-09-22",
+   "reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "reprint_released": "2023-09-22",
    "channels": 1,
    "price": {
     "usd": 15.7,
@@ -11200,9 +12553,18 @@
     "code": "uds",
     "name": "Urza's Destiny"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "7ed",
+    "name": "Seventh Edition"
+   },
+   "latest_reprint_date": "2001-04-11",
+   "reprint_set": {
+    "code": "7ed",
+    "name": "Seventh Edition"
+   },
+   "reprint_released": "2001-04-11",
    "channels": 1,
    "price": {
     "usd": 16.5,
@@ -11242,9 +12604,18 @@
     "code": "shm",
     "name": "Shadowmoor"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "latest_reprint_date": "2020-11-30",
+   "reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "reprint_released": "2020-11-30",
    "channels": 1,
    "price": {
     "usd": 4.39,
@@ -11284,9 +12655,18 @@
     "code": "ala",
     "name": "Shards of Alara"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 5,
+   "latest_reprint_set": {
+    "code": "j22",
+    "name": "Jumpstart 2022"
+   },
+   "latest_reprint_date": "2022-12-02",
+   "reprint_set": {
+    "code": "j22",
+    "name": "Jumpstart 2022"
+   },
+   "reprint_released": "2022-12-02",
    "channels": 1,
    "price": {
     "usd": 0.16,
@@ -11326,9 +12706,18 @@
     "code": "mrd",
     "name": "Mirrodin"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 11,
+   "latest_reprint_set": {
+    "code": "msc",
+    "name": "Marvel Super Heroes Commander"
+   },
+   "latest_reprint_date": "2026-06-26",
+   "reprint_set": {
+    "code": "msc",
+    "name": "Marvel Super Heroes Commander"
+   },
+   "reprint_released": "2026-06-26",
    "channels": 1,
    "price": {
     "usd": 0.59,
@@ -11369,6 +12758,9 @@
     "name": "Reality Fracture"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "channels": 1,
@@ -11410,9 +12802,18 @@
     "code": "ody",
     "name": "Odyssey"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "9ed",
+    "name": "Ninth Edition"
+   },
+   "latest_reprint_date": "2005-07-29",
+   "reprint_set": {
+    "code": "9ed",
+    "name": "Ninth Edition"
+   },
+   "reprint_released": "2005-07-29",
    "channels": 1,
    "price": {
     "usd": 0.85,
@@ -11453,6 +12854,9 @@
     "name": "Scars of Mirrodin"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "channels": 1,
@@ -11495,6 +12899,9 @@
     "name": "Worldwake"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "channels": 1,
@@ -11537,6 +12944,9 @@
     "name": "Mercadian Masques"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "channels": 1,
@@ -11579,6 +12989,9 @@
     "name": "Reality Fracture"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "channels": 1,
@@ -11621,6 +13034,12 @@
     "name": "Fate Reforged"
    },
    "is_reprint": true,
+   "reprint_count": 13,
+   "latest_reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
    "reprint_set": {
     "code": "fdc",
     "name": "Foundations Commander"
@@ -11666,6 +13085,9 @@
     "name": "Secrets of Strixhaven Commander"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "channels": 1,
@@ -11707,9 +13129,18 @@
     "code": "inv",
     "name": "Invasion"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 4,
+   "latest_reprint_set": {
+    "code": "scd",
+    "name": "Starter Commander Decks"
+   },
+   "latest_reprint_date": "2022-12-02",
+   "reprint_set": {
+    "code": "scd",
+    "name": "Starter Commander Decks"
+   },
+   "reprint_released": "2022-12-02",
    "channels": 1,
    "price": {
     "usd": 0.13,
@@ -11749,9 +13180,18 @@
     "code": "usg",
     "name": "Urza's Saga"
    },
-   "is_reprint": false,
-   "reprint_set": null,
-   "reprint_released": null,
+   "is_reprint": true,
+   "reprint_count": 16,
+   "latest_reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "latest_reprint_date": "2026-02-09",
+   "reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "reprint_released": "2026-02-09",
    "channels": 1,
    "price": {
     "usd": 0.56,
@@ -11792,6 +13232,9 @@
     "name": "Commander Masters"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "channels": 1,
@@ -11834,6 +13277,9 @@
     "name": "Judgment"
    },
    "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
    "reprint_set": null,
    "reprint_released": null,
    "channels": 1,
