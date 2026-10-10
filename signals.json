@@ -1,6 +1,6 @@
 {
- "schema_version": "1.3.0",
- "generated_at": "2026-10-09T19:34:51-05:00",
+ "schema_version": "1.4.0",
+ "generated_at": "2026-10-09T19:39:04-05:00",
  "run_id": "2026-10-09_bootstrap",
  "window": {
   "start": "2026-09-25",
@@ -41,6 +41,17 @@
    },
    "is_reprint": true,
    "reprint_count": 9,
+   "paper_sets": [
+    "New Phyrexia",
+    "Modern Masters 2015",
+    "Commander 2021",
+    "Neon Dynasty Commander",
+    "Fallout",
+    "Final Fantasy Commander",
+    "Edge of Eternities Commander",
+    "Marvel Super Heroes Commander",
+    "The Zeta Set"
+   ],
    "latest_reprint_set": {
     "code": "slz",
     "name": "The Zeta Set"
@@ -85,6 +96,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Reality Fracture"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -123,6 +137,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Modern Horizons 3"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -161,6 +178,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Arabian Nights"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -199,6 +219,10 @@
    },
    "is_reprint": true,
    "reprint_count": 2,
+   "paper_sets": [
+    "Modern Horizons 2",
+    "Secret Lair Countdown"
+   ],
    "latest_reprint_set": {
     "code": "slc",
     "name": "Secret Lair Countdown"
@@ -243,6 +267,10 @@
    },
    "is_reprint": true,
    "reprint_count": 2,
+   "paper_sets": [
+    "Commander 2020",
+    "Commander Masters"
+   ],
    "latest_reprint_set": {
     "code": "cmm",
     "name": "Commander Masters"
@@ -287,6 +315,35 @@
    },
    "is_reprint": true,
    "reprint_count": 27,
+   "paper_sets": [
+    "Ice Age",
+    "Fifth Edition",
+    "Mercadian Masques",
+    "Beatdown Box Set",
+    "Coldsnap Theme Decks",
+    "Commander 2011",
+    "Duel Decks: Izzet vs. Golgari",
+    "Conspiracy",
+    "Commander 2015",
+    "Eternal Masters",
+    "Masters 25",
+    "Signature Spellbook: Jace",
+    "Commander 2018",
+    "Double Masters",
+    "Commander 2021",
+    "Strixhaven Mystical Archive",
+    "Secret Lair Drop",
+    "Forgotten Realms Commander",
+    "Warhammer 40,000 Commander",
+    "Murders at Karlov Manor Commander",
+    "Duskmourn: House of Horror Commander",
+    "Final Fantasy: Through the Ages",
+    "Avatar: The Last Airbender Eternal",
+    "Teenage Mutant Ninja Turtles Source Material",
+    "Secrets of Strixhaven",
+    "The Zeta Set",
+    "Reality Fracture Commander"
+   ],
    "latest_reprint_set": {
     "code": "frc",
     "name": "Reality Fracture Commander"
@@ -353,6 +410,9 @@
     },
     "is_reprint": false,
     "reprint_count": 1,
+    "paper_sets": [
+     "Reality Fracture"
+    ],
     "latest_reprint_set": null,
     "latest_reprint_date": null,
     "reprint_set": null,
@@ -367,6 +427,18 @@
     },
     "is_reprint": true,
     "reprint_count": 10,
+    "paper_sets": [
+     "Theros",
+     "Magic 2015",
+     "Ixalan",
+     "Core Set 2019",
+     "Game Night 2019",
+     "Dominaria United",
+     "Secret Lair Drop",
+     "Aetherdrift",
+     "Avatar: The Last Airbender",
+     "Marvel Super Heroes"
+    ],
     "latest_reprint_set": {
      "code": "msh",
      "name": "Marvel Super Heroes"
@@ -411,6 +483,9 @@
     },
     "is_reprint": false,
     "reprint_count": 1,
+    "paper_sets": [
+     "Reality Fracture"
+    ],
     "latest_reprint_set": null,
     "latest_reprint_date": null,
     "reprint_set": null,
@@ -425,6 +500,9 @@
     },
     "is_reprint": false,
     "reprint_count": 1,
+    "paper_sets": [
+     "Foundations"
+    ],
     "latest_reprint_set": null,
     "latest_reprint_date": null,
     "reprint_set": null,
@@ -463,6 +541,9 @@
     },
     "is_reprint": false,
     "reprint_count": 1,
+    "paper_sets": [
+     "Reality Fracture"
+    ],
     "latest_reprint_set": null,
     "latest_reprint_date": null,
     "reprint_set": null,
@@ -477,6 +558,10 @@
     },
     "is_reprint": true,
     "reprint_count": 2,
+    "paper_sets": [
+     "Core Set 2019",
+     "Foundations Jumpstart"
+    ],
     "latest_reprint_set": {
      "code": "j25",
      "name": "Foundations Jumpstart"
@@ -521,6 +606,9 @@
     },
     "is_reprint": false,
     "reprint_count": 1,
+    "paper_sets": [
+     "Reality Fracture"
+    ],
     "latest_reprint_set": null,
     "latest_reprint_date": null,
     "reprint_set": null,
@@ -535,6 +623,11 @@
     },
     "is_reprint": true,
     "reprint_count": 3,
+    "paper_sets": [
+     "Dominaria",
+     "The Brothers' War Retro Artifacts",
+     "The Hobbit Eternal"
+    ],
     "latest_reprint_set": {
      "code": "hoc",
      "name": "The Hobbit Eternal"
@@ -579,6 +672,9 @@
     },
     "is_reprint": false,
     "reprint_count": 1,
+    "paper_sets": [
+     "Reality Fracture"
+    ],
     "latest_reprint_set": null,
     "latest_reprint_date": null,
     "reprint_set": null,
@@ -593,6 +689,9 @@
     },
     "is_reprint": false,
     "reprint_count": 1,
+    "paper_sets": [
+     "Modern Horizons 3"
+    ],
     "latest_reprint_set": null,
     "latest_reprint_date": null,
     "reprint_set": null,
@@ -631,6 +730,9 @@
     },
     "is_reprint": false,
     "reprint_count": 1,
+    "paper_sets": [
+     "Reality Fracture"
+    ],
     "latest_reprint_set": null,
     "latest_reprint_date": null,
     "reprint_set": null,
@@ -645,6 +747,15 @@
     },
     "is_reprint": true,
     "reprint_count": 7,
+    "paper_sets": [
+     "Core Set 2019",
+     "Secret Lair Drop",
+     "Jumpstart 2022",
+     "Modern Horizons 3 Commander",
+     "Duskmourn: House of Horror Commander",
+     "Tarkir: Dragonstorm Commander",
+     "Final Fantasy Commander"
+    ],
     "latest_reprint_set": {
      "code": "fic",
      "name": "Final Fantasy Commander"
@@ -671,6 +782,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Reality Fracture"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -745,6 +859,10 @@
    },
    "is_reprint": true,
    "reprint_count": 2,
+   "paper_sets": [
+    "Commander Legends: Battle for Baldur's Gate",
+    "Secret Lair Drop"
+   ],
    "latest_reprint_set": {
     "code": "sld",
     "name": "Secret Lair Drop"
@@ -825,6 +943,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Reality Fracture"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -899,6 +1020,32 @@
    },
    "is_reprint": true,
    "reprint_count": 24,
+   "paper_sets": [
+    "Limited Edition Alpha",
+    "Limited Edition Beta",
+    "Unlimited Edition",
+    "Revised Edition",
+    "Foreign Black Border",
+    "Summer Magic / Edgar",
+    "Fourth Edition",
+    "Fourth Edition Foreign Black Border",
+    "Fifth Edition",
+    "Portal",
+    "Classic Sixth Edition",
+    "Battle Royale Box Set",
+    "Seventh Edition",
+    "Eighth Edition",
+    "Ninth Edition",
+    "Tenth Edition",
+    "Commander 2013",
+    "From the Vault: Annihilation",
+    "Eternal Masters",
+    "Amonkhet Invocations",
+    "Double Masters",
+    "Secret Lair Drop",
+    "Dominaria Remastered",
+    "Commander Masters"
+   ],
    "latest_reprint_set": {
     "code": "cmm",
     "name": "Commander Masters"
@@ -979,6 +1126,10 @@
    },
    "is_reprint": true,
    "reprint_count": 2,
+   "paper_sets": [
+    "New Phyrexia",
+    "Modern Masters 2015"
+   ],
    "latest_reprint_set": {
     "code": "mm2",
     "name": "Modern Masters 2015"
@@ -1059,6 +1210,14 @@
    },
    "is_reprint": true,
    "reprint_count": 6,
+   "paper_sets": [
+    "Aether Revolt",
+    "Secret Lair Drop",
+    "Double Masters",
+    "Jumpstart 2022",
+    "Fallout",
+    "Final Fantasy Commander"
+   ],
    "latest_reprint_set": {
     "code": "fic",
     "name": "Final Fantasy Commander"
@@ -1139,6 +1298,10 @@
    },
    "is_reprint": true,
    "reprint_count": 2,
+   "paper_sets": [
+    "Core Set 2019",
+    "Foundations Jumpstart"
+   ],
    "latest_reprint_set": {
     "code": "j25",
     "name": "Foundations Jumpstart"
@@ -1207,6 +1370,18 @@
    },
    "is_reprint": true,
    "reprint_count": 10,
+   "paper_sets": [
+    "Throne of Eldraine",
+    "Core Set 2021",
+    "Secret Lair Drop",
+    "Bloomburrow",
+    "Edge of Eternities Commander",
+    "Avatar: The Last Airbender Eternal",
+    "Teenage Mutant Ninja Turtles Eternal",
+    "Secrets of Strixhaven Commander",
+    "Marvel Super Heroes Commander",
+    "Reality Fracture Commander"
+   ],
    "latest_reprint_set": {
     "code": "frc",
     "name": "Reality Fracture Commander"
@@ -1277,6 +1452,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Edge of Eternities"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -1339,6 +1517,12 @@
    },
    "is_reprint": true,
    "reprint_count": 4,
+   "paper_sets": [
+    "Modern Horizons 2",
+    "Multiverse Legends",
+    "Modern Horizons 2 Timeshifts",
+    "Final Fantasy: Through the Ages"
+   ],
    "latest_reprint_set": {
     "code": "fca",
     "name": "Final Fantasy: Through the Ages"
@@ -1407,6 +1591,11 @@
    },
    "is_reprint": true,
    "reprint_count": 3,
+   "paper_sets": [
+    "Modern Horizons",
+    "Modern Horizons 1 Timeshifts",
+    "Final Fantasy: Through the Ages"
+   ],
    "latest_reprint_set": {
     "code": "fca",
     "name": "Final Fantasy: Through the Ages"
@@ -1475,6 +1664,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Lorwyn Eclipsed"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -1537,6 +1729,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Edge of Eternities"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -1599,6 +1794,17 @@
    },
    "is_reprint": true,
    "reprint_count": 9,
+   "paper_sets": [
+    "Return to Ravnica",
+    "Masters 25",
+    "Signature Spellbook: Gideon",
+    "Secret Lair Drop",
+    "Wilds of Eldraine: Enchanting Tales",
+    "Ravnica Remastered",
+    "The Big Score",
+    "Assassin's Creed",
+    "Marvel Universe"
+   ],
    "latest_reprint_set": {
     "code": "mar",
     "name": "Marvel Universe"
@@ -1679,6 +1885,37 @@
    },
    "is_reprint": true,
    "reprint_count": 29,
+   "paper_sets": [
+    "Limited Edition Alpha",
+    "Limited Edition Beta",
+    "Unlimited Edition",
+    "Revised Edition",
+    "Foreign Black Border",
+    "Summer Magic / Edgar",
+    "Fourth Edition",
+    "Fourth Edition Foreign Black Border",
+    "Ice Age",
+    "Mirage",
+    "Fifth Edition",
+    "Tempest",
+    "Urza's Saga",
+    "Anthologies",
+    "Classic Sixth Edition",
+    "Mercadian Masques",
+    "Battle Royale Box Set",
+    "Seventh Edition",
+    "Coldsnap Theme Decks",
+    "Time Spiral Timeshifted",
+    "Conspiracy: Take the Crown",
+    "Iconic Masters",
+    "Masters 25",
+    "Core Set 2020",
+    "Zendikar Rising",
+    "Commander Legends",
+    "The Brothers' War",
+    "Starter Commander Decks",
+    "Foundations"
+   ],
    "latest_reprint_set": {
     "code": "fdn",
     "name": "Foundations"
@@ -1759,6 +1996,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "The Hobbit"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -1835,6 +2075,24 @@
    },
    "is_reprint": true,
    "reprint_count": 16,
+   "paper_sets": [
+    "Planechase 2012",
+    "Commander 2013",
+    "Eternal Masters",
+    "Commander 2016",
+    "Planechase Anthology",
+    "Archenemy: Nicol Bolas",
+    "Secret Lair Drop",
+    "Double Masters",
+    "Forgotten Realms Commander",
+    "Dominaria United Commander",
+    "The Brothers' War Commander",
+    "Murders at Karlov Manor Commander",
+    "Outlaws of Thunder Junction Commander",
+    "Bloomburrow Commander",
+    "Final Fantasy Commander",
+    "The Zeta Set"
+   ],
    "latest_reprint_set": {
     "code": "slz",
     "name": "The Zeta Set"
@@ -1905,6 +2163,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Avatar: The Last Airbender"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -1967,6 +2228,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Reality Fracture"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -2029,6 +2293,16 @@
    },
    "is_reprint": true,
    "reprint_count": 8,
+   "paper_sets": [
+    "Return to Ravnica",
+    "Commander 2014",
+    "Modern Masters 2017",
+    "Double Masters",
+    "Commander Masters",
+    "Ravnica Remastered",
+    "Secret Lair Drop",
+    "Secrets of Strixhaven Mystical Archive"
+   ],
    "latest_reprint_set": {
     "code": "soa",
     "name": "Secrets of Strixhaven Mystical Archive"
@@ -2097,6 +2371,17 @@
    },
    "is_reprint": true,
    "reprint_count": 9,
+   "paper_sets": [
+    "New Phyrexia",
+    "Modern Masters 2015",
+    "Commander 2021",
+    "Neon Dynasty Commander",
+    "Fallout",
+    "Final Fantasy Commander",
+    "Edge of Eternities Commander",
+    "Marvel Super Heroes Commander",
+    "The Zeta Set"
+   ],
    "latest_reprint_set": {
     "code": "slz",
     "name": "The Zeta Set"
@@ -2165,6 +2450,10 @@
    },
    "is_reprint": true,
    "reprint_count": 2,
+   "paper_sets": [
+    "The Dark",
+    "Fifth Edition"
+   ],
    "latest_reprint_set": {
     "code": "5ed",
     "name": "Fifth Edition"
@@ -2233,6 +2522,13 @@
    },
    "is_reprint": true,
    "reprint_count": 5,
+   "paper_sets": [
+    "Modern Horizons",
+    "Strixhaven Mystical Archive",
+    "Modern Horizons 1 Timeshifts",
+    "Secret Lair Drop",
+    "Marvel Universe"
+   ],
    "latest_reprint_set": {
     "code": "mar",
     "name": "Marvel Universe"
@@ -2301,6 +2597,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Bloomburrow"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -2363,6 +2662,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Bloomburrow"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -2425,6 +2727,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Phyrexia: All Will Be One"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -2487,6 +2792,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Edge of Eternities"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -2549,6 +2857,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Foundations"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -2611,6 +2922,12 @@
    },
    "is_reprint": true,
    "reprint_count": 4,
+   "paper_sets": [
+    "Modern Horizons 2",
+    "Modern Horizons 2 Timeshifts",
+    "Special Guests",
+    "Secret Lair Drop"
+   ],
    "latest_reprint_set": {
     "code": "sld",
     "name": "Secret Lair Drop"
@@ -2679,6 +2996,13 @@
    },
    "is_reprint": true,
    "reprint_count": 5,
+   "paper_sets": [
+    "New Phyrexia",
+    "Modern Masters 2015",
+    "Double Masters 2022",
+    "Breaking News",
+    "Secret Lair Drop"
+   ],
    "latest_reprint_set": {
     "code": "sld",
     "name": "Secret Lair Drop"
@@ -2747,6 +3071,11 @@
    },
    "is_reprint": true,
    "reprint_count": 3,
+   "paper_sets": [
+    "Hour of Devastation",
+    "Commander 2020",
+    "Commander 2021"
+   ],
    "latest_reprint_set": {
     "code": "c21",
     "name": "Commander 2021"
@@ -2815,6 +3144,17 @@
    },
    "is_reprint": true,
    "reprint_count": 9,
+   "paper_sets": [
+    "Ravnica: City of Guilds",
+    "Return to Ravnica",
+    "Zendikar Expeditions",
+    "Guilds of Ravnica",
+    "Secret Lair Drop",
+    "Unfinity",
+    "Ravnica Remastered",
+    "Ravnica: Clue Edition",
+    "Lorwyn Eclipsed"
+   ],
    "latest_reprint_set": {
     "code": "ecl",
     "name": "Lorwyn Eclipsed"
@@ -2883,6 +3223,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "The Brothers' War"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -2945,6 +3288,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Modern Horizons 3"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -3007,6 +3353,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Reality Fracture"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -3057,6 +3406,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Final Fantasy"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -3107,6 +3459,11 @@
    },
    "is_reprint": true,
    "reprint_count": 3,
+   "paper_sets": [
+    "Commander 2018",
+    "Double Masters 2022",
+    "Secret Lair Drop"
+   ],
    "latest_reprint_set": {
     "code": "sld",
     "name": "Secret Lair Drop"
@@ -3165,6 +3522,10 @@
    },
    "is_reprint": true,
    "reprint_count": 2,
+   "paper_sets": [
+    "Commander 2019",
+    "Secret Lair Drop"
+   ],
    "latest_reprint_set": {
     "code": "sld",
     "name": "Secret Lair Drop"
@@ -3221,6 +3582,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Foundations"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -3271,6 +3635,10 @@
    },
    "is_reprint": true,
    "reprint_count": 2,
+   "paper_sets": [
+    "Modern Horizons",
+    "Commander 2020"
+   ],
    "latest_reprint_set": {
     "code": "c20",
     "name": "Commander 2020"
@@ -3327,6 +3695,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Marvel Super Heroes"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -3377,6 +3748,10 @@
    },
    "is_reprint": true,
    "reprint_count": 2,
+   "paper_sets": [
+    "Battle for Zendikar",
+    "Commander Masters"
+   ],
    "latest_reprint_set": {
     "code": "cmm",
     "name": "Commander Masters"
@@ -3433,6 +3808,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "The Hobbit"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -3483,6 +3861,36 @@
    },
    "is_reprint": true,
    "reprint_count": 28,
+   "paper_sets": [
+    "Limited Edition Alpha",
+    "Limited Edition Beta",
+    "Unlimited Edition",
+    "Revised Edition",
+    "Foreign Black Border",
+    "Summer Magic / Edgar",
+    "Fourth Edition",
+    "Fourth Edition Foreign Black Border",
+    "Fifth Edition",
+    "Classic Sixth Edition",
+    "Seventh Edition",
+    "Eighth Edition",
+    "Ravnica: City of Guilds",
+    "Tenth Edition",
+    "Magic 2010",
+    "Magic 2011",
+    "Magic 2012",
+    "Conspiracy: Take the Crown",
+    "RNA Guild Kit",
+    "Secret Lair Drop",
+    "Dominaria Remastered",
+    "Tales of Middle-earth Commander",
+    "Ravnica Remastered",
+    "Bloomburrow Commander",
+    "Final Fantasy Commander",
+    "Marvel Super Heroes Commander",
+    "The Zeta Set",
+    "Foundations Commander"
+   ],
    "latest_reprint_set": {
     "code": "fdc",
     "name": "Foundations Commander"
@@ -3539,6 +3947,11 @@
    },
    "is_reprint": true,
    "reprint_count": 3,
+   "paper_sets": [
+    "The Lost Caverns of Ixalan",
+    "Tarkir: Dragonstorm Commander",
+    "Secrets of Strixhaven Mystical Archive"
+   ],
    "latest_reprint_set": {
     "code": "soa",
     "name": "Secrets of Strixhaven Mystical Archive"
@@ -3595,6 +4008,11 @@
    },
    "is_reprint": true,
    "reprint_count": 3,
+   "paper_sets": [
+    "Khans of Tarkir",
+    "New Capenna Commander",
+    "Commander Legends: Battle for Baldur's Gate"
+   ],
    "latest_reprint_set": {
     "code": "clb",
     "name": "Commander Legends: Battle for Baldur's Gate"
@@ -3651,6 +4069,10 @@
    },
    "is_reprint": true,
    "reprint_count": 2,
+   "paper_sets": [
+    "Commander 2020",
+    "Commander Masters"
+   ],
    "latest_reprint_set": {
     "code": "cmm",
     "name": "Commander Masters"
@@ -3707,6 +4129,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Modern Horizons 2"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -3757,6 +4182,19 @@
    },
    "is_reprint": true,
    "reprint_count": 11,
+   "paper_sets": [
+    "Shards of Alara",
+    "Avacyn Restored",
+    "Duel Decks: Speed vs. Cunning",
+    "Modern Masters 2015",
+    "Battle for Zendikar",
+    "Modern Masters 2017",
+    "Game Night",
+    "Core Set 2020",
+    "Jumpstart",
+    "Dominaria United",
+    "Secret Lair Drop"
+   ],
    "latest_reprint_set": {
     "code": "sld",
     "name": "Secret Lair Drop"
@@ -3813,6 +4251,35 @@
    },
    "is_reprint": true,
    "reprint_count": 27,
+   "paper_sets": [
+    "Ice Age",
+    "Fifth Edition",
+    "Mercadian Masques",
+    "Beatdown Box Set",
+    "Coldsnap Theme Decks",
+    "Commander 2011",
+    "Duel Decks: Izzet vs. Golgari",
+    "Conspiracy",
+    "Commander 2015",
+    "Eternal Masters",
+    "Masters 25",
+    "Signature Spellbook: Jace",
+    "Commander 2018",
+    "Double Masters",
+    "Commander 2021",
+    "Strixhaven Mystical Archive",
+    "Secret Lair Drop",
+    "Forgotten Realms Commander",
+    "Warhammer 40,000 Commander",
+    "Murders at Karlov Manor Commander",
+    "Duskmourn: House of Horror Commander",
+    "Final Fantasy: Through the Ages",
+    "Avatar: The Last Airbender Eternal",
+    "Teenage Mutant Ninja Turtles Source Material",
+    "Secrets of Strixhaven",
+    "The Zeta Set",
+    "Reality Fracture Commander"
+   ],
    "latest_reprint_set": {
     "code": "frc",
     "name": "Reality Fracture Commander"
@@ -3869,6 +4336,10 @@
    },
    "is_reprint": true,
    "reprint_count": 2,
+   "paper_sets": [
+    "Urza's Destiny",
+    "Seventh Edition"
+   ],
    "latest_reprint_set": {
     "code": "7ed",
     "name": "Seventh Edition"
@@ -3927,6 +4398,10 @@
    },
    "is_reprint": true,
    "reprint_count": 2,
+   "paper_sets": [
+    "Commander Legends: Battle for Baldur's Gate",
+    "Commander Masters"
+   ],
    "latest_reprint_set": {
     "code": "cmm",
     "name": "Commander Masters"
@@ -3983,6 +4458,11 @@
    },
    "is_reprint": true,
    "reprint_count": 3,
+   "paper_sets": [
+    "Magic 2011",
+    "Commander 2017",
+    "Innistrad Remastered"
+   ],
    "latest_reprint_set": {
     "code": "inr",
     "name": "Innistrad Remastered"
@@ -4039,6 +4519,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Reality Fracture"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -4089,6 +4572,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Reality Fracture"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -4139,6 +4625,15 @@
    },
    "is_reprint": true,
    "reprint_count": 7,
+   "paper_sets": [
+    "Magic 2015",
+    "Commander 2016",
+    "New Capenna Commander",
+    "Commander Legends: Battle for Baldur's Gate",
+    "March of the Machine Commander",
+    "Bloomburrow Commander",
+    "Final Fantasy Commander"
+   ],
    "latest_reprint_set": {
     "code": "fic",
     "name": "Final Fantasy Commander"
@@ -4195,6 +4690,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Zendikar Rising"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -4245,6 +4743,14 @@
    },
    "is_reprint": true,
    "reprint_count": 6,
+   "paper_sets": [
+    "Mercadian Masques",
+    "Eighth Edition",
+    "Salvat 2005",
+    "Jumpstart",
+    "Assassin's Creed",
+    "Avatar: The Last Airbender Eternal"
+   ],
    "latest_reprint_set": {
     "code": "tle",
     "name": "Avatar: The Last Airbender Eternal"
@@ -4301,6 +4807,11 @@
    },
    "is_reprint": true,
    "reprint_count": 3,
+   "paper_sets": [
+    "Return to Ravnica",
+    "Commander Legends",
+    "Secret Lair Drop"
+   ],
    "latest_reprint_set": {
     "code": "sld",
     "name": "Secret Lair Drop"
@@ -4357,6 +4868,14 @@
    },
    "is_reprint": true,
    "reprint_count": 6,
+   "paper_sets": [
+    "Avacyn Restored",
+    "Commander 2013",
+    "Commander Anthology",
+    "Double Masters",
+    "Innistrad Remastered",
+    "Aetherdrift Commander"
+   ],
    "latest_reprint_set": {
     "code": "drc",
     "name": "Aetherdrift Commander"
@@ -4413,6 +4932,11 @@
    },
    "is_reprint": true,
    "reprint_count": 3,
+   "paper_sets": [
+    "Modern Horizons",
+    "Crimson Vow Commander",
+    "The Lost Caverns of Ixalan Commander"
+   ],
    "latest_reprint_set": {
     "code": "lcc",
     "name": "The Lost Caverns of Ixalan Commander"
@@ -4469,6 +4993,15 @@
    },
    "is_reprint": true,
    "reprint_count": 7,
+   "paper_sets": [
+    "Strixhaven: School of Mages",
+    "Phyrexia: All Will Be One Commander",
+    "Commander Masters",
+    "Outlaws of Thunder Junction Commander",
+    "Duskmourn: House of Horror Commander",
+    "Secrets of Strixhaven Mystical Archive",
+    "Secrets of Strixhaven Commander"
+   ],
    "latest_reprint_set": {
     "code": "soa",
     "name": "Secrets of Strixhaven Mystical Archive"
@@ -4525,6 +5058,12 @@
    },
    "is_reprint": true,
    "reprint_count": 4,
+   "paper_sets": [
+    "New Capenna Commander",
+    "Secrets of Strixhaven Commander",
+    "Marvel Super Heroes Commander",
+    "Reality Fracture Commander"
+   ],
    "latest_reprint_set": {
     "code": "frc",
     "name": "Reality Fracture Commander"
@@ -4581,6 +5120,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Dark Ascension"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -4631,6 +5173,13 @@
    },
    "is_reprint": true,
    "reprint_count": 5,
+   "paper_sets": [
+    "Commander 2017",
+    "Commander Legends: Battle for Baldur's Gate",
+    "March of the Machine Commander",
+    "Murders at Karlov Manor Commander",
+    "Tarkir: Dragonstorm Commander"
+   ],
    "latest_reprint_set": {
     "code": "tdc",
     "name": "Tarkir: Dragonstorm Commander"
@@ -4687,6 +5236,11 @@
    },
    "is_reprint": true,
    "reprint_count": 3,
+   "paper_sets": [
+    "Betrayers of Kamigawa",
+    "Dominaria United Commander",
+    "Doctor Who"
+   ],
    "latest_reprint_set": {
     "code": "who",
     "name": "Doctor Who"
@@ -4743,6 +5297,18 @@
    },
    "is_reprint": true,
    "reprint_count": 10,
+   "paper_sets": [
+    "Scourge",
+    "Commander's Arsenal",
+    "Commander 2013",
+    "Commander 2017",
+    "Secret Lair Drop",
+    "Warhammer 40,000 Commander",
+    "Tales of Middle-earth Commander",
+    "Commander Masters",
+    "Bloomburrow Commander",
+    "Duskmourn: House of Horror Commander"
+   ],
    "latest_reprint_set": {
     "code": "dsc",
     "name": "Duskmourn: House of Horror Commander"
@@ -4799,6 +5365,13 @@
    },
    "is_reprint": true,
    "reprint_count": 5,
+   "paper_sets": [
+    "The Brothers' War",
+    "Outlaws of Thunder Junction Commander",
+    "Modern Horizons 3 Commander",
+    "Foundations",
+    "Final Fantasy Commander"
+   ],
    "latest_reprint_set": {
     "code": "fic",
     "name": "Final Fantasy Commander"
@@ -4855,6 +5428,11 @@
    },
    "is_reprint": true,
    "reprint_count": 3,
+   "paper_sets": [
+    "Fallen Empires",
+    "Fifth Edition",
+    "Classic Sixth Edition"
+   ],
    "latest_reprint_set": {
     "code": "6ed",
     "name": "Classic Sixth Edition"
@@ -4911,6 +5489,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Secrets of Strixhaven"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -4961,6 +5542,19 @@
    },
    "is_reprint": true,
    "reprint_count": 11,
+   "paper_sets": [
+    "Magic 2010",
+    "Salvat 2011",
+    "Magic 2012",
+    "Dark Ascension",
+    "Magic 2013",
+    "Magic 2014",
+    "Born of the Gods",
+    "Magic 2015",
+    "Conspiracy: Take the Crown",
+    "Dominaria",
+    "Core Set 2019"
+   ],
    "latest_reprint_set": {
     "code": "m19",
     "name": "Core Set 2019"
@@ -5017,6 +5611,14 @@
    },
    "is_reprint": true,
    "reprint_count": 6,
+   "paper_sets": [
+    "Legends",
+    "Chronicles Foreign Black Border",
+    "Chronicles",
+    "Mirage",
+    "Fifth Edition",
+    "Mirrodin Besieged"
+   ],
    "latest_reprint_set": {
     "code": "mbs",
     "name": "Mirrodin Besieged"
@@ -5073,6 +5675,10 @@
    },
    "is_reprint": true,
    "reprint_count": 2,
+   "paper_sets": [
+    "Commander Legends: Battle for Baldur's Gate",
+    "Secret Lair Drop"
+   ],
    "latest_reprint_set": {
     "code": "sld",
     "name": "Secret Lair Drop"
@@ -5129,6 +5735,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Tempest"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -5179,6 +5788,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Edge of Eternities"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -5229,6 +5841,10 @@
    },
    "is_reprint": true,
    "reprint_count": 2,
+   "paper_sets": [
+    "Shadowmoor",
+    "Secret Lair Drop"
+   ],
    "latest_reprint_set": {
     "code": "sld",
     "name": "Secret Lair Drop"
@@ -5287,6 +5903,13 @@
    },
    "is_reprint": true,
    "reprint_count": 5,
+   "paper_sets": [
+    "Modern Horizons 2",
+    "Modern Horizons 2 Timeshifts",
+    "Special Guests",
+    "Secret Lair Drop",
+    "Lorwyn Eclipsed Commander"
+   ],
    "latest_reprint_set": {
     "code": "ecc",
     "name": "Lorwyn Eclipsed Commander"
@@ -5343,6 +5966,13 @@
    },
    "is_reprint": true,
    "reprint_count": 5,
+   "paper_sets": [
+    "Mirage",
+    "Classic Sixth Edition",
+    "Eternal Masters",
+    "Dominaria Remastered",
+    "Avatar: The Last Airbender Eternal"
+   ],
    "latest_reprint_set": {
     "code": "tle",
     "name": "Avatar: The Last Airbender Eternal"
@@ -5399,6 +6029,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Final Fantasy"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -5449,6 +6082,11 @@
    },
    "is_reprint": true,
    "reprint_count": 3,
+   "paper_sets": [
+    "Modern Horizons 2",
+    "Modern Horizons 2 Timeshifts",
+    "Secret Lair Drop"
+   ],
    "latest_reprint_set": {
     "code": "sld",
     "name": "Secret Lair Drop"
@@ -5505,6 +6143,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Duskmourn: House of Horror Commander"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -5555,6 +6196,13 @@
    },
    "is_reprint": true,
    "reprint_count": 5,
+   "paper_sets": [
+    "Shards of Alara",
+    "Archenemy",
+    "Battlebond",
+    "Jumpstart",
+    "Jumpstart 2022"
+   ],
    "latest_reprint_set": {
     "code": "j22",
     "name": "Jumpstart 2022"
@@ -5613,6 +6261,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Bloomburrow"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -5663,6 +6314,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Modern Horizons 3"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -5713,6 +6367,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Reality Fracture"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -5763,6 +6420,10 @@
    },
    "is_reprint": true,
    "reprint_count": 2,
+   "paper_sets": [
+    "War of the Spark",
+    "Commander Masters"
+   ],
    "latest_reprint_set": {
     "code": "cmm",
     "name": "Commander Masters"
@@ -5819,6 +6480,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Bloomburrow Commander"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -5869,6 +6533,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Commander 2020"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -5919,6 +6586,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Duskmourn: House of Horror"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -5969,6 +6639,14 @@
    },
    "is_reprint": true,
    "reprint_count": 6,
+   "paper_sets": [
+    "Avacyn Restored",
+    "Modern Masters 2017",
+    "Kaldheim Commander",
+    "Commander Masters",
+    "Secret Lair Drop",
+    "The Zeta Set"
+   ],
    "latest_reprint_set": {
     "code": "slz",
     "name": "The Zeta Set"
@@ -6025,6 +6703,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Reality Fracture"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -6075,6 +6756,19 @@
    },
    "is_reprint": true,
    "reprint_count": 11,
+   "paper_sets": [
+    "Mirrodin",
+    "Magic 2013",
+    "From the Vault: Twenty",
+    "Dominaria",
+    "Secret Lair Drop",
+    "Warhammer 40,000 Commander",
+    "The Brothers' War Retro Artifacts",
+    "Commander Masters",
+    "Bloomburrow Commander",
+    "Foundations",
+    "Marvel Super Heroes Commander"
+   ],
    "latest_reprint_set": {
     "code": "msc",
     "name": "Marvel Super Heroes Commander"
@@ -6133,6 +6827,10 @@
    },
    "is_reprint": true,
    "reprint_count": 2,
+   "paper_sets": [
+    "Innistrad: Midnight Hunt",
+    "Innistrad: Double Feature"
+   ],
    "latest_reprint_set": {
     "code": "dbl",
     "name": "Innistrad: Double Feature"
@@ -6189,6 +6887,14 @@
    },
    "is_reprint": true,
    "reprint_count": 6,
+   "paper_sets": [
+    "Champions of Kamigawa",
+    "Commander 2016",
+    "Double Masters",
+    "Commander Masters",
+    "Secret Lair Drop",
+    "Final Fantasy: Through the Ages"
+   ],
    "latest_reprint_set": {
     "code": "fca",
     "name": "Final Fantasy: Through the Ages"
@@ -6245,6 +6951,11 @@
    },
    "is_reprint": true,
    "reprint_count": 3,
+   "paper_sets": [
+    "Ravnica: City of Guilds",
+    "Duel Decks: Izzet vs. Golgari",
+    "Modern Masters 2017"
+   ],
    "latest_reprint_set": {
     "code": "mm3",
     "name": "Modern Masters 2017"
@@ -6301,6 +7012,12 @@
    },
    "is_reprint": true,
    "reprint_count": 4,
+   "paper_sets": [
+    "Dark Ascension",
+    "Modern Masters 2017",
+    "Core Set 2020",
+    "Secret Lair Drop"
+   ],
    "latest_reprint_set": {
     "code": "sld",
     "name": "Secret Lair Drop"
@@ -6357,6 +7074,14 @@
    },
    "is_reprint": true,
    "reprint_count": 6,
+   "paper_sets": [
+    "Magic 2012",
+    "Commander 2014",
+    "Archenemy: Nicol Bolas",
+    "Secret Lair Drop",
+    "Commander Masters",
+    "The Big Score"
+   ],
    "latest_reprint_set": {
     "code": "big",
     "name": "The Big Score"
@@ -6413,6 +7138,7 @@
    },
    "is_reprint": false,
    "reprint_count": 0,
+   "paper_sets": [],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -6454,6 +7180,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Journey into Nyx"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -6504,6 +7233,10 @@
    },
    "is_reprint": true,
    "reprint_count": 2,
+   "paper_sets": [
+    "Modern Horizons 3",
+    "Marvel Universe"
+   ],
    "latest_reprint_set": {
     "code": "mar",
     "name": "Marvel Universe"
@@ -6560,6 +7293,12 @@
    },
    "is_reprint": true,
    "reprint_count": 4,
+   "paper_sets": [
+    "Time Spiral",
+    "Time Spiral Remastered",
+    "Secret Lair Drop",
+    "Commander Masters"
+   ],
    "latest_reprint_set": {
     "code": "cmm",
     "name": "Commander Masters"
@@ -6616,6 +7355,28 @@
    },
    "is_reprint": true,
    "reprint_count": 20,
+   "paper_sets": [
+    "Battle for Zendikar",
+    "Commander 2017",
+    "Commander 2018",
+    "Commander 2019",
+    "Jumpstart",
+    "Time Spiral Remastered",
+    "Commander 2021",
+    "Secret Lair Drop",
+    "Commander Legends: Battle for Baldur's Gate",
+    "Dominaria United Commander",
+    "Warhammer 40,000 Commander",
+    "The Brothers' War Commander",
+    "Jumpstart 2022",
+    "Starter Commander Decks",
+    "March of the Machine Commander",
+    "Commander Masters",
+    "Modern Horizons 3 Commander",
+    "Bloomburrow Commander",
+    "Foundations",
+    "Foundations Commander"
+   ],
    "latest_reprint_set": {
     "code": "fdc",
     "name": "Foundations Commander"
@@ -6672,6 +7433,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Bloomburrow"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -6722,6 +7486,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Outlaws of Thunder Junction"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -6772,6 +7539,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Outlaws of Thunder Junction"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -6822,6 +7592,16 @@
    },
    "is_reprint": true,
    "reprint_count": 8,
+   "paper_sets": [
+    "Innistrad: Crimson Vow",
+    "Innistrad: Double Feature",
+    "Commander Legends: Battle for Baldur's Gate",
+    "Wilds of Eldraine Commander",
+    "Fallout",
+    "Innistrad Remastered",
+    "Secret Lair Drop",
+    "The Zeta Set"
+   ],
    "latest_reprint_set": {
     "code": "slz",
     "name": "The Zeta Set"
@@ -6878,6 +7658,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Duskmourn: House of Horror"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -6928,6 +7711,15 @@
    },
    "is_reprint": true,
    "reprint_count": 7,
+   "paper_sets": [
+    "Lorwyn",
+    "Duels of the Planeswalkers",
+    "Salvat 2011",
+    "Commander 2014",
+    "Commander Anthology",
+    "Commander Legends",
+    "Game Night: Free-for-All"
+   ],
    "latest_reprint_set": {
     "code": "gn3",
     "name": "Game Night: Free-for-All"
@@ -6984,6 +7776,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Jurassic World Collection"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -7034,6 +7829,18 @@
    },
    "is_reprint": true,
    "reprint_count": 10,
+   "paper_sets": [
+    "Innistrad: Midnight Hunt",
+    "Innistrad: Double Feature",
+    "Duskmourn: House of Horror Commander",
+    "Foundations Jumpstart",
+    "Innistrad Remastered",
+    "Tarkir: Dragonstorm Commander",
+    "Edge of Eternities Commander",
+    "Marvel Universe",
+    "Lorwyn Eclipsed Commander",
+    "Secrets of Strixhaven Commander"
+   ],
    "latest_reprint_set": {
     "code": "soc",
     "name": "Secrets of Strixhaven Commander"
@@ -7090,6 +7897,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Murders at Karlov Manor"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -7140,6 +7950,10 @@
    },
    "is_reprint": true,
    "reprint_count": 2,
+   "paper_sets": [
+    "Innistrad: Midnight Hunt",
+    "Innistrad: Double Feature"
+   ],
    "latest_reprint_set": {
     "code": "dbl",
     "name": "Innistrad: Double Feature"
@@ -7196,6 +8010,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Phyrexia: All Will Be One"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -7246,6 +8063,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Modern Horizons 3"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -7296,6 +8116,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Adventures in the Forgotten Realms"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -7346,6 +8169,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Teenage Mutant Ninja Turtles Eternal"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -7396,6 +8222,15 @@
    },
    "is_reprint": true,
    "reprint_count": 7,
+   "paper_sets": [
+    "Time Spiral",
+    "Shadows over Innistrad",
+    "Jumpstart",
+    "Double Masters",
+    "Time Spiral Remastered",
+    "Jumpstart 2022",
+    "Innistrad Remastered"
+   ],
    "latest_reprint_set": {
     "code": "inr",
     "name": "Innistrad Remastered"
@@ -7452,6 +8287,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Reality Fracture"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -7502,6 +8340,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Reality Fracture"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -7554,6 +8395,10 @@
    },
    "is_reprint": true,
    "reprint_count": 2,
+   "paper_sets": [
+    "Odyssey",
+    "Ninth Edition"
+   ],
    "latest_reprint_set": {
     "code": "9ed",
     "name": "Ninth Edition"
@@ -7612,6 +8457,12 @@
    },
    "is_reprint": true,
    "reprint_count": 4,
+   "paper_sets": [
+    "Magic 2012",
+    "Hour of Devastation",
+    "Core Set 2019",
+    "Game Night"
+   ],
    "latest_reprint_set": {
     "code": "gnt",
     "name": "Game Night"
@@ -7668,6 +8519,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Weatherlight"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -7718,6 +8572,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Reality Fracture"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -7768,6 +8625,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Reality Fracture"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -7818,6 +8678,14 @@
    },
    "is_reprint": true,
    "reprint_count": 6,
+   "paper_sets": [
+    "Khans of Tarkir",
+    "Iconic Masters",
+    "Secret Lair Drop",
+    "Time Spiral Remastered",
+    "Double Masters 2022",
+    "The Brothers' War"
+   ],
    "latest_reprint_set": {
     "code": "bro",
     "name": "The Brothers' War"
@@ -7874,6 +8742,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Judgment"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -7924,6 +8795,10 @@
    },
    "is_reprint": true,
    "reprint_count": 2,
+   "paper_sets": [
+    "Rise of the Eldrazi",
+    "Modern Masters 2017"
+   ],
    "latest_reprint_set": {
     "code": "mm3",
     "name": "Modern Masters 2017"
@@ -7980,6 +8855,11 @@
    },
    "is_reprint": true,
    "reprint_count": 3,
+   "paper_sets": [
+    "Dominaria",
+    "The Brothers' War Retro Artifacts",
+    "The Hobbit Eternal"
+   ],
    "latest_reprint_set": {
     "code": "hoc",
     "name": "The Hobbit Eternal"
@@ -8036,6 +8916,11 @@
    },
    "is_reprint": true,
    "reprint_count": 3,
+   "paper_sets": [
+    "Limited Edition Alpha",
+    "Limited Edition Beta",
+    "Unlimited Edition"
+   ],
    "latest_reprint_set": {
     "code": "2ed",
     "name": "Unlimited Edition"
@@ -8092,6 +8977,16 @@
    },
    "is_reprint": true,
    "reprint_count": 8,
+   "paper_sets": [
+    "Guilds of Ravnica",
+    "Commander 2020",
+    "Game Night: Free-for-All",
+    "Commander Masters",
+    "Ravnica Remastered",
+    "Outlaws of Thunder Junction Commander",
+    "Foundations Jumpstart",
+    "Special Guests"
+   ],
    "latest_reprint_set": {
     "code": "spg",
     "name": "Special Guests"
@@ -8148,6 +9043,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Reality Fracture"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -8198,6 +9096,11 @@
    },
    "is_reprint": true,
    "reprint_count": 3,
+   "paper_sets": [
+    "Jumpstart",
+    "Jumpstart 2022",
+    "Secret Lair Drop"
+   ],
    "latest_reprint_set": {
     "code": "sld",
     "name": "Secret Lair Drop"
@@ -8254,6 +9157,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Scars of Mirrodin"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -8306,6 +9212,16 @@
    },
    "is_reprint": true,
    "reprint_count": 8,
+   "paper_sets": [
+    "Ice Age",
+    "Fifth Edition",
+    "Deckmasters",
+    "From the Vault: Exiled",
+    "Eternal Masters",
+    "Iconic Masters",
+    "Secret Lair Countdown",
+    "Wilds of Eldraine: Enchanting Tales"
+   ],
    "latest_reprint_set": {
     "code": "wot",
     "name": "Wilds of Eldraine: Enchanting Tales"
@@ -8362,6 +9278,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "War of the Spark"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -8412,6 +9331,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Phyrexia: All Will Be One Commander"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -8462,6 +9384,10 @@
    },
    "is_reprint": true,
    "reprint_count": 2,
+   "paper_sets": [
+    "Modern Horizons 2",
+    "Foundations Jumpstart"
+   ],
    "latest_reprint_set": {
     "code": "j25",
     "name": "Foundations Jumpstart"
@@ -8518,6 +9444,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Duskmourn: House of Horror"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -8568,6 +9497,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Avatar: The Last Airbender"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -8618,6 +9550,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Modern Horizons 3"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -8668,6 +9603,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Fallen Empires"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -8718,6 +9656,10 @@
    },
    "is_reprint": true,
    "reprint_count": 2,
+   "paper_sets": [
+    "Kaldheim",
+    "Secret Lair Drop"
+   ],
    "latest_reprint_set": {
     "code": "sld",
     "name": "Secret Lair Drop"
@@ -8774,6 +9716,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Reality Fracture"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -8824,6 +9769,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Avatar: The Last Airbender"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -8874,6 +9822,12 @@
    },
    "is_reprint": true,
    "reprint_count": 4,
+   "paper_sets": [
+    "Strixhaven: School of Mages",
+    "The Lost Caverns of Ixalan Commander",
+    "Tarkir: Dragonstorm Commander",
+    "Secrets of Strixhaven Commander"
+   ],
    "latest_reprint_set": {
     "code": "soc",
     "name": "Secrets of Strixhaven Commander"
@@ -8930,6 +9884,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Secrets of Strixhaven"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -8980,6 +9937,13 @@
    },
    "is_reprint": true,
    "reprint_count": 5,
+   "paper_sets": [
+    "Conflux",
+    "From the Vault: Legends",
+    "Modern Masters",
+    "Secret Lair Drop",
+    "Foundations"
+   ],
    "latest_reprint_set": {
     "code": "fdn",
     "name": "Foundations"
@@ -9036,6 +10000,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Reality Fracture"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -9086,6 +10053,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Secrets of Strixhaven"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -9136,6 +10106,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Worldwake"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -9188,6 +10161,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Mercadian Masques"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -9240,6 +10216,11 @@
    },
    "is_reprint": true,
    "reprint_count": 3,
+   "paper_sets": [
+    "Dominaria",
+    "Secret Lair Drop",
+    "Special Guests"
+   ],
    "latest_reprint_set": {
     "code": "spg",
     "name": "Special Guests"
@@ -9296,6 +10277,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Kaladesh"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -9346,6 +10330,10 @@
    },
    "is_reprint": true,
    "reprint_count": 2,
+   "paper_sets": [
+    "Tales of Middle-earth Commander",
+    "The Hobbit Eternal"
+   ],
    "latest_reprint_set": {
     "code": "hoc",
     "name": "The Hobbit Eternal"
@@ -9402,6 +10390,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Reality Fracture"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -9454,6 +10445,19 @@
    },
    "is_reprint": true,
    "reprint_count": 11,
+   "paper_sets": [
+    "Aether Revolt",
+    "Jumpstart",
+    "Neon Dynasty Commander",
+    "New Capenna Commander",
+    "Double Masters 2022",
+    "Starter Commander Decks",
+    "March of the Machine Commander",
+    "Commander Masters",
+    "Bloomburrow Commander",
+    "Foundations Jumpstart",
+    "Foundations Commander"
+   ],
    "latest_reprint_set": {
     "code": "fdc",
     "name": "Foundations Commander"
@@ -9510,6 +10514,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Reality Fracture"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -9560,6 +10567,14 @@
    },
    "is_reprint": true,
    "reprint_count": 6,
+   "paper_sets": [
+    "Shadows over Innistrad",
+    "Commander 2019",
+    "Tales of Middle-earth Commander",
+    "Secret Lair Drop",
+    "Bloomburrow Commander",
+    "Innistrad Remastered"
+   ],
    "latest_reprint_set": {
     "code": "inr",
     "name": "Innistrad Remastered"
@@ -9616,6 +10631,14 @@
    },
    "is_reprint": true,
    "reprint_count": 6,
+   "paper_sets": [
+    "Limited Edition Alpha",
+    "Limited Edition Beta",
+    "Unlimited Edition",
+    "Revised Edition",
+    "Foreign Black Border",
+    "Summer Magic / Edgar"
+   ],
    "latest_reprint_set": {
     "code": "sum",
     "name": "Summer Magic / Edgar"
@@ -9672,6 +10695,14 @@
    },
    "is_reprint": true,
    "reprint_count": 6,
+   "paper_sets": [
+    "Champions of Kamigawa",
+    "From the Vault: Exiled",
+    "Eternal Masters",
+    "Double Masters 2022",
+    "The Zeta Set",
+    "Secret Lair Drop"
+   ],
    "latest_reprint_set": {
     "code": "sld",
     "name": "Secret Lair Drop"
@@ -9728,6 +10759,21 @@
    },
    "is_reprint": true,
    "reprint_count": 13,
+   "paper_sets": [
+    "Fate Reforged",
+    "Commander 2016",
+    "Commander 2019",
+    "Double Masters",
+    "Commander 2021",
+    "Forgotten Realms Commander",
+    "Midnight Hunt Commander",
+    "Neon Dynasty Commander",
+    "New Capenna Commander",
+    "Starter Commander Decks",
+    "Bloomburrow Commander",
+    "Secrets of Strixhaven Mystical Archive",
+    "Foundations Commander"
+   ],
    "latest_reprint_set": {
     "code": "fdc",
     "name": "Foundations Commander"
@@ -9786,6 +10832,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "The Hobbit Eternal"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -9836,6 +10885,13 @@
    },
    "is_reprint": true,
    "reprint_count": 5,
+   "paper_sets": [
+    "Ravnica Allegiance",
+    "Double Masters 2022",
+    "Commander Masters",
+    "Wilds of Eldraine: Enchanting Tales",
+    "Secret Lair Drop"
+   ],
    "latest_reprint_set": {
     "code": "sld",
     "name": "Secret Lair Drop"
@@ -9892,6 +10948,14 @@
    },
    "is_reprint": true,
    "reprint_count": 6,
+   "paper_sets": [
+    "Urza's Saga",
+    "Eternal Masters",
+    "Double Masters",
+    "Dominaria Remastered",
+    "Wilds of Eldraine: Enchanting Tales",
+    "Secret Lair Drop"
+   ],
    "latest_reprint_set": {
     "code": "sld",
     "name": "Secret Lair Drop"
@@ -9948,6 +11012,10 @@
    },
    "is_reprint": true,
    "reprint_count": 2,
+   "paper_sets": [
+    "Zendikar Rising",
+    "Starter Commander Decks"
+   ],
    "latest_reprint_set": {
     "code": "scd",
     "name": "Starter Commander Decks"
@@ -10004,6 +11072,18 @@
    },
    "is_reprint": true,
    "reprint_count": 10,
+   "paper_sets": [
+    "Theros Beyond Death",
+    "The Brothers' War Retro Artifacts",
+    "Phyrexia: All Will Be One Commander",
+    "Wilds of Eldraine",
+    "Secret Lair Drop",
+    "Foundations",
+    "Aetherdrift Commander",
+    "Edge of Eternities Commander",
+    "The Zeta Set",
+    "Foundations Commander"
+   ],
    "latest_reprint_set": {
     "code": "fdc",
     "name": "Foundations Commander"
@@ -10060,6 +11140,11 @@
    },
    "is_reprint": true,
    "reprint_count": 3,
+   "paper_sets": [
+    "Rise of the Eldrazi",
+    "Modern Masters 2015",
+    "Special Guests"
+   ],
    "latest_reprint_set": {
     "code": "spg",
     "name": "Special Guests"
@@ -10116,6 +11201,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Edge of Eternities"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -10166,6 +11254,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Secrets of Strixhaven Commander"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -10218,6 +11309,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Reality Fracture"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -10268,6 +11362,15 @@
    },
    "is_reprint": true,
    "reprint_count": 7,
+   "paper_sets": [
+    "Core Set 2019",
+    "Secret Lair Drop",
+    "Jumpstart 2022",
+    "Modern Horizons 3 Commander",
+    "Duskmourn: House of Horror Commander",
+    "Tarkir: Dragonstorm Commander",
+    "Final Fantasy Commander"
+   ],
    "latest_reprint_set": {
     "code": "fic",
     "name": "Final Fantasy Commander"
@@ -10324,6 +11427,19 @@
    },
    "is_reprint": true,
    "reprint_count": 11,
+   "paper_sets": [
+    "Antiquities",
+    "Fourth Edition",
+    "Fourth Edition Foreign Black Border",
+    "Renaissance",
+    "Rinascimento",
+    "Anthologies",
+    "From the Vault: Exiled",
+    "Zendikar Expeditions",
+    "Zendikar Rising Expeditions",
+    "Secret Lair Drop",
+    "Edge of Eternities: Stellar Sights"
+   ],
    "latest_reprint_set": {
     "code": "eos",
     "name": "Edge of Eternities: Stellar Sights"
@@ -10380,6 +11496,12 @@
    },
    "is_reprint": true,
    "reprint_count": 4,
+   "paper_sets": [
+    "Modern Horizons 2",
+    "Modern Horizons 2 Timeshifts",
+    "Special Guests",
+    "Secret Lair Drop"
+   ],
    "latest_reprint_set": {
     "code": "sld",
     "name": "Secret Lair Drop"
@@ -10436,6 +11558,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Strixhaven: School of Mages"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -10486,6 +11611,10 @@
    },
    "is_reprint": true,
    "reprint_count": 2,
+   "paper_sets": [
+    "Tales of Middle-earth Commander",
+    "The Hobbit Eternal"
+   ],
    "latest_reprint_set": {
     "code": "hoc",
     "name": "The Hobbit Eternal"
@@ -10542,6 +11671,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Avatar: The Last Airbender"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -10592,6 +11724,10 @@
    },
    "is_reprint": true,
    "reprint_count": 2,
+   "paper_sets": [
+    "The Lord of the Rings: Tales of Middle-earth",
+    "The Hobbit Eternal"
+   ],
    "latest_reprint_set": {
     "code": "hoc",
     "name": "The Hobbit Eternal"
@@ -10648,6 +11784,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Reality Fracture"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -10698,6 +11837,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Murders at Karlov Manor"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -10748,6 +11890,11 @@
    },
    "is_reprint": true,
    "reprint_count": 3,
+   "paper_sets": [
+    "Limited Edition Alpha",
+    "Limited Edition Beta",
+    "Unlimited Edition"
+   ],
    "latest_reprint_set": {
     "code": "2ed",
     "name": "Unlimited Edition"
@@ -10804,6 +11951,7 @@
    },
    "is_reprint": false,
    "reprint_count": 0,
+   "paper_sets": [],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -10845,6 +11993,12 @@
    },
    "is_reprint": true,
    "reprint_count": 4,
+   "paper_sets": [
+    "The Brothers' War",
+    "Tarkir: Dragonstorm Commander",
+    "Secrets of Strixhaven Commander",
+    "Secret Lair Drop"
+   ],
    "latest_reprint_set": {
     "code": "sld",
     "name": "Secret Lair Drop"
@@ -10901,6 +12055,17 @@
    },
    "is_reprint": true,
    "reprint_count": 9,
+   "paper_sets": [
+    "The Dark",
+    "Chronicles Foreign Black Border",
+    "Chronicles",
+    "Time Spiral Timeshifted",
+    "Magic 2013",
+    "Magic 2015",
+    "Commander 2014",
+    "Core Set 2021",
+    "Dominaria Remastered"
+   ],
    "latest_reprint_set": {
     "code": "dmr",
     "name": "Dominaria Remastered"
@@ -10957,6 +12122,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Final Fantasy"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -11007,6 +12175,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Antiquities"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -11057,6 +12228,11 @@
    },
    "is_reprint": true,
    "reprint_count": 3,
+   "paper_sets": [
+    "Commander 2016",
+    "Commander Legends",
+    "Final Fantasy: Through the Ages"
+   ],
    "latest_reprint_set": {
     "code": "fca",
     "name": "Final Fantasy: Through the Ages"
@@ -11113,6 +12289,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Final Fantasy"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -11163,6 +12342,35 @@
    },
    "is_reprint": true,
    "reprint_count": 27,
+   "paper_sets": [
+    "Limited Edition Alpha",
+    "Limited Edition Beta",
+    "Unlimited Edition",
+    "Revised Edition",
+    "Foreign Black Border",
+    "Summer Magic / Edgar",
+    "Fourth Edition",
+    "Fourth Edition Foreign Black Border",
+    "Rivals Quick Start Set",
+    "Introductory Two-Player Set",
+    "Fifth Edition",
+    "Classic Sixth Edition",
+    "Seventh Edition",
+    "Eighth Edition",
+    "Tenth Edition",
+    "Conflux",
+    "Magic 2010",
+    "Duels of the Planeswalkers",
+    "Magic 2011",
+    "Salvat 2011",
+    "Magic 2012",
+    "Magic 2013",
+    "Hour of Devastation",
+    "Explorers of Ixalan",
+    "Core Set 2020",
+    "Foundations",
+    "Reality Fracture"
+   ],
    "latest_reprint_set": {
     "code": "fra",
     "name": "Reality Fracture"
@@ -11219,6 +12427,12 @@
    },
    "is_reprint": true,
    "reprint_count": 4,
+   "paper_sets": [
+    "Invasion",
+    "Eighth Edition",
+    "Commander 2017",
+    "Starter Commander Decks"
+   ],
    "latest_reprint_set": {
     "code": "scd",
     "name": "Starter Commander Decks"
@@ -11277,6 +12491,14 @@
    },
    "is_reprint": true,
    "reprint_count": 6,
+   "paper_sets": [
+    "Return to Ravnica",
+    "Commander 2017",
+    "RNA Guild Kit",
+    "Secret Lair Drop",
+    "Ravnica Remastered",
+    "Foundations Commander"
+   ],
    "latest_reprint_set": {
     "code": "fdc",
     "name": "Foundations Commander"
@@ -11333,6 +12555,16 @@
    },
    "is_reprint": true,
    "reprint_count": 8,
+   "paper_sets": [
+    "Innistrad: Midnight Hunt",
+    "Innistrad: Double Feature",
+    "Secret Lair Drop",
+    "Innistrad Remastered",
+    "Tarkir: Dragonstorm Commander",
+    "Final Fantasy Commander",
+    "Teenage Mutant Ninja Turtles Eternal",
+    "Marvel Super Heroes Commander"
+   ],
    "latest_reprint_set": {
     "code": "msc",
     "name": "Marvel Super Heroes Commander"
@@ -11389,6 +12621,13 @@
    },
    "is_reprint": true,
    "reprint_count": 5,
+   "paper_sets": [
+    "Planechase 2012",
+    "Commander's Arsenal",
+    "Planechase Anthology",
+    "Commander 2017",
+    "Starter Commander Decks"
+   ],
    "latest_reprint_set": {
     "code": "scd",
     "name": "Starter Commander Decks"
@@ -11445,6 +12684,24 @@
    },
    "is_reprint": true,
    "reprint_count": 16,
+   "paper_sets": [
+    "Urza's Saga",
+    "Conspiracy",
+    "Commander 2014",
+    "Commander 2015",
+    "Eternal Masters",
+    "Commander Anthology",
+    "Commander Legends",
+    "Forgotten Realms Commander",
+    "New Capenna Commander",
+    "Starter Commander Decks",
+    "March of the Machine Commander",
+    "Commander Masters",
+    "Special Guests",
+    "Modern Horizons 3",
+    "Tarkir: Dragonstorm Commander",
+    "Secret Lair Drop"
+   ],
    "latest_reprint_set": {
     "code": "sld",
     "name": "Secret Lair Drop"
@@ -11503,6 +12760,11 @@
    },
    "is_reprint": true,
    "reprint_count": 3,
+   "paper_sets": [
+    "Kamigawa: Neon Dynasty",
+    "Foundations Jumpstart",
+    "Edge of Eternities"
+   ],
    "latest_reprint_set": {
     "code": "eoe",
     "name": "Edge of Eternities"
@@ -11559,6 +12821,12 @@
    },
    "is_reprint": true,
    "reprint_count": 4,
+   "paper_sets": [
+    "Dragon's Maze",
+    "Modern Masters 2017",
+    "Double Masters",
+    "Secret Lair Drop"
+   ],
    "latest_reprint_set": {
     "code": "sld",
     "name": "Secret Lair Drop"
@@ -11615,6 +12883,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Reality Fracture"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -11665,6 +12936,10 @@
    },
    "is_reprint": true,
    "reprint_count": 2,
+   "paper_sets": [
+    "Battle for Zendikar",
+    "Secret Lair Drop"
+   ],
    "latest_reprint_set": {
     "code": "sld",
     "name": "Secret Lair Drop"
@@ -11721,6 +12996,10 @@
    },
    "is_reprint": true,
    "reprint_count": 2,
+   "paper_sets": [
+    "Phyrexia: All Will Be One",
+    "Lorwyn Eclipsed Commander"
+   ],
    "latest_reprint_set": {
     "code": "ecc",
     "name": "Lorwyn Eclipsed Commander"
@@ -11777,6 +13056,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Commander Masters"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -11829,6 +13111,11 @@
    },
    "is_reprint": true,
    "reprint_count": 3,
+   "paper_sets": [
+    "Mercadian Masques",
+    "Commander 2016",
+    "Secrets of Strixhaven Commander"
+   ],
    "latest_reprint_set": {
     "code": "soc",
     "name": "Secrets of Strixhaven Commander"
@@ -11885,6 +13172,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Reality Fracture"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -11935,6 +13225,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Reality Fracture"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -11985,6 +13278,35 @@
    },
    "is_reprint": true,
    "reprint_count": 27,
+   "paper_sets": [
+    "Fifth Dawn",
+    "Salvat 2005",
+    "Duel Decks: Venser vs. Koth",
+    "Commander 2013",
+    "Commander 2014",
+    "Modern Masters 2015",
+    "Commander 2015",
+    "Commander 2017",
+    "Commander Anthology Volume II",
+    "Forgotten Realms Commander",
+    "New Capenna Commander",
+    "Commander Legends: Battle for Baldur's Gate",
+    "Warhammer 40,000 Commander",
+    "The Brothers' War Commander",
+    "Starter Commander Decks",
+    "March of the Machine Commander",
+    "Tales of Middle-earth Commander",
+    "Commander Masters",
+    "Wilds of Eldraine Commander",
+    "Doctor Who",
+    "The Lost Caverns of Ixalan Commander",
+    "Fallout",
+    "Modern Horizons 3 Commander",
+    "Tarkir: Dragonstorm Commander",
+    "Final Fantasy Commander",
+    "Secret Lair Drop",
+    "The Hobbit Eternal"
+   ],
    "latest_reprint_set": {
     "code": "hoc",
     "name": "The Hobbit Eternal"
@@ -12041,6 +13363,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Magic 2013"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -12091,6 +13416,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Judgment"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -12143,6 +13471,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Reality Fracture"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -12193,6 +13524,9 @@
    },
    "is_reprint": false,
    "reprint_count": 1,
+   "paper_sets": [
+    "Reality Fracture"
+   ],
    "latest_reprint_set": null,
    "latest_reprint_date": null,
    "reprint_set": null,
@@ -12243,6 +13577,18 @@
    },
    "is_reprint": true,
    "reprint_count": 10,
+   "paper_sets": [
+    "Battle for Zendikar",
+    "Masters 25",
+    "Game Night",
+    "Commander 2020",
+    "Zendikar Rising Commander",
+    "Secret Lair Drop",
+    "Time Spiral Remastered",
+    "Commander Legends: Battle for Baldur's Gate",
+    "Bloomburrow Commander",
+    "Secrets of Strixhaven Commander"
+   ],
    "latest_reprint_set": {
     "code": "soc",
     "name": "Secrets of Strixhaven Commander"
@@ -12296,6 +13642,18 @@
    ],
    "vibe": "neutral",
    "reserved": false,
+   "paper_sets": [
+    "Throne of Eldraine",
+    "Core Set 2021",
+    "Secret Lair Drop",
+    "Bloomburrow",
+    "Edge of Eternities Commander",
+    "Avatar: The Last Airbender Eternal",
+    "Teenage Mutant Ninja Turtles Eternal",
+    "Secrets of Strixhaven Commander",
+    "Marvel Super Heroes Commander",
+    "Reality Fracture Commander"
+   ],
    "first_printed": "2019-10-04",
    "first_printed_set": {
     "code": "eld",
@@ -12359,6 +13717,9 @@
    ],
    "vibe": "positive",
    "reserved": false,
+   "paper_sets": [
+    "The Hobbit"
+   ],
    "first_printed": "2026-08-14",
    "first_printed_set": {
     "code": "hob",
@@ -12428,6 +13789,24 @@
    ],
    "vibe": "positive",
    "reserved": false,
+   "paper_sets": [
+    "Planechase 2012",
+    "Commander 2013",
+    "Eternal Masters",
+    "Commander 2016",
+    "Planechase Anthology",
+    "Archenemy: Nicol Bolas",
+    "Secret Lair Drop",
+    "Double Masters",
+    "Forgotten Realms Commander",
+    "Dominaria United Commander",
+    "The Brothers' War Commander",
+    "Murders at Karlov Manor Commander",
+    "Outlaws of Thunder Junction Commander",
+    "Bloomburrow Commander",
+    "Final Fantasy Commander",
+    "The Zeta Set"
+   ],
    "first_printed": "2012-06-01",
    "first_printed_set": {
     "code": "pc2",
@@ -12491,6 +13870,11 @@
    ],
    "vibe": "neutral",
    "reserved": false,
+   "paper_sets": [
+    "Commander 2018",
+    "Double Masters 2022",
+    "Secret Lair Drop"
+   ],
    "first_printed": "2018-08-10",
    "first_printed_set": {
     "code": "c18",
@@ -12542,6 +13926,10 @@
    ],
    "vibe": "neutral",
    "reserved": false,
+   "paper_sets": [
+    "Urza's Destiny",
+    "Seventh Edition"
+   ],
    "first_printed": "1999-06-07",
    "first_printed_set": {
     "code": "uds",
@@ -12593,6 +13981,10 @@
    ],
    "vibe": "neutral",
    "reserved": false,
+   "paper_sets": [
+    "Shadowmoor",
+    "Secret Lair Drop"
+   ],
    "first_printed": "2008-05-02",
    "first_printed_set": {
     "code": "shm",
@@ -12644,6 +14036,13 @@
    ],
    "vibe": "neutral",
    "reserved": false,
+   "paper_sets": [
+    "Shards of Alara",
+    "Archenemy",
+    "Battlebond",
+    "Jumpstart",
+    "Jumpstart 2022"
+   ],
    "first_printed": "2008-10-03",
    "first_printed_set": {
     "code": "ala",
@@ -12695,6 +14094,19 @@
    ],
    "vibe": "positive",
    "reserved": false,
+   "paper_sets": [
+    "Mirrodin",
+    "Magic 2013",
+    "From the Vault: Twenty",
+    "Dominaria",
+    "Secret Lair Drop",
+    "Warhammer 40,000 Commander",
+    "The Brothers' War Retro Artifacts",
+    "Commander Masters",
+    "Bloomburrow Commander",
+    "Foundations",
+    "Marvel Super Heroes Commander"
+   ],
    "first_printed": "2003-10-02",
    "first_printed_set": {
     "code": "mrd",
@@ -12746,6 +14158,9 @@
    ],
    "vibe": "neutral",
    "reserved": false,
+   "paper_sets": [
+    "Reality Fracture"
+   ],
    "first_printed": "2026-10-02",
    "first_printed_set": {
     "code": "fra",
@@ -12791,6 +14206,10 @@
    ],
    "vibe": "neutral",
    "reserved": false,
+   "paper_sets": [
+    "Odyssey",
+    "Ninth Edition"
+   ],
    "first_printed": "2001-10-01",
    "first_printed_set": {
     "code": "ody",
@@ -12842,6 +14261,9 @@
    ],
    "vibe": "neutral",
    "reserved": false,
+   "paper_sets": [
+    "Scars of Mirrodin"
+   ],
    "first_printed": "2010-10-01",
    "first_printed_set": {
     "code": "som",
@@ -12887,6 +14309,9 @@
    ],
    "vibe": "neutral",
    "reserved": false,
+   "paper_sets": [
+    "Worldwake"
+   ],
    "first_printed": "2010-02-05",
    "first_printed_set": {
     "code": "wwk",
@@ -12932,6 +14357,9 @@
    ],
    "vibe": "neutral",
    "reserved": false,
+   "paper_sets": [
+    "Mercadian Masques"
+   ],
    "first_printed": "1999-10-04",
    "first_printed_set": {
     "code": "mmq",
@@ -12977,6 +14405,9 @@
    ],
    "vibe": "neutral",
    "reserved": false,
+   "paper_sets": [
+    "Reality Fracture"
+   ],
    "first_printed": "2026-10-02",
    "first_printed_set": {
     "code": "fra",
@@ -13022,6 +14453,21 @@
    ],
    "vibe": "positive",
    "reserved": false,
+   "paper_sets": [
+    "Fate Reforged",
+    "Commander 2016",
+    "Commander 2019",
+    "Double Masters",
+    "Commander 2021",
+    "Forgotten Realms Commander",
+    "Midnight Hunt Commander",
+    "Neon Dynasty Commander",
+    "New Capenna Commander",
+    "Starter Commander Decks",
+    "Bloomburrow Commander",
+    "Secrets of Strixhaven Mystical Archive",
+    "Foundations Commander"
+   ],
    "first_printed": "2015-01-23",
    "first_printed_set": {
     "code": "frf",
@@ -13073,6 +14519,9 @@
    ],
    "vibe": "positive",
    "reserved": false,
+   "paper_sets": [
+    "Secrets of Strixhaven Commander"
+   ],
    "first_printed": "2026-04-24",
    "first_printed_set": {
     "code": "soc",
@@ -13118,6 +14567,12 @@
    ],
    "vibe": "neutral",
    "reserved": false,
+   "paper_sets": [
+    "Invasion",
+    "Eighth Edition",
+    "Commander 2017",
+    "Starter Commander Decks"
+   ],
    "first_printed": "2000-10-02",
    "first_printed_set": {
     "code": "inv",
@@ -13169,6 +14624,24 @@
    ],
    "vibe": "positive",
    "reserved": false,
+   "paper_sets": [
+    "Urza's Saga",
+    "Conspiracy",
+    "Commander 2014",
+    "Commander 2015",
+    "Eternal Masters",
+    "Commander Anthology",
+    "Commander Legends",
+    "Forgotten Realms Commander",
+    "New Capenna Commander",
+    "Starter Commander Decks",
+    "March of the Machine Commander",
+    "Commander Masters",
+    "Special Guests",
+    "Modern Horizons 3",
+    "Tarkir: Dragonstorm Commander",
+    "Secret Lair Drop"
+   ],
    "first_printed": "1998-10-12",
    "first_printed_set": {
     "code": "usg",
@@ -13220,6 +14693,9 @@
    ],
    "vibe": "neutral",
    "reserved": false,
+   "paper_sets": [
+    "Commander Masters"
+   ],
    "first_printed": "2023-08-04",
    "first_printed_set": {
     "code": "cmm",
@@ -13265,6 +14741,9 @@
    ],
    "vibe": "neutral",
    "reserved": false,
+   "paper_sets": [
+    "Judgment"
+   ],
    "first_printed": "2002-05-27",
    "first_printed_set": {
     "code": "jud",
