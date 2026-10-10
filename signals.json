@@ -1,6 +1,6 @@
 {
- "schema_version": "1.2.0",
- "generated_at": "2026-10-09T19:21:30-05:00",
+ "schema_version": "1.3.0",
+ "generated_at": "2026-10-09T19:34:51-05:00",
  "run_id": "2026-10-09_bootstrap",
  "window": {
   "start": "2026-09-25",
@@ -33,7 +33,7 @@
    "card": "Dispatch",
    "scryfall_id": "99d30a21-b003-4a17-a4c5-97811f230896",
    "image": "https://cards.scryfall.io/small/front/9/9/99d30a21-b003-4a17-a4c5-97811f230896.jpg?1783903251",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2011-05-13",
    "first_printed_set": {
     "code": "nph",
@@ -77,7 +77,7 @@
    "card": "Emrakul, the Exigent Doom",
    "scryfall_id": "c3ff8dd3-88a8-49dc-a59b-e2748680623c",
    "image": "https://cards.scryfall.io/small/front/c/3/c3ff8dd3-88a8-49dc-a59b-e2748680623c.jpg?1790829846",
-   "is_new": true,
+   "reserved": false,
    "first_printed": "2026-10-02",
    "first_printed_set": {
     "code": "fra",
@@ -115,7 +115,7 @@
    "card": "Kozilek's Command",
    "scryfall_id": "92585587-cfdc-406a-9114-4f6dd8802c37",
    "image": "https://cards.scryfall.io/small/front/9/2/92585587-cfdc-406a-9114-4f6dd8802c37.jpg?1784634156",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2024-06-14",
    "first_printed_set": {
     "code": "mh3",
@@ -153,7 +153,7 @@
    "card": "Library of Alexandria",
    "scryfall_id": "e5145f31-a4ac-44ef-8f85-e4d95f2c9ff5",
    "image": "https://cards.scryfall.io/small/front/e/5/e5145f31-a4ac-44ef-8f85-e4d95f2c9ff5.jpg?1789015990",
-   "is_new": false,
+   "reserved": true,
    "first_printed": "1993-12-17",
    "first_printed_set": {
     "code": "arn",
@@ -191,7 +191,7 @@
    "card": "Urza's Saga",
    "scryfall_id": "c1e0f201-42cb-46a1-901a-65bb4fc18f6c",
    "image": "https://cards.scryfall.io/small/front/c/1/c1e0f201-42cb-46a1-901a-65bb4fc18f6c.jpg?1783926791",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2021-05-06",
    "first_printed_set": {
     "code": "pmh2",
@@ -235,7 +235,7 @@
    "card": "Bonder's Ornament",
    "scryfall_id": "89486719-4aba-4465-986b-fecbe4d409a1",
    "image": "https://cards.scryfall.io/small/front/8/9/89486719-4aba-4465-986b-fecbe4d409a1.jpg?1783915605",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2020-04-17",
    "first_printed_set": {
     "code": "c20",
@@ -279,7 +279,7 @@
    "card": "Brainstorm",
    "scryfall_id": "ec7d6864-7b6b-4f74-8474-9b9ec96b1d33",
    "image": "https://cards.scryfall.io/small/front/e/c/ec7d6864-7b6b-4f74-8474-9b9ec96b1d33.jpg?1789599806",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "1995-06-03",
    "first_printed_set": {
     "code": "ice",
@@ -327,7 +327,6 @@
    "effect": "weaker",
    "format": "standard",
    "new_card_released": "2026-10-02",
-   "new_card_verified_new": true,
    "channels": 1,
    "sources": [
     {
@@ -346,7 +345,7 @@
    "tcgplayer_url_existing": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Lightning+Strike",
    "tcgplayer_url_new": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Stingerquill+Charm",
    "new_card_info": {
-    "is_new": true,
+    "reserved": false,
     "first_printed": "2026-10-02",
     "first_printed_set": {
      "code": "fra",
@@ -360,7 +359,7 @@
     "reprint_released": null
    },
    "existing_card_info": {
-    "is_new": false,
+    "reserved": false,
     "first_printed": "2013-09-27",
     "first_printed_set": {
      "code": "ths",
@@ -386,7 +385,6 @@
    "effect": "stronger",
    "format": "standard",
    "new_card_released": "2026-10-02",
-   "new_card_verified_new": true,
    "channels": 1,
    "sources": [
     {
@@ -405,7 +403,7 @@
    "tcgplayer_url_existing": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Raise+the+Past",
    "tcgplayer_url_new": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Dark+Matter+Manipulator",
    "new_card_info": {
-    "is_new": true,
+    "reserved": false,
     "first_printed": "2026-10-02",
     "first_printed_set": {
      "code": "fra",
@@ -419,7 +417,7 @@
     "reprint_released": null
    },
    "existing_card_info": {
-    "is_new": false,
+    "reserved": false,
     "first_printed": "2024-11-15",
     "first_printed_set": {
      "code": "fdn",
@@ -439,7 +437,6 @@
    "effect": "stronger",
    "format": "standard",
    "new_card_released": "2026-10-02",
-   "new_card_verified_new": true,
    "channels": 1,
    "sources": [
     {
@@ -458,7 +455,7 @@
    "tcgplayer_url_existing": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Ajani%2C+Adversary+of+Tyrants",
    "tcgplayer_url_new": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Enlightened+Confidant",
    "new_card_info": {
-    "is_new": true,
+    "reserved": false,
     "first_printed": "2026-10-02",
     "first_printed_set": {
      "code": "fra",
@@ -472,7 +469,7 @@
     "reprint_released": null
    },
    "existing_card_info": {
-    "is_new": false,
+    "reserved": false,
     "first_printed": "2018-07-13",
     "first_printed_set": {
      "code": "m19",
@@ -498,7 +495,6 @@
    "effect": "stronger",
    "format": "modern",
    "new_card_released": "2026-10-02",
-   "new_card_verified_new": true,
    "channels": 1,
    "sources": [
     {
@@ -517,7 +513,7 @@
    "tcgplayer_url_existing": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Mox+Amber",
    "tcgplayer_url_new": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Liliana+the+Faultless",
    "new_card_info": {
-    "is_new": true,
+    "reserved": false,
     "first_printed": "2026-10-02",
     "first_printed_set": {
      "code": "fra",
@@ -531,7 +527,7 @@
     "reprint_released": null
    },
    "existing_card_info": {
-    "is_new": false,
+    "reserved": false,
     "first_printed": "2018-04-27",
     "first_printed_set": {
      "code": "dom",
@@ -557,7 +553,6 @@
    "effect": "stronger",
    "format": "modern",
    "new_card_released": "2026-10-02",
-   "new_card_verified_new": true,
    "channels": 1,
    "sources": [
     {
@@ -576,7 +571,7 @@
    "tcgplayer_url_existing": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Ocelot+Pride",
    "tcgplayer_url_new": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Liliana+the+Faultless",
    "new_card_info": {
-    "is_new": true,
+    "reserved": false,
     "first_printed": "2026-10-02",
     "first_printed_set": {
      "code": "fra",
@@ -590,7 +585,7 @@
     "reprint_released": null
    },
    "existing_card_info": {
-    "is_new": false,
+    "reserved": false,
     "first_printed": "2024-06-14",
     "first_printed_set": {
      "code": "mh3",
@@ -610,7 +605,6 @@
    "effect": "weaker",
    "format": "modern",
    "new_card_released": "2026-10-02",
-   "new_card_verified_new": true,
    "channels": 1,
    "sources": [
     {
@@ -629,7 +623,7 @@
    "tcgplayer_url_existing": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Stitcher%27s+Supplier",
    "tcgplayer_url_new": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Dark+Matter+Manipulator",
    "new_card_info": {
-    "is_new": true,
+    "reserved": false,
     "first_printed": "2026-10-02",
     "first_printed_set": {
      "code": "fra",
@@ -643,7 +637,7 @@
     "reprint_released": null
    },
    "existing_card_info": {
-    "is_new": false,
+    "reserved": false,
     "first_printed": "2018-07-13",
     "first_printed_set": {
      "code": "m19",
@@ -669,7 +663,7 @@
    "card": "Dark Matter Manipulator",
    "scryfall_id": "4ec912d5-cbe7-4d07-9ece-b03ac02d3055",
    "image": "https://cards.scryfall.io/small/front/4/e/4ec912d5-cbe7-4d07-9ece-b03ac02d3055.jpg?1789385959",
-   "is_new": true,
+   "reserved": false,
    "first_printed": "2026-10-02",
    "first_printed_set": {
     "code": "fra",
@@ -743,7 +737,7 @@
    "card": "Displacer Kitten",
    "scryfall_id": "c7a401b8-29fb-46ef-a663-427f66724d5c",
    "image": "https://cards.scryfall.io/small/front/c/7/c7a401b8-29fb-46ef-a663-427f66724d5c.jpg?1783922795",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2022-06-10",
    "first_printed_set": {
     "code": "clb",
@@ -823,7 +817,7 @@
    "card": "Enlightened Confidant",
    "scryfall_id": "483fcc58-cc6e-4452-a696-7b38e117c837",
    "image": "https://cards.scryfall.io/small/front/4/8/483fcc58-cc6e-4452-a696-7b38e117c837.jpg?1788329184",
-   "is_new": true,
+   "reserved": false,
    "first_printed": "2026-10-02",
    "first_printed_set": {
     "code": "fra",
@@ -897,7 +891,7 @@
    "card": "Wrath of God",
    "scryfall_id": "537d2b05-3f52-45d6-8fe3-26282085d0c6",
    "image": "https://cards.scryfall.io/small/front/5/3/537d2b05-3f52-45d6-8fe3-26282085d0c6.jpg?1783915706",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "1993-08-05",
    "first_printed_set": {
     "code": "lea",
@@ -977,7 +971,7 @@
    "card": "Mutagenic Growth",
    "scryfall_id": "2e0861a2-1858-47af-8154-20a977c2b298",
    "image": "https://cards.scryfall.io/small/front/2/e/2e0861a2-1858-47af-8154-20a977c2b298.jpg?1783938398",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2011-05-13",
    "first_printed_set": {
     "code": "nph",
@@ -1057,7 +1051,7 @@
    "card": "Walking Ballista",
    "scryfall_id": "5272436e-74f0-44c4-a291-ea8ebc3f1525",
    "image": "https://cards.scryfall.io/small/front/5/2/5272436e-74f0-44c4-a291-ea8ebc3f1525.jpg?1783930088",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2017-01-20",
    "first_printed_set": {
     "code": "aer",
@@ -1137,7 +1131,7 @@
    "card": "Ajani, Adversary of Tyrants",
    "scryfall_id": "4c565076-5db2-47ea-8ee0-4a4fd7bb353d",
    "image": "https://cards.scryfall.io/small/front/4/c/4c565076-5db2-47ea-8ee0-4a4fd7bb353d.jpg?1783934611",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2018-07-13",
    "first_printed_set": {
     "code": "m19",
@@ -1205,7 +1199,7 @@
    "card": "Fabled Passage",
    "scryfall_id": "76edd22f-808e-4a7c-b941-13c0f5e30418",
    "image": "https://cards.scryfall.io/small/front/7/6/76edd22f-808e-4a7c-b941-13c0f5e30418.jpg?1789599905",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2019-10-04",
    "first_printed_set": {
     "code": "eld",
@@ -1275,7 +1269,7 @@
    "card": "Pinnacle Starcage",
    "scryfall_id": "b1f40c4c-a955-4d9c-8225-251fa4159124",
    "image": "https://cards.scryfall.io/small/front/b/1/b1f40c4c-a955-4d9c-8225-251fa4159124.jpg?1783905992",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2025-08-01",
    "first_printed_set": {
     "code": "eoe",
@@ -1337,7 +1331,7 @@
    "card": "Ragavan, Nimble Pilferer",
    "scryfall_id": "a9738cda-adb1-47fb-9f4c-ecd930228c4d",
    "image": "https://cards.scryfall.io/small/front/a/9/a9738cda-adb1-47fb-9f4c-ecd930228c4d.jpg?1783926839",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2021-05-06",
    "first_printed_set": {
     "code": "pmh2",
@@ -1405,7 +1399,7 @@
    "card": "Ranger-Captain of Eos",
    "scryfall_id": "af3928b4-813a-4120-8799-de34235d60ac",
    "image": "https://cards.scryfall.io/small/front/a/f/af3928b4-813a-4120-8799-de34235d60ac.jpg?1783933158",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2019-06-14",
    "first_printed_set": {
     "code": "mh1",
@@ -1473,7 +1467,7 @@
    "card": "Requiting Hex",
    "scryfall_id": "f21b0fb7-91b6-403f-a81a-562665961276",
    "image": "https://cards.scryfall.io/small/front/f/2/f21b0fb7-91b6-403f-a81a-562665961276.jpg?1783904457",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2026-01-23",
    "first_printed_set": {
     "code": "ecl",
@@ -1535,7 +1529,7 @@
    "card": "Seam Rip",
    "scryfall_id": "9d298847-2d02-4593-b4d3-c5b722edac1e",
    "image": "https://cards.scryfall.io/small/front/9/d/9d298847-2d02-4593-b4d3-c5b722edac1e.jpg?1783905989",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2025-08-01",
    "first_printed_set": {
     "code": "eoe",
@@ -1597,7 +1591,7 @@
    "card": "Rest in Peace",
    "scryfall_id": "d108c2b1-236e-4b8d-8445-d9749ccc4fea",
    "image": "https://cards.scryfall.io/small/front/d/1/d108c2b1-236e-4b8d-8445-d9749ccc4fea.jpg?1783912003",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2012-10-05",
    "first_printed_set": {
     "code": "rtr",
@@ -1677,7 +1671,7 @@
    "card": "Disenchant",
    "scryfall_id": "7ac43e16-8b14-46f2-877a-600ea918766b",
    "image": "https://cards.scryfall.io/small/front/7/a/7ac43e16-8b14-46f2-877a-600ea918766b.jpg?1783908940",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "1993-08-05",
    "first_printed_set": {
     "code": "lea",
@@ -1757,7 +1751,7 @@
    "card": "Gleaming Splendor",
    "scryfall_id": "3b087bd4-bbb7-4963-bdb6-0a700ff19a04",
    "image": "https://cards.scryfall.io/small/front/3/b/3b087bd4-bbb7-4963-bdb6-0a700ff19a04.jpg?1785496942",
-   "is_new": true,
+   "reserved": false,
    "first_printed": "2026-08-14",
    "first_printed_set": {
     "code": "hob",
@@ -1833,7 +1827,7 @@
    "card": "Baleful Strix",
    "scryfall_id": "be8439e6-f779-49f0-806a-b04995697a6a",
    "image": "https://cards.scryfall.io/small/front/b/e/be8439e6-f779-49f0-806a-b04995697a6a.jpg?1783911902",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2012-06-01",
    "first_printed_set": {
     "code": "pc2",
@@ -1903,7 +1897,7 @@
    "card": "Boomerang Basics",
    "scryfall_id": "17ab958a-abc6-472e-ad6a-97c731d89c74",
    "image": "https://cards.scryfall.io/small/front/1/7/17ab958a-abc6-472e-ad6a-97c731d89c74.jpg?1783904990",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2025-11-21",
    "first_printed_set": {
     "code": "tla",
@@ -1965,7 +1959,7 @@
    "card": "Cruel Calculations",
    "scryfall_id": "f76c4d8e-3e1f-4264-99af-1b8adb9a06be",
    "image": "https://cards.scryfall.io/small/front/f/7/f76c4d8e-3e1f-4264-99af-1b8adb9a06be.jpg?1789127482",
-   "is_new": true,
+   "reserved": false,
    "first_printed": "2026-10-02",
    "first_printed_set": {
     "code": "fra",
@@ -2027,7 +2021,7 @@
    "card": "Cyclonic Rift",
    "scryfall_id": "dfb7c4b9-f2f4-4d4e-baf2-86551c8150fe",
    "image": "https://cards.scryfall.io/small/front/d/f/dfb7c4b9-f2f4-4d4e-baf2-86551c8150fe.jpg?1783913339",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2012-10-05",
    "first_printed_set": {
     "code": "rtr",
@@ -2095,7 +2089,7 @@
    "card": "Dispatch",
    "scryfall_id": "99d30a21-b003-4a17-a4c5-97811f230896",
    "image": "https://cards.scryfall.io/small/front/9/9/99d30a21-b003-4a17-a4c5-97811f230896.jpg?1783903251",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2011-05-13",
    "first_printed_set": {
     "code": "nph",
@@ -2163,7 +2157,7 @@
    "card": "Dust to Dust",
    "scryfall_id": "0daac8e4-12cb-42d0-8a9b-1fbede68967b",
    "image": "https://cards.scryfall.io/small/front/0/d/0daac8e4-12cb-42d0-8a9b-1fbede68967b.jpg?1787743258",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "1994-08-01",
    "first_printed_set": {
     "code": "drk",
@@ -2231,7 +2225,7 @@
    "card": "Ephemerate",
    "scryfall_id": "2da5f3f8-5eef-498f-ba2c-2f3fbc3745aa",
    "image": "https://cards.scryfall.io/small/front/2/d/2da5f3f8-5eef-498f-ba2c-2f3fbc3745aa.jpg?1783933164",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2019-06-14",
    "first_printed_set": {
     "code": "mh1",
@@ -2299,7 +2293,7 @@
    "card": "Essence Channeler",
    "scryfall_id": "5aaf7e4c-4d5d-4acc-a834-e6c4a7629408",
    "image": "https://cards.scryfall.io/small/front/5/a/5aaf7e4c-4d5d-4acc-a834-e6c4a7629408.jpg?1783910861",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2024-08-02",
    "first_printed_set": {
     "code": "blb",
@@ -2361,7 +2355,7 @@
    "card": "Lunar Convocation",
    "scryfall_id": "a9ee50d4-c878-457b-964d-29c039ce9852",
    "image": "https://cards.scryfall.io/small/front/a/9/a9ee50d4-c878-457b-964d-29c039ce9852.jpg?1783910794",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2024-08-02",
    "first_printed_set": {
     "code": "blb",
@@ -2423,7 +2417,7 @@
    "card": "Nissa, Ascended Animist",
    "scryfall_id": "1dd64b1d-bcef-476c-bf0b-3ac7df7cbed3",
    "image": "https://cards.scryfall.io/small/front/1/d/1dd64b1d-bcef-476c-bf0b-3ac7df7cbed3.jpg?1783918012",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2023-02-10",
    "first_printed_set": {
     "code": "one",
@@ -2485,7 +2479,7 @@
    "card": "Quantum Riddler",
    "scryfall_id": "120be808-ff3b-4fca-96a1-4db6b9825856",
    "image": "https://cards.scryfall.io/small/front/1/2/120be808-ff3b-4fca-96a1-4db6b9825856.jpg?1783905977",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2025-08-01",
    "first_printed_set": {
     "code": "eoe",
@@ -2547,7 +2541,7 @@
    "card": "Raise the Past",
    "scryfall_id": "6c6be129-56da-4fe7-a6bd-6a1d402c09e1",
    "image": "https://cards.scryfall.io/small/front/6/c/6c6be129-56da-4fe7-a6bd-6a1d402c09e1.jpg?1783909124",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2024-11-15",
    "first_printed_set": {
     "code": "fdn",
@@ -2609,7 +2603,7 @@
    "card": "Solitude",
    "scryfall_id": "47a6234f-309f-4e03-9263-66da48b57153",
    "image": "https://cards.scryfall.io/small/front/4/7/47a6234f-309f-4e03-9263-66da48b57153.jpg?1783926885",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2021-05-06",
    "first_printed_set": {
     "code": "pmh2",
@@ -2677,7 +2671,7 @@
    "card": "Surgical Extraction",
    "scryfall_id": "e15d76ac-1c23-4503-8225-375ac2bf2fb6",
    "image": "https://cards.scryfall.io/small/front/e/1/e15d76ac-1c23-4503-8225-375ac2bf2fb6.jpg?1783921896",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2011-05-12",
    "first_printed_set": {
     "code": "pnph",
@@ -2745,7 +2739,7 @@
    "card": "Swarm Intelligence",
    "scryfall_id": "2c573d12-4c69-4a54-b1b9-236c003ba98a",
    "image": "https://cards.scryfall.io/small/front/2/c/2c573d12-4c69-4a54-b1b9-236c003ba98a.jpg?1783927560",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2017-07-14",
    "first_printed_set": {
     "code": "hou",
@@ -2813,7 +2807,7 @@
    "card": "Temple Garden",
    "scryfall_id": "b9b0589d-f327-46a7-8bac-06b7654c547a",
    "image": "https://cards.scryfall.io/small/front/b/9/b9b0589d-f327-46a7-8bac-06b7654c547a.jpg?1784036854",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2005-10-07",
    "first_printed_set": {
     "code": "rav",
@@ -2881,7 +2875,7 @@
    "card": "The Stone Brain",
    "scryfall_id": "3570ebf2-a94c-4621-8808-b06e6e830c06",
    "image": "https://cards.scryfall.io/small/front/3/5/3570ebf2-a94c-4621-8808-b06e6e830c06.jpg?1783920013",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2022-11-18",
    "first_printed_set": {
     "code": "bro",
@@ -2943,7 +2937,7 @@
    "card": "Wrath of the Skies",
    "scryfall_id": "4ef1882e-b422-4f30-8a6c-bd71c2601660",
    "image": "https://cards.scryfall.io/small/front/4/e/4ef1882e-b422-4f30-8a6c-bd71c2601660.jpg?1783911294",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2024-06-14",
    "first_printed_set": {
     "code": "mh3",
@@ -3005,7 +2999,7 @@
    "card": "Ajani Unrelenting",
    "scryfall_id": "bc3c096f-7f6c-474c-a2c8-75d3e6ddd6f5",
    "image": "https://cards.scryfall.io/small/front/b/c/bc3c096f-7f6c-474c-a2c8-75d3e6ddd6f5.jpg?1788329317",
-   "is_new": true,
+   "reserved": false,
    "first_printed": "2026-10-02",
    "first_printed_set": {
     "code": "fra",
@@ -3055,7 +3049,7 @@
    "card": "Ambrosia Whiteheart",
    "scryfall_id": "f2596767-7d19-4110-86ed-3cfc93ac7483",
    "image": "https://cards.scryfall.io/small/front/f/2/f2596767-7d19-4110-86ed-3cfc93ac7483.jpg?1783906654",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2025-06-13",
    "first_printed_set": {
     "code": "fin",
@@ -3105,7 +3099,7 @@
    "card": "Aminatou, the Fateshifter",
    "scryfall_id": "bc010302-e715-4946-89eb-a214e0b836ba",
    "image": "https://cards.scryfall.io/small/front/b/c/bc010302-e715-4946-89eb-a214e0b836ba.jpg?1783921857",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2018-08-10",
    "first_printed_set": {
     "code": "c18",
@@ -3163,7 +3157,7 @@
    "card": "Anje Falkenrath",
    "scryfall_id": "913dd06f-ed2f-4128-9c9d-9cd0d8a55425",
    "image": "https://cards.scryfall.io/small/front/9/1/913dd06f-ed2f-4128-9c9d-9cd0d8a55425.jpg?1783932801",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2019-08-23",
    "first_printed_set": {
     "code": "c19",
@@ -3219,7 +3213,7 @@
    "card": "Arahbo, the First Fang",
    "scryfall_id": "524a5d93-26ed-436d-a437-dc9460acce98",
    "image": "https://cards.scryfall.io/small/front/5/2/524a5d93-26ed-436d-a437-dc9460acce98.jpg?1783909130",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2024-11-15",
    "first_printed_set": {
     "code": "fdn",
@@ -3269,7 +3263,7 @@
    "card": "Astral Drift",
    "scryfall_id": "07a2c7fa-7aea-4da4-b7d5-9c24f5024c74",
    "image": "https://cards.scryfall.io/small/front/0/7/07a2c7fa-7aea-4da4-b7d5-9c24f5024c74.jpg?1783931203",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2019-06-14",
    "first_printed_set": {
     "code": "mh1",
@@ -3325,7 +3319,7 @@
    "card": "Avengers Assemble!",
    "scryfall_id": "bf736399-af74-4f52-9159-67ea67d0cf83",
    "image": "https://cards.scryfall.io/small/front/b/f/bf736399-af74-4f52-9159-67ea67d0cf83.jpg?1783902981",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2026-06-26",
    "first_printed_set": {
     "code": "msh",
@@ -3375,7 +3369,7 @@
    "card": "Bane of Bala Ged",
    "scryfall_id": "c3cb0fff-da50-40b9-9839-68cdf25a0193",
    "image": "https://cards.scryfall.io/small/front/c/3/c3cb0fff-da50-40b9-9839-68cdf25a0193.jpg?1783915459",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2015-10-02",
    "first_printed_set": {
     "code": "bfz",
@@ -3431,7 +3425,7 @@
    "card": "Beorn the Fierce",
    "scryfall_id": "367d5f8b-77ee-47f7-bc71-972d62c280a9",
    "image": "https://cards.scryfall.io/small/front/3/6/367d5f8b-77ee-47f7-bc71-972d62c280a9.jpg?1784632151",
-   "is_new": true,
+   "reserved": false,
    "first_printed": "2026-08-14",
    "first_printed_set": {
     "code": "hob",
@@ -3481,7 +3475,7 @@
    "card": "Birds of Paradise",
    "scryfall_id": "492c2f9a-51e7-4e0f-9899-23bf43ea988b",
    "image": "https://cards.scryfall.io/small/front/4/9/492c2f9a-51e7-4e0f-9899-23bf43ea988b.jpg?1783903230",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "1993-08-05",
    "first_printed_set": {
     "code": "lea",
@@ -3537,7 +3531,7 @@
    "card": "Bitter Triumph",
    "scryfall_id": "c5333556-eea2-41ae-833e-007b9d540700",
    "image": "https://cards.scryfall.io/small/front/c/5/c5333556-eea2-41ae-833e-007b9d540700.jpg?1783907094",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2023-11-17",
    "first_printed_set": {
     "code": "lci",
@@ -3593,7 +3587,7 @@
    "card": "Bloodsoaked Champion",
    "scryfall_id": "275d6137-5eff-4e82-8232-64e8679bc11c",
    "image": "https://cards.scryfall.io/small/front/2/7/275d6137-5eff-4e82-8232-64e8679bc11c.jpg?1783922459",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2014-09-26",
    "first_printed_set": {
     "code": "ktk",
@@ -3649,7 +3643,7 @@
    "card": "Bonder's Ornament",
    "scryfall_id": "89486719-4aba-4465-986b-fecbe4d409a1",
    "image": "https://cards.scryfall.io/small/front/8/9/89486719-4aba-4465-986b-fecbe4d409a1.jpg?1783915605",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2020-04-17",
    "first_printed_set": {
     "code": "c20",
@@ -3705,7 +3699,7 @@
    "card": "Bone Shards",
    "scryfall_id": "1ee98955-4c47-4d45-9377-608dfa755337",
    "image": "https://cards.scryfall.io/small/front/1/e/1ee98955-4c47-4d45-9377-608dfa755337.jpg?1783926865",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2021-06-18",
    "first_printed_set": {
     "code": "mh2",
@@ -3755,7 +3749,7 @@
    "card": "Bone Splinters",
    "scryfall_id": "106b5c96-d1bd-433d-955e-ace0b60d3bc3",
    "image": "https://cards.scryfall.io/small/front/1/0/106b5c96-d1bd-433d-955e-ace0b60d3bc3.jpg?1783921336",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2008-10-03",
    "first_printed_set": {
     "code": "ala",
@@ -3811,7 +3805,7 @@
    "card": "Brainstorm",
    "scryfall_id": "ec7d6864-7b6b-4f74-8474-9b9ec96b1d33",
    "image": "https://cards.scryfall.io/small/front/e/c/ec7d6864-7b6b-4f74-8474-9b9ec96b1d33.jpg?1789599806",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "1995-06-03",
    "first_printed_set": {
     "code": "ice",
@@ -3867,7 +3861,7 @@
    "card": "Caltrops",
    "scryfall_id": "8769b55a-a0a1-4b6f-8c80-669385a34425",
    "image": "https://cards.scryfall.io/small/front/8/7/8769b55a-a0a1-4b6f-8c80-669385a34425.jpg?1783945400",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "1999-06-07",
    "first_printed_set": {
     "code": "uds",
@@ -3925,7 +3919,7 @@
    "card": "Campfire",
    "scryfall_id": "34b64d10-c012-4370-b475-755c4025a348",
    "image": "https://cards.scryfall.io/small/front/3/4/34b64d10-c012-4370-b475-755c4025a348.jpg?1783915603",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2022-06-10",
    "first_printed_set": {
     "code": "clb",
@@ -3981,7 +3975,7 @@
    "card": "Captivating Vampire",
    "scryfall_id": "0f87aadf-7638-4691-b5a5-86f928e98462",
    "image": "https://cards.scryfall.io/small/front/0/f/0f87aadf-7638-4691-b5a5-86f928e98462.jpg?1783908149",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2010-07-16",
    "first_printed_set": {
     "code": "m11",
@@ -4037,7 +4031,7 @@
    "card": "Carnivorous Cultivator // Enroot",
    "scryfall_id": "79dd5c54-5ea5-47b5-8f9b-50ed57a5ea45",
    "image": "https://cards.scryfall.io/small/front/7/9/79dd5c54-5ea5-47b5-8f9b-50ed57a5ea45.jpg?1789385967",
-   "is_new": true,
+   "reserved": false,
    "first_printed": "2026-10-02",
    "first_printed_set": {
     "code": "fra",
@@ -4087,7 +4081,7 @@
    "card": "Chandra, Chill of Compliance",
    "scryfall_id": "240f58ab-944c-4f4c-9df9-5f40b132bf3e",
    "image": "https://cards.scryfall.io/small/front/2/4/240f58ab-944c-4f4c-9df9-5f40b132bf3e.jpg?1788329242",
-   "is_new": true,
+   "reserved": false,
    "first_printed": "2026-10-02",
    "first_printed_set": {
     "code": "fra",
@@ -4137,7 +4131,7 @@
    "card": "Chasm Skulker",
    "scryfall_id": "794e01e7-430c-43cf-ba2b-1028cd088148",
    "image": "https://cards.scryfall.io/small/front/7/9/794e01e7-430c-43cf-ba2b-1028cd088148.jpg?1783917173",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2014-07-17",
    "first_printed_set": {
     "code": "pm15",
@@ -4193,7 +4187,7 @@
    "card": "Cleansing Wildfire",
    "scryfall_id": "492d77e5-acc6-41b8-8930-f39d69234919",
    "image": "https://cards.scryfall.io/small/front/4/9/492d77e5-acc6-41b8-8930-f39d69234919.jpg?1783929361",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2020-09-25",
    "first_printed_set": {
     "code": "znr",
@@ -4243,7 +4237,7 @@
    "card": "Coastal Piracy",
    "scryfall_id": "3c3d9916-76c4-425a-a215-6226d0921f0b",
    "image": "https://cards.scryfall.io/small/front/3/c/3c3d9916-76c4-425a-a215-6226d0921f0b.jpg?1783904806",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "1999-10-04",
    "first_printed_set": {
     "code": "mmq",
@@ -4299,7 +4293,7 @@
    "card": "Codex Shredder",
    "scryfall_id": "4f5a3293-f3e7-4f68-af6a-b478959226c1",
    "image": "https://cards.scryfall.io/small/front/4/f/4f5a3293-f3e7-4f68-af6a-b478959226c1.jpg?1783928764",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2012-10-05",
    "first_printed_set": {
     "code": "rtr",
@@ -4355,7 +4349,7 @@
    "card": "Conjurer's Closet",
    "scryfall_id": "af2115e4-009e-4432-99bb-05e844bc18b6",
    "image": "https://cards.scryfall.io/small/front/a/f/af2115e4-009e-4432-99bb-05e844bc18b6.jpg?1783908066",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2012-05-04",
    "first_printed_set": {
     "code": "avr",
@@ -4411,7 +4405,7 @@
    "card": "Cordial Vampire",
    "scryfall_id": "0d91e61d-e3bf-4ddc-9f01-18b1abe35a61",
    "image": "https://cards.scryfall.io/small/front/0/d/0d91e61d-e3bf-4ddc-9f01-18b1abe35a61.jpg?1783913876",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2019-06-14",
    "first_printed_set": {
     "code": "mh1",
@@ -4467,7 +4461,7 @@
    "card": "Culling Ritual",
    "scryfall_id": "abaad8c5-763d-4276-9b19-623cd19f59b9",
    "image": "https://cards.scryfall.io/small/front/a/b/abaad8c5-763d-4276-9b19-623cd19f59b9.jpg?1783903755",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2021-04-23",
    "first_printed_set": {
     "code": "stx",
@@ -4523,7 +4517,7 @@
    "card": "Currency Converter",
    "scryfall_id": "f91b18ef-ac8a-4d4c-9586-b101681d33e2",
    "image": "https://cards.scryfall.io/small/front/f/9/f91b18ef-ac8a-4d4c-9586-b101681d33e2.jpg?1789599836",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2022-04-29",
    "first_printed_set": {
     "code": "ncc",
@@ -4579,7 +4573,7 @@
    "card": "Curse of Misfortunes",
    "scryfall_id": "c531d218-ff1c-4333-a19d-446d709b1e28",
    "image": "https://cards.scryfall.io/small/front/c/5/c531d218-ff1c-4333-a19d-446d709b1e28.jpg?1783940833",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2012-02-03",
    "first_printed_set": {
     "code": "dka",
@@ -4629,7 +4623,7 @@
    "card": "Curse of Opulence",
    "scryfall_id": "494a6f50-9cd3-4bfc-9382-dce4f7047a81",
    "image": "https://cards.scryfall.io/small/front/4/9/494a6f50-9cd3-4bfc-9382-dce4f7047a81.jpg?1783907072",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2017-08-25",
    "first_printed_set": {
     "code": "c17",
@@ -4685,7 +4679,7 @@
    "card": "Day of Destiny",
    "scryfall_id": "56b27e0c-bf8e-43d6-b99d-3e25d4954d34",
    "image": "https://cards.scryfall.io/small/front/5/6/56b27e0c-bf8e-43d6-b99d-3e25d4954d34.jpg?1783921439",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2005-02-04",
    "first_printed_set": {
     "code": "bok",
@@ -4741,7 +4735,7 @@
    "card": "Decree of Pain",
    "scryfall_id": "bd594aeb-f5cc-4435-8ea8-c35c5824b58c",
    "image": "https://cards.scryfall.io/small/front/b/d/bd594aeb-f5cc-4435-8ea8-c35c5824b58c.jpg?1783909622",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2003-05-26",
    "first_printed_set": {
     "code": "scg",
@@ -4797,7 +4791,7 @@
    "card": "Demolition Field",
    "scryfall_id": "0c7e51b6-4898-4632-b39c-3ce438caa882",
    "image": "https://cards.scryfall.io/small/front/0/c/0c7e51b6-4898-4632-b39c-3ce438caa882.jpg?1783908902",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2022-11-18",
    "first_printed_set": {
     "code": "bro",
@@ -4853,7 +4847,7 @@
    "card": "Derelor",
    "scryfall_id": "7793c8e6-8f5f-473c-99ea-a74dff8cecd2",
    "image": "https://cards.scryfall.io/small/front/7/7/7793c8e6-8f5f-473c-99ea-a74dff8cecd2.jpg?1783942952",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "1994-11-01",
    "first_printed_set": {
     "code": "fem",
@@ -4909,7 +4903,7 @@
    "card": "Dissection Practice",
    "scryfall_id": "ddbf1242-6832-475e-9a77-65dd9b4bb32a",
    "image": "https://cards.scryfall.io/small/front/d/d/ddbf1242-6832-475e-9a77-65dd9b4bb32a.jpg?1783903682",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2026-04-24",
    "first_printed_set": {
     "code": "sos",
@@ -4959,7 +4953,7 @@
    "card": "Divination",
    "scryfall_id": "cb3b35b8-f321-46d8-a441-6b9a6efa9021",
    "image": "https://cards.scryfall.io/small/front/c/b/cb3b35b8-f321-46d8-a441-6b9a6efa9021.jpg?1783934590",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2009-07-17",
    "first_printed_set": {
     "code": "m10",
@@ -5015,7 +5009,7 @@
    "card": "Divine Offering",
    "scryfall_id": "fe7c7a65-5a96-4986-877b-b34583092bb6",
    "image": "https://cards.scryfall.io/small/front/f/e/fe7c7a65-5a96-4986-877b-b34583092bb6.jpg?1783941393",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "1994-06-01",
    "first_printed_set": {
     "code": "leg",
@@ -5071,7 +5065,7 @@
    "card": "Dungeon Delver",
    "scryfall_id": "cba131bb-b8b3-4577-9f41-4700d9985134",
    "image": "https://cards.scryfall.io/small/front/c/b/cba131bb-b8b3-4577-9f41-4700d9985134.jpg?1783922789",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2022-06-10",
    "first_printed_set": {
     "code": "clb",
@@ -5127,7 +5121,7 @@
    "card": "Earthcraft",
    "scryfall_id": "9dda7531-82a1-4f49-8858-601ddbc6e2bc",
    "image": "https://cards.scryfall.io/small/front/9/d/9dda7531-82a1-4f49-8858-601ddbc6e2bc.jpg?1783946620",
-   "is_new": false,
+   "reserved": true,
    "first_printed": "1997-10-14",
    "first_printed_set": {
     "code": "tmp",
@@ -5177,7 +5171,7 @@
    "card": "Emergency Eject",
    "scryfall_id": "fc98b2d4-86fc-4c47-b2a7-1f3c89463607",
    "image": "https://cards.scryfall.io/small/front/f/c/fc98b2d4-86fc-4c47-b2a7-1f3c89463607.jpg?1783905997",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2025-08-01",
    "first_printed_set": {
     "code": "eoe",
@@ -5227,7 +5221,7 @@
    "card": "Enchanted Evening",
    "scryfall_id": "5033a7b0-39b0-4c49-b332-7ea62d85455d",
    "image": "https://cards.scryfall.io/small/front/5/0/5033a7b0-39b0-4c49-b332-7ea62d85455d.jpg?1783942737",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2008-05-02",
    "first_printed_set": {
     "code": "shm",
@@ -5285,7 +5279,7 @@
    "card": "Endurance",
    "scryfall_id": "b770471c-1bf7-4179-8418-dcd790ca5405",
    "image": "https://cards.scryfall.io/small/front/b/7/b770471c-1bf7-4179-8418-dcd790ca5405.jpg?1783911523",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2021-05-06",
    "first_printed_set": {
     "code": "pmh2",
@@ -5341,7 +5335,7 @@
    "card": "Enlightened Tutor",
    "scryfall_id": "1c9675fb-1a89-420f-aea8-50e0642f549c",
    "image": "https://cards.scryfall.io/small/front/1/c/1c9675fb-1a89-420f-aea8-50e0642f549c.jpg?1783918516",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "1996-10-08",
    "first_printed_set": {
     "code": "mir",
@@ -5397,7 +5391,7 @@
    "card": "Esper Origins // Summon: Esper Maduin",
    "scryfall_id": "0f503360-216a-4629-89b2-d32072850aef",
    "image": "https://cards.scryfall.io/small/front/0/f/0f503360-216a-4629-89b2-d32072850aef.jpg?1783906592",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2025-06-13",
    "first_printed_set": {
     "code": "fin",
@@ -5447,7 +5441,7 @@
    "card": "Esper Sentinel",
    "scryfall_id": "f3537373-ef54-4578-9d05-6216420ee349",
    "image": "https://cards.scryfall.io/small/front/f/3/f3537373-ef54-4578-9d05-6216420ee349.jpg?1783926893",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2021-05-06",
    "first_printed_set": {
     "code": "pmh2",
@@ -5503,7 +5497,7 @@
    "card": "Fear of Sleep Paralysis",
    "scryfall_id": "845e9d68-11a9-4759-a031-13464d337e12",
    "image": "https://cards.scryfall.io/small/front/8/4/845e9d68-11a9-4759-a031-13464d337e12.jpg?1783909663",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2024-09-27",
    "first_printed_set": {
     "code": "dsc",
@@ -5553,7 +5547,7 @@
    "card": "Feral Hydra",
    "scryfall_id": "45bc8745-9aaf-4b3c-922f-5a577324bb1f",
    "image": "https://cards.scryfall.io/small/front/4/5/45bc8745-9aaf-4b3c-922f-5a577324bb1f.jpg?1783930365",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2008-10-03",
    "first_printed_set": {
     "code": "ala",
@@ -5611,7 +5605,7 @@
    "card": "Fireglass Mentor",
    "scryfall_id": "b78fbaa3-c580-4290-9c28-b74169aab2fc",
    "image": "https://cards.scryfall.io/small/front/b/7/b78fbaa3-c580-4290-9c28-b74169aab2fc.jpg?1783910796",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2024-08-02",
    "first_printed_set": {
     "code": "blb",
@@ -5661,7 +5655,7 @@
    "card": "Flare of Denial",
    "scryfall_id": "71a98efb-9b0a-496b-ac21-8d70527ea544",
    "image": "https://cards.scryfall.io/small/front/7/1/71a98efb-9b0a-496b-ac21-8d70527ea544.jpg?1783911290",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2024-06-14",
    "first_printed_set": {
     "code": "mh3",
@@ -5711,7 +5705,7 @@
    "card": "Flickering Hound",
    "scryfall_id": "686f3a25-305d-4f02-8972-eba7b8e9635f",
    "image": "https://cards.scryfall.io/small/front/6/8/686f3a25-305d-4f02-8972-eba7b8e9635f.jpg?1789470769",
-   "is_new": true,
+   "reserved": false,
    "first_printed": "2026-10-02",
    "first_printed_set": {
     "code": "fra",
@@ -5761,7 +5755,7 @@
    "card": "Flux Channeler",
    "scryfall_id": "3c520263-6bad-4521-ba9e-192ca8223b07",
    "image": "https://cards.scryfall.io/small/front/3/c/3c520263-6bad-4521-ba9e-192ca8223b07.jpg?1783915442",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2019-05-03",
    "first_printed_set": {
     "code": "war",
@@ -5817,7 +5811,7 @@
    "card": "Fortune Teller's Talent",
    "scryfall_id": "a1d43877-20ab-4e84-a597-4b5e03a6bf90",
    "image": "https://cards.scryfall.io/small/front/a/1/a1d43877-20ab-4e84-a597-4b5e03a6bf90.jpg?1783910734",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2024-08-02",
    "first_printed_set": {
     "code": "blc",
@@ -5867,7 +5861,7 @@
    "card": "Gavi, Nest Warden",
    "scryfall_id": "80bc07d5-bdbb-4a6d-8958-0c172ea80245",
    "image": "https://cards.scryfall.io/small/front/8/0/80bc07d5-bdbb-4a6d-8958-0c172ea80245.jpg?1783931232",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2020-04-17",
    "first_printed_set": {
     "code": "c20",
@@ -5917,7 +5911,7 @@
    "card": "Ghost Vacuum",
    "scryfall_id": "8ac39c01-127f-4471-bc74-11a90c48e306",
    "image": "https://cards.scryfall.io/small/front/8/a/8ac39c01-127f-4471-bc74-11a90c48e306.jpg?1783909433",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2024-09-27",
    "first_printed_set": {
     "code": "dsk",
@@ -5967,7 +5961,7 @@
    "card": "Ghostly Flicker",
    "scryfall_id": "dc143ba3-2a58-4980-9fa0-a05a9e9ed082",
    "image": "https://cards.scryfall.io/small/front/d/c/dc143ba3-2a58-4980-9fa0-a05a9e9ed082.jpg?1783915697",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2012-05-04",
    "first_printed_set": {
     "code": "avr",
@@ -6023,7 +6017,7 @@
    "card": "Gideon's Memorial",
    "scryfall_id": "768c0e64-9907-417a-a763-c836fdf36883",
    "image": "https://cards.scryfall.io/small/front/7/6/768c0e64-9907-417a-a763-c836fdf36883.jpg?1789127685",
-   "is_new": true,
+   "reserved": false,
    "first_printed": "2026-10-02",
    "first_printed_set": {
     "code": "fra",
@@ -6073,7 +6067,7 @@
    "card": "Gilded Lotus",
    "scryfall_id": "28e619e6-ecc1-49c3-8fa9-ce42becdb9ba",
    "image": "https://cards.scryfall.io/small/front/2/8/28e619e6-ecc1-49c3-8fa9-ce42becdb9ba.jpg?1783903220",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2003-10-02",
    "first_printed_set": {
     "code": "mrd",
@@ -6131,7 +6125,7 @@
    "card": "Gisa, Glorious Resurrector",
    "scryfall_id": "63461076-a13d-488d-bd82-ceac441341c8",
    "image": "https://cards.scryfall.io/small/front/6/3/63461076-a13d-488d-bd82-ceac441341c8.jpg?1783925617",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2021-09-24",
    "first_printed_set": {
     "code": "mid",
@@ -6187,7 +6181,7 @@
    "card": "Godo, Bandit Warlord",
    "scryfall_id": "01d566cf-cb32-461d-8afe-b0f3f4c24160",
    "image": "https://cards.scryfall.io/small/front/0/1/01d566cf-cb32-461d-8afe-b0f3f4c24160.jpg?1783915653",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2004-10-01",
    "first_printed_set": {
     "code": "chk",
@@ -6243,7 +6237,7 @@
    "card": "Golgari Germination",
    "scryfall_id": "8d03f6eb-a146-45e8-a8e0-a46ec0c20c1d",
    "image": "https://cards.scryfall.io/small/front/8/d/8d03f6eb-a146-45e8-a8e0-a46ec0c20c1d.jpg?1783936618",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2005-10-07",
    "first_printed_set": {
     "code": "rav",
@@ -6299,7 +6293,7 @@
    "card": "Grafdigger's Cage",
    "scryfall_id": "0a135e09-b534-4836-9a10-3a9a4a9f8c53",
    "image": "https://cards.scryfall.io/small/front/0/a/0a135e09-b534-4836-9a10-3a9a4a9f8c53.jpg?1783932945",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2012-02-03",
    "first_printed_set": {
     "code": "dka",
@@ -6355,7 +6349,7 @@
    "card": "Grand Abolisher",
    "scryfall_id": "ee793ed2-7d59-4640-8868-ad486600df2c",
    "image": "https://cards.scryfall.io/small/front/e/e/ee793ed2-7d59-4640-8868-ad486600df2c.jpg?1783912003",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2011-07-15",
    "first_printed_set": {
     "code": "m12",
@@ -6411,7 +6405,7 @@
    "card": "Grenzo, Crooked Jailer",
    "scryfall_id": "8bc6b7e6-dd44-4411-88f7-fd7259a3abc1",
    "image": "https://cards.scryfall.io/small/front/8/b/8bc6b7e6-dd44-4411-88f7-fd7259a3abc1.jpg?1783911506",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2024-05-07",
    "first_printed_set": {
     "code": "yotj",
@@ -6452,7 +6446,7 @@
    "card": "Grim Guardian",
    "scryfall_id": "732b5444-0410-430b-87ca-cf2d9f165bd7",
    "image": "https://cards.scryfall.io/small/front/7/3/732b5444-0410-430b-87ca-cf2d9f165bd7.jpg?1783939434",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2014-05-02",
    "first_printed_set": {
     "code": "jou",
@@ -6502,7 +6496,7 @@
    "card": "Harbinger of the Seas",
    "scryfall_id": "00212714-a410-4cbc-bf1c-f90d7d77378c",
    "image": "https://cards.scryfall.io/small/front/0/0/00212714-a410-4cbc-bf1c-f90d7d77378c.jpg?1783911289",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2024-06-14",
    "first_printed_set": {
     "code": "mh3",
@@ -6558,7 +6552,7 @@
    "card": "Harmonic Sliver",
    "scryfall_id": "1228d068-a5cb-4fd5-9e6a-5dc6ac9376a4",
    "image": "https://cards.scryfall.io/small/front/1/2/1228d068-a5cb-4fd5-9e6a-5dc6ac9376a4.jpg?1783915416",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2006-10-06",
    "first_printed_set": {
     "code": "tsp",
@@ -6614,7 +6608,7 @@
    "card": "Hedron Archive",
    "scryfall_id": "535b9ac6-dba2-4162-86ed-df3e9fad0306",
    "image": "https://cards.scryfall.io/small/front/5/3/535b9ac6-dba2-4162-86ed-df3e9fad0306.jpg?1783908888",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2015-10-02",
    "first_printed_set": {
     "code": "bfz",
@@ -6670,7 +6664,7 @@
    "card": "Hired Claw",
    "scryfall_id": "1ae41080-0d67-4719-adb2-49bf2a268b6c",
    "image": "https://cards.scryfall.io/small/front/1/a/1ae41080-0d67-4719-adb2-49bf2a268b6c.jpg?1783910820",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2024-08-02",
    "first_printed_set": {
     "code": "blb",
@@ -6720,7 +6714,7 @@
    "card": "Hollow Marauder",
    "scryfall_id": "df2913d5-57c7-4f9b-bc96-8a46beef2563",
    "image": "https://cards.scryfall.io/small/front/d/f/df2913d5-57c7-4f9b-bc96-8a46beef2563.jpg?1783911832",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2024-04-19",
    "first_printed_set": {
     "code": "otj",
@@ -6770,7 +6764,7 @@
    "card": "Holy Cow",
    "scryfall_id": "90de84c9-941b-4056-8501-ce8a948b9643",
    "image": "https://cards.scryfall.io/small/front/9/0/90de84c9-941b-4056-8501-ce8a948b9643.jpg?1783911856",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2024-04-19",
    "first_printed_set": {
     "code": "otj",
@@ -6820,7 +6814,7 @@
    "card": "Hullbreaker Horror",
    "scryfall_id": "137acb70-a1fd-4ea9-a5d9-f4b438eb5e82",
    "image": "https://cards.scryfall.io/small/front/1/3/137acb70-a1fd-4ea9-a5d9-f4b438eb5e82.jpg?1783908162",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2021-11-19",
    "first_printed_set": {
     "code": "vow",
@@ -6876,7 +6870,7 @@
    "card": "Hushwood Verge",
    "scryfall_id": "ec288d76-c1f5-471b-8a53-504f88469c1b",
    "image": "https://cards.scryfall.io/small/front/e/c/ec288d76-c1f5-471b-8a53-504f88469c1b.jpg?1783909428",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2024-09-27",
    "first_printed_set": {
     "code": "dsk",
@@ -6926,7 +6920,7 @@
    "card": "Immaculate Magistrate",
    "scryfall_id": "d9208db8-1ba5-4f9c-90a4-03e377ae6f86",
    "image": "https://cards.scryfall.io/small/front/d/9/d9208db8-1ba5-4f9c-90a4-03e377ae6f86.jpg?1783928793",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2007-10-12",
    "first_printed_set": {
     "code": "lrw",
@@ -6982,7 +6976,7 @@
    "card": "Indominus Rex, Alpha",
    "scryfall_id": "25e6ebfb-8f0b-44f0-a911-103ade41c6bc",
    "image": "https://cards.scryfall.io/small/front/2/5/25e6ebfb-8f0b-44f0-a911-103ade41c6bc.jpg?1783913634",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2023-11-17",
    "first_printed_set": {
     "code": "rex",
@@ -7032,7 +7026,7 @@
    "card": "Infernal Grasp",
    "scryfall_id": "f67b323d-0dda-45f8-84b7-d883ce5045a8",
    "image": "https://cards.scryfall.io/small/front/f/6/f67b323d-0dda-45f8-84b7-d883ce5045a8.jpg?1783903785",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2021-09-24",
    "first_printed_set": {
     "code": "mid",
@@ -7088,7 +7082,7 @@
    "card": "Insidious Roots",
    "scryfall_id": "0bb91a22-2040-4a37-85f8-5f22de8c5907",
    "image": "https://cards.scryfall.io/small/front/0/b/0bb91a22-2040-4a37-85f8-5f22de8c5907.jpg?1783912846",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2024-02-09",
    "first_printed_set": {
     "code": "mkm",
@@ -7138,7 +7132,7 @@
    "card": "Jerren, Corrupted Bishop // Ormendahl, the Corrupter",
    "scryfall_id": "0f6e668d-2502-4e82-b4c2-ef34c9afa27e",
    "image": "https://cards.scryfall.io/small/front/0/f/0f6e668d-2502-4e82-b4c2-ef34c9afa27e.jpg?1783925620",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2021-09-24",
    "first_printed_set": {
     "code": "mid",
@@ -7194,7 +7188,7 @@
    "card": "Koth, Fire of Resistance",
    "scryfall_id": "6528e012-4091-4722-b706-c51772676167",
    "image": "https://cards.scryfall.io/small/front/6/5/6528e012-4091-4722-b706-c51772676167.jpg?1783918027",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2023-02-10",
    "first_printed_set": {
     "code": "one",
@@ -7244,7 +7238,7 @@
    "card": "Kozilek's Command",
    "scryfall_id": "92585587-cfdc-406a-9114-4f6dd8802c37",
    "image": "https://cards.scryfall.io/small/front/9/2/92585587-cfdc-406a-9114-4f6dd8802c37.jpg?1784634156",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2024-06-14",
    "first_printed_set": {
     "code": "mh3",
@@ -7294,7 +7288,7 @@
    "card": "Leather Armor",
    "scryfall_id": "e62d4e76-cdb0-48c7-aa1c-b1f514057b68",
    "image": "https://cards.scryfall.io/small/front/e/6/e62d4e76-cdb0-48c7-aa1c-b1f514057b68.jpg?1783926437",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2021-07-23",
    "first_printed_set": {
     "code": "afr",
@@ -7344,7 +7338,7 @@
    "card": "Leatherhead, Iron Gator",
    "scryfall_id": "c0cacd61-bdce-46c6-ac7f-b084987d9aec",
    "image": "https://cards.scryfall.io/small/front/c/0/c0cacd61-bdce-46c6-ac7f-b084987d9aec.jpg?1783904165",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2026-03-06",
    "first_printed_set": {
     "code": "tmc",
@@ -7394,7 +7388,7 @@
    "card": "Lightning Axe",
    "scryfall_id": "90911c79-24c3-4566-b72c-02ccde083f1b",
    "image": "https://cards.scryfall.io/small/front/9/0/90911c79-24c3-4566-b72c-02ccde083f1b.jpg?1783908116",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2006-10-06",
    "first_printed_set": {
     "code": "tsp",
@@ -7450,7 +7444,7 @@
    "card": "Liliana the Faultless",
    "scryfall_id": "70d8c400-87dc-4f15-808f-e54a95d779fc",
    "image": "https://cards.scryfall.io/small/front/7/0/70d8c400-87dc-4f15-808f-e54a95d779fc.jpg?1788329194",
-   "is_new": true,
+   "reserved": false,
    "first_printed": "2026-10-02",
    "first_printed_set": {
     "code": "fra",
@@ -7500,7 +7494,7 @@
    "card": "Lyra, Archangel of Dawn",
    "scryfall_id": "86a3866e-68a8-402c-baf0-1908e98e3995",
    "image": "https://cards.scryfall.io/small/front/8/6/86a3866e-68a8-402c-baf0-1908e98e3995.jpg?1789127693",
-   "is_new": true,
+   "reserved": false,
    "first_printed": "2026-10-02",
    "first_printed_set": {
     "code": "fra",
@@ -7552,7 +7546,7 @@
    "card": "Magnivore",
    "scryfall_id": "ab077f67-09c3-43d0-ad27-d1e6255c4d55",
    "image": "https://cards.scryfall.io/small/front/a/b/ab077f67-09c3-43d0-ad27-d1e6255c4d55.jpg?1783943959",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2001-10-01",
    "first_printed_set": {
     "code": "ody",
@@ -7610,7 +7604,7 @@
    "card": "Manalith",
    "scryfall_id": "f0d7d904-f29b-4524-9223-27910d748bdb",
    "image": "https://cards.scryfall.io/small/front/f/0/f0d7d904-f29b-4524-9223-27910d748bdb.jpg?1783933970",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2011-07-15",
    "first_printed_set": {
     "code": "m12",
@@ -7666,7 +7660,7 @@
    "card": "Manta Ray",
    "scryfall_id": "80f74884-9b82-419d-9e97-c947a6b7d09f",
    "image": "https://cards.scryfall.io/small/front/8/0/80f74884-9b82-419d-9e97-c947a6b7d09f.jpg?1783946741",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "1997-06-09",
    "first_printed_set": {
     "code": "wth",
@@ -7716,7 +7710,7 @@
    "card": "Master of Barbs",
    "scryfall_id": "4404d9d4-9cdd-4dad-a4f6-574d90db5052",
    "image": "https://cards.scryfall.io/small/front/4/4/4404d9d4-9cdd-4dad-a4f6-574d90db5052.jpg?1789127596",
-   "is_new": true,
+   "reserved": false,
    "first_printed": "2026-10-02",
    "first_printed_set": {
     "code": "fra",
@@ -7766,7 +7760,7 @@
    "card": "Memory Trap",
    "scryfall_id": "2f5345ae-4489-4d05-b2d5-c71285254f05",
    "image": "https://cards.scryfall.io/small/front/2/f/2f5345ae-4489-4d05-b2d5-c71285254f05.jpg?1788866058",
-   "is_new": true,
+   "reserved": false,
    "first_printed": "2026-10-02",
    "first_printed_set": {
     "code": "fra",
@@ -7816,7 +7810,7 @@
    "card": "Monastery Swiftspear",
    "scryfall_id": "d6bfa227-4309-40ed-952c-279595eab17e",
    "image": "https://cards.scryfall.io/small/front/d/6/d6bfa227-4309-40ed-952c-279595eab17e.jpg?1783920066",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2014-09-26",
    "first_printed_set": {
     "code": "ktk",
@@ -7872,7 +7866,7 @@
    "card": "Morality Shift",
    "scryfall_id": "b5c83e4d-ccc1-4ebf-9e74-2cc1ff9a7b07",
    "image": "https://cards.scryfall.io/small/front/b/5/b5c83e4d-ccc1-4ebf-9e74-2cc1ff9a7b07.jpg?1783945122",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2002-05-27",
    "first_printed_set": {
     "code": "jud",
@@ -7922,7 +7916,7 @@
    "card": "Mortician Beetle",
    "scryfall_id": "978f2a31-1c89-43cb-92f2-195026c9311a",
    "image": "https://cards.scryfall.io/small/front/9/7/978f2a31-1c89-43cb-92f2-195026c9311a.jpg?1783936653",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2010-04-23",
    "first_printed_set": {
     "code": "roe",
@@ -7978,7 +7972,7 @@
    "card": "Mox Amber",
    "scryfall_id": "66024e69-ad60-4c9a-a0ca-da138d33ad80",
    "image": "https://cards.scryfall.io/small/front/6/6/66024e69-ad60-4c9a-a0ca-da138d33ad80.jpg?1783934955",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2018-04-27",
    "first_printed_set": {
     "code": "dom",
@@ -8034,7 +8028,7 @@
    "card": "Mox Emerald",
    "scryfall_id": "aced2c55-7543-4076-bcdd-36c4d649b8ae",
    "image": "https://cards.scryfall.io/small/front/a/c/aced2c55-7543-4076-bcdd-36c4d649b8ae.jpg?1783939332",
-   "is_new": false,
+   "reserved": true,
    "first_printed": "1993-08-05",
    "first_printed_set": {
     "code": "lea",
@@ -8090,7 +8084,7 @@
    "card": "Murmuring Mystic",
    "scryfall_id": "9e68dcc2-bba4-4efa-97bb-3ed892037595",
    "image": "https://cards.scryfall.io/small/front/9/e/9e68dcc2-bba4-4efa-97bb-3ed892037595.jpg?1783911941",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2018-10-05",
    "first_printed_set": {
     "code": "grn",
@@ -8146,7 +8140,7 @@
    "card": "Murmuring Volume",
    "scryfall_id": "d68eab2e-89dd-4377-b7af-01512b1804a0",
    "image": "https://cards.scryfall.io/small/front/d/6/d68eab2e-89dd-4377-b7af-01512b1804a0.jpg?1789385977",
-   "is_new": true,
+   "reserved": false,
    "first_printed": "2026-10-02",
    "first_printed_set": {
     "code": "fra",
@@ -8196,7 +8190,7 @@
    "card": "Muxus, Goblin Grandee",
    "scryfall_id": "2c716d10-2130-43b7-a939-349d437e1091",
    "image": "https://cards.scryfall.io/small/front/2/c/2c716d10-2130-43b7-a939-349d437e1091.jpg?1783930502",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2020-07-17",
    "first_printed_set": {
     "code": "jmp",
@@ -8252,7 +8246,7 @@
    "card": "Necropede",
    "scryfall_id": "8d2e522b-e6f8-4fae-8c08-ce2bb8bed04f",
    "image": "https://cards.scryfall.io/small/front/8/d/8d2e522b-e6f8-4fae-8c08-ce2bb8bed04f.jpg?1783941701",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2010-10-01",
    "first_printed_set": {
     "code": "som",
@@ -8304,7 +8298,7 @@
    "card": "Necropotence",
    "scryfall_id": "c89c6895-b0f8-444a-9c89-c6b4fd027b3e",
    "image": "https://cards.scryfall.io/small/front/c/8/c89c6895-b0f8-444a-9c89-c6b4fd027b3e.jpg?1783935537",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "1995-06-03",
    "first_printed_set": {
     "code": "ice",
@@ -8360,7 +8354,7 @@
    "card": "Neoform",
    "scryfall_id": "92d8f67e-4f2f-4a1f-b190-7c3f39e477e4",
    "image": "https://cards.scryfall.io/small/front/9/2/92d8f67e-4f2f-4a1f-b190-7c3f39e477e4.jpg?1783933392",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2019-05-03",
    "first_printed_set": {
     "code": "war",
@@ -8410,7 +8404,7 @@
    "card": "Norn's Decree",
    "scryfall_id": "76f28aa2-1c18-4d58-a3f9-6cd5b49280d8",
    "image": "https://cards.scryfall.io/small/front/7/6/76f28aa2-1c18-4d58-a3f9-6cd5b49280d8.jpg?1783918161",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2023-02-10",
    "first_printed_set": {
     "code": "onc",
@@ -8460,7 +8454,7 @@
    "card": "Nykthos Paragon",
    "scryfall_id": "2963205e-b181-44d1-809f-6577e29fa812",
    "image": "https://cards.scryfall.io/small/front/2/9/2963205e-b181-44d1-809f-6577e29fa812.jpg?1783926889",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2021-05-06",
    "first_printed_set": {
     "code": "pmh2",
@@ -8516,7 +8510,7 @@
    "card": "Oblivious Bookworm",
    "scryfall_id": "c7b4c50b-fe76-430d-8f96-208f15ca4cd7",
    "image": "https://cards.scryfall.io/small/front/c/7/c7b4c50b-fe76-430d-8f96-208f15ca4cd7.jpg?1783909440",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2024-09-27",
    "first_printed_set": {
     "code": "dsk",
@@ -8566,7 +8560,7 @@
    "card": "Obsessive Pursuit",
    "scryfall_id": "e837e29c-d241-43c8-8f45-05056e082b60",
    "image": "https://cards.scryfall.io/small/front/e/8/e837e29c-d241-43c8-8f45-05056e082b60.jpg?1783904967",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2025-11-21",
    "first_printed_set": {
     "code": "tla",
@@ -8616,7 +8610,7 @@
    "card": "Ocelot Pride",
    "scryfall_id": "89cf6f57-230f-497e-a14e-ad1e8737fd42",
    "image": "https://cards.scryfall.io/small/front/8/9/89cf6f57-230f-497e-a14e-ad1e8737fd42.jpg?1783911298",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2024-06-14",
    "first_printed_set": {
     "code": "mh3",
@@ -8666,7 +8660,7 @@
    "card": "Order of the Ebon Hand",
    "scryfall_id": "8f8e1828-1c41-4525-9f42-5a6e936bfd7a",
    "image": "https://cards.scryfall.io/small/front/8/f/8f8e1828-1c41-4525-9f42-5a6e936bfd7a.jpg?1783942949",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "1994-11-01",
    "first_printed_set": {
     "code": "fem",
@@ -8716,7 +8710,7 @@
    "card": "Orvar, the All-Form",
    "scryfall_id": "7f36775e-9e48-49cc-a771-d58481712edc",
    "image": "https://cards.scryfall.io/small/front/7/f/7f36775e-9e48-49cc-a771-d58481712edc.jpg?1783928258",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2021-02-05",
    "first_printed_set": {
     "code": "khm",
@@ -8772,7 +8766,7 @@
    "card": "Pompous Battlemage // Improvised Act",
    "scryfall_id": "aa0f77ac-741a-444a-8bf0-a42c644726bf",
    "image": "https://cards.scryfall.io/small/front/a/a/aa0f77ac-741a-444a-8bf0-a42c644726bf.jpg?1788878186",
-   "is_new": true,
+   "reserved": false,
    "first_printed": "2026-10-02",
    "first_printed_set": {
     "code": "fra",
@@ -8822,7 +8816,7 @@
    "card": "Price of Freedom",
    "scryfall_id": "9fbe94e9-a71d-4a31-9210-c599abe08e3f",
    "image": "https://cards.scryfall.io/small/front/9/f/9fbe94e9-a71d-4a31-9210-c599abe08e3f.jpg?1783904953",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2025-11-21",
    "first_printed_set": {
     "code": "tla",
@@ -8872,7 +8866,7 @@
    "card": "Prismari Command",
    "scryfall_id": "372d0c0b-439c-413f-aac4-5174c75aadb0",
    "image": "https://cards.scryfall.io/small/front/3/7/372d0c0b-439c-413f-aac4-5174c75aadb0.jpg?1783903748",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2021-04-23",
    "first_printed_set": {
     "code": "stx",
@@ -8928,7 +8922,7 @@
    "card": "Prismari, the Inspiration",
    "scryfall_id": "767ff9fa-4e7f-421a-b911-45186b520ae1",
    "image": "https://cards.scryfall.io/small/front/7/6/767ff9fa-4e7f-421a-b911-45186b520ae1.jpg?1783903636",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2026-04-24",
    "first_printed_set": {
     "code": "sos",
@@ -8978,7 +8972,7 @@
    "card": "Progenitus",
    "scryfall_id": "e77fbc87-d78e-4602-baa0-da9b0d464dfb",
    "image": "https://cards.scryfall.io/small/front/e/7/e77fbc87-d78e-4602-baa0-da9b0d464dfb.jpg?1783909051",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2009-02-06",
    "first_printed_set": {
     "code": "con",
@@ -9034,7 +9028,7 @@
    "card": "Puppet Crafting",
    "scryfall_id": "6b8789a6-3b63-4198-af5f-c2f2f49fafd9",
    "image": "https://cards.scryfall.io/small/front/6/b/6b8789a6-3b63-4198-af5f-c2f2f49fafd9.jpg?1789470736",
-   "is_new": true,
+   "reserved": false,
    "first_printed": "2026-10-02",
    "first_printed_set": {
     "code": "fra",
@@ -9084,7 +9078,7 @@
    "card": "Pursue the Past",
    "scryfall_id": "4584d5f7-b1f1-4c8e-80c5-ad35e44a968e",
    "image": "https://cards.scryfall.io/small/front/4/5/4584d5f7-b1f1-4c8e-80c5-ad35e44a968e.jpg?1783903635",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2026-04-24",
    "first_printed_set": {
     "code": "sos",
@@ -9134,7 +9128,7 @@
    "card": "Quest for Ula's Temple",
    "scryfall_id": "77983bbf-6761-4126-82b4-bdcdd6b8e1dc",
    "image": "https://cards.scryfall.io/small/front/7/7/77983bbf-6761-4126-82b4-bdcdd6b8e1dc.jpg?1783942061",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2010-02-05",
    "first_printed_set": {
     "code": "wwk",
@@ -9186,7 +9180,7 @@
    "card": "Ramosian Rally",
    "scryfall_id": "7fc0ff04-43e7-4a0d-b7e2-8bab72cc6cc0",
    "image": "https://cards.scryfall.io/small/front/7/f/7fc0ff04-43e7-4a0d-b7e2-8bab72cc6cc0.jpg?1783945976",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "1999-10-04",
    "first_printed_set": {
     "code": "mmq",
@@ -9238,7 +9232,7 @@
    "card": "Rat Colony",
    "scryfall_id": "4f618e07-f06f-45d2-8512-e6cef88c0434",
    "image": "https://cards.scryfall.io/small/front/4/f/4f618e07-f06f-45d2-8512-e6cef88c0434.jpg?1783935003",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2018-04-27",
    "first_printed_set": {
     "code": "dom",
@@ -9294,7 +9288,7 @@
    "card": "Refurbish",
    "scryfall_id": "f60e2ac4-f21f-4232-abc8-db078472408b",
    "image": "https://cards.scryfall.io/small/front/f/6/f60e2ac4-f21f-4232-abc8-db078472408b.jpg?1783937229",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2016-09-30",
    "first_printed_set": {
     "code": "kld",
@@ -9344,7 +9338,7 @@
    "card": "Relic of Sauron",
    "scryfall_id": "175b3d28-5c74-4972-9b5c-5e39762c78f4",
    "image": "https://cards.scryfall.io/small/front/1/7/175b3d28-5c74-4972-9b5c-5e39762c78f4.jpg?1783916010",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2023-06-23",
    "first_printed_set": {
     "code": "ltc",
@@ -9400,7 +9394,7 @@
    "card": "Return to the Light Realms",
    "scryfall_id": "9e72f397-2384-40f1-882b-f627664d97df",
    "image": "https://cards.scryfall.io/small/front/9/e/9e72f397-2384-40f1-882b-f627664d97df.jpg?1788878107",
-   "is_new": true,
+   "reserved": false,
    "first_printed": "2026-10-02",
    "first_printed_set": {
     "code": "fra",
@@ -9452,7 +9446,7 @@
    "card": "Rishkar, Peema Renegade",
    "scryfall_id": "88f4aecc-b728-4960-8131-1e5aa6c3c030",
    "image": "https://cards.scryfall.io/small/front/8/8/88f4aecc-b728-4960-8131-1e5aa6c3c030.jpg?1783915622",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2017-01-20",
    "first_printed_set": {
     "code": "aer",
@@ -9508,7 +9502,7 @@
    "card": "Seasoned Cryomancer",
    "scryfall_id": "51d86875-420d-4e82-b69c-4feeb99c9428",
    "image": "https://cards.scryfall.io/small/front/5/1/51d86875-420d-4e82-b69c-4feeb99c9428.jpg?1789470781",
-   "is_new": true,
+   "reserved": false,
    "first_printed": "2026-10-02",
    "first_printed_set": {
     "code": "fra",
@@ -9558,7 +9552,7 @@
    "card": "Second Harvest",
    "scryfall_id": "aaecd005-b849-4e75-a8e0-24231bf2a0c9",
    "image": "https://cards.scryfall.io/small/front/a/a/aaecd005-b849-4e75-a8e0-24231bf2a0c9.jpg?1783908089",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2016-04-08",
    "first_printed_set": {
     "code": "soi",
@@ -9614,7 +9608,7 @@
    "card": "Sedge Troll",
    "scryfall_id": "78de6044-1ed8-4fd9-822c-69658e3f3fba",
    "image": "https://cards.scryfall.io/small/front/7/8/78de6044-1ed8-4fd9-822c-69658e3f3fba.jpg?1783941430",
-   "is_new": false,
+   "reserved": true,
    "first_printed": "1993-08-05",
    "first_printed_set": {
     "code": "lea",
@@ -9670,7 +9664,7 @@
    "card": "Sensei's Divining Top",
    "scryfall_id": "e5142b7a-e580-4737-a4aa-2590f6610ceb",
    "image": "https://cards.scryfall.io/small/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2004-10-01",
    "first_printed_set": {
     "code": "chk",
@@ -9726,7 +9720,7 @@
    "card": "Shamanic Revelation",
    "scryfall_id": "b3784eff-ab7b-4fd4-9a07-fbc852d116bf",
    "image": "https://cards.scryfall.io/small/front/b/3/b3784eff-ab7b-4fd4-9a07-fbc852d116bf.jpg?1783923241",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2015-01-23",
    "first_printed_set": {
     "code": "frf",
@@ -9784,7 +9778,7 @@
    "card": "Smaug the Impenetrable",
    "scryfall_id": "55872bce-08ce-4d4f-8951-9fa230f3e160",
    "image": "https://cards.scryfall.io/small/front/5/5/55872bce-08ce-4d4f-8951-9fa230f3e160.jpg?1784377221",
-   "is_new": true,
+   "reserved": false,
    "first_printed": "2026-08-14",
    "first_printed_set": {
     "code": "hoc",
@@ -9834,7 +9828,7 @@
    "card": "Smothering Tithe",
    "scryfall_id": "861b5889-0183-4bee-afeb-a4b2aa700a8e",
    "image": "https://cards.scryfall.io/small/front/8/6/861b5889-0183-4bee-afeb-a4b2aa700a8e.jpg?1783915712",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2019-01-25",
    "first_printed_set": {
     "code": "rna",
@@ -9890,7 +9884,7 @@
    "card": "Sneak Attack",
    "scryfall_id": "a45b4ca9-4355-4690-84c3-a7d44c367dbf",
    "image": "https://cards.scryfall.io/small/front/a/4/a45b4ca9-4355-4690-84c3-a7d44c367dbf.jpg?1783918452",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "1998-10-12",
    "first_printed_set": {
     "code": "usg",
@@ -9946,7 +9940,7 @@
    "card": "Soul Shatter",
    "scryfall_id": "2c2fb07b-0f70-403b-be8b-b5217f12e671",
    "image": "https://cards.scryfall.io/small/front/2/c/2c2fb07b-0f70-403b-be8b-b5217f12e671.jpg?1783929366",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2020-09-25",
    "first_printed_set": {
     "code": "znr",
@@ -10002,7 +9996,7 @@
    "card": "Soul-Guide Lantern",
    "scryfall_id": "f4907e7b-d6d5-4e9b-968f-bce34ae4a577",
    "image": "https://cards.scryfall.io/small/front/f/4/f4907e7b-d6d5-4e9b-968f-bce34ae4a577.jpg?1783906018",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2020-01-24",
    "first_printed_set": {
     "code": "thb",
@@ -10058,7 +10052,7 @@
    "card": "Splinter Twin",
    "scryfall_id": "580fbbf8-ba7e-4889-a5ea-d066f3ea8cea",
    "image": "https://cards.scryfall.io/small/front/5/8/580fbbf8-ba7e-4889-a5ea-d066f3ea8cea.jpg?1783938401",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2010-04-23",
    "first_printed_set": {
     "code": "roe",
@@ -10114,7 +10108,7 @@
    "card": "Starwinder",
    "scryfall_id": "27d1a010-5790-4b35-9fdc-0e366eed021d",
    "image": "https://cards.scryfall.io/small/front/2/7/27d1a010-5790-4b35-9fdc-0e366eed021d.jpg?1783905975",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2025-08-01",
    "first_printed_set": {
     "code": "eoe",
@@ -10164,7 +10158,7 @@
    "card": "Stensian Sanguinist // Exsanguinate",
    "scryfall_id": "909a52bc-53f6-4654-9db7-e8f48333d765",
    "image": "https://cards.scryfall.io/small/front/9/0/909a52bc-53f6-4654-9db7-e8f48333d765.jpg?1783903860",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2026-04-24",
    "first_printed_set": {
     "code": "soc",
@@ -10216,7 +10210,7 @@
    "card": "Stingerquill Charm",
    "scryfall_id": "81733ff7-e611-43ee-bf38-6bb700676017",
    "image": "https://cards.scryfall.io/small/front/8/1/81733ff7-e611-43ee-bf38-6bb700676017.jpg?1789127652",
-   "is_new": true,
+   "reserved": false,
    "first_printed": "2026-10-02",
    "first_printed_set": {
     "code": "fra",
@@ -10266,7 +10260,7 @@
    "card": "Stitcher's Supplier",
    "scryfall_id": "2edcde06-b326-476e-884d-770187c785fe",
    "image": "https://cards.scryfall.io/small/front/2/e/2edcde06-b326-476e-884d-770187c785fe.jpg?1783907080",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2018-07-13",
    "first_printed_set": {
     "code": "m19",
@@ -10322,7 +10316,7 @@
    "card": "Strip Mine",
    "scryfall_id": "f57fd4c9-0004-4f71-a30f-2720943f57ca",
    "image": "https://cards.scryfall.io/small/front/f/5/f57fd4c9-0004-4f71-a30f-2720943f57ca.jpg?1783939218",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "1994-03-04",
    "first_printed_set": {
     "code": "atq",
@@ -10378,7 +10372,7 @@
    "card": "Subtlety",
    "scryfall_id": "701256d5-1389-48b7-9581-d6037209bd06",
    "image": "https://cards.scryfall.io/small/front/7/0/701256d5-1389-48b7-9581-d6037209bd06.jpg?1783926869",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2021-05-06",
    "first_printed_set": {
     "code": "pmh2",
@@ -10434,7 +10428,7 @@
    "card": "Test of Talents",
    "scryfall_id": "6e2b6236-b40c-430c-98b0-7940b942657a",
    "image": "https://cards.scryfall.io/small/front/6/e/6e2b6236-b40c-430c-98b0-7940b942657a.jpg?1783927374",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2021-04-23",
    "first_printed_set": {
     "code": "stx",
@@ -10484,7 +10478,7 @@
    "card": "The Gaffer",
    "scryfall_id": "863ed552-dc6d-4910-b188-3cefc3ebf0ed",
    "image": "https://cards.scryfall.io/small/front/8/6/863ed552-dc6d-4910-b188-3cefc3ebf0ed.jpg?1786423840",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2023-06-23",
    "first_printed_set": {
     "code": "ltc",
@@ -10540,7 +10534,7 @@
    "card": "The Legend of Roku // Avatar Roku",
    "scryfall_id": "95f2f5af-d405-4534-8683-5a9001f997b4",
    "image": "https://cards.scryfall.io/small/front/9/5/95f2f5af-d405-4534-8683-5a9001f997b4.jpg?1783904959",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2025-11-21",
    "first_printed_set": {
     "code": "tla",
@@ -10590,7 +10584,7 @@
    "card": "The One Ring",
    "scryfall_id": "d5806e68-1054-458e-866d-1f2470f682b2",
    "image": "https://cards.scryfall.io/small/front/d/5/d5806e68-1054-458e-866d-1f2470f682b2.jpg?1790212038",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2023-06-23",
    "first_printed_set": {
     "code": "ltr",
@@ -10646,7 +10640,7 @@
    "card": "Theoretical Necromancer",
    "scryfall_id": "e36a7908-1e22-494b-adb4-e72ac0974d62",
    "image": "https://cards.scryfall.io/small/front/e/3/e36a7908-1e22-494b-adb4-e72ac0974d62.jpg?1789556734",
-   "is_new": true,
+   "reserved": false,
    "first_printed": "2026-10-02",
    "first_printed_set": {
     "code": "fra",
@@ -10696,7 +10690,7 @@
    "card": "Thundering Falls",
    "scryfall_id": "17260fff-b239-4af4-9306-3236ae3fa5a5",
    "image": "https://cards.scryfall.io/small/front/1/7/17260fff-b239-4af4-9306-3236ae3fa5a5.jpg?1783912822",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2024-02-09",
    "first_printed_set": {
     "code": "mkm",
@@ -10746,7 +10740,7 @@
    "card": "Time Vault",
    "scryfall_id": "c367ffc1-8084-45a1-87d5-22183604d1cb",
    "image": "https://cards.scryfall.io/small/front/c/3/c367ffc1-8084-45a1-87d5-22183604d1cb.jpg?1783939231",
-   "is_new": false,
+   "reserved": true,
    "first_printed": "1993-08-05",
    "first_printed_set": {
     "code": "lea",
@@ -10802,7 +10796,7 @@
    "card": "Titania",
    "scryfall_id": "3b7de05c-e5aa-421a-bf16-b16fef8fc6ef",
    "image": "https://cards.scryfall.io/small/front/3/b/3b7de05c-e5aa-421a-bf16-b16fef8fc6ef.jpg?1783946762",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "1997-05-01",
    "first_printed_set": {
     "code": "pvan",
@@ -10843,7 +10837,7 @@
    "card": "Tocasia's Welcome",
    "scryfall_id": "90e38661-292a-45e7-bda9-51af53cf0f68",
    "image": "https://cards.scryfall.io/small/front/9/0/90e38661-292a-45e7-bda9-51af53cf0f68.jpg?1783903797",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2022-11-18",
    "first_printed_set": {
     "code": "bro",
@@ -10899,7 +10893,7 @@
    "card": "Tormod's Crypt",
    "scryfall_id": "752bf493-5839-47e8-95f2-6d8201907428",
    "image": "https://cards.scryfall.io/small/front/7/5/752bf493-5839-47e8-95f2-6d8201907428.jpg?1783918410",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "1994-08-01",
    "first_printed_set": {
     "code": "drk",
@@ -10955,7 +10949,7 @@
    "card": "Town Greeter",
    "scryfall_id": "49cd4efa-4df4-4257-9a42-60330f7781e2",
    "image": "https://cards.scryfall.io/small/front/4/9/49cd4efa-4df4-4257-9a42-60330f7781e2.jpg?1783906577",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2025-06-13",
    "first_printed_set": {
     "code": "fin",
@@ -11005,7 +10999,7 @@
    "card": "Transmute Artifact",
    "scryfall_id": "2888553d-5ed0-4e47-8cc2-1491b5557c53",
    "image": "https://cards.scryfall.io/small/front/2/8/2888553d-5ed0-4e47-8cc2-1491b5557c53.jpg?1783941448",
-   "is_new": false,
+   "reserved": true,
    "first_printed": "1994-03-04",
    "first_printed_set": {
     "code": "atq",
@@ -11055,7 +11049,7 @@
    "card": "Tymna the Weaver",
    "scryfall_id": "bc7cbe9b-324e-42b8-94e2-36e91cb32163",
    "image": "https://cards.scryfall.io/small/front/b/c/bc7cbe9b-324e-42b8-94e2-36e91cb32163.jpg?1783937081",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2016-11-11",
    "first_printed_set": {
     "code": "c16",
@@ -11111,7 +11105,7 @@
    "card": "Ultima",
    "scryfall_id": "39504a0e-f63f-4907-afd7-c4492f6b8a3b",
    "image": "https://cards.scryfall.io/small/front/3/9/39504a0e-f63f-4907-afd7-c4492f6b8a3b.jpg?1783906642",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2025-06-13",
    "first_printed_set": {
     "code": "fin",
@@ -11161,7 +11155,7 @@
    "card": "Unsummon",
    "scryfall_id": "ddad9f16-52d5-49de-82b0-b1a5294a9c44",
    "image": "https://cards.scryfall.io/small/front/d/d/ddad9f16-52d5-49de-82b0-b1a5294a9c44.jpg?1789556722",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "1993-08-05",
    "first_printed_set": {
     "code": "lea",
@@ -11217,7 +11211,7 @@
    "card": "Urborg Volcano",
    "scryfall_id": "c69f6612-c974-4723-925e-afd4211c76db",
    "image": "https://cards.scryfall.io/small/front/c/6/c69f6612-c974-4723-925e-afd4211c76db.jpg?1783935839",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2000-10-02",
    "first_printed_set": {
     "code": "inv",
@@ -11275,7 +11269,7 @@
    "card": "Utvara Hellkite",
    "scryfall_id": "df459109-d6ab-4b1d-9570-c7677ff4a014",
    "image": "https://cards.scryfall.io/small/front/d/f/df459109-d6ab-4b1d-9570-c7677ff4a014.jpg?1783913307",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2012-10-05",
    "first_printed_set": {
     "code": "rtr",
@@ -11331,7 +11325,7 @@
    "card": "Vanquish the Horde",
    "scryfall_id": "f392782b-7464-4617-b421-6b5d0e2880fc",
    "image": "https://cards.scryfall.io/small/front/f/3/f392782b-7464-4617-b421-6b5d0e2880fc.jpg?1783903241",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2021-09-24",
    "first_printed_set": {
     "code": "mid",
@@ -11387,7 +11381,7 @@
    "card": "Vela the Night-Clad",
    "scryfall_id": "610737cd-d1ef-49c0-8010-988320ed64d5",
    "image": "https://cards.scryfall.io/small/front/6/1/610737cd-d1ef-49c0-8010-988320ed64d5.jpg?1783935872",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2012-06-01",
    "first_printed_set": {
     "code": "pc2",
@@ -11443,7 +11437,7 @@
    "card": "Victimize",
    "scryfall_id": "ee008d81-df28-49a8-917d-44f66527e469",
    "image": "https://cards.scryfall.io/small/front/e/e/ee008d81-df28-49a8-917d-44f66527e469.jpg?1783907079",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "1998-10-12",
    "first_printed_set": {
     "code": "usg",
@@ -11501,7 +11495,7 @@
    "card": "Virus Beetle",
    "scryfall_id": "e96c986c-684c-4546-a9c9-b6b903bda101",
    "image": "https://cards.scryfall.io/small/front/e/9/e96c986c-684c-4546-a9c9-b6b903bda101.jpg?1783905959",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2022-02-18",
    "first_printed_set": {
     "code": "neo",
@@ -11557,7 +11551,7 @@
    "card": "Voice of Resurgence",
    "scryfall_id": "99d1e843-71c9-4a65-bc36-d23858ef5ead",
    "image": "https://cards.scryfall.io/small/front/9/9/99d1e843-71c9-4a65-bc36-d23858ef5ead.jpg?1783930123",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2013-05-03",
    "first_printed_set": {
     "code": "dgm",
@@ -11613,7 +11607,7 @@
    "card": "Void Extrapolator // Omit Variables",
    "scryfall_id": "0eae2efb-bf25-48ee-9c07-9098008110ad",
    "image": "https://cards.scryfall.io/small/front/0/e/0eae2efb-bf25-48ee-9c07-9098008110ad.jpg?1789556787",
-   "is_new": true,
+   "reserved": false,
    "first_printed": "2026-10-02",
    "first_printed_set": {
     "code": "fra",
@@ -11663,7 +11657,7 @@
    "card": "Void Winnower",
    "scryfall_id": "8cbedb0a-34ca-4d42-bb43-cbea0f3c6d02",
    "image": "https://cards.scryfall.io/small/front/8/c/8cbedb0a-34ca-4d42-bb43-cbea0f3c6d02.jpg?1783938221",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2015-10-02",
    "first_printed_set": {
     "code": "bfz",
@@ -11719,7 +11713,7 @@
    "card": "Vraska, Betrayal's Sting",
    "scryfall_id": "9f1fa1c5-ff87-4bbc-89aa-dbebc91eada0",
    "image": "https://cards.scryfall.io/small/front/9/f/9f1fa1c5-ff87-4bbc-89aa-dbebc91eada0.jpg?1783904555",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2023-02-10",
    "first_printed_set": {
     "code": "one",
@@ -11775,7 +11769,7 @@
    "card": "Vronos, Masked Inquisitor",
    "scryfall_id": "fdd2504b-ff9b-464c-9595-7dffab3bc5b9",
    "image": "https://cards.scryfall.io/small/front/f/d/fdd2504b-ff9b-464c-9595-7dffab3bc5b9.jpg?1783915483",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2023-08-04",
    "first_printed_set": {
     "code": "cmm",
@@ -11827,7 +11821,7 @@
    "card": "Wave of Reckoning",
    "scryfall_id": "7be0c25a-5e65-48e1-9560-9391111bb912",
    "image": "https://cards.scryfall.io/small/front/7/b/7be0c25a-5e65-48e1-9560-9391111bb912.jpg?1783903824",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "1999-10-04",
    "first_printed_set": {
     "code": "mmq",
@@ -11883,7 +11877,7 @@
    "card": "Way of the Mentor",
    "scryfall_id": "1a59d5b1-12d6-486b-bd29-ca371359addd",
    "image": "https://cards.scryfall.io/small/front/1/a/1a59d5b1-12d6-486b-bd29-ca371359addd.jpg?1789729554",
-   "is_new": true,
+   "reserved": false,
    "first_printed": "2026-10-02",
    "first_printed_set": {
     "code": "fra",
@@ -11933,7 +11927,7 @@
    "card": "Way of the Paradox",
    "scryfall_id": "98dc5470-507a-4364-8480-42607255e56c",
    "image": "https://cards.scryfall.io/small/front/9/8/98dc5470-507a-4364-8480-42607255e56c.jpg?1789729606",
-   "is_new": true,
+   "reserved": false,
    "first_printed": "2026-10-02",
    "first_printed_set": {
     "code": "fra",
@@ -11983,7 +11977,7 @@
    "card": "Wayfarer's Bauble",
    "scryfall_id": "b279f268-c37e-4a2d-8195-74f4881226fc",
    "image": "https://cards.scryfall.io/small/front/b/2/b279f268-c37e-4a2d-8195-74f4881226fc.jpg?1785497631",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2004-06-04",
    "first_printed_set": {
     "code": "5dn",
@@ -12039,7 +12033,7 @@
    "card": "Worldfire",
    "scryfall_id": "2ef3d4b5-0453-4bf0-b018-23b0c3b9ae11",
    "image": "https://cards.scryfall.io/small/front/2/e/2ef3d4b5-0453-4bf0-b018-23b0c3b9ae11.jpg?1783940477",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2012-07-13",
    "first_printed_set": {
     "code": "m13",
@@ -12089,7 +12083,7 @@
    "card": "Wormfang Behemoth",
    "scryfall_id": "1c7f29aa-c069-4adb-b313-6a56849905d4",
    "image": "https://cards.scryfall.io/small/front/1/c/1c7f29aa-c069-4adb-b313-6a56849905d4.jpg?1783945126",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2002-05-27",
    "first_printed_set": {
     "code": "jud",
@@ -12141,7 +12135,7 @@
    "card": "Wrecking Gecko",
    "scryfall_id": "3d693cb0-681e-480a-8f70-07e94c39225c",
    "image": "https://cards.scryfall.io/small/front/3/d/3d693cb0-681e-480a-8f70-07e94c39225c.jpg?1789385843",
-   "is_new": true,
+   "reserved": false,
    "first_printed": "2026-10-02",
    "first_printed_set": {
     "code": "fra",
@@ -12191,7 +12185,7 @@
    "card": "Yoshimaru, Beloved Companion",
    "scryfall_id": "384f3b7d-8d7f-41bf-bebd-64e8babe7fca",
    "image": "https://cards.scryfall.io/small/front/3/8/384f3b7d-8d7f-41bf-bebd-64e8babe7fca.jpg?1789470881",
-   "is_new": true,
+   "reserved": false,
    "first_printed": "2026-10-02",
    "first_printed_set": {
     "code": "fra",
@@ -12241,7 +12235,7 @@
    "card": "Zulaport Cutthroat",
    "scryfall_id": "c43609fb-3cee-44e0-98d0-3ecaba1d5767",
    "image": "https://cards.scryfall.io/small/front/c/4/c43609fb-3cee-44e0-98d0-3ecaba1d5767.jpg?1783903779",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2015-10-02",
    "first_printed_set": {
     "code": "bfz",
@@ -12301,7 +12295,7 @@
     "budget staple, cheap after reprints"
    ],
    "vibe": "neutral",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2019-10-04",
    "first_printed_set": {
     "code": "eld",
@@ -12364,7 +12358,7 @@
     "new card starting to see play (11 of 59 games)"
    ],
    "vibe": "positive",
-   "is_new": true,
+   "reserved": false,
    "first_printed": "2026-08-14",
    "first_printed_set": {
     "code": "hob",
@@ -12433,7 +12427,7 @@
     "title asks if it is broken in Pauper"
    ],
    "vibe": "positive",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2012-06-01",
    "first_printed_set": {
     "code": "pc2",
@@ -12496,7 +12490,7 @@
     "listed as commander card spiking"
    ],
    "vibe": "neutral",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2018-08-10",
    "first_printed_set": {
     "code": "c18",
@@ -12547,7 +12541,7 @@
     "spiked in price recently"
    ],
    "vibe": "neutral",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "1999-06-07",
    "first_printed_set": {
     "code": "uds",
@@ -12598,7 +12592,7 @@
     "foil up 34.6% today"
    ],
    "vibe": "neutral",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2008-05-02",
    "first_printed_set": {
     "code": "shm",
@@ -12649,7 +12643,7 @@
     "foil up 47.4%"
    ],
    "vibe": "neutral",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2008-10-03",
    "first_printed_set": {
     "code": "ala",
@@ -12700,7 +12694,7 @@
     "called a steal, used to be $5"
    ],
    "vibe": "positive",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2003-10-02",
    "first_printed_set": {
     "code": "mrd",
@@ -12751,7 +12745,7 @@
     "new set foil up 61.3% today"
    ],
    "vibe": "neutral",
-   "is_new": true,
+   "reserved": false,
    "first_printed": "2026-10-02",
    "first_printed_set": {
     "code": "fra",
@@ -12796,7 +12790,7 @@
     "foil up 45% today"
    ],
    "vibe": "neutral",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2001-10-01",
    "first_printed_set": {
     "code": "ody",
@@ -12847,7 +12841,7 @@
     "foil up 26.9% today"
    ],
    "vibe": "neutral",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2010-10-01",
    "first_printed_set": {
     "code": "som",
@@ -12892,7 +12886,7 @@
     "foil up 39.7% today"
    ],
    "vibe": "neutral",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2010-02-05",
    "first_printed_set": {
     "code": "wwk",
@@ -12937,7 +12931,7 @@
     "foil up 41.6%"
    ],
    "vibe": "neutral",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "1999-10-04",
    "first_printed_set": {
     "code": "mmq",
@@ -12982,7 +12976,7 @@
     "new set foil up 40.1% today"
    ],
    "vibe": "neutral",
-   "is_new": true,
+   "reserved": false,
    "first_printed": "2026-10-02",
    "first_printed_set": {
     "code": "fra",
@@ -13027,7 +13021,7 @@
     "keeps getting reprinted or it will get expensive"
    ],
    "vibe": "positive",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2015-01-23",
    "first_printed_set": {
     "code": "frf",
@@ -13078,7 +13072,7 @@
     "recommended buy at 25 cents"
    ],
    "vibe": "positive",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2026-04-24",
    "first_printed_set": {
     "code": "soc",
@@ -13123,7 +13117,7 @@
     "foil up 31.2%"
    ],
    "vibe": "neutral",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2000-10-02",
    "first_printed_set": {
     "code": "inv",
@@ -13174,7 +13168,7 @@
     "called underpriced, 52 cents"
    ],
    "vibe": "positive",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "1998-10-12",
    "first_printed_set": {
     "code": "usg",
@@ -13225,7 +13219,7 @@
     "listed as spiking right now"
    ],
    "vibe": "neutral",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2023-08-04",
    "first_printed_set": {
     "code": "cmm",
@@ -13270,7 +13264,7 @@
     "foil up 36.8% today"
    ],
    "vibe": "neutral",
-   "is_new": false,
+   "reserved": false,
    "first_printed": "2002-05-27",
    "first_printed_set": {
     "code": "jud",
