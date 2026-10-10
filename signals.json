@@ -1,6 +1,6 @@
 {
  "schema_version": "1.4.0",
- "generated_at": "2026-10-10T00:22:00-05:00",
+ "generated_at": "2026-10-10T00:28:20-05:00",
  "run_id": "2026-10-09_bootstrap",
  "window": {
   "start": "2026-09-25",
@@ -15,11 +15,11 @@
   "next": "2026-10-12"
  },
  "counts": {
-  "videos": 65,
-  "channels": 16,
+  "videos": 70,
+  "channels": 17,
   "ban_alerts": 7,
   "impact_pairs": 6,
-  "card_vibes": 250,
+  "card_vibes": 274,
   "potential_risers": 36
  },
  "disclaimers": [
@@ -771,6 +771,118 @@
  ],
  "card_vibes": [
   {
+   "card": "Birds of Paradise",
+   "scryfall_id": "492c2f9a-51e7-4e0f-9899-23bf43ea988b",
+   "image": "https://cards.scryfall.io/small/front/4/9/492c2f9a-51e7-4e0f-9899-23bf43ea988b.jpg?1783903230",
+   "reserved": false,
+   "first_printed": "1993-08-05",
+   "first_printed_set": {
+    "code": "lea",
+    "name": "Limited Edition Alpha"
+   },
+   "is_reprint": true,
+   "reprint_count": 28,
+   "paper_sets": [
+    "Limited Edition Alpha",
+    "Limited Edition Beta",
+    "Unlimited Edition",
+    "Revised Edition",
+    "Foreign Black Border",
+    "Summer Magic / Edgar",
+    "Fourth Edition",
+    "Fourth Edition Foreign Black Border",
+    "Fifth Edition",
+    "Classic Sixth Edition",
+    "Seventh Edition",
+    "Eighth Edition",
+    "Ravnica: City of Guilds",
+    "Tenth Edition",
+    "Magic 2010",
+    "Magic 2011",
+    "Magic 2012",
+    "Conspiracy: Take the Crown",
+    "RNA Guild Kit",
+    "Secret Lair Drop",
+    "Dominaria Remastered",
+    "Tales of Middle-earth Commander",
+    "Ravnica Remastered",
+    "Bloomburrow Commander",
+    "Final Fantasy Commander",
+    "Marvel Super Heroes Commander",
+    "The Zeta Set",
+    "Foundations Commander"
+   ],
+   "latest_reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
+   "reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "reprint_released": "2026-10-02",
+   "vibe": "neutral",
+   "score": 0.33,
+   "positive": 1,
+   "neutral": 2,
+   "negative": 0,
+   "channels": 3,
+   "potential_to_rise": true,
+   "potential_reasons": [
+    "Foil listed among the day's price winners"
+   ],
+   "price": {
+    "usd": 8.03,
+    "usd_foil": null,
+    "printing_set": "FDC",
+    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
+    "as_of": "2026-10-09",
+    "change_7d_pct": null,
+    "change_30d_pct": null,
+    "history_as_of": null
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Birds+of+Paradise",
+   "sources": [
+    {
+     "channel": "@MattcasterMage",
+     "channel_name": "Mattcaster Mage MTG",
+     "video_id": "lCCwdwJYgLg",
+     "video_title": "MTG Market Movers - Oct 8th - Cards SPIKING Right Now! Vronos, Masked Inquisitor!",
+     "published": "2026-10-08",
+     "t": 365,
+     "url": "https://www.youtube.com/watch?v=lCCwdwJYgLg&t=365s",
+     "quote": "and its average foil price is $2.26. Birds of Paradise from the original Rabnikica set. This foils up 35.2%",
+     "judge_note": "average foil price is 2 26 birds of paradise from the original rabnikica set this foils",
+     "anchored_by": "quote match 100"
+    },
+    {
+     "channel": "@samuelhblack",
+     "channel_name": "Sam Black",
+     "video_id": "4Cb0to4-LNM",
+     "video_title": "Sam's Table 53: Lobstercon Top 4 Recap: 287 Player Old School 93/94 Magic: the Gathering Tournament",
+     "published": "2026-09-25",
+     "t": 871,
+     "url": "https://www.youtube.com/watch?v=4Cb0to4-LNM&t=871s",
+     "quote": "And I think birds of Paradise is just one of the most powerful unrestricted cards in Old School that",
+     "judge_note": "one of the most powerful unrestricted cards",
+     "anchored_by": "quote match 100"
+    },
+    {
+     "channel": "@JoelareMagic",
+     "channel_name": "Joel Are Magic",
+     "video_id": "b3LtqFeUoSM",
+     "video_title": "Should You Buy a Foundation Commander Deck?",
+     "published": "2026-10-04",
+     "t": 894,
+     "url": "https://www.youtube.com/watch?v=b3LtqFeUoSM&t=894s",
+     "quote": "everything. I guess we're back to that. Birds of Paradise at 10 bucks in a $30 beginner deck. Syr",
+     "judge_note": "i guess were back to that birds of paradise at 10 bucks in a 30 beginner",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
    "card": "Dark Matter Manipulator",
    "scryfall_id": "4ec912d5-cbe7-4d07-9ece-b03ac02d3055",
    "image": "https://cards.scryfall.io/small/front/4/e/4ec912d5-cbe7-4d07-9ece-b03ac02d3055.jpg?1789385959",
@@ -1457,6 +1569,94 @@
    ]
   },
   {
+   "card": "Utvara Hellkite",
+   "scryfall_id": "df459109-d6ab-4b1d-9570-c7677ff4a014",
+   "image": "https://cards.scryfall.io/small/front/d/f/df459109-d6ab-4b1d-9570-c7677ff4a014.jpg?1783913307",
+   "reserved": false,
+   "first_printed": "2012-10-05",
+   "first_printed_set": {
+    "code": "rtr",
+    "name": "Return to Ravnica"
+   },
+   "is_reprint": true,
+   "reprint_count": 6,
+   "paper_sets": [
+    "Return to Ravnica",
+    "Commander 2017",
+    "RNA Guild Kit",
+    "Secret Lair Drop",
+    "Ravnica Remastered",
+    "Foundations Commander"
+   ],
+   "latest_reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
+   "reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "reprint_released": "2026-10-02",
+   "vibe": "neutral",
+   "score": 0.33,
+   "positive": 2,
+   "neutral": 0,
+   "negative": 1,
+   "channels": 2,
+   "potential_to_rise": false,
+   "potential_reasons": [],
+   "price": {
+    "usd": 4.8,
+    "usd_foil": null,
+    "printing_set": "FDC",
+    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
+    "as_of": "2026-10-09",
+    "change_7d_pct": -53.8,
+    "change_30d_pct": null,
+    "history_as_of": "2026-10-08"
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Utvara+Hellkite",
+   "sources": [
+    {
+     "channel": "@JoelareMagic",
+     "channel_name": "Joel Are Magic",
+     "video_id": "b3LtqFeUoSM",
+     "video_title": "Should You Buy a Foundation Commander Deck?",
+     "published": "2026-10-04",
+     "t": 298,
+     "url": "https://www.youtube.com/watch?v=b3LtqFeUoSM&t=298s",
+     "quote": "in December and we'll talk then. And then Utvara Hellkite about 12 or 13. A staple red dragon that's",
+     "judge_note": "and well talk then and then utvara hellkite about 12 or 13 a staple red",
+     "anchored_by": "quote match 100"
+    },
+    {
+     "channel": "@JoelareMagic",
+     "channel_name": "Joel Are Magic",
+     "video_id": "b3LtqFeUoSM",
+     "video_title": "Should You Buy a Foundation Commander Deck?",
+     "published": "2026-10-04",
+     "t": 650,
+     "url": "https://www.youtube.com/watch?v=b3LtqFeUoSM&t=650s",
+     "quote": "about $106 of reprints against the $30 deck. Utvara Hellkite is the most valuable, about 14, a staple red",
+     "judge_note": "of reprints against the 30 deck utvara hellkite is the most valuable about 14 a",
+     "anchored_by": "quote match 100"
+    },
+    {
+     "channel": "@MattcasterMage",
+     "channel_name": "Mattcaster Mage MTG",
+     "video_id": "CFlOXkbhlt8",
+     "video_title": "MTG Market Movers - Oct 9th - Planeswalkers Hot Now! Chandra, Legacy of Fire!",
+     "published": "2026-10-09",
+     "t": 65,
+     "url": "https://www.youtube.com/watch?v=CFlOXkbhlt8&t=65s",
+     "quote": "price is $18.52. Utvara Hellkite from Return to Ravnikica. This card is down 8% today from $13.71 to $12.61",
+     "judge_note": "price down 8% today",
+     "anchored_by": "quote match 85"
+    }
+   ]
+  },
+  {
    "card": "Walking Ballista",
    "scryfall_id": "5272436e-74f0-44c4-a291-ea8ebc3f1525",
    "image": "https://cards.scryfall.io/small/front/5/2/5272436e-74f0-44c4-a291-ea8ebc3f1525.jpg?1783930088",
@@ -1617,106 +1817,6 @@
    ]
   },
   {
-   "card": "Birds of Paradise",
-   "scryfall_id": "492c2f9a-51e7-4e0f-9899-23bf43ea988b",
-   "image": "https://cards.scryfall.io/small/front/4/9/492c2f9a-51e7-4e0f-9899-23bf43ea988b.jpg?1783903230",
-   "reserved": false,
-   "first_printed": "1993-08-05",
-   "first_printed_set": {
-    "code": "lea",
-    "name": "Limited Edition Alpha"
-   },
-   "is_reprint": true,
-   "reprint_count": 28,
-   "paper_sets": [
-    "Limited Edition Alpha",
-    "Limited Edition Beta",
-    "Unlimited Edition",
-    "Revised Edition",
-    "Foreign Black Border",
-    "Summer Magic / Edgar",
-    "Fourth Edition",
-    "Fourth Edition Foreign Black Border",
-    "Fifth Edition",
-    "Classic Sixth Edition",
-    "Seventh Edition",
-    "Eighth Edition",
-    "Ravnica: City of Guilds",
-    "Tenth Edition",
-    "Magic 2010",
-    "Magic 2011",
-    "Magic 2012",
-    "Conspiracy: Take the Crown",
-    "RNA Guild Kit",
-    "Secret Lair Drop",
-    "Dominaria Remastered",
-    "Tales of Middle-earth Commander",
-    "Ravnica Remastered",
-    "Bloomburrow Commander",
-    "Final Fantasy Commander",
-    "Marvel Super Heroes Commander",
-    "The Zeta Set",
-    "Foundations Commander"
-   ],
-   "latest_reprint_set": {
-    "code": "fdc",
-    "name": "Foundations Commander"
-   },
-   "latest_reprint_date": "2026-10-02",
-   "reprint_set": {
-    "code": "fdc",
-    "name": "Foundations Commander"
-   },
-   "reprint_released": "2026-10-02",
-   "vibe": "positive",
-   "score": 0.5,
-   "positive": 1,
-   "neutral": 1,
-   "negative": 0,
-   "channels": 2,
-   "potential_to_rise": true,
-   "potential_reasons": [
-    "Foil listed among the day's price winners"
-   ],
-   "price": {
-    "usd": 8.03,
-    "usd_foil": null,
-    "printing_set": "FDC",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-10-09",
-    "change_7d_pct": null,
-    "change_30d_pct": null,
-    "history_as_of": null
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Birds+of+Paradise",
-   "sources": [
-    {
-     "channel": "@MattcasterMage",
-     "channel_name": "Mattcaster Mage MTG",
-     "video_id": "lCCwdwJYgLg",
-     "video_title": "MTG Market Movers - Oct 8th - Cards SPIKING Right Now! Vronos, Masked Inquisitor!",
-     "published": "2026-10-08",
-     "t": 365,
-     "url": "https://www.youtube.com/watch?v=lCCwdwJYgLg&t=365s",
-     "quote": "and its average foil price is $2.26. Birds of Paradise from the original Rabnikica set. This foils up 35.2%",
-     "judge_note": "average foil price is 2 26 birds of paradise from the original rabnikica set this foils",
-     "anchored_by": "quote match 100"
-    },
-    {
-     "channel": "@samuelhblack",
-     "channel_name": "Sam Black",
-     "video_id": "4Cb0to4-LNM",
-     "video_title": "Sam's Table 53: Lobstercon Top 4 Recap: 287 Player Old School 93/94 Magic: the Gathering Tournament",
-     "published": "2026-09-25",
-     "t": 871,
-     "url": "https://www.youtube.com/watch?v=4Cb0to4-LNM&t=871s",
-     "quote": "And I think birds of Paradise is just one of the most powerful unrestricted cards in Old School that",
-     "judge_note": "one of the most powerful unrestricted cards",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
    "card": "Fabled Passage",
    "scryfall_id": "76edd22f-808e-4a7c-b941-13c0f5e30418",
    "image": "https://cards.scryfall.io/small/front/7/6/76edd22f-808e-4a7c-b941-13c0f5e30418.jpg?1789599905",
@@ -1794,6 +1894,78 @@
      "url": "https://www.youtube.com/watch?v=qwMv8PIQ9yE&t=3655s",
      "quote": "Wow. Oh, tapped. Okay. Okay. All right. So, worst fabled passage. I kind of forgot that was a card.",
      "judge_note": "worst fabled passage",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
+   "card": "Gisa, Glorious Resurrector",
+   "scryfall_id": "63461076-a13d-488d-bd82-ceac441341c8",
+   "image": "https://cards.scryfall.io/small/front/6/3/63461076-a13d-488d-bd82-ceac441341c8.jpg?1783925617",
+   "reserved": false,
+   "first_printed": "2021-09-24",
+   "first_printed_set": {
+    "code": "mid",
+    "name": "Innistrad: Midnight Hunt"
+   },
+   "is_reprint": true,
+   "reprint_count": 2,
+   "paper_sets": [
+    "Innistrad: Midnight Hunt",
+    "Innistrad: Double Feature"
+   ],
+   "latest_reprint_set": {
+    "code": "dbl",
+    "name": "Innistrad: Double Feature"
+   },
+   "latest_reprint_date": "2022-01-28",
+   "reprint_set": {
+    "code": "dbl",
+    "name": "Innistrad: Double Feature"
+   },
+   "reprint_released": "2022-01-28",
+   "vibe": "positive",
+   "score": 0.5,
+   "positive": 1,
+   "neutral": 1,
+   "negative": 0,
+   "channels": 2,
+   "potential_to_rise": false,
+   "potential_reasons": [],
+   "price": {
+    "usd": 2.49,
+    "usd_foil": 2.82,
+    "printing_set": "MID",
+    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
+    "as_of": "2026-10-09",
+    "change_7d_pct": -5.7,
+    "change_30d_pct": -11.5,
+    "history_as_of": "2026-10-08"
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Gisa%2C+Glorious+Resurrector",
+   "sources": [
+    {
+     "channel": "@TheCommandersQuarters",
+     "channel_name": "The Commander's Quarters",
+     "video_id": "3aweXsAcKPg",
+     "video_title": "Tribal Commanders Nobody Expects",
+     "published": "2026-10-04",
+     "t": 90,
+     "url": "https://www.youtube.com/watch?v=3aweXsAcKPg&t=90s",
+     "quote": "lot of amazing legendary Phyrexian. I mean, Gisa is a pretty great one for a Phyrexian tribal deck, a",
+     "judge_note": "pretty great",
+     "anchored_by": "quote match 100"
+    },
+    {
+     "channel": "@JoelareMagic",
+     "channel_name": "Joel Are Magic",
+     "video_id": "b3LtqFeUoSM",
+     "video_title": "Should You Buy a Foundation Commander Deck?",
+     "published": "2026-10-04",
+     "t": 547,
+     "url": "https://www.youtube.com/watch?v=b3LtqFeUoSM&t=547s",
+     "quote": "things. Blessings upon you. Wretched Ranks, the Gisa zombie deck has about $116 of reprints. This one like the",
+     "judge_note": "blessings upon you wretched ranks the gisa zombie deck has about 116 of reprints this one",
      "anchored_by": "quote match 100"
     }
    ]
@@ -2277,6 +2449,78 @@
      "quote": "Um, another new card that we're playing is Simulacrim Shaper. So, it's it's like Sad Robot, right? Um, it's",
      "judge_note": "new card that were playing is simulacrim shaper so its its like sad robot right",
      "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
+   "card": "The One Ring",
+   "scryfall_id": "d5806e68-1054-458e-866d-1f2470f682b2",
+   "image": "https://cards.scryfall.io/small/front/d/5/d5806e68-1054-458e-866d-1f2470f682b2.jpg?1790212038",
+   "reserved": false,
+   "first_printed": "2023-06-23",
+   "first_printed_set": {
+    "code": "ltr",
+    "name": "The Lord of the Rings: Tales of Middle-earth"
+   },
+   "is_reprint": true,
+   "reprint_count": 2,
+   "paper_sets": [
+    "The Lord of the Rings: Tales of Middle-earth",
+    "The Hobbit Eternal"
+   ],
+   "latest_reprint_set": {
+    "code": "hoc",
+    "name": "The Hobbit Eternal"
+   },
+   "latest_reprint_date": "2026-08-14",
+   "reprint_set": {
+    "code": "hoc",
+    "name": "The Hobbit Eternal"
+   },
+   "reprint_released": "2026-08-14",
+   "vibe": "positive",
+   "score": 0.5,
+   "positive": 1,
+   "neutral": 1,
+   "negative": 0,
+   "channels": 2,
+   "potential_to_rise": false,
+   "potential_reasons": [],
+   "price": {
+    "usd": 110.18,
+    "usd_foil": 113.62,
+    "printing_set": "LTR",
+    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
+    "as_of": "2026-10-09",
+    "change_7d_pct": 0.4,
+    "change_30d_pct": 7.1,
+    "history_as_of": "2026-10-08"
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=The+One+Ring",
+   "sources": [
+    {
+     "channel": "@samuelhblack",
+     "channel_name": "Sam Black",
+     "video_id": "wR-LSU49ZQw",
+     "video_title": "Sam's Table 55: Geist of Saint Thalia in cEDH",
+     "published": "2026-10-09",
+     "t": 2408,
+     "url": "https://www.youtube.com/watch?v=wR-LSU49ZQw&t=2408s",
+     "quote": "monoliths and stuff. And then also of course great with the one ring. So very very reasonable card to",
+     "judge_note": "great with",
+     "anchored_by": "quote match 100"
+    },
+    {
+     "channel": "@JoelareMagic",
+     "channel_name": "Joel Are Magic",
+     "video_id": "WrJC6nRn950",
+     "video_title": "Warhammer 40K Reprint Rumors? Sell the One Ring? [Mailbag #2]",
+     "published": "2026-10-02",
+     "t": 1538,
+     "url": "https://www.youtube.com/watch?v=WrJC6nRn950&t=1538s",
+     "quote": "when when do they get sold? So, looking at the one ring, the one ring has had an initial",
+     "judge_note": "warhammer 40k reprint rumors sell the one ring mailbag 2 mailbag 2 is here two",
+     "anchored_by": "card mention"
     }
    ]
   },
@@ -3437,6 +3681,79 @@
    ]
   },
   {
+   "card": "Misleading Signpost",
+   "scryfall_id": "a85e2eb8-ccae-4761-92a0-6bb24ee4a40c",
+   "image": "https://cards.scryfall.io/small/front/a/8/a85e2eb8-ccae-4761-92a0-6bb24ee4a40c.jpg?1787701571",
+   "reserved": false,
+   "first_printed": "2023-09-08",
+   "first_printed_set": {
+    "code": "woc",
+    "name": "Wilds of Eldraine Commander"
+   },
+   "is_reprint": true,
+   "reprint_count": 3,
+   "paper_sets": [
+    "Wilds of Eldraine Commander",
+    "Secret Lair Drop",
+    "Foundations Commander"
+   ],
+   "latest_reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
+   "reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "reprint_released": "2026-10-02",
+   "vibe": "neutral",
+   "score": 0.0,
+   "positive": 0,
+   "neutral": 2,
+   "negative": 0,
+   "channels": 1,
+   "potential_to_rise": false,
+   "potential_reasons": [],
+   "price": {
+    "usd": 4.02,
+    "usd_foil": null,
+    "printing_set": "FDC",
+    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
+    "as_of": "2026-10-09",
+    "change_7d_pct": -65.0,
+    "change_30d_pct": null,
+    "history_as_of": "2026-10-08"
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Misleading+Signpost",
+   "sources": [
+    {
+     "channel": "@JoelareMagic",
+     "channel_name": "Joel Are Magic",
+     "video_id": "b3LtqFeUoSM",
+     "video_title": "Should You Buy a Foundation Commander Deck?",
+     "published": "2026-10-04",
+     "t": 246,
+     "url": "https://www.youtube.com/watch?v=b3LtqFeUoSM&t=246s",
+     "quote": "and it really needed a reprint. Second is Misleading Signpost about 14. Only ever printed in the Wilds of",
+     "judge_note": "really needed a reprint second is misleading signpost about 14 only ever printed in the",
+     "anchored_by": "quote match 100"
+    },
+    {
+     "channel": "@JoelareMagic",
+     "channel_name": "Joel Are Magic",
+     "video_id": "b3LtqFeUoSM",
+     "video_title": "Should You Buy a Foundation Commander Deck?",
+     "published": "2026-10-04",
+     "t": 801,
+     "url": "https://www.youtube.com/watch?v=b3LtqFeUoSM&t=801s",
+     "quote": "is nice to have. Master Transmuter at five, Misleading Signpost we talked about, so really expensive one, super scarce",
+     "judge_note": "to have master transmuter at five misleading signpost we talked about so really expensive one",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
    "card": "Mox Amber",
    "scryfall_id": "66024e69-ad60-4c9a-a0ca-da138d33ad80",
    "image": "https://cards.scryfall.io/small/front/6/6/66024e69-ad60-4c9a-a0ca-da138d33ad80.jpg?1783934955",
@@ -4196,6 +4513,71 @@
    ]
   },
   {
+   "card": "All Is Dust",
+   "scryfall_id": "4210c54e-89fd-4971-ab6a-ca8f4e7fe97a",
+   "image": "https://cards.scryfall.io/small/front/4/2/4210c54e-89fd-4971-ab6a-ca8f4e7fe97a.jpg?1783915459",
+   "reserved": false,
+   "first_printed": "2010-04-23",
+   "first_printed_set": {
+    "code": "roe",
+    "name": "Rise of the Eldrazi"
+   },
+   "is_reprint": true,
+   "reprint_count": 7,
+   "paper_sets": [
+    "Rise of the Eldrazi",
+    "Modern Masters 2015",
+    "Ultimate Masters",
+    "Secret Lair Drop",
+    "Commander Masters",
+    "Modern Horizons 3 Commander",
+    "Foundations Commander"
+   ],
+   "latest_reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
+   "reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "reprint_released": "2026-10-02",
+   "vibe": "positive",
+   "score": 1.0,
+   "positive": 1,
+   "neutral": 0,
+   "negative": 0,
+   "channels": 1,
+   "potential_to_rise": false,
+   "potential_reasons": [],
+   "price": {
+    "usd": 2.21,
+    "usd_foil": null,
+    "printing_set": "FDC",
+    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
+    "as_of": "2026-10-09",
+    "change_7d_pct": -20.8,
+    "change_30d_pct": null,
+    "history_as_of": "2026-10-08"
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=All+Is+Dust",
+   "sources": [
+    {
+     "channel": "@JoelareMagic",
+     "channel_name": "Joel Are Magic",
+     "video_id": "b3LtqFeUoSM",
+     "video_title": "Should You Buy a Foundation Commander Deck?",
+     "published": "2026-10-04",
+     "t": 809,
+     "url": "https://www.youtube.com/watch?v=b3LtqFeUoSM&t=809s",
+     "quote": "scarce, so it'll get slammed in price. All Is Dust at $5 is real removal. Counterspell I don't care",
+     "judge_note": "so itll get slammed in price all is dust at 5 is real removal counterspell i",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
    "card": "Aminatou, the Fateshifter",
    "scryfall_id": "bc010302-e715-4946-89eb-a214e0b836ba",
    "image": "https://cards.scryfall.io/small/front/b/c/bc010302-e715-4946-89eb-a214e0b836ba.jpg?1783921857",
@@ -4255,6 +4637,71 @@
      "quote": "is card that's been spiking lately and that is Animatu, the fateshifter from Double Masters 2022. This planeswalker is",
      "judge_note": "commander cards spiking",
      "anchored_by": "card mention"
+    }
+   ]
+  },
+  {
+   "card": "Ancient Tomb",
+   "scryfall_id": "bd3d4b4b-cf31-4f89-8140-9650edb03c7b",
+   "image": "https://cards.scryfall.io/small/front/b/d/bd3d4b4b-cf31-4f89-8140-9650edb03c7b.jpg?1783933762",
+   "reserved": false,
+   "first_printed": "1997-10-14",
+   "first_printed_set": {
+    "code": "tmp",
+    "name": "Tempest"
+   },
+   "is_reprint": true,
+   "reprint_count": 7,
+   "paper_sets": [
+    "Tempest",
+    "From the Vault: Realms",
+    "Zendikar Expeditions",
+    "Ultimate Masters",
+    "Zendikar Rising Expeditions",
+    "Tales of Middle-earth Commander",
+    "Edge of Eternities: Stellar Sights"
+   ],
+   "latest_reprint_set": {
+    "code": "eos",
+    "name": "Edge of Eternities: Stellar Sights"
+   },
+   "latest_reprint_date": "2025-08-01",
+   "reprint_set": {
+    "code": "eos",
+    "name": "Edge of Eternities: Stellar Sights"
+   },
+   "reprint_released": "2025-08-01",
+   "vibe": "neutral",
+   "score": 0.0,
+   "positive": 0,
+   "neutral": 1,
+   "negative": 0,
+   "channels": 1,
+   "potential_to_rise": false,
+   "potential_reasons": [],
+   "price": {
+    "usd": 119.25,
+    "usd_foil": 141.94,
+    "printing_set": "UMA",
+    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
+    "as_of": "2026-10-09",
+    "change_7d_pct": -3.5,
+    "change_30d_pct": -12.2,
+    "history_as_of": "2026-10-08"
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Ancient+Tomb",
+   "sources": [
+    {
+     "channel": "@JoelareMagic",
+     "channel_name": "Joel Are Magic",
+     "video_id": "WrJC6nRn950",
+     "video_title": "Warhammer 40K Reprint Rumors? Sell the One Ring? [Mailbag #2]",
+     "published": "2026-10-02",
+     "t": 2701,
+     "url": "https://www.youtube.com/watch?v=WrJC6nRn950&t=2701s",
+     "quote": "will buy the secret layer like put an ancient tomb in there or something ridiculous and charge 50 and",
+     "judge_note": "the secret layer like put an ancient tomb in there or something ridiculous and charge",
+     "anchored_by": "quote match 100"
     }
    ]
   },
@@ -4319,6 +4766,69 @@
    ]
   },
   {
+   "card": "Arachnogenesis",
+   "scryfall_id": "f5f18431-64c0-4ae5-bdc1-1e953313f086",
+   "image": "https://cards.scryfall.io/small/front/f/5/f5f18431-64c0-4ae5-bdc1-1e953313f086.jpg?1783909610",
+   "reserved": false,
+   "first_printed": "2015-11-13",
+   "first_printed_set": {
+    "code": "c15",
+    "name": "Commander 2015"
+   },
+   "is_reprint": true,
+   "reprint_count": 5,
+   "paper_sets": [
+    "Commander 2015",
+    "Commander Masters",
+    "Duskmourn: House of Horror Commander",
+    "Marvel Universe",
+    "Foundations Commander"
+   ],
+   "latest_reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
+   "reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "reprint_released": "2026-10-02",
+   "vibe": "positive",
+   "score": 1.0,
+   "positive": 1,
+   "neutral": 0,
+   "negative": 0,
+   "channels": 1,
+   "potential_to_rise": false,
+   "potential_reasons": [],
+   "price": {
+    "usd": 1.72,
+    "usd_foil": null,
+    "printing_set": "FDC",
+    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
+    "as_of": "2026-10-09",
+    "change_7d_pct": -63.4,
+    "change_30d_pct": null,
+    "history_as_of": "2026-10-08"
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Arachnogenesis",
+   "sources": [
+    {
+     "channel": "@JoelareMagic",
+     "channel_name": "Joel Are Magic",
+     "video_id": "b3LtqFeUoSM",
+     "video_title": "Should You Buy a Foundation Commander Deck?",
+     "published": "2026-10-04",
+     "t": 910,
+     "url": "https://www.youtube.com/watch?v=b3LtqFeUoSM&t=910s",
+     "quote": "the $4 range. Rishkar's Expertise, about five bucks. Arachnogenesis at about eight. That's a silent the creeper of a",
+     "judge_note": "range rishkars expertise about five bucks arachnogenesis at about eight thats a silent the",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
    "card": "Arahbo, the First Fang",
    "scryfall_id": "524a5d93-26ed-436d-a437-dc9460acce98",
    "image": "https://cards.scryfall.io/small/front/5/2/524a5d93-26ed-436d-a437-dc9460acce98.jpg?1783909130",
@@ -4367,6 +4877,67 @@
      "url": "https://www.youtube.com/watch?v=3aweXsAcKPg&t=794s",
      "quote": "Good for me.\" Of course, Arahbo, the First Fang is another great one. Again, over the years we've gotten",
      "judge_note": "another great one",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
+   "card": "Archangel of Tithes",
+   "scryfall_id": "c853d04c-864b-491c-8c6f-72d2d4874d2f",
+   "image": "https://cards.scryfall.io/small/front/c/8/c853d04c-864b-491c-8c6f-72d2d4874d2f.jpg?1783911861",
+   "reserved": false,
+   "first_printed": "2015-07-17",
+   "first_printed_set": {
+    "code": "ori",
+    "name": "Magic Origins"
+   },
+   "is_reprint": true,
+   "reprint_count": 3,
+   "paper_sets": [
+    "Magic Origins",
+    "Outlaws of Thunder Junction",
+    "Foundations Commander"
+   ],
+   "latest_reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
+   "reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "reprint_released": "2026-10-02",
+   "vibe": "neutral",
+   "score": 0.0,
+   "positive": 0,
+   "neutral": 1,
+   "negative": 0,
+   "channels": 1,
+   "potential_to_rise": false,
+   "potential_reasons": [],
+   "price": {
+    "usd": 2.3,
+    "usd_foil": null,
+    "printing_set": "FDC",
+    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
+    "as_of": "2026-10-09",
+    "change_7d_pct": -53.1,
+    "change_30d_pct": null,
+    "history_as_of": "2026-10-08"
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Archangel+of+Tithes",
+   "sources": [
+    {
+     "channel": "@JoelareMagic",
+     "channel_name": "Joel Are Magic",
+     "video_id": "b3LtqFeUoSM",
+     "video_title": "Should You Buy a Foundation Commander Deck?",
+     "published": "2026-10-04",
+     "t": 478,
+     "url": "https://www.youtube.com/watch?v=b3LtqFeUoSM&t=478s",
+     "quote": "to pay the pay the scarce price. Archangel of Tithes an Origins original that got a Thunder Junction reprint",
+     "judge_note": "pay the pay the scarce price archangel of tithes an origins original that got a thunder",
      "anchored_by": "quote match 100"
     }
    ]
@@ -4485,6 +5056,67 @@
    ]
   },
   {
+   "card": "Ayara, First of Locthwain",
+   "scryfall_id": "ed0ace28-9a33-4f0d-b8c8-f5517f20ccf1",
+   "image": "https://cards.scryfall.io/small/front/e/d/ed0ace28-9a33-4f0d-b8c8-f5517f20ccf1.jpg?1783932644",
+   "reserved": false,
+   "first_printed": "2019-10-04",
+   "first_printed_set": {
+    "code": "eld",
+    "name": "Throne of Eldraine"
+   },
+   "is_reprint": true,
+   "reprint_count": 3,
+   "paper_sets": [
+    "Throne of Eldraine",
+    "Multiverse Legends",
+    "Foundations Commander"
+   ],
+   "latest_reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
+   "reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "reprint_released": "2026-10-02",
+   "vibe": "neutral",
+   "score": 0.0,
+   "positive": 0,
+   "neutral": 1,
+   "negative": 0,
+   "channels": 1,
+   "potential_to_rise": false,
+   "potential_reasons": [],
+   "price": {
+    "usd": 3.59,
+    "usd_foil": null,
+    "printing_set": "FDC",
+    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
+    "as_of": "2026-10-09",
+    "change_7d_pct": -26.3,
+    "change_30d_pct": null,
+    "history_as_of": "2026-10-08"
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Ayara%2C+First+of+Locthwain",
+   "sources": [
+    {
+     "channel": "@JoelareMagic",
+     "channel_name": "Joel Are Magic",
+     "video_id": "b3LtqFeUoSM",
+     "video_title": "Should You Buy a Foundation Commander Deck?",
+     "published": "2026-10-04",
+     "t": 571,
+     "url": "https://www.youtube.com/watch?v=b3LtqFeUoSM&t=571s",
+     "quote": "Edition, nothing since. It's about 12 bucks. Ayara, First of Locthwain from Throne of Eldraine popped up in Multiversal",
+     "judge_note": "nothing since its about 12 bucks ayara first of locthwain from throne of eldraine popped up in",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
    "card": "Bane of Bala Ged",
    "scryfall_id": "c3cb0fff-da50-40b9-9839-68cdf25a0193",
    "image": "https://cards.scryfall.io/small/front/c/3/c3cb0fff-da50-40b9-9839-68cdf25a0193.jpg?1783915459",
@@ -4540,6 +5172,74 @@
      "url": "https://www.youtube.com/watch?v=3aweXsAcKPg&t=953s",
      "quote": "of cards. Of course, cards like Bane of Bala Ged are great. 7/5 Eldrazi for seven mana. Whenever it",
      "judge_note": "are great",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
+   "card": "Basilisk Collar",
+   "scryfall_id": "7b36fba7-71f7-4b7f-bde5-b3a9752ad21c",
+   "image": "https://cards.scryfall.io/small/front/7/b/7b36fba7-71f7-4b7f-bde5-b3a9752ad21c.jpg?1783908907",
+   "reserved": false,
+   "first_printed": "2010-02-05",
+   "first_printed_set": {
+    "code": "wwk",
+    "name": "Worldwake"
+   },
+   "is_reprint": true,
+   "reprint_count": 10,
+   "paper_sets": [
+    "Worldwake",
+    "Modern Masters 2017",
+    "Double Masters",
+    "Forgotten Realms Commander",
+    "Commander Legends: Battle for Baldur's Gate",
+    "Fallout",
+    "Duskmourn: House of Horror Commander",
+    "Foundations",
+    "Secret Lair Drop",
+    "Foundations Commander"
+   ],
+   "latest_reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
+   "reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "reprint_released": "2026-10-02",
+   "vibe": "neutral",
+   "score": 0.0,
+   "positive": 0,
+   "neutral": 1,
+   "negative": 0,
+   "channels": 1,
+   "potential_to_rise": false,
+   "potential_reasons": [],
+   "price": {
+    "usd": 2.79,
+    "usd_foil": null,
+    "printing_set": "FDC",
+    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
+    "as_of": "2026-10-09",
+    "change_7d_pct": -24.6,
+    "change_30d_pct": null,
+    "history_as_of": "2026-10-08"
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Basilisk+Collar",
+   "sources": [
+    {
+     "channel": "@JoelareMagic",
+     "channel_name": "Joel Are Magic",
+     "video_id": "b3LtqFeUoSM",
+     "video_title": "Should You Buy a Foundation Commander Deck?",
+     "published": "2026-10-04",
+     "t": 675,
+     "url": "https://www.youtube.com/watch?v=b3LtqFeUoSM&t=675s",
+     "quote": "that in a lot of other red decks. Basilisk Collar is about four bucks. Dragon Tempest is about three",
+     "judge_note": "a lot of other red decks basilisk collar is about four bucks dragon tempest is",
      "anchored_by": "quote match 100"
     }
    ]
@@ -4971,6 +5671,68 @@
    ]
   },
   {
+   "card": "Bontu's Monument",
+   "scryfall_id": "171a9a3f-6278-4921-9848-2b8459869d6c",
+   "image": "https://cards.scryfall.io/small/front/1/7/171a9a3f-6278-4921-9848-2b8459869d6c.jpg?1783921400",
+   "reserved": false,
+   "first_printed": "2017-04-28",
+   "first_printed_set": {
+    "code": "akh",
+    "name": "Amonkhet"
+   },
+   "is_reprint": true,
+   "reprint_count": 4,
+   "paper_sets": [
+    "Amonkhet",
+    "Dominaria United Commander",
+    "Aetherdrift Commander",
+    "Foundations Commander"
+   ],
+   "latest_reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
+   "reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "reprint_released": "2026-10-02",
+   "vibe": "positive",
+   "score": 1.0,
+   "positive": 1,
+   "neutral": 0,
+   "negative": 0,
+   "channels": 1,
+   "potential_to_rise": false,
+   "potential_reasons": [],
+   "price": {
+    "usd": 1.4,
+    "usd_foil": null,
+    "printing_set": "FDC",
+    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
+    "as_of": "2026-10-09",
+    "change_7d_pct": -8.3,
+    "change_30d_pct": null,
+    "history_as_of": "2026-10-08"
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Bontu%27s+Monument",
+   "sources": [
+    {
+     "channel": "@JoelareMagic",
+     "channel_name": "Joel Are Magic",
+     "video_id": "b3LtqFeUoSM",
+     "video_title": "Should You Buy a Foundation Commander Deck?",
+     "published": "2026-10-04",
+     "t": 602,
+     "url": "https://www.youtube.com/watch?v=b3LtqFeUoSM&t=602s",
+     "quote": "and a little zombie-specific, but nothing terrible. Bontu's Monument at four bucks is always a good reprint to see.",
+     "judge_note": "little zombie specific but nothing terrible bontus monument at four bucks is always a good",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
    "card": "Braid of Fire",
    "scryfall_id": "41bab8de-6e0f-4ccd-a303-01e9c8c82d3f",
    "image": "https://cards.scryfall.io/small/front/4/1/41bab8de-6e0f-4ccd-a303-01e9c8c82d3f.jpg?1783943342",
@@ -5352,6 +6114,70 @@
    ]
   },
   {
+   "card": "Chandra's Ignition",
+   "scryfall_id": "960f45a3-f9cf-41e6-b813-f3dee620a944",
+   "image": "https://cards.scryfall.io/small/front/9/6/960f45a3-f9cf-41e6-b813-f3dee620a944.jpg?1783913867",
+   "reserved": false,
+   "first_printed": "2015-07-17",
+   "first_printed_set": {
+    "code": "ori",
+    "name": "Magic Origins"
+   },
+   "is_reprint": true,
+   "reprint_count": 6,
+   "paper_sets": [
+    "Magic Origins",
+    "The Lost Caverns of Ixalan Commander",
+    "Secret Lair Drop",
+    "Modern Horizons 3 Commander",
+    "Special Guests",
+    "Foundations Commander"
+   ],
+   "latest_reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
+   "reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "reprint_released": "2026-10-02",
+   "vibe": "positive",
+   "score": 1.0,
+   "positive": 1,
+   "neutral": 0,
+   "negative": 0,
+   "channels": 1,
+   "potential_to_rise": false,
+   "potential_reasons": [],
+   "price": {
+    "usd": 3.61,
+    "usd_foil": null,
+    "printing_set": "FDC",
+    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
+    "as_of": "2026-10-09",
+    "change_7d_pct": -13.8,
+    "change_30d_pct": null,
+    "history_as_of": "2026-10-08"
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Chandra%27s+Ignition",
+   "sources": [
+    {
+     "channel": "@JoelareMagic",
+     "channel_name": "Joel Are Magic",
+     "video_id": "b3LtqFeUoSM",
+     "video_title": "Should You Buy a Foundation Commander Deck?",
+     "published": "2026-10-04",
+     "t": 668,
+     "url": "https://www.youtube.com/watch?v=b3LtqFeUoSM&t=668s",
+     "quote": "Fates Tempest is a Bloombarrow mythic at $5. Chandra's Ignition is a fantastic board wipe to have in here",
+     "judge_note": "is a bloombarrow mythic at 5 chandras ignition is a fantastic board wipe to have",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
    "card": "Chandra, Chill of Compliance",
    "scryfall_id": "240f58ab-944c-4f4c-9df9-5f40b132bf3e",
    "image": "https://cards.scryfall.io/small/front/2/4/240f58ab-944c-4f4c-9df9-5f40b132bf3e.jpg?1788329242",
@@ -5466,6 +6292,71 @@
      "quote": "30 cents right now. Pick it up. Next up, Chasm Skulker. A one-1 squid for three mana in blue.",
      "judge_note": "a staple",
      "anchored_by": "card mention"
+    }
+   ]
+  },
+  {
+   "card": "Chief of the Foundry",
+   "scryfall_id": "bf306f7f-b231-4343-807c-083df8b90c87",
+   "image": "https://cards.scryfall.io/small/front/b/f/bf306f7f-b231-4343-807c-083df8b90c87.jpg?1783930118",
+   "reserved": false,
+   "first_printed": "2015-07-17",
+   "first_printed_set": {
+    "code": "ori",
+    "name": "Magic Origins"
+   },
+   "is_reprint": true,
+   "reprint_count": 7,
+   "paper_sets": [
+    "Magic Origins",
+    "Kaladesh",
+    "Commander 2018",
+    "Double Masters",
+    "The Brothers' War Commander",
+    "Foundations Jumpstart",
+    "Foundations Commander"
+   ],
+   "latest_reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
+   "reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "reprint_released": "2026-10-02",
+   "vibe": "positive",
+   "score": 1.0,
+   "positive": 1,
+   "neutral": 0,
+   "negative": 0,
+   "channels": 1,
+   "potential_to_rise": false,
+   "potential_reasons": [],
+   "price": {
+    "usd": 0.21,
+    "usd_foil": 0.26,
+    "printing_set": "2XM",
+    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
+    "as_of": "2026-10-09",
+    "change_7d_pct": 0.0,
+    "change_30d_pct": -4.5,
+    "history_as_of": "2026-10-08"
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Chief+of+the+Foundry",
+   "sources": [
+    {
+     "channel": "@JoelareMagic",
+     "channel_name": "Joel Are Magic",
+     "video_id": "b3LtqFeUoSM",
+     "video_title": "Should You Buy a Foundation Commander Deck?",
+     "published": "2026-10-04",
+     "t": 869,
+     "url": "https://www.youtube.com/watch?v=b3LtqFeUoSM&t=869s",
+     "quote": "They go in so many artifact decks. Chief of the Foundry, good for those types of decks, too. Very",
+     "judge_note": "go in so many artifact decks chief of the foundry good for those types of decks too",
+     "anchored_by": "quote match 100"
     }
    ]
   },
@@ -6504,6 +7395,68 @@
    ]
   },
   {
+   "card": "Diregraf Colossus",
+   "scryfall_id": "02351d67-2d73-43e3-82f7-5277c532d7ac",
+   "image": "https://cards.scryfall.io/small/front/0/2/02351d67-2d73-43e3-82f7-5277c532d7ac.jpg?1783925341",
+   "reserved": false,
+   "first_printed": "2016-04-08",
+   "first_printed_set": {
+    "code": "soi",
+    "name": "Shadows over Innistrad"
+   },
+   "is_reprint": true,
+   "reprint_count": 4,
+   "paper_sets": [
+    "Shadows over Innistrad",
+    "Midnight Hunt Commander",
+    "Secret Lair Drop",
+    "Foundations Commander"
+   ],
+   "latest_reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
+   "reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "reprint_released": "2026-10-02",
+   "vibe": "positive",
+   "score": 1.0,
+   "positive": 1,
+   "neutral": 0,
+   "negative": 0,
+   "channels": 1,
+   "potential_to_rise": false,
+   "potential_reasons": [],
+   "price": {
+    "usd": 0.7,
+    "usd_foil": null,
+    "printing_set": "FDC",
+    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
+    "as_of": "2026-10-09",
+    "change_7d_pct": -71.2,
+    "change_30d_pct": null,
+    "history_as_of": "2026-10-08"
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Diregraf+Colossus",
+   "sources": [
+    {
+     "channel": "@JoelareMagic",
+     "channel_name": "Joel Are Magic",
+     "video_id": "b3LtqFeUoSM",
+     "video_title": "Should You Buy a Foundation Commander Deck?",
+     "published": "2026-10-04",
+     "t": 588,
+     "url": "https://www.youtube.com/watch?v=b3LtqFeUoSM&t=588s",
+     "quote": "tier. You've got Carrion Feeder, Death Baron, Kalitas, Diregraf Colossus. They gave us the good zombie pieces, dude. They",
+     "judge_note": "got carrion feeder death baron kalitas diregraf colossus they gave us the good zombie pieces",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
    "card": "Dissection Practice",
    "scryfall_id": "ddbf1242-6832-475e-9a77-65dd9b4bb32a",
    "image": "https://cards.scryfall.io/small/front/d/d/ddbf1242-6832-475e-9a77-65dd9b4bb32a.jpg?1783903682",
@@ -6621,6 +7574,71 @@
      "url": "https://www.youtube.com/watch?v=CMWSLhHKhX0&t=1668s",
      "quote": "this is a very good card. Sorry, divination. The mighty have fallen. Yeah, I think it's okay. Late game",
      "judge_note": "mighty have fallen",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
+   "card": "Dragon Tempest",
+   "scryfall_id": "39ac7ad0-e570-4209-988c-7c0f9b9d2004",
+   "image": "https://cards.scryfall.io/small/front/3/9/39ac7ad0-e570-4209-988c-7c0f9b9d2004.jpg?1783907139",
+   "reserved": false,
+   "first_printed": "2015-03-27",
+   "first_printed_set": {
+    "code": "dtk",
+    "name": "Dragons of Tarkir"
+   },
+   "is_reprint": true,
+   "reprint_count": 7,
+   "paper_sets": [
+    "Dragons of Tarkir",
+    "Commander 2017",
+    "Iconic Masters",
+    "Game Night: Free-for-All",
+    "Starter Commander Decks",
+    "Tarkir: Dragonstorm Commander",
+    "Foundations Commander"
+   ],
+   "latest_reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
+   "reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "reprint_released": "2026-10-02",
+   "vibe": "positive",
+   "score": 1.0,
+   "positive": 1,
+   "neutral": 0,
+   "negative": 0,
+   "channels": 1,
+   "potential_to_rise": false,
+   "potential_reasons": [],
+   "price": {
+    "usd": 1.59,
+    "usd_foil": null,
+    "printing_set": "FDC",
+    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
+    "as_of": "2026-10-09",
+    "change_7d_pct": -34.4,
+    "change_30d_pct": null,
+    "history_as_of": "2026-10-08"
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Dragon+Tempest",
+   "sources": [
+    {
+     "channel": "@JoelareMagic",
+     "channel_name": "Joel Are Magic",
+     "video_id": "b3LtqFeUoSM",
+     "video_title": "Should You Buy a Foundation Commander Deck?",
+     "published": "2026-10-04",
+     "t": 675,
+     "url": "https://www.youtube.com/watch?v=b3LtqFeUoSM&t=675s",
+     "quote": "red decks. Basilisk Collar is about four bucks. Dragon Tempest is about three bucks, and you would want it",
+     "judge_note": "basilisk collar is about four bucks dragon tempest is about three bucks and you would",
      "anchored_by": "quote match 100"
     }
    ]
@@ -6904,6 +7922,68 @@
      "url": "https://www.youtube.com/watch?v=kbYA5Drf0-A&t=1990s",
      "quote": "up a little. Uh, I spec on endless foot assault this month at the excellent printing is $3.19. I",
      "judge_note": "a little uh i spec on endless foot assault this month at the excellent printing is",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
+   "card": "Endless Ranks of the Dead",
+   "scryfall_id": "155ae16c-f32b-421d-a92a-bf13d9f32891",
+   "image": "https://cards.scryfall.io/small/front/1/5/155ae16c-f32b-421d-a92a-bf13d9f32891.jpg?1783925339",
+   "reserved": false,
+   "first_printed": "2011-09-30",
+   "first_printed_set": {
+    "code": "isd",
+    "name": "Innistrad"
+   },
+   "is_reprint": true,
+   "reprint_count": 4,
+   "paper_sets": [
+    "Innistrad",
+    "Midnight Hunt Commander",
+    "Jumpstart 2022",
+    "Foundations Commander"
+   ],
+   "latest_reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
+   "reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "reprint_released": "2026-10-02",
+   "vibe": "positive",
+   "score": 1.0,
+   "positive": 1,
+   "neutral": 0,
+   "negative": 0,
+   "channels": 1,
+   "potential_to_rise": false,
+   "potential_reasons": [],
+   "price": {
+    "usd": 1.29,
+    "usd_foil": null,
+    "printing_set": "FDC",
+    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
+    "as_of": "2026-10-09",
+    "change_7d_pct": -46.2,
+    "change_30d_pct": null,
+    "history_as_of": "2026-10-08"
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Endless+Ranks+of+the+Dead",
+   "sources": [
+    {
+     "channel": "@JoelareMagic",
+     "channel_name": "Joel Are Magic",
+     "video_id": "b3LtqFeUoSM",
+     "video_title": "Should You Buy a Foundation Commander Deck?",
+     "published": "2026-10-04",
+     "t": 608,
+     "url": "https://www.youtube.com/watch?v=b3LtqFeUoSM&t=608s",
+     "quote": "a good reprint to see. Uh Endless Ranks of the Dead is a really solid include at around five",
+     "judge_note": "a good reprint to see uh endless ranks of the dead is a really solid include at around",
      "anchored_by": "quote match 100"
     }
    ]
@@ -7845,6 +8925,69 @@
    ]
   },
   {
+   "card": "Giada, Font of Hope",
+   "scryfall_id": "8ae6fc26-cfad-4da8-98d9-49c27c24d293",
+   "image": "https://cards.scryfall.io/small/front/8/a/8ae6fc26-cfad-4da8-98d9-49c27c24d293.jpg?1783909085",
+   "reserved": false,
+   "first_printed": "2022-04-29",
+   "first_printed_set": {
+    "code": "snc",
+    "name": "Streets of New Capenna"
+   },
+   "is_reprint": true,
+   "reprint_count": 5,
+   "paper_sets": [
+    "Streets of New Capenna",
+    "Foundations",
+    "Foundations Jumpstart",
+    "Secret Lair Drop",
+    "Foundations Commander"
+   ],
+   "latest_reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
+   "reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "reprint_released": "2026-10-02",
+   "vibe": "positive",
+   "score": 1.0,
+   "positive": 1,
+   "neutral": 0,
+   "negative": 0,
+   "channels": 1,
+   "potential_to_rise": false,
+   "potential_reasons": [],
+   "price": {
+    "usd": 0.64,
+    "usd_foil": null,
+    "printing_set": "J25",
+    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
+    "as_of": "2026-10-09",
+    "change_7d_pct": 17.0,
+    "change_30d_pct": 17.0,
+    "history_as_of": "2026-10-08"
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Giada%2C+Font+of+Hope",
+   "sources": [
+    {
+     "channel": "@JoelareMagic",
+     "channel_name": "Joel Are Magic",
+     "video_id": "b3LtqFeUoSM",
+     "video_title": "Should You Buy a Foundation Commander Deck?",
+     "published": "2026-10-04",
+     "t": 517,
+     "url": "https://www.youtube.com/watch?v=b3LtqFeUoSM&t=517s",
+     "quote": "locked there. As kindred commanders go though, Giada is peak. Angels is a great place to be and the",
+     "judge_note": "there as kindred commanders go though giada is peak angels is a great place to be and",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
    "card": "Gideon's Memorial",
    "scryfall_id": "768c0e64-9907-417a-a763-c836fdf36883",
    "image": "https://cards.scryfall.io/small/front/7/6/768c0e64-9907-417a-a763-c836fdf36883.jpg?1789127685",
@@ -7964,66 +9107,6 @@
      "url": "https://www.youtube.com/watch?v=73lqy68Prpg&t=1014s",
      "quote": "50 Cents is a steal. Pick it up right now. Next up, Gilded Lotus. A card that again literally",
      "judge_note": "pick it up right now",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
-   "card": "Gisa, Glorious Resurrector",
-   "scryfall_id": "63461076-a13d-488d-bd82-ceac441341c8",
-   "image": "https://cards.scryfall.io/small/front/6/3/63461076-a13d-488d-bd82-ceac441341c8.jpg?1783925617",
-   "reserved": false,
-   "first_printed": "2021-09-24",
-   "first_printed_set": {
-    "code": "mid",
-    "name": "Innistrad: Midnight Hunt"
-   },
-   "is_reprint": true,
-   "reprint_count": 2,
-   "paper_sets": [
-    "Innistrad: Midnight Hunt",
-    "Innistrad: Double Feature"
-   ],
-   "latest_reprint_set": {
-    "code": "dbl",
-    "name": "Innistrad: Double Feature"
-   },
-   "latest_reprint_date": "2022-01-28",
-   "reprint_set": {
-    "code": "dbl",
-    "name": "Innistrad: Double Feature"
-   },
-   "reprint_released": "2022-01-28",
-   "vibe": "positive",
-   "score": 1.0,
-   "positive": 1,
-   "neutral": 0,
-   "negative": 0,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 2.49,
-    "usd_foil": 2.82,
-    "printing_set": "MID",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-10-09",
-    "change_7d_pct": -5.7,
-    "change_30d_pct": -11.5,
-    "history_as_of": "2026-10-08"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Gisa%2C+Glorious+Resurrector",
-   "sources": [
-    {
-     "channel": "@TheCommandersQuarters",
-     "channel_name": "The Commander's Quarters",
-     "video_id": "3aweXsAcKPg",
-     "video_title": "Tribal Commanders Nobody Expects",
-     "published": "2026-10-04",
-     "t": 90,
-     "url": "https://www.youtube.com/watch?v=3aweXsAcKPg&t=90s",
-     "quote": "lot of amazing legendary Phyrexian. I mean, Gisa is a pretty great one for a Phyrexian tribal deck, a",
-     "judge_note": "pretty great",
      "anchored_by": "quote match 100"
     }
    ]
@@ -9268,6 +10351,59 @@
    ]
   },
   {
+   "card": "Kalitas, Bloodchief of Ghet",
+   "scryfall_id": "859aab70-8192-414c-839b-dd0fbcbd8bf1",
+   "image": "https://cards.scryfall.io/small/front/8/5/859aab70-8192-414c-839b-dd0fbcbd8bf1.jpg?1783942151",
+   "reserved": false,
+   "first_printed": "2009-10-02",
+   "first_printed_set": {
+    "code": "zen",
+    "name": "Zendikar"
+   },
+   "is_reprint": false,
+   "reprint_count": 1,
+   "paper_sets": [
+    "Zendikar"
+   ],
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
+   "reprint_set": null,
+   "reprint_released": null,
+   "vibe": "positive",
+   "score": 1.0,
+   "positive": 1,
+   "neutral": 0,
+   "negative": 0,
+   "channels": 1,
+   "potential_to_rise": false,
+   "potential_reasons": [],
+   "price": {
+    "usd": 5.75,
+    "usd_foil": 20.0,
+    "printing_set": "ZEN",
+    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
+    "as_of": "2026-10-09",
+    "change_7d_pct": -1.3,
+    "change_30d_pct": -3.9,
+    "history_as_of": "2026-10-08"
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Kalitas%2C+Bloodchief+of+Ghet",
+   "sources": [
+    {
+     "channel": "@JoelareMagic",
+     "channel_name": "Joel Are Magic",
+     "video_id": "b3LtqFeUoSM",
+     "video_title": "Should You Buy a Foundation Commander Deck?",
+     "published": "2026-10-04",
+     "t": 588,
+     "url": "https://www.youtube.com/watch?v=b3LtqFeUoSM&t=588s",
+     "quote": "tier. You've got Carrion Feeder, Death Baron, Kalitas, Diregraf Colossus. They gave us the good zombie pieces, dude. They",
+     "judge_note": "youve got carrion feeder death baron kalitas diregraf colossus they gave us the good zombie pieces dude",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
    "card": "Koth, Fire of Resistance",
    "scryfall_id": "6528e012-4091-4722-b706-c51772676167",
    "image": "https://cards.scryfall.io/small/front/6/5/6528e012-4091-4722-b706-c51772676167.jpg?1783918027",
@@ -9369,6 +10505,73 @@
      "url": "https://www.youtube.com/watch?v=j2UmxVAqwfM&t=3481s",
      "quote": "No, they should definitely ban K command. They're not going to ban",
      "judge_note": "they should definitely ban k command",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
+   "card": "Lathliss, Dragon Queen",
+   "scryfall_id": "0cb48015-627b-49cd-8dc3-d446e82b8172",
+   "image": "https://cards.scryfall.io/small/front/0/c/0cb48015-627b-49cd-8dc3-d446e82b8172.jpg?1783907068",
+   "reserved": false,
+   "first_printed": "2018-07-01",
+   "first_printed_set": {
+    "code": "pm19",
+    "name": "Core Set 2019 Promos"
+   },
+   "is_reprint": true,
+   "reprint_count": 9,
+   "paper_sets": [
+    "Core Set 2019",
+    "Game Night 2019",
+    "Jumpstart",
+    "Secret Lair Drop",
+    "Jumpstart 2022",
+    "Foundations",
+    "Foundations Jumpstart",
+    "Tarkir: Dragonstorm Commander",
+    "Foundations Commander"
+   ],
+   "latest_reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
+   "reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "reprint_released": "2026-10-02",
+   "vibe": "neutral",
+   "score": 0.0,
+   "positive": 0,
+   "neutral": 1,
+   "negative": 0,
+   "channels": 1,
+   "potential_to_rise": false,
+   "potential_reasons": [],
+   "price": {
+    "usd": 0.37,
+    "usd_foil": null,
+    "printing_set": "FDN",
+    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
+    "as_of": "2026-10-09",
+    "change_7d_pct": 8.8,
+    "change_30d_pct": 8.8,
+    "history_as_of": "2026-10-08"
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Lathliss%2C+Dragon+Queen",
+   "sources": [
+    {
+     "channel": "@JoelareMagic",
+     "channel_name": "Joel Are Magic",
+     "video_id": "b3LtqFeUoSM",
+     "video_title": "Should You Buy a Foundation Commander Deck?",
+     "published": "2026-10-04",
+     "t": 645,
+     "url": "https://www.youtube.com/watch?v=b3LtqFeUoSM&t=645s",
+     "quote": "whatever it is, forever. Reign of Dragons is Lathliss, Mono-Red Dragons, about $106 of reprints against the $30 deck.",
+     "judge_note": "is forever reign of dragons is lathliss mono red dragons about 106 of reprints against the",
      "anchored_by": "quote match 100"
     }
    ]
@@ -10836,6 +12039,66 @@
    ]
   },
   {
+   "card": "Norn's Choirmaster",
+   "scryfall_id": "c7459da4-1081-4550-88c4-936f3662c5c8",
+   "image": "https://cards.scryfall.io/small/front/c/7/c7459da4-1081-4550-88c4-936f3662c5c8.jpg?1789752845",
+   "reserved": false,
+   "first_printed": "2023-02-10",
+   "first_printed_set": {
+    "code": "onc",
+    "name": "Phyrexia: All Will Be One Commander"
+   },
+   "is_reprint": true,
+   "reprint_count": 2,
+   "paper_sets": [
+    "Phyrexia: All Will Be One Commander",
+    "Foundations Commander"
+   ],
+   "latest_reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
+   "reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "reprint_released": "2026-10-02",
+   "vibe": "neutral",
+   "score": 0.0,
+   "positive": 0,
+   "neutral": 1,
+   "negative": 0,
+   "channels": 1,
+   "potential_to_rise": false,
+   "potential_reasons": [],
+   "price": {
+    "usd": 2.84,
+    "usd_foil": null,
+    "printing_set": "FDC",
+    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
+    "as_of": "2026-10-09",
+    "change_7d_pct": -57.6,
+    "change_30d_pct": null,
+    "history_as_of": "2026-10-08"
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Norn%27s+Choirmaster",
+   "sources": [
+    {
+     "channel": "@JoelareMagic",
+     "channel_name": "Joel Are Magic",
+     "video_id": "b3LtqFeUoSM",
+     "video_title": "Should You Buy a Foundation Commander Deck?",
+     "published": "2026-10-04",
+     "t": 317,
+     "url": "https://www.youtube.com/watch?v=b3LtqFeUoSM&t=317s",
+     "quote": "in price. Other cards from the 99 too, Norn's Choirmaster was nearing 20 bucks in April and it's about",
+     "judge_note": "other cards from the 99 too norns choirmaster was nearing 20 bucks in april and",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
    "card": "Norn's Decree",
    "scryfall_id": "76f28aa2-1c18-4d58-a3f9-6cd5b49280d8",
    "image": "https://cards.scryfall.io/small/front/7/6/76f28aa2-1c18-4d58-a3f9-6cd5b49280d8.jpg?1783918161",
@@ -11209,6 +12472,69 @@
      "url": "https://www.youtube.com/watch?v=rZap1SGzP34&t=1460s",
      "quote": "got to play a game where I used paradox shaper with my something worth savings to mill my entire",
      "judge_note": "play a game where i used paradox shaper with my something worth savings to mill",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
+   "card": "Patchwork Banner",
+   "scryfall_id": "537ea7e7-e8e8-4736-bdd9-1085f1a7c259",
+   "image": "https://cards.scryfall.io/small/front/5/3/537ea7e7-e8e8-4736-bdd9-1085f1a7c259.jpg?1783903215",
+   "reserved": false,
+   "first_printed": "2024-08-02",
+   "first_printed_set": {
+    "code": "blb",
+    "name": "Bloomburrow"
+   },
+   "is_reprint": true,
+   "reprint_count": 5,
+   "paper_sets": [
+    "Bloomburrow",
+    "Secret Lair Drop",
+    "Secrets of Strixhaven Commander",
+    "Marvel Super Heroes Commander",
+    "Foundations Commander"
+   ],
+   "latest_reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
+   "reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "reprint_released": "2026-10-02",
+   "vibe": "positive",
+   "score": 1.0,
+   "positive": 1,
+   "neutral": 0,
+   "negative": 0,
+   "channels": 1,
+   "potential_to_rise": false,
+   "potential_reasons": [],
+   "price": {
+    "usd": 1.52,
+    "usd_foil": null,
+    "printing_set": "FDC",
+    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
+    "as_of": "2026-10-09",
+    "change_7d_pct": -29.2,
+    "change_30d_pct": null,
+    "history_as_of": "2026-10-08"
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Patchwork+Banner",
+   "sources": [
+    {
+     "channel": "@JoelareMagic",
+     "channel_name": "Joel Are Magic",
+     "video_id": "b3LtqFeUoSM",
+     "video_title": "Should You Buy a Foundation Commander Deck?",
+     "published": "2026-10-04",
+     "t": 491,
+     "url": "https://www.youtube.com/watch?v=b3LtqFeUoSM&t=491s",
+     "quote": "starter deck. Vanquisher's Banner is at five bucks. Patchwork Banner which is a nice card to keep down in",
+     "judge_note": "vanquishers banner is at five bucks patchwork banner which is a nice card to keep",
      "anchored_by": "quote match 100"
     }
    ]
@@ -12137,6 +13463,139 @@
      "quote": "price is $26.30. Return to the light realms from reality fracture. This foils at 40.1% from $842 to $1.80",
      "judge_note": "foils up 40 1",
      "anchored_by": "quote match 85"
+    }
+   ]
+  },
+  {
+   "card": "Reya Dawnbringer",
+   "scryfall_id": "44b45bdd-829a-4fc1-ad37-17c2bd57fac8",
+   "image": "https://cards.scryfall.io/small/front/4/4/44b45bdd-829a-4fc1-ad37-17c2bd57fac8.jpg?1783933857",
+   "reserved": false,
+   "first_printed": "2000-10-02",
+   "first_printed_set": {
+    "code": "inv",
+    "name": "Invasion"
+   },
+   "is_reprint": true,
+   "reprint_count": 8,
+   "paper_sets": [
+    "Invasion",
+    "Tenth Edition",
+    "Duel Decks: Divine vs. Demonic",
+    "Conspiracy",
+    "Duel Decks Anthology: Divine vs. Demonic",
+    "Ultimate Masters",
+    "Secret Lair Drop",
+    "Foundations Commander"
+   ],
+   "latest_reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
+   "reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "reprint_released": "2026-10-02",
+   "vibe": "neutral",
+   "score": 0.0,
+   "positive": 0,
+   "neutral": 1,
+   "negative": 0,
+   "channels": 1,
+   "potential_to_rise": false,
+   "potential_reasons": [],
+   "price": {
+    "usd": 0.59,
+    "usd_foil": null,
+    "printing_set": "FDC",
+    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
+    "as_of": "2026-10-09",
+    "change_7d_pct": -45.1,
+    "change_30d_pct": null,
+    "history_as_of": "2026-10-08"
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Reya+Dawnbringer",
+   "sources": [
+    {
+     "channel": "@JoelareMagic",
+     "channel_name": "Joel Are Magic",
+     "video_id": "b3LtqFeUoSM",
+     "video_title": "Should You Buy a Foundation Commander Deck?",
+     "published": "2026-10-04",
+     "t": 482,
+     "url": "https://www.youtube.com/watch?v=b3LtqFeUoSM&t=482s",
+     "quote": "Junction reprint and is here again about $4. Reya Dawnbringer uh Emeria Shepherd and more of the $3 to",
+     "judge_note": "and is here again about 4 reya dawnbringer uh emeria shepherd and more of the",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
+   "card": "Rishkar's Expertise",
+   "scryfall_id": "efa9d2dc-b3b8-4475-bbfc-2db457ee4ffd",
+   "image": "https://cards.scryfall.io/small/front/e/f/efa9d2dc-b3b8-4475-bbfc-2db457ee4ffd.jpg?1783913855",
+   "reserved": false,
+   "first_printed": "2017-01-20",
+   "first_printed_set": {
+    "code": "aer",
+    "name": "Aether Revolt"
+   },
+   "is_reprint": true,
+   "reprint_count": 9,
+   "paper_sets": [
+    "Aether Revolt",
+    "Forgotten Realms Commander",
+    "Neon Dynasty Commander",
+    "New Capenna Commander",
+    "Wilds of Eldraine Commander",
+    "The Lost Caverns of Ixalan Commander",
+    "Modern Horizons 3 Commander",
+    "Secret Lair Drop",
+    "Foundations Commander"
+   ],
+   "latest_reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
+   "reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "reprint_released": "2026-10-02",
+   "vibe": "neutral",
+   "score": 0.0,
+   "positive": 0,
+   "neutral": 1,
+   "negative": 0,
+   "channels": 1,
+   "potential_to_rise": false,
+   "potential_reasons": [],
+   "price": {
+    "usd": 1.73,
+    "usd_foil": null,
+    "printing_set": "FDC",
+    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
+    "as_of": "2026-10-09",
+    "change_7d_pct": -39.4,
+    "change_30d_pct": null,
+    "history_as_of": "2026-10-08"
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Rishkar%27s+Expertise",
+   "sources": [
+    {
+     "channel": "@JoelareMagic",
+     "channel_name": "Joel Are Magic",
+     "video_id": "b3LtqFeUoSM",
+     "video_title": "Should You Buy a Foundation Commander Deck?",
+     "published": "2026-10-04",
+     "t": 907,
+     "url": "https://www.youtube.com/watch?v=b3LtqFeUoSM&t=907s",
+     "quote": "Indomitable, Carnage Tyrant, all in the $4 range. Rishkar's Expertise, about five bucks. Arachnogenesis at about eight. That's a",
+     "judge_note": "tyrant all in the 4 range rishkars expertise about five bucks arachnogenesis at about eight",
+     "anchored_by": "quote match 100"
     }
    ]
   },
@@ -14168,66 +15627,6 @@
    ]
   },
   {
-   "card": "The One Ring",
-   "scryfall_id": "d5806e68-1054-458e-866d-1f2470f682b2",
-   "image": "https://cards.scryfall.io/small/front/d/5/d5806e68-1054-458e-866d-1f2470f682b2.jpg?1790212038",
-   "reserved": false,
-   "first_printed": "2023-06-23",
-   "first_printed_set": {
-    "code": "ltr",
-    "name": "The Lord of the Rings: Tales of Middle-earth"
-   },
-   "is_reprint": true,
-   "reprint_count": 2,
-   "paper_sets": [
-    "The Lord of the Rings: Tales of Middle-earth",
-    "The Hobbit Eternal"
-   ],
-   "latest_reprint_set": {
-    "code": "hoc",
-    "name": "The Hobbit Eternal"
-   },
-   "latest_reprint_date": "2026-08-14",
-   "reprint_set": {
-    "code": "hoc",
-    "name": "The Hobbit Eternal"
-   },
-   "reprint_released": "2026-08-14",
-   "vibe": "positive",
-   "score": 1.0,
-   "positive": 1,
-   "neutral": 0,
-   "negative": 0,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 110.18,
-    "usd_foil": 113.62,
-    "printing_set": "LTR",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-10-09",
-    "change_7d_pct": 0.4,
-    "change_30d_pct": 7.1,
-    "history_as_of": "2026-10-08"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=The+One+Ring",
-   "sources": [
-    {
-     "channel": "@samuelhblack",
-     "channel_name": "Sam Black",
-     "video_id": "wR-LSU49ZQw",
-     "video_title": "Sam's Table 55: Geist of Saint Thalia in cEDH",
-     "published": "2026-10-09",
-     "t": 2408,
-     "url": "https://www.youtube.com/watch?v=wR-LSU49ZQw&t=2408s",
-     "quote": "monoliths and stuff. And then also of course great with the one ring. So very very reasonable card to",
-     "judge_note": "great with",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
    "card": "Theoretical Necromancer",
    "scryfall_id": "e36a7908-1e22-494b-adb4-e72ac0974d62",
    "image": "https://cards.scryfall.io/small/front/e/3/e36a7908-1e22-494b-adb4-e72ac0974d62.jpg?1789556734",
@@ -14855,6 +16254,68 @@
    ]
   },
   {
+   "card": "Undead Warchief",
+   "scryfall_id": "01482b0c-d05b-4356-9144-e044159f4dcb",
+   "image": "https://cards.scryfall.io/small/front/0/1/01482b0c-d05b-4356-9144-e044159f4dcb.jpg?1783942326",
+   "reserved": false,
+   "first_printed": "2003-05-26",
+   "first_printed_set": {
+    "code": "scg",
+    "name": "Scourge"
+   },
+   "is_reprint": true,
+   "reprint_count": 4,
+   "paper_sets": [
+    "Scourge",
+    "Time Spiral Timeshifted",
+    "Planechase",
+    "Foundations Commander"
+   ],
+   "latest_reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
+   "reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "reprint_released": "2026-10-02",
+   "vibe": "positive",
+   "score": 1.0,
+   "positive": 1,
+   "neutral": 0,
+   "negative": 0,
+   "channels": 1,
+   "potential_to_rise": false,
+   "potential_reasons": [],
+   "price": {
+    "usd": 2.91,
+    "usd_foil": null,
+    "printing_set": "FDC",
+    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
+    "as_of": "2026-10-09",
+    "change_7d_pct": -37.5,
+    "change_30d_pct": null,
+    "history_as_of": "2026-10-08"
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Undead+Warchief",
+   "sources": [
+    {
+     "channel": "@JoelareMagic",
+     "channel_name": "Joel Are Magic",
+     "video_id": "b3LtqFeUoSM",
+     "video_title": "Should You Buy a Foundation Commander Deck?",
+     "published": "2026-10-04",
+     "t": 558,
+     "url": "https://www.youtube.com/watch?v=b3LtqFeUoSM&t=558s",
+     "quote": "the creatures that have needed reprints for years. Undead Warchief is the top of the graveyard at 14 bucks.",
+     "judge_note": "that have needed reprints for years undead warchief is the top of the graveyard at",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
    "card": "Undulating Witness",
    "scryfall_id": "0adbb4b2-a142-48da-8f4b-fa91529dbac4",
    "image": "https://cards.scryfall.io/small/front/0/a/0adbb4b2-a142-48da-8f4b-fa91529dbac4.jpg?1789556706",
@@ -14993,6 +16454,59 @@
    ]
   },
   {
+   "card": "Untimely Malfunction",
+   "scryfall_id": "857bfb0e-17dc-4dda-bc37-3df927a9eae6",
+   "image": "https://cards.scryfall.io/small/front/8/5/857bfb0e-17dc-4dda-bc37-3df927a9eae6.jpg?1783909463",
+   "reserved": false,
+   "first_printed": "2024-09-27",
+   "first_printed_set": {
+    "code": "dsk",
+    "name": "Duskmourn: House of Horror"
+   },
+   "is_reprint": false,
+   "reprint_count": 1,
+   "paper_sets": [
+    "Duskmourn: House of Horror"
+   ],
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
+   "reprint_set": null,
+   "reprint_released": null,
+   "vibe": "positive",
+   "score": 1.0,
+   "positive": 1,
+   "neutral": 0,
+   "negative": 0,
+   "channels": 1,
+   "potential_to_rise": false,
+   "potential_reasons": [],
+   "price": {
+    "usd": 8.52,
+    "usd_foil": 10.71,
+    "printing_set": "DSK",
+    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
+    "as_of": "2026-10-09",
+    "change_7d_pct": 1.7,
+    "change_30d_pct": -7.3,
+    "history_as_of": "2026-10-08"
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Untimely+Malfunction",
+   "sources": [
+    {
+     "channel": "@JoelareMagic",
+     "channel_name": "Joel Are Magic",
+     "video_id": "bOFreen_dhA",
+     "video_title": "Wizards Changed Magic Booster Packs. Don't Chase Them.",
+     "published": "2026-10-06",
+     "t": 492,
+     "url": "https://www.youtube.com/watch?v=bOFreen_dhA&t=492s",
+     "quote": "a really solid uncommon shows up, something like untimely malfunction or you stock up before the reprint, pulling a",
+     "judge_note": "solid uncommon shows up something like untimely malfunction or you stock up before the reprint",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
    "card": "Urborg Volcano",
    "scryfall_id": "c69f6612-c974-4723-925e-afd4211c76db",
    "image": "https://cards.scryfall.io/small/front/c/6/c69f6612-c974-4723-925e-afd4211c76db.jpg?1783935839",
@@ -15057,23 +16571,24 @@
    ]
   },
   {
-   "card": "Utvara Hellkite",
-   "scryfall_id": "df459109-d6ab-4b1d-9570-c7677ff4a014",
-   "image": "https://cards.scryfall.io/small/front/d/f/df459109-d6ab-4b1d-9570-c7677ff4a014.jpg?1783913307",
+   "card": "Vanquisher's Banner",
+   "scryfall_id": "efa6944e-b5e2-4584-ae37-f5b59a8ec75e",
+   "image": "https://cards.scryfall.io/small/front/e/f/efa6944e-b5e2-4584-ae37-f5b59a8ec75e.jpg?1783913835",
    "reserved": false,
-   "first_printed": "2012-10-05",
+   "first_printed": "2017-09-29",
    "first_printed_set": {
-    "code": "rtr",
-    "name": "Return to Ravnica"
+    "code": "xln",
+    "name": "Ixalan"
    },
    "is_reprint": true,
-   "reprint_count": 6,
+   "reprint_count": 7,
    "paper_sets": [
-    "Return to Ravnica",
-    "Commander 2017",
-    "RNA Guild Kit",
-    "Secret Lair Drop",
-    "Ravnica Remastered",
+    "Ixalan",
+    "Time Spiral Remastered",
+    "March of the Machine Commander",
+    "Tales of Middle-earth Commander",
+    "Commander Masters",
+    "The Lost Caverns of Ixalan Commander",
     "Foundations Commander"
    ],
    "latest_reprint_set": {
@@ -15086,37 +16601,98 @@
     "name": "Foundations Commander"
    },
    "reprint_released": "2026-10-02",
-   "vibe": "negative",
-   "score": -1.0,
+   "vibe": "neutral",
+   "score": 0.0,
    "positive": 0,
-   "neutral": 0,
-   "negative": 1,
+   "neutral": 1,
+   "negative": 0,
    "channels": 1,
    "potential_to_rise": false,
    "potential_reasons": [],
    "price": {
-    "usd": 4.8,
+    "usd": 2.28,
     "usd_foil": null,
     "printing_set": "FDC",
     "source": "Scryfall (TCGplayer market, cheapest paper printing)",
     "as_of": "2026-10-09",
-    "change_7d_pct": -53.8,
+    "change_7d_pct": -29.0,
     "change_30d_pct": null,
     "history_as_of": "2026-10-08"
    },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Utvara+Hellkite",
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Vanquisher%27s+Banner",
    "sources": [
     {
-     "channel": "@MattcasterMage",
-     "channel_name": "Mattcaster Mage MTG",
-     "video_id": "CFlOXkbhlt8",
-     "video_title": "MTG Market Movers - Oct 9th - Planeswalkers Hot Now! Chandra, Legacy of Fire!",
-     "published": "2026-10-09",
-     "t": 65,
-     "url": "https://www.youtube.com/watch?v=CFlOXkbhlt8&t=65s",
-     "quote": "price is $18.52. Utvara Hellkite from Return to Ravnikica. This card is down 8% today from $13.71 to $12.61",
-     "judge_note": "price down 8% today",
-     "anchored_by": "quote match 85"
+     "channel": "@JoelareMagic",
+     "channel_name": "Joel Are Magic",
+     "video_id": "b3LtqFeUoSM",
+     "video_title": "Should You Buy a Foundation Commander Deck?",
+     "published": "2026-10-04",
+     "t": 491,
+     "url": "https://www.youtube.com/watch?v=b3LtqFeUoSM&t=491s",
+     "quote": "thought they would include in a starter deck. Vanquisher's Banner is at five bucks. Patchwork Banner which is a",
+     "judge_note": "would include in a starter deck vanquishers banner is at five bucks patchwork banner which",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
+   "card": "Vedalken Archmage",
+   "scryfall_id": "508b3cb7-b434-4524-8ef0-7db7f7f22edd",
+   "image": "https://cards.scryfall.io/small/front/5/0/508b3cb7-b434-4524-8ef0-7db7f7f22edd.jpg?1783930442",
+   "reserved": false,
+   "first_printed": "2003-10-02",
+   "first_printed_set": {
+    "code": "mrd",
+    "name": "Mirrodin"
+   },
+   "is_reprint": true,
+   "reprint_count": 3,
+   "paper_sets": [
+    "Mirrodin",
+    "Jumpstart",
+    "Foundations Commander"
+   ],
+   "latest_reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
+   "reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "reprint_released": "2026-10-02",
+   "vibe": "neutral",
+   "score": 0.0,
+   "positive": 0,
+   "neutral": 1,
+   "negative": 0,
+   "channels": 1,
+   "potential_to_rise": false,
+   "potential_reasons": [],
+   "price": {
+    "usd": 2.38,
+    "usd_foil": null,
+    "printing_set": "FDC",
+    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
+    "as_of": "2026-10-09",
+    "change_7d_pct": -52.6,
+    "change_30d_pct": null,
+    "history_as_of": "2026-10-08"
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Vedalken+Archmage",
+   "sources": [
+    {
+     "channel": "@JoelareMagic",
+     "channel_name": "Joel Are Magic",
+     "video_id": "b3LtqFeUoSM",
+     "video_title": "Should You Buy a Foundation Commander Deck?",
+     "published": "2026-10-04",
+     "t": 784,
+     "url": "https://www.youtube.com/watch?v=b3LtqFeUoSM&t=784s",
+     "quote": "the stronger collection foundations of these five decks. Vedalken Archmage is the big reprint at almost 13. Scroll Thief",
+     "judge_note": "collection foundations of these five decks vedalken archmage is the big reprint at almost 13",
+     "anchored_by": "quote match 100"
     }
    ]
   },
@@ -16386,7 +17962,7 @@
    "reasons": [
     "Foil listed among the day's price winners"
    ],
-   "vibe": "positive",
+   "vibe": "neutral",
    "reserved": false,
    "paper_sets": [
     "Limited Edition Alpha",
@@ -16435,7 +18011,7 @@
     "name": "Foundations Commander"
    },
    "reprint_released": "2026-10-02",
-   "channels": 2,
+   "channels": 3,
    "price": {
     "usd": 8.03,
     "usd_foil": null,
@@ -16470,6 +18046,18 @@
      "url": "https://www.youtube.com/watch?v=4Cb0to4-LNM&t=871s",
      "quote": "And I think birds of Paradise is just one of the most powerful unrestricted cards in Old School that",
      "judge_note": "one of the most powerful unrestricted cards",
+     "anchored_by": "quote match 100"
+    },
+    {
+     "channel": "@JoelareMagic",
+     "channel_name": "Joel Are Magic",
+     "video_id": "b3LtqFeUoSM",
+     "video_title": "Should You Buy a Foundation Commander Deck?",
+     "published": "2026-10-04",
+     "t": 894,
+     "url": "https://www.youtube.com/watch?v=b3LtqFeUoSM&t=894s",
+     "quote": "everything. I guess we're back to that. Birds of Paradise at 10 bucks in a $30 beginner deck. Syr",
+     "judge_note": "i guess were back to that birds of paradise at 10 bucks in a 30 beginner",
      "anchored_by": "quote match 100"
     }
    ]
@@ -18460,6 +20048,15 @@
  ],
  "sources": [
   {
+   "video_id": "-XilrrNFDwY",
+   "channel": "@JoelareMagic",
+   "channel_name": "Joel Are Magic",
+   "title": "Wizards Manipulating Rhystic Study? When to Buy 40k? [Mailbag #3]",
+   "published": "2026-10-09",
+   "url": "https://www.youtube.com/watch?v=-XilrrNFDwY",
+   "cited": false
+  },
+  {
    "video_id": "-sYzpCWYtpA",
    "channel": "@Ashlizzlle",
    "channel_name": "Ashlizzlle",
@@ -18739,6 +20336,15 @@
    "cited": false
   },
   {
+   "video_id": "WrJC6nRn950",
+   "channel": "@JoelareMagic",
+   "channel_name": "Joel Are Magic",
+   "title": "Warhammer 40K Reprint Rumors? Sell the One Ring? [Mailbag #2]",
+   "published": "2026-10-02",
+   "url": "https://www.youtube.com/watch?v=WrJC6nRn950",
+   "cited": true
+  },
+  {
    "video_id": "YH7wSgOhvhQ",
    "channel": "@MengusWorkshop",
    "channel_name": "Mengu's Workshop",
@@ -18772,6 +20378,24 @@
    "title": "Fblthp, Impossibly Lost cEDh Card Review",
    "published": "2026-09-29",
    "url": "https://www.youtube.com/watch?v=_xi5FQGXB5M",
+   "cited": true
+  },
+  {
+   "video_id": "b3LtqFeUoSM",
+   "channel": "@JoelareMagic",
+   "channel_name": "Joel Are Magic",
+   "title": "Should You Buy a Foundation Commander Deck?",
+   "published": "2026-10-04",
+   "url": "https://www.youtube.com/watch?v=b3LtqFeUoSM",
+   "cited": true
+  },
+  {
+   "video_id": "bOFreen_dhA",
+   "channel": "@JoelareMagic",
+   "channel_name": "Joel Are Magic",
+   "title": "Wizards Changed Magic Booster Packs. Don't Chase Them.",
+   "published": "2026-10-06",
+   "url": "https://www.youtube.com/watch?v=bOFreen_dhA",
    "cited": true
   },
   {
@@ -18872,6 +20496,15 @@
    "published": "2026-10-08",
    "url": "https://www.youtube.com/watch?v=j2UmxVAqwfM",
    "cited": true
+  },
+  {
+   "video_id": "jlaQs0IBPNQ",
+   "channel": "@JoelareMagic",
+   "channel_name": "Joel Are Magic",
+   "title": "You Don't Know Your Decks As Well As You SHOULD",
+   "published": "2026-10-05",
+   "url": "https://www.youtube.com/watch?v=jlaQs0IBPNQ",
+   "cited": false
   },
   {
    "video_id": "kbYA5Drf0-A",
