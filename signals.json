@@ -1,6 +1,6 @@
 {
  "schema_version": "1.1.0",
- "generated_at": "2026-10-09T19:03:22-05:00",
+ "generated_at": "2026-10-09T19:04:44-05:00",
  "run_id": "2026-10-09_bootstrap",
  "window": {
   "start": "2026-09-25",
@@ -33,6 +33,18 @@
    "card": "Dispatch",
    "scryfall_id": "99d30a21-b003-4a17-a4c5-97811f230896",
    "image": "https://cards.scryfall.io/small/front/9/9/99d30a21-b003-4a17-a4c5-97811f230896.jpg?1783903251",
+   "is_new": false,
+   "first_printed": "2011-05-13",
+   "first_printed_set": {
+    "code": "nph",
+    "name": "New Phyrexia"
+   },
+   "is_reprint": true,
+   "reprint_set": {
+    "code": "slz",
+    "name": "The Zeta Set"
+   },
+   "reprint_released": "2026-09-02",
    "format": "pauper",
    "action": "ban",
    "stance": "predicts",
@@ -59,6 +71,15 @@
    "card": "Emrakul, the Exigent Doom",
    "scryfall_id": "c3ff8dd3-88a8-49dc-a59b-e2748680623c",
    "image": "https://cards.scryfall.io/small/front/c/3/c3ff8dd3-88a8-49dc-a59b-e2748680623c.jpg?1790829846",
+   "is_new": true,
+   "first_printed": "2026-10-02",
+   "first_printed_set": {
+    "code": "fra",
+    "name": "Reality Fracture"
+   },
+   "is_reprint": false,
+   "reprint_set": null,
+   "reprint_released": null,
    "format": "modern",
    "action": "ban",
    "stance": "for",
@@ -85,6 +106,15 @@
    "card": "Kozilek's Command",
    "scryfall_id": "92585587-cfdc-406a-9114-4f6dd8802c37",
    "image": "https://cards.scryfall.io/small/front/9/2/92585587-cfdc-406a-9114-4f6dd8802c37.jpg?1784634156",
+   "is_new": false,
+   "first_printed": "2024-06-14",
+   "first_printed_set": {
+    "code": "mh3",
+    "name": "Modern Horizons 3"
+   },
+   "is_reprint": false,
+   "reprint_set": null,
+   "reprint_released": null,
    "format": "modern",
    "action": "ban",
    "stance": "for",
@@ -111,6 +141,15 @@
    "card": "Library of Alexandria",
    "scryfall_id": "e5145f31-a4ac-44ef-8f85-e4d95f2c9ff5",
    "image": "https://cards.scryfall.io/small/front/e/5/e5145f31-a4ac-44ef-8f85-e4d95f2c9ff5.jpg?1789015990",
+   "is_new": false,
+   "first_printed": "1993-12-17",
+   "first_printed_set": {
+    "code": "arn",
+    "name": "Arabian Nights"
+   },
+   "is_reprint": false,
+   "reprint_set": null,
+   "reprint_released": null,
    "format": "commander",
    "action": "unban",
    "stance": "for",
@@ -137,6 +176,15 @@
    "card": "Urza's Saga",
    "scryfall_id": "c1e0f201-42cb-46a1-901a-65bb4fc18f6c",
    "image": "https://cards.scryfall.io/small/front/c/1/c1e0f201-42cb-46a1-901a-65bb4fc18f6c.jpg?1783926791",
+   "is_new": false,
+   "first_printed": "2021-05-06",
+   "first_printed_set": {
+    "code": "pmh2",
+    "name": "Modern Horizons 2 Promos"
+   },
+   "is_reprint": false,
+   "reprint_set": null,
+   "reprint_released": null,
    "format": "modern",
    "action": "dont_ban",
    "stance": "against",
@@ -163,6 +211,15 @@
    "card": "Bonder's Ornament",
    "scryfall_id": "89486719-4aba-4465-986b-fecbe4d409a1",
    "image": "https://cards.scryfall.io/small/front/8/9/89486719-4aba-4465-986b-fecbe4d409a1.jpg?1783915605",
+   "is_new": false,
+   "first_printed": "2020-04-17",
+   "first_printed_set": {
+    "code": "c20",
+    "name": "Commander 2020"
+   },
+   "is_reprint": false,
+   "reprint_set": null,
+   "reprint_released": null,
    "format": "pauper",
    "action": "unban",
    "stance": "reports",
@@ -189,6 +246,18 @@
    "card": "Brainstorm",
    "scryfall_id": "ec7d6864-7b6b-4f74-8474-9b9ec96b1d33",
    "image": "https://cards.scryfall.io/small/front/e/c/ec7d6864-7b6b-4f74-8474-9b9ec96b1d33.jpg?1789599806",
+   "is_new": false,
+   "first_printed": "1995-06-03",
+   "first_printed_set": {
+    "code": "ice",
+    "name": "Ice Age"
+   },
+   "is_reprint": true,
+   "reprint_set": {
+    "code": "frc",
+    "name": "Reality Fracture Commander"
+   },
+   "reprint_released": "2026-10-02",
    "format": "modern",
    "action": "ban",
    "stance": "for",
