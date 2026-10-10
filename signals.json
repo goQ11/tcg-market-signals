@@ -1,6 +1,6 @@
 {
  "schema_version": "1.4.0",
- "generated_at": "2026-10-10T00:11:25-05:00",
+ "generated_at": "2026-10-10T00:22:00-05:00",
  "run_id": "2026-10-09_bootstrap",
  "window": {
   "start": "2026-09-25",
@@ -15,11 +15,11 @@
   "next": "2026-10-12"
  },
  "counts": {
-  "videos": 66,
+  "videos": 65,
   "channels": 16,
   "ban_alerts": 7,
   "impact_pairs": 6,
-  "card_vibes": 277,
+  "card_vibes": 250,
   "potential_risers": 36
  },
  "disclaimers": [
@@ -1457,96 +1457,6 @@
    ]
   },
   {
-   "card": "Vanquish the Horde",
-   "scryfall_id": "f392782b-7464-4617-b421-6b5d0e2880fc",
-   "image": "https://cards.scryfall.io/small/front/f/3/f392782b-7464-4617-b421-6b5d0e2880fc.jpg?1783903241",
-   "reserved": false,
-   "first_printed": "2021-09-24",
-   "first_printed_set": {
-    "code": "mid",
-    "name": "Innistrad: Midnight Hunt"
-   },
-   "is_reprint": true,
-   "reprint_count": 8,
-   "paper_sets": [
-    "Innistrad: Midnight Hunt",
-    "Innistrad: Double Feature",
-    "Secret Lair Drop",
-    "Innistrad Remastered",
-    "Tarkir: Dragonstorm Commander",
-    "Final Fantasy Commander",
-    "Teenage Mutant Ninja Turtles Eternal",
-    "Marvel Super Heroes Commander"
-   ],
-   "latest_reprint_set": {
-    "code": "msc",
-    "name": "Marvel Super Heroes Commander"
-   },
-   "latest_reprint_date": "2026-06-26",
-   "reprint_set": {
-    "code": "msc",
-    "name": "Marvel Super Heroes Commander"
-   },
-   "reprint_released": "2026-06-26",
-   "vibe": "positive",
-   "score": 1.0,
-   "positive": 3,
-   "neutral": 0,
-   "negative": 0,
-   "channels": 2,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 0.29,
-    "usd_foil": null,
-    "printing_set": "TMC",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-10-09",
-    "change_7d_pct": -13.5,
-    "change_30d_pct": 33.3,
-    "history_as_of": "2026-10-08"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Vanquish+the+Horde",
-   "sources": [
-    {
-     "channel": "@NitpickingNerds",
-     "channel_name": "Nitpicking Nerds",
-     "video_id": "LrLQ7hS5Fbw",
-     "video_title": "We Broke the Reality Fracture Precon",
-     "published": "2026-09-25",
-     "t": 1113,
-     "url": "https://www.youtube.com/watch?v=LrLQ7hS5Fbw&t=1113s",
-     "quote": "board wipes. We just pick the best ones that are the cheapest. Vanquish the horde. It's cheap to uh",
-     "judge_note": "best ones, cheap",
-     "anchored_by": "quote match 83"
-    },
-    {
-     "channel": "@TheCommandersQuarters",
-     "channel_name": "The Commander's Quarters",
-     "video_id": "73lqy68Prpg",
-     "video_title": "The Best S Tier Staples Under $1",
-     "published": "2026-10-06",
-     "t": 2041,
-     "url": "https://www.youtube.com/watch?v=73lqy68Prpg&t=2041s",
-     "quote": "a steal. Speaking of wraths though, yeah, Vanquish the Horde again like Decree Pain at eight mana, but also",
-     "judge_note": "steal speaking of wraths though yeah vanquish the horde again like decree pain at eight mana",
-     "anchored_by": "quote match 100"
-    },
-    {
-     "channel": "@NitpickingNerds",
-     "channel_name": "Nitpicking Nerds",
-     "video_id": "U4z_Wi9XU6U",
-     "video_title": "This is Why Your Commander Decks Aren't Winning",
-     "published": "2026-09-30",
-     "t": 2125,
-     "url": "https://www.youtube.com/watch?v=U4z_Wi9XU6U&t=2125s",
-     "quote": "hetzelfde aanvallende vermogen heeft. Ik heb uh Vanquish the Horde, geweldig. Voor vier mana speel ik gewoon Selfless Spirit",
-     "judge_note": "aanvallende vermogen heeft ik heb uh vanquish the horde geweldig voor vier mana speel ik gewoon",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
    "card": "Walking Ballista",
    "scryfall_id": "5272436e-74f0-44c4-a291-ea8ebc3f1525",
    "image": "https://cards.scryfall.io/small/front/5/2/5272436e-74f0-44c4-a291-ea8ebc3f1525.jpg?1783930088",
@@ -1884,80 +1794,6 @@
      "url": "https://www.youtube.com/watch?v=qwMv8PIQ9yE&t=3655s",
      "quote": "Wow. Oh, tapped. Okay. Okay. All right. So, worst fabled passage. I kind of forgot that was a card.",
      "judge_note": "worst fabled passage",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
-   "card": "Manalith",
-   "scryfall_id": "f0d7d904-f29b-4524-9223-27910d748bdb",
-   "image": "https://cards.scryfall.io/small/front/f/0/f0d7d904-f29b-4524-9223-27910d748bdb.jpg?1783933970",
-   "reserved": false,
-   "first_printed": "2011-07-15",
-   "first_printed_set": {
-    "code": "m12",
-    "name": "Magic 2012"
-   },
-   "is_reprint": true,
-   "reprint_count": 4,
-   "paper_sets": [
-    "Magic 2012",
-    "Hour of Devastation",
-    "Core Set 2019",
-    "Game Night"
-   ],
-   "latest_reprint_set": {
-    "code": "gnt",
-    "name": "Game Night"
-   },
-   "latest_reprint_date": "2018-11-16",
-   "reprint_set": {
-    "code": "gnt",
-    "name": "Game Night"
-   },
-   "reprint_released": "2018-11-16",
-   "vibe": "positive",
-   "score": 0.5,
-   "positive": 1,
-   "neutral": 1,
-   "negative": 0,
-   "channels": 2,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 0.18,
-    "usd_foil": 1.21,
-    "printing_set": "M12",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-10-09",
-    "change_7d_pct": 0.0,
-    "change_30d_pct": 5.9,
-    "history_as_of": "2026-10-08"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Manalith",
-   "sources": [
-    {
-     "channel": "@samuelhblack",
-     "channel_name": "Sam Black",
-     "video_id": "rZap1SGzP34",
-     "video_title": "Sam's Table 54: Reality Fracture Limited",
-     "published": "2026-10-02",
-     "t": 3409,
-     "url": "https://www.youtube.com/watch?v=rZap1SGzP34&t=3409s",
-     "quote": "I have. Murmuring volume. This is a very good manolith in a format where like ramping up to your",
-     "judge_note": "pretty strong",
-     "anchored_by": "card mention"
-    },
-    {
-     "channel": "@NitpickingNerds",
-     "channel_name": "Nitpicking Nerds",
-     "video_id": "U4z_Wi9XU6U",
-     "video_title": "This is Why Your Commander Decks Aren't Winning",
-     "published": "2026-09-30",
-     "t": 2410,
-     "url": "https://www.youtube.com/watch?v=U4z_Wi9XU6U&t=2410s",
-     "quote": "kunt dan ook nog een beetje rampen. Grappig, Manalith zou misschien een vervanger kunnen zijn voor de 10 ringen",
-     "judge_note": "ook nog een beetje rampen grappig manalith zou misschien een vervanger kunnen zijn voor",
      "anchored_by": "quote match 100"
     }
    ]
@@ -2380,82 +2216,6 @@
    ]
   },
   {
-   "card": "Selfless Spirit",
-   "scryfall_id": "9cd16dac-3bf9-4a71-a906-0cfbf98cdca5",
-   "image": "https://cards.scryfall.io/small/front/9/c/9cd16dac-3bf9-4a71-a906-0cfbf98cdca5.jpg?1783903802",
-   "reserved": false,
-   "first_printed": "2016-07-22",
-   "first_printed_set": {
-    "code": "emn",
-    "name": "Eldritch Moon"
-   },
-   "is_reprint": true,
-   "reprint_count": 6,
-   "paper_sets": [
-    "Eldritch Moon",
-    "Commander Legends: Battle for Baldur's Gate",
-    "Jumpstart 2022",
-    "Bloomburrow Commander",
-    "Tarkir: Dragonstorm Commander",
-    "Secrets of Strixhaven Commander"
-   ],
-   "latest_reprint_set": {
-    "code": "soc",
-    "name": "Secrets of Strixhaven Commander"
-   },
-   "latest_reprint_date": "2026-04-24",
-   "reprint_set": {
-    "code": "soc",
-    "name": "Secrets of Strixhaven Commander"
-   },
-   "reprint_released": "2026-04-24",
-   "vibe": "positive",
-   "score": 1.0,
-   "positive": 2,
-   "neutral": 0,
-   "negative": 0,
-   "channels": 2,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 0.4,
-    "usd_foil": null,
-    "printing_set": "SOC",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-10-09",
-    "change_7d_pct": -6.4,
-    "change_30d_pct": 12.8,
-    "history_as_of": "2026-10-08"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Selfless+Spirit",
-   "sources": [
-    {
-     "channel": "@TheCommandersQuarters",
-     "channel_name": "The Commander's Quarters",
-     "video_id": "73lqy68Prpg",
-     "video_title": "The Best S Tier Staples Under $1",
-     "published": "2026-10-06",
-     "t": 1100,
-     "url": "https://www.youtube.com/watch?v=73lqy68Prpg&t=1100s",
-     "quote": "up right now for just 48. Next up, selfless spirit. At just 47 cents, a two-1 spirit cleric with",
-     "judge_note": "now for just 48 next up selfless spirit at just 47 cents a two 1",
-     "anchored_by": "quote match 100"
-    },
-    {
-     "channel": "@NitpickingNerds",
-     "channel_name": "Nitpicking Nerds",
-     "video_id": "U4z_Wi9XU6U",
-     "video_title": "This is Why Your Commander Decks Aren't Winning",
-     "published": "2026-09-30",
-     "t": 2078,
-     "url": "https://www.youtube.com/watch?v=U4z_Wi9XU6U&t=2078s",
-     "quote": "voor een minder effectieve, maar ontegenzeggelijk goedkopere kaart: Selfless Spirit. Het garandeert wel dat het je redt van een",
-     "judge_note": "minder effectieve maar ontegenzeggelijk goedkopere kaart selfless spirit het garandeert wel dat het je redt",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
    "card": "Simulacrum Shaper",
    "scryfall_id": "7c725702-8696-4e5a-8318-62f5e2616d52",
    "image": "https://cards.scryfall.io/small/front/7/c/7c725702-8696-4e5a-8318-62f5e2616d52.jpg?1789470857",
@@ -2521,68 +2281,79 @@
    ]
   },
   {
-   "card": "Stensian Sanguinist // Exsanguinate",
-   "scryfall_id": "909a52bc-53f6-4654-9db7-e8f48333d765",
-   "image": "https://cards.scryfall.io/small/front/9/0/909a52bc-53f6-4654-9db7-e8f48333d765.jpg?1783903860",
+   "card": "Vanquish the Horde",
+   "scryfall_id": "f392782b-7464-4617-b421-6b5d0e2880fc",
+   "image": "https://cards.scryfall.io/small/front/f/3/f392782b-7464-4617-b421-6b5d0e2880fc.jpg?1783903241",
    "reserved": false,
-   "first_printed": "2026-04-24",
+   "first_printed": "2021-09-24",
    "first_printed_set": {
-    "code": "soc",
-    "name": "Secrets of Strixhaven Commander"
+    "code": "mid",
+    "name": "Innistrad: Midnight Hunt"
    },
-   "is_reprint": false,
-   "reprint_count": 1,
+   "is_reprint": true,
+   "reprint_count": 8,
    "paper_sets": [
-    "Secrets of Strixhaven Commander"
+    "Innistrad: Midnight Hunt",
+    "Innistrad: Double Feature",
+    "Secret Lair Drop",
+    "Innistrad Remastered",
+    "Tarkir: Dragonstorm Commander",
+    "Final Fantasy Commander",
+    "Teenage Mutant Ninja Turtles Eternal",
+    "Marvel Super Heroes Commander"
    ],
-   "latest_reprint_set": null,
-   "latest_reprint_date": null,
-   "reprint_set": null,
-   "reprint_released": null,
+   "latest_reprint_set": {
+    "code": "msc",
+    "name": "Marvel Super Heroes Commander"
+   },
+   "latest_reprint_date": "2026-06-26",
+   "reprint_set": {
+    "code": "msc",
+    "name": "Marvel Super Heroes Commander"
+   },
+   "reprint_released": "2026-06-26",
    "vibe": "positive",
-   "score": 0.5,
-   "positive": 1,
-   "neutral": 1,
+   "score": 1.0,
+   "positive": 2,
+   "neutral": 0,
    "negative": 0,
    "channels": 2,
-   "potential_to_rise": true,
-   "potential_reasons": [
-    "recommended buy at 25 cents"
-   ],
+   "potential_to_rise": false,
+   "potential_reasons": [],
    "price": {
-    "usd": 5.4,
+    "usd": 0.29,
     "usd_foil": null,
-    "printing_set": "SOC",
+    "printing_set": "TMC",
     "source": "Scryfall (TCGplayer market, cheapest paper printing)",
     "as_of": "2026-10-09",
-    "change_7d_pct": 4.4,
-    "change_30d_pct": 4.8,
+    "change_7d_pct": -13.5,
+    "change_30d_pct": 33.3,
     "history_as_of": "2026-10-08"
    },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Stensian+Sanguinist+%2F%2F+Exsanguinate",
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Vanquish+the+Horde",
    "sources": [
+    {
+     "channel": "@NitpickingNerds",
+     "channel_name": "Nitpicking Nerds",
+     "video_id": "LrLQ7hS5Fbw",
+     "video_title": "We Broke the Reality Fracture Precon",
+     "published": "2026-09-25",
+     "t": 1113,
+     "url": "https://www.youtube.com/watch?v=LrLQ7hS5Fbw&t=1113s",
+     "quote": "board wipes. We just pick the best ones that are the cheapest. Vanquish the horde. It's cheap to uh",
+     "judge_note": "best ones, cheap",
+     "anchored_by": "quote match 83"
+    },
     {
      "channel": "@TheCommandersQuarters",
      "channel_name": "The Commander's Quarters",
      "video_id": "73lqy68Prpg",
      "video_title": "The Best S Tier Staples Under $1",
      "published": "2026-10-06",
-     "t": 2330,
-     "url": "https://www.youtube.com/watch?v=73lqy68Prpg&t=2330s",
-     "quote": "gain strategies of course as well. Exanguinite. Pick it up for just 25. Next up, a card that in",
-     "judge_note": "pick it up for just 25",
-     "anchored_by": "quote match 100"
-    },
-    {
-     "channel": "@NitpickingNerds",
-     "channel_name": "Nitpicking Nerds",
-     "video_id": "U4z_Wi9XU6U",
-     "video_title": "This is Why Your Commander Decks Aren't Winning",
-     "published": "2026-09-30",
-     "t": 850,
-     "url": "https://www.youtube.com/watch?v=U4z_Wi9XU6U&t=850s",
-     "quote": "vallen, of met een andere X-spell zoals Exsanguinate, waarmee je het spel direct kunt winnen, of jezelf in ieder",
-     "judge_note": "met een andere x spell zoals exsanguinate waarmee je het spel direct kunt winnen of",
+     "t": 2041,
+     "url": "https://www.youtube.com/watch?v=73lqy68Prpg&t=2041s",
+     "quote": "a steal. Speaking of wraths though, yeah, Vanquish the Horde again like Decree Pain at eight mana, but also",
+     "judge_note": "steal speaking of wraths though yeah vanquish the horde again like decree pain at eight mana",
      "anchored_by": "quote match 100"
     }
    ]
@@ -4661,70 +4432,6 @@
    ]
   },
   {
-   "card": "Avacyn, Angel of Hope",
-   "scryfall_id": "74e5dcec-ef1d-4461-bb23-61d98ff082dd",
-   "image": "https://cards.scryfall.io/small/front/7/4/74e5dcec-ef1d-4461-bb23-61d98ff082dd.jpg?1783907976",
-   "reserved": false,
-   "first_printed": "2012-05-04",
-   "first_printed_set": {
-    "code": "avr",
-    "name": "Avacyn Restored"
-   },
-   "is_reprint": true,
-   "reprint_count": 6,
-   "paper_sets": [
-    "Avacyn Restored",
-    "From the Vault: Angels",
-    "Iconic Masters",
-    "Double Masters",
-    "Commander Masters",
-    "Innistrad Remastered"
-   ],
-   "latest_reprint_set": {
-    "code": "inr",
-    "name": "Innistrad Remastered"
-   },
-   "latest_reprint_date": "2025-01-24",
-   "reprint_set": {
-    "code": "inr",
-    "name": "Innistrad Remastered"
-   },
-   "reprint_released": "2025-01-24",
-   "vibe": "neutral",
-   "score": 0.0,
-   "positive": 0,
-   "neutral": 1,
-   "negative": 0,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 32.5,
-    "usd_foil": 36.06,
-    "printing_set": "INR",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-10-09",
-    "change_7d_pct": 5.6,
-    "change_30d_pct": 10.0,
-    "history_as_of": "2026-10-08"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Avacyn%2C+Angel+of+Hope",
-   "sources": [
-    {
-     "channel": "@NitpickingNerds",
-     "channel_name": "Nitpicking Nerds",
-     "video_id": "U4z_Wi9XU6U",
-     "video_title": "This is Why Your Commander Decks Aren't Winning",
-     "published": "2026-09-30",
-     "t": 2044,
-     "url": "https://www.youtube.com/watch?v=U4z_Wi9XU6U&t=2044s",
-     "quote": "het engelengebied blijven. Laten we praten over Avacyn, Angel of Hope. Dit is een 8/8 voor acht mana met",
-     "judge_note": "engelengebied blijven laten we praten over avacyn angel of hope dit is een 8 8 voor acht",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
    "card": "Avengers Assemble!",
    "scryfall_id": "bf736399-af74-4f52-9159-67ea67d0cf83",
    "image": "https://cards.scryfall.io/small/front/b/f/bf736399-af74-4f52-9159-67ea67d0cf83.jpg?1783902981",
@@ -4900,73 +4607,6 @@
      "url": "https://www.youtube.com/watch?v=73lqy68Prpg&t=1964s",
      "quote": "it up and play it. Next up, Bastion of Remembrance. Just 28 cents for this gem. an enchantment for",
      "judge_note": "up and play it next up bastion of remembrance just 28 cents for this gem an",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
-   "card": "Beastmaster Ascension",
-   "scryfall_id": "f404d133-fc1a-4751-ac72-554e6553e486",
-   "image": "https://cards.scryfall.io/small/front/f/4/f404d133-fc1a-4751-ac72-554e6553e486.jpg?1783923253",
-   "reserved": false,
-   "first_printed": "2009-10-02",
-   "first_printed_set": {
-    "code": "zen",
-    "name": "Zendikar"
-   },
-   "is_reprint": true,
-   "reprint_count": 9,
-   "paper_sets": [
-    "Zendikar",
-    "Commander 2014",
-    "Commander 2015",
-    "Commander 2016",
-    "Commander Anthology",
-    "New Capenna Commander",
-    "Secret Lair Drop",
-    "Bloomburrow Commander",
-    "Avatar: The Last Airbender Eternal"
-   ],
-   "latest_reprint_set": {
-    "code": "tle",
-    "name": "Avatar: The Last Airbender Eternal"
-   },
-   "latest_reprint_date": "2025-11-21",
-   "reprint_set": {
-    "code": "tle",
-    "name": "Avatar: The Last Airbender Eternal"
-   },
-   "reprint_released": "2025-11-21",
-   "vibe": "positive",
-   "score": 1.0,
-   "positive": 1,
-   "neutral": 0,
-   "negative": 0,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 4.42,
-    "usd_foil": null,
-    "printing_set": "PLST",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-10-09",
-    "change_7d_pct": -5.2,
-    "change_30d_pct": -2.7,
-    "history_as_of": "2026-10-08"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Beastmaster+Ascension",
-   "sources": [
-    {
-     "channel": "@NitpickingNerds",
-     "channel_name": "Nitpicking Nerds",
-     "video_id": "U4z_Wi9XU6U",
-     "video_title": "This is Why Your Commander Decks Aren't Winning",
-     "published": "2026-09-30",
-     "t": 2693,
-     "url": "https://www.youtube.com/watch?v=U4z_Wi9XU6U&t=2693s",
-     "quote": "je wilt die grote buff, dan moet je Beastmaster Ascension spelen. Dit vereist wat meer werk, maar het kan",
-     "judge_note": "die grote buff dan moet je beastmaster ascension spelen dit vereist wat meer werk maar",
      "anchored_by": "quote match 100"
     }
    ]
@@ -6493,59 +6133,6 @@
    ]
   },
   {
-   "card": "Darksteel Angel",
-   "scryfall_id": "0c33024e-9473-4d5b-8433-9898380282c4",
-   "image": "https://cards.scryfall.io/small/front/0/c/0c33024e-9473-4d5b-8433-9898380282c4.jpg?1784325693",
-   "reserved": false,
-   "first_printed": "2026-10-02",
-   "first_printed_set": {
-    "code": "frc",
-    "name": "Reality Fracture Commander"
-   },
-   "is_reprint": false,
-   "reprint_count": 1,
-   "paper_sets": [
-    "Reality Fracture Commander"
-   ],
-   "latest_reprint_set": null,
-   "latest_reprint_date": null,
-   "reprint_set": null,
-   "reprint_released": null,
-   "vibe": "negative",
-   "score": -1.0,
-   "positive": 0,
-   "neutral": 0,
-   "negative": 1,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 4.36,
-    "usd_foil": null,
-    "printing_set": "FRC",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-10-09",
-    "change_7d_pct": -48.1,
-    "change_30d_pct": -88.4,
-    "history_as_of": "2026-10-08"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Darksteel+Angel",
-   "sources": [
-    {
-     "channel": "@NitpickingNerds",
-     "channel_name": "Nitpicking Nerds",
-     "video_id": "U4z_Wi9XU6U",
-     "video_title": "This is Why Your Commander Decks Aren't Winning",
-     "published": "2026-09-30",
-     "t": 2504,
-     "url": "https://www.youtube.com/watch?v=U4z_Wi9XU6U&t=2504s",
-     "quote": "helpt je alleen om niet te verliezen. En Darksteel Angel is daar het perfecte voorbeeld van. Het is een",
-     "judge_note": "alleen om niet te verliezen en darksteel angel is daar het perfecte voorbeeld van het",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
    "card": "Darksteel Relic",
    "scryfall_id": "0fd8c918-62d9-41be-a3e1-32ddac71b7e7",
    "image": "https://cards.scryfall.io/small/front/0/f/0fd8c918-62d9-41be-a3e1-32ddac71b7e7.jpg?1783941297",
@@ -7034,71 +6621,6 @@
      "url": "https://www.youtube.com/watch?v=CMWSLhHKhX0&t=1668s",
      "quote": "this is a very good card. Sorry, divination. The mighty have fallen. Yeah, I think it's okay. Late game",
      "judge_note": "mighty have fallen",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
-   "card": "Duelist's Heritage",
-   "scryfall_id": "45834bc6-be8d-4064-930d-efc73cf3c64d",
-   "image": "https://cards.scryfall.io/small/front/4/5/45834bc6-be8d-4064-930d-efc73cf3c64d.jpg?1783904807",
-   "reserved": false,
-   "first_printed": "2016-11-11",
-   "first_printed_set": {
-    "code": "c16",
-    "name": "Commander 2016"
-   },
-   "is_reprint": true,
-   "reprint_count": 7,
-   "paper_sets": [
-    "Commander 2016",
-    "Commander Anthology Volume II",
-    "Jumpstart",
-    "Commander 2021",
-    "New Capenna Commander",
-    "Murders at Karlov Manor Commander",
-    "Avatar: The Last Airbender Eternal"
-   ],
-   "latest_reprint_set": {
-    "code": "tle",
-    "name": "Avatar: The Last Airbender Eternal"
-   },
-   "latest_reprint_date": "2025-11-21",
-   "reprint_set": {
-    "code": "tle",
-    "name": "Avatar: The Last Airbender Eternal"
-   },
-   "reprint_released": "2025-11-21",
-   "vibe": "positive",
-   "score": 1.0,
-   "positive": 1,
-   "neutral": 0,
-   "negative": 0,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 2.47,
-    "usd_foil": 5.91,
-    "printing_set": "TLE",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-10-09",
-    "change_7d_pct": 19.3,
-    "change_30d_pct": 16.0,
-    "history_as_of": "2026-10-08"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Duelist%27s+Heritage",
-   "sources": [
-    {
-     "channel": "@NitpickingNerds",
-     "channel_name": "Nitpicking Nerds",
-     "video_id": "U4z_Wi9XU6U",
-     "video_title": "This is Why Your Commander Decks Aren't Winning",
-     "published": "2026-09-30",
-     "t": 1966,
-     "url": "https://www.youtube.com/watch?v=U4z_Wi9XU6U&t=1966s",
-     "quote": "hou er gewoon van. Ik hou ook van Duelist's Heritage. Duelist's Heritage is geweldig omdat het bij elk gevecht",
-     "judge_note": "gewoon van ik hou ook van duelists heritage duelists heritage is geweldig omdat het bij",
      "anchored_by": "quote match 100"
     }
    ]
@@ -7964,59 +7486,6 @@
    ]
   },
   {
-   "card": "Flotsam // Jetsam",
-   "scryfall_id": "c1500cbf-5619-465e-a97b-75e676ce789b",
-   "image": "https://cards.scryfall.io/small/front/c/1/c1500cbf-5619-465e-a97b-75e676ce789b.jpg?1783912830",
-   "reserved": false,
-   "first_printed": "2024-02-09",
-   "first_printed_set": {
-    "code": "mkm",
-    "name": "Murders at Karlov Manor"
-   },
-   "is_reprint": false,
-   "reprint_count": 1,
-   "paper_sets": [
-    "Murders at Karlov Manor"
-   ],
-   "latest_reprint_set": null,
-   "latest_reprint_date": null,
-   "reprint_set": null,
-   "reprint_released": null,
-   "vibe": "positive",
-   "score": 1.0,
-   "positive": 1,
-   "neutral": 0,
-   "negative": 0,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 0.15,
-    "usd_foil": 0.22,
-    "printing_set": "MKM",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-10-09",
-    "change_7d_pct": 0.0,
-    "change_30d_pct": -17.6,
-    "history_as_of": "2026-10-08"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Flotsam+%2F%2F+Jetsam",
-   "sources": [
-    {
-     "channel": "@NitpickingNerds",
-     "channel_name": "Nitpicking Nerds",
-     "video_id": "U4z_Wi9XU6U",
-     "video_title": "This is Why Your Commander Decks Aren't Winning",
-     "published": "2026-09-30",
-     "t": 902,
-     "url": "https://www.youtube.com/watch?v=U4z_Wi9XU6U&t=902s",
-     "quote": "is het kaartvoordeel, dan hou ik echt van Flotsam and Jetsam. En ik zal de lofzang op Flotsam and",
-     "judge_note": "kaartvoordeel dan hou ik echt van flotsam and jetsam en ik zal de lofzang",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
    "card": "Flux Channeler",
    "scryfall_id": "3c520263-6bad-4521-ba9e-192ca8223b07",
    "image": "https://cards.scryfall.io/small/front/3/c/3c520263-6bad-4521-ba9e-192ca8223b07.jpg?1783915442",
@@ -8376,80 +7845,6 @@
    ]
   },
   {
-   "card": "Ghostly Prison",
-   "scryfall_id": "e1f723a8-0be9-4270-b451-a52d6b2fda4e",
-   "image": "https://cards.scryfall.io/small/front/e/1/e1f723a8-0be9-4270-b451-a52d6b2fda4e.jpg?1783903809",
-   "reserved": false,
-   "first_printed": "2004-10-01",
-   "first_printed_set": {
-    "code": "chk",
-    "name": "Champions of Kamigawa"
-   },
-   "is_reprint": true,
-   "reprint_count": 16,
-   "paper_sets": [
-    "Champions of Kamigawa",
-    "Commander 2011",
-    "Planechase 2012",
-    "Conspiracy: Take the Crown",
-    "Commander 2016",
-    "Planechase Anthology",
-    "Commander 2019",
-    "Kaldheim Commander",
-    "Commander 2021",
-    "Crimson Vow Commander",
-    "Secret Lair Drop",
-    "Phyrexia: All Will Be One Commander",
-    "Murders at Karlov Manor Commander",
-    "Special Guests",
-    "Tarkir: Dragonstorm Commander",
-    "Secrets of Strixhaven Commander"
-   ],
-   "latest_reprint_set": {
-    "code": "soc",
-    "name": "Secrets of Strixhaven Commander"
-   },
-   "latest_reprint_date": "2026-04-24",
-   "reprint_set": {
-    "code": "soc",
-    "name": "Secrets of Strixhaven Commander"
-   },
-   "reprint_released": "2026-04-24",
-   "vibe": "neutral",
-   "score": 0.0,
-   "positive": 0,
-   "neutral": 1,
-   "negative": 0,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 5.7,
-    "usd_foil": null,
-    "printing_set": "PLST",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-10-09",
-    "change_7d_pct": 1.8,
-    "change_30d_pct": 8.1,
-    "history_as_of": "2026-10-08"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Ghostly+Prison",
-   "sources": [
-    {
-     "channel": "@NitpickingNerds",
-     "channel_name": "Nitpicking Nerds",
-     "video_id": "U4z_Wi9XU6U",
-     "video_title": "This is Why Your Commander Decks Aren't Winning",
-     "published": "2026-09-30",
-     "t": 1935,
-     "url": "https://www.youtube.com/watch?v=U4z_Wi9XU6U&t=1935s",
-     "quote": "wilt, wissel Gisela dan gewoon in voor bijvoorbeeld Ghostly Prison of iets dergelijks. Maar we hebben het over aggro.",
-     "judge_note": "gisela dan gewoon in voor bijvoorbeeld ghostly prison of iets dergelijks maar we hebben het",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
    "card": "Gideon's Memorial",
    "scryfall_id": "768c0e64-9907-417a-a763-c836fdf36883",
    "image": "https://cards.scryfall.io/small/front/7/6/768c0e64-9907-417a-a763-c836fdf36883.jpg?1789127685",
@@ -8629,71 +8024,6 @@
      "url": "https://www.youtube.com/watch?v=3aweXsAcKPg&t=90s",
      "quote": "lot of amazing legendary Phyrexian. I mean, Gisa is a pretty great one for a Phyrexian tribal deck, a",
      "judge_note": "pretty great",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
-   "card": "Gisela, Blade of Goldnight",
-   "scryfall_id": "900b8908-ba51-472e-ab7a-43bd07f90577",
-   "image": "https://cards.scryfall.io/small/front/9/0/900b8908-ba51-472e-ab7a-43bd07f90577.jpg?1783912978",
-   "reserved": false,
-   "first_printed": "2012-05-04",
-   "first_printed_set": {
-    "code": "avr",
-    "name": "Avacyn Restored"
-   },
-   "is_reprint": true,
-   "reprint_count": 7,
-   "paper_sets": [
-    "Avacyn Restored",
-    "Commander 2015",
-    "Masters 25",
-    "Commander Anthology Volume II",
-    "Secret Lair Drop",
-    "Commander Masters",
-    "Murders at Karlov Manor Commander"
-   ],
-   "latest_reprint_set": {
-    "code": "mkc",
-    "name": "Murders at Karlov Manor Commander"
-   },
-   "latest_reprint_date": "2024-02-09",
-   "reprint_set": {
-    "code": "mkc",
-    "name": "Murders at Karlov Manor Commander"
-   },
-   "reprint_released": "2024-02-09",
-   "vibe": "negative",
-   "score": -1.0,
-   "positive": 0,
-   "neutral": 0,
-   "negative": 1,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 5.4,
-    "usd_foil": null,
-    "printing_set": "C15",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-10-09",
-    "change_7d_pct": 1.1,
-    "change_30d_pct": 8.1,
-    "history_as_of": "2026-10-08"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Gisela%2C+Blade+of+Goldnight",
-   "sources": [
-    {
-     "channel": "@NitpickingNerds",
-     "channel_name": "Nitpicking Nerds",
-     "video_id": "U4z_Wi9XU6U",
-     "video_title": "This is Why Your Commander Decks Aren't Winning",
-     "published": "2026-09-30",
-     "t": 1830,
-     "url": "https://www.youtube.com/watch?v=U4z_Wi9XU6U&t=1830s",
-     "quote": "de zeven mana niet waard. Het is Gisela, Blade of Goldnight voor rood, wit, wit, een 5/5 met flying",
-     "judge_note": "zeven mana niet waard het is gisela blade of goldnight voor rood wit wit een 5 5",
      "anchored_by": "quote match 100"
     }
    ]
@@ -8950,68 +8280,6 @@
    ]
   },
   {
-   "card": "Grand Crescendo",
-   "scryfall_id": "a60834b0-38ab-40c9-9fd9-db3a23b13076",
-   "image": "https://cards.scryfall.io/small/front/a/6/a60834b0-38ab-40c9-9fd9-db3a23b13076.jpg?1789599802",
-   "reserved": false,
-   "first_printed": "2022-04-29",
-   "first_printed_set": {
-    "code": "ncc",
-    "name": "New Capenna Commander"
-   },
-   "is_reprint": true,
-   "reprint_count": 4,
-   "paper_sets": [
-    "New Capenna Commander",
-    "Tarkir: Dragonstorm Commander",
-    "Secret Lair Drop",
-    "Reality Fracture Commander"
-   ],
-   "latest_reprint_set": {
-    "code": "frc",
-    "name": "Reality Fracture Commander"
-   },
-   "latest_reprint_date": "2026-10-02",
-   "reprint_set": {
-    "code": "frc",
-    "name": "Reality Fracture Commander"
-   },
-   "reprint_released": "2026-10-02",
-   "vibe": "positive",
-   "score": 1.0,
-   "positive": 1,
-   "neutral": 0,
-   "negative": 0,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 0.52,
-    "usd_foil": null,
-    "printing_set": "FRC",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-10-09",
-    "change_7d_pct": -73.9,
-    "change_30d_pct": null,
-    "history_as_of": "2026-10-08"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Grand+Crescendo",
-   "sources": [
-    {
-     "channel": "@NitpickingNerds",
-     "channel_name": "Nitpicking Nerds",
-     "video_id": "U4z_Wi9XU6U",
-     "video_title": "This is Why Your Commander Decks Aren't Winning",
-     "published": "2026-09-30",
-     "t": 1917,
-     "url": "https://www.youtube.com/watch?v=U4z_Wi9XU6U&t=1917s",
-     "quote": "team onverwoestbaar maken, maar ook, weet je zoals Grand Crescendo, waarbij het onverwoestbaar is, maar ik ook tokens maak",
-     "judge_note": "maken maar ook weet je zoals grand crescendo waarbij het onverwoestbaar is maar ik ook",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
    "card": "Grenzo, Crooked Jailer",
    "scryfall_id": "8bc6b7e6-dd44-4411-88f7-fd7259a3abc1",
    "image": "https://cards.scryfall.io/small/front/8/b/8bc6b7e6-dd44-4411-88f7-fd7259a3abc1.jpg?1783911506",
@@ -9102,83 +8370,6 @@
      "url": "https://www.youtube.com/watch?v=PMDDWq7eImo&t=411s",
      "quote": "advantage of cards like Grim Guardian. Constellation cards, eerie cards are insane with this commander. Hey, whenever it or",
      "judge_note": "insane with this commander",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
-   "card": "Guttersnipe",
-   "scryfall_id": "f6bb1ffc-2251-4655-b8f9-4c8047dd5d5f",
-   "image": "https://cards.scryfall.io/small/front/f/6/f6bb1ffc-2251-4655-b8f9-4c8047dd5d5f.jpg?1785497556",
-   "reserved": false,
-   "first_printed": "2012-10-05",
-   "first_printed_set": {
-    "code": "rtr",
-    "name": "Return to Ravnica"
-   },
-   "is_reprint": true,
-   "reprint_count": 19,
-   "paper_sets": [
-    "Return to Ravnica",
-    "Commander 2013",
-    "Conspiracy: Take the Crown",
-    "Archenemy: Nicol Bolas",
-    "Iconic Masters",
-    "Core Set 2019",
-    "GRN Guild Kit",
-    "Commander 2019",
-    "Starter Commander Decks",
-    "Tales of Middle-earth Commander",
-    "Commander Masters",
-    "Ravnica Remastered",
-    "Outlaws of Thunder Junction Commander",
-    "Foundations",
-    "Foundations Jumpstart",
-    "Tarkir: Dragonstorm Commander",
-    "Secret Lair Drop",
-    "The Hobbit Eternal",
-    "The Zeta Set"
-   ],
-   "latest_reprint_set": {
-    "code": "slz",
-    "name": "The Zeta Set"
-   },
-   "latest_reprint_date": "2026-09-02",
-   "reprint_set": {
-    "code": "slz",
-    "name": "The Zeta Set"
-   },
-   "reprint_released": "2026-09-02",
-   "vibe": "positive",
-   "score": 1.0,
-   "positive": 1,
-   "neutral": 0,
-   "negative": 0,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 0.24,
-    "usd_foil": 1.22,
-    "printing_set": "M19",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-10-09",
-    "change_7d_pct": -4.0,
-    "change_30d_pct": -11.1,
-    "history_as_of": "2026-10-08"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Guttersnipe",
-   "sources": [
-    {
-     "channel": "@NitpickingNerds",
-     "channel_name": "Nitpicking Nerds",
-     "video_id": "U4z_Wi9XU6U",
-     "video_title": "This is Why Your Commander Decks Aren't Winning",
-     "published": "2026-09-30",
-     "t": 500,
-     "url": "https://www.youtube.com/watch?v=U4z_Wi9XU6U&t=500s",
-     "quote": "is het een standaardkaart, maar ik zeg dat Guttersnipe het type kaart is dat ik één op één zou",
-     "judge_note": "een standaardkaart maar ik zeg dat guttersnipe het type kaart is dat ik n",
      "anchored_by": "quote match 100"
     }
    ]
@@ -9725,59 +8916,6 @@
    ]
   },
   {
-   "card": "Illustrious Wanderglyph",
-   "scryfall_id": "30e02cc7-8ea9-468b-ba61-a1e00fefea22",
-   "image": "https://cards.scryfall.io/small/front/3/0/30e02cc7-8ea9-468b-ba61-a1e00fefea22.jpg?1783913934",
-   "reserved": false,
-   "first_printed": "2023-11-17",
-   "first_printed_set": {
-    "code": "lcc",
-    "name": "The Lost Caverns of Ixalan Commander"
-   },
-   "is_reprint": false,
-   "reprint_count": 1,
-   "paper_sets": [
-    "The Lost Caverns of Ixalan Commander"
-   ],
-   "latest_reprint_set": null,
-   "latest_reprint_date": null,
-   "reprint_set": null,
-   "reprint_released": null,
-   "vibe": "neutral",
-   "score": 0.0,
-   "positive": 0,
-   "neutral": 1,
-   "negative": 0,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 15.21,
-    "usd_foil": 17.35,
-    "printing_set": "LCC",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-10-09",
-    "change_7d_pct": -0.4,
-    "change_30d_pct": -4.6,
-    "history_as_of": "2026-10-08"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Illustrious+Wanderglyph",
-   "sources": [
-    {
-     "channel": "@NitpickingNerds",
-     "channel_name": "Nitpicking Nerds",
-     "video_id": "U4z_Wi9XU6U",
-     "video_title": "This is Why Your Commander Decks Aren't Winning",
-     "published": "2026-09-30",
-     "t": 348,
-     "url": "https://www.youtube.com/watch?v=U4z_Wi9XU6U&t=348s",
-     "quote": "De andere zeer vergelijkbare vervanger voor Coma is Illustrious Wanderglyph. Je moet wit zijn voor deze. Dus we hebben",
-     "judge_note": "zeer vergelijkbare vervanger voor coma is illustrious wanderglyph je moet wit zijn voor deze dus",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
    "card": "Immaculate Magistrate",
    "scryfall_id": "d9208db8-1ba5-4f9c-90a4-03e377ae6f86",
    "image": "https://cards.scryfall.io/small/front/d/9/d9208db8-1ba5-4f9c-90a4-03e377ae6f86.jpg?1783928793",
@@ -9964,76 +9102,6 @@
    ]
   },
   {
-   "card": "Inferno Titan",
-   "scryfall_id": "f839aadb-084e-4ddc-ba62-d654a695cc6b",
-   "image": "https://cards.scryfall.io/small/front/f/8/f839aadb-084e-4ddc-ba62-d654a695cc6b.jpg?1785497564",
-   "reserved": false,
-   "first_printed": "2010-07-16",
-   "first_printed_set": {
-    "code": "m11",
-    "name": "Magic 2011"
-   },
-   "is_reprint": true,
-   "reprint_count": 12,
-   "paper_sets": [
-    "Magic 2011",
-    "Magic 2012",
-    "Commander 2013",
-    "Commander 2015",
-    "Archenemy: Nicol Bolas",
-    "Commander Anthology Volume II",
-    "Secret Lair Drop",
-    "New Capenna Commander",
-    "Tales of Middle-earth Commander",
-    "Commander Masters",
-    "Bloomburrow Commander",
-    "The Hobbit Eternal"
-   ],
-   "latest_reprint_set": {
-    "code": "hoc",
-    "name": "The Hobbit Eternal"
-   },
-   "latest_reprint_date": "2026-08-14",
-   "reprint_set": {
-    "code": "hoc",
-    "name": "The Hobbit Eternal"
-   },
-   "reprint_released": "2026-08-14",
-   "vibe": "positive",
-   "score": 1.0,
-   "positive": 1,
-   "neutral": 0,
-   "negative": 0,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 0.26,
-    "usd_foil": null,
-    "printing_set": "CM2",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-10-09",
-    "change_7d_pct": 8.3,
-    "change_30d_pct": -3.7,
-    "history_as_of": "2026-10-08"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Inferno+Titan",
-   "sources": [
-    {
-     "channel": "@NitpickingNerds",
-     "channel_name": "Nitpicking Nerds",
-     "video_id": "U4z_Wi9XU6U",
-     "video_title": "This is Why Your Commander Decks Aren't Winning",
-     "published": "2026-09-30",
-     "t": 1228,
-     "url": "https://www.youtube.com/watch?v=U4z_Wi9XU6U&t=1228s",
-     "quote": "en vijf daarvan raken, dus dat is krankzinnig. Inferno Titan, gewoon de meest willekeurige dingen veranderen in een game-over-situatie.",
-     "judge_note": "daarvan raken dus dat is krankzinnig inferno titan gewoon de meest willekeurige dingen veranderen in",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
    "card": "Infestation Sage",
    "scryfall_id": "d40c73de-7a5f-46f2-a70b-449bc8ecfe24",
    "image": "https://cards.scryfall.io/small/front/d/4/d40c73de-7a5f-46f2-a70b-449bc8ecfe24.jpg?1783909111",
@@ -10082,68 +9150,6 @@
      "url": "https://www.youtube.com/watch?v=N2jrbgaRNtQ&t=883s",
      "quote": "mind, we ended up on four copies of Infestation Sage. Fantastic for making sure you can get your Phoenixes",
      "judge_note": "ended up on four copies of infestation sage fantastic for making sure you can get",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
-   "card": "Inkshield",
-   "scryfall_id": "3362ade8-d585-40be-8486-382cad6efaf8",
-   "image": "https://cards.scryfall.io/small/front/3/3/3362ade8-d585-40be-8486-382cad6efaf8.jpg?1783903751",
-   "reserved": false,
-   "first_printed": "2021-04-23",
-   "first_printed_set": {
-    "code": "c21",
-    "name": "Commander 2021"
-   },
-   "is_reprint": true,
-   "reprint_count": 4,
-   "paper_sets": [
-    "Commander 2021",
-    "Secret Lair Drop",
-    "Duskmourn: House of Horror Commander",
-    "Secrets of Strixhaven Commander"
-   ],
-   "latest_reprint_set": {
-    "code": "soc",
-    "name": "Secrets of Strixhaven Commander"
-   },
-   "latest_reprint_date": "2026-04-24",
-   "reprint_set": {
-    "code": "soc",
-    "name": "Secrets of Strixhaven Commander"
-   },
-   "reprint_released": "2026-04-24",
-   "vibe": "negative",
-   "score": -1.0,
-   "positive": 0,
-   "neutral": 0,
-   "negative": 1,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 4.84,
-    "usd_foil": null,
-    "printing_set": "SOC",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-10-09",
-    "change_7d_pct": 4.0,
-    "change_30d_pct": -13.1,
-    "history_as_of": "2026-10-08"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Inkshield",
-   "sources": [
-    {
-     "channel": "@NitpickingNerds",
-     "channel_name": "Nitpicking Nerds",
-     "video_id": "U4z_Wi9XU6U",
-     "video_title": "This is Why Your Commander Decks Aren't Winning",
-     "published": "2026-09-30",
-     "t": 1901,
-     "url": "https://www.youtube.com/watch?v=U4z_Wi9XU6U&t=1901s",
-     "quote": "want ik wil eigenlijk geen Deflecting Palms of Inkshield of zoiets spelen, omdat dat dingen zijn die me alleen",
-     "judge_note": "wil eigenlijk geen deflecting palms of inkshield of zoiets spelen omdat dat dingen zijn",
      "anchored_by": "quote match 100"
     }
    ]
@@ -10257,68 +9263,6 @@
      "url": "https://www.youtube.com/watch?v=3aweXsAcKPg&t=1712s",
      "quote": "of Jerren, and of course, Ormendahl the Corrupter, and absolutely devastate your opponent. So yeah, you can have an",
      "judge_note": "devastate your opponent",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
-   "card": "Koma, Cosmos Serpent",
-   "scryfall_id": "b2f23d6f-f2c8-4022-9f46-ba7fda00ef99",
-   "image": "https://cards.scryfall.io/small/front/b/2/b2f23d6f-f2c8-4022-9f46-ba7fda00ef99.jpg?1783912978",
-   "reserved": false,
-   "first_printed": "2021-02-05",
-   "first_printed_set": {
-    "code": "khm",
-    "name": "Kaldheim"
-   },
-   "is_reprint": true,
-   "reprint_count": 4,
-   "paper_sets": [
-    "Kaldheim",
-    "Murders at Karlov Manor Commander",
-    "Secret Lair Drop",
-    "Avatar: The Last Airbender Eternal"
-   ],
-   "latest_reprint_set": {
-    "code": "tle",
-    "name": "Avatar: The Last Airbender Eternal"
-   },
-   "latest_reprint_date": "2025-11-21",
-   "reprint_set": {
-    "code": "tle",
-    "name": "Avatar: The Last Airbender Eternal"
-   },
-   "reprint_released": "2025-11-21",
-   "vibe": "neutral",
-   "score": 0.0,
-   "positive": 0,
-   "neutral": 1,
-   "negative": 0,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 4.67,
-    "usd_foil": 5.99,
-    "printing_set": "TLE",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-10-09",
-    "change_7d_pct": -2.9,
-    "change_30d_pct": 18.4,
-    "history_as_of": "2026-10-08"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Koma%2C+Cosmos+Serpent",
-   "sources": [
-    {
-     "channel": "@NitpickingNerds",
-     "channel_name": "Nitpicking Nerds",
-     "video_id": "U4z_Wi9XU6U",
-     "video_title": "This is Why Your Commander Decks Aren't Winning",
-     "published": "2026-09-30",
-     "t": 112,
-     "url": "https://www.youtube.com/watch?v=U4z_Wi9XU6U&t=112s",
-     "quote": "een klassieker, maar een goede. Het is Koma, Cosmos Serpent. Drie groen, groen, blauw, blauw voor een 6/6, maar",
-     "judge_note": "klassieker maar een goede het is koma cosmos serpent drie groen groen blauw blauw voor een",
      "anchored_by": "quote match 100"
     }
    ]
@@ -10654,67 +9598,6 @@
    ]
   },
   {
-   "card": "Luminous Broodmoth",
-   "scryfall_id": "bb65df55-d6a6-4a57-a903-e5eb17637982",
-   "image": "https://cards.scryfall.io/small/front/b/b/bb65df55-d6a6-4a57-a903-e5eb17637982.jpg?1783931087",
-   "reserved": false,
-   "first_printed": "2020-04-24",
-   "first_printed_set": {
-    "code": "iko",
-    "name": "Ikoria: Lair of Behemoths"
-   },
-   "is_reprint": true,
-   "reprint_count": 3,
-   "paper_sets": [
-    "Ikoria: Lair of Behemoths",
-    "Bloomburrow Commander",
-    "Final Fantasy Commander"
-   ],
-   "latest_reprint_set": {
-    "code": "fic",
-    "name": "Final Fantasy Commander"
-   },
-   "latest_reprint_date": "2025-06-13",
-   "reprint_set": {
-    "code": "fic",
-    "name": "Final Fantasy Commander"
-   },
-   "reprint_released": "2025-06-13",
-   "vibe": "neutral",
-   "score": 0.0,
-   "positive": 0,
-   "neutral": 1,
-   "negative": 0,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 0.47,
-    "usd_foil": null,
-    "printing_set": "FIC",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-10-09",
-    "change_7d_pct": 0.0,
-    "change_30d_pct": -24.6,
-    "history_as_of": "2026-10-08"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Luminous+Broodmoth",
-   "sources": [
-    {
-     "channel": "@NitpickingNerds",
-     "channel_name": "Nitpicking Nerds",
-     "video_id": "U4z_Wi9XU6U",
-     "video_title": "This is Why Your Commander Decks Aren't Winning",
-     "published": "2026-09-30",
-     "t": 2133,
-     "url": "https://www.youtube.com/watch?v=U4z_Wi9XU6U&t=2133s",
-     "quote": "Avacyn zou kunnen doen. Ja, er is ook Luminous Broodmoth als je geeft om dit type...ik zou het geen",
-     "judge_note": "kunnen doen ja er is ook luminous broodmoth als je geeft om dit type ik",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
    "card": "Lyra, Archangel of Dawn",
    "scryfall_id": "86a3866e-68a8-402c-baf0-1908e98e3995",
    "image": "https://cards.scryfall.io/small/front/8/6/86a3866e-68a8-402c-baf0-1908e98e3995.jpg?1789127693",
@@ -10765,72 +9648,6 @@
      "url": "https://www.youtube.com/watch?v=lCCwdwJYgLg&t=449s",
      "quote": "price is $16.87. Lyra, Archangel of Dawn from Reality Fracture. This foil is up 61.3% from $1.73 at $2.79",
      "judge_note": "foil is up 61 3",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
-   "card": "Maelstrom Wanderer",
-   "scryfall_id": "5685b28a-b943-4143-b9ed-4796c1ffbf9c",
-   "image": "https://cards.scryfall.io/small/front/5/6/5685b28a-b943-4143-b9ed-4796c1ffbf9c.jpg?1783904536",
-   "reserved": false,
-   "first_printed": "2012-06-01",
-   "first_printed_set": {
-    "code": "pc2",
-    "name": "Planechase 2012"
-   },
-   "is_reprint": true,
-   "reprint_count": 8,
-   "paper_sets": [
-    "Planechase 2012",
-    "Commander's Arsenal",
-    "Eternal Masters",
-    "Planechase Anthology",
-    "Commander Legends",
-    "Commander Masters",
-    "Secret Lair Drop",
-    "Lorwyn Eclipsed Commander"
-   ],
-   "latest_reprint_set": {
-    "code": "ecc",
-    "name": "Lorwyn Eclipsed Commander"
-   },
-   "latest_reprint_date": "2026-01-23",
-   "reprint_set": {
-    "code": "ecc",
-    "name": "Lorwyn Eclipsed Commander"
-   },
-   "reprint_released": "2026-01-23",
-   "vibe": "negative",
-   "score": -1.0,
-   "positive": 0,
-   "neutral": 0,
-   "negative": 1,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 0.34,
-    "usd_foil": null,
-    "printing_set": "ECC",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-10-09",
-    "change_7d_pct": 2.9,
-    "change_30d_pct": 16.7,
-    "history_as_of": "2026-10-08"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Maelstrom+Wanderer",
-   "sources": [
-    {
-     "channel": "@NitpickingNerds",
-     "channel_name": "Nitpicking Nerds",
-     "video_id": "U4z_Wi9XU6U",
-     "video_title": "This is Why Your Commander Decks Aren't Winning",
-     "published": "2026-09-30",
-     "t": 1046,
-     "url": "https://www.youtube.com/watch?v=U4z_Wi9XU6U&t=1046s",
-     "quote": "maar die wel vervangen kan worden. Het is Maelstrom Wanderer voor vijf blauwe, rode, groene mana voor een 7/5",
-     "judge_note": "wel vervangen kan worden het is maelstrom wanderer voor vijf blauwe rode groene mana voor",
      "anchored_by": "quote match 100"
     }
    ]
@@ -10963,6 +9780,68 @@
      "quote": "Pick it up right now at 71 cents. Mana geyser at 70 cents is an absolute steal right now.",
      "judge_note": "up right now at 71 cents mana geyser at 70 cents is an absolute steal",
      "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
+   "card": "Manalith",
+   "scryfall_id": "f0d7d904-f29b-4524-9223-27910d748bdb",
+   "image": "https://cards.scryfall.io/small/front/f/0/f0d7d904-f29b-4524-9223-27910d748bdb.jpg?1783933970",
+   "reserved": false,
+   "first_printed": "2011-07-15",
+   "first_printed_set": {
+    "code": "m12",
+    "name": "Magic 2012"
+   },
+   "is_reprint": true,
+   "reprint_count": 4,
+   "paper_sets": [
+    "Magic 2012",
+    "Hour of Devastation",
+    "Core Set 2019",
+    "Game Night"
+   ],
+   "latest_reprint_set": {
+    "code": "gnt",
+    "name": "Game Night"
+   },
+   "latest_reprint_date": "2018-11-16",
+   "reprint_set": {
+    "code": "gnt",
+    "name": "Game Night"
+   },
+   "reprint_released": "2018-11-16",
+   "vibe": "positive",
+   "score": 1.0,
+   "positive": 1,
+   "neutral": 0,
+   "negative": 0,
+   "channels": 1,
+   "potential_to_rise": false,
+   "potential_reasons": [],
+   "price": {
+    "usd": 0.18,
+    "usd_foil": 1.21,
+    "printing_set": "M12",
+    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
+    "as_of": "2026-10-09",
+    "change_7d_pct": 0.0,
+    "change_30d_pct": 5.9,
+    "history_as_of": "2026-10-08"
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Manalith",
+   "sources": [
+    {
+     "channel": "@samuelhblack",
+     "channel_name": "Sam Black",
+     "video_id": "rZap1SGzP34",
+     "video_title": "Sam's Table 54: Reality Fracture Limited",
+     "published": "2026-10-02",
+     "t": 3409,
+     "url": "https://www.youtube.com/watch?v=rZap1SGzP34&t=3409s",
+     "quote": "I have. Murmuring volume. This is a very good manolith in a format where like ramping up to your",
+     "judge_note": "pretty strong",
+     "anchored_by": "card mention"
     }
    ]
   },
@@ -11181,59 +10060,6 @@
      "url": "https://www.youtube.com/watch?v=73lqy68Prpg&t=233s",
      "quote": "you. Next up at 95 cents, we got Mirkwood Bats. A two- three bat with flying for four mana",
      "judge_note": "up at 95 cents we got mirkwood bats a two three bat with flying for",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
-   "card": "Mole Man, Moloid Master",
-   "scryfall_id": "1b406cc5-75c9-430a-83a2-de0f2a8aeae6",
-   "image": "https://cards.scryfall.io/small/front/1/b/1b406cc5-75c9-430a-83a2-de0f2a8aeae6.jpg?1783902919",
-   "reserved": false,
-   "first_printed": "2026-06-26",
-   "first_printed_set": {
-    "code": "msh",
-    "name": "Marvel Super Heroes"
-   },
-   "is_reprint": false,
-   "reprint_count": 1,
-   "paper_sets": [
-    "Marvel Super Heroes"
-   ],
-   "latest_reprint_set": null,
-   "latest_reprint_date": null,
-   "reprint_set": null,
-   "reprint_released": null,
-   "vibe": "neutral",
-   "score": 0.0,
-   "positive": 0,
-   "neutral": 1,
-   "negative": 0,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 1.21,
-    "usd_foil": 1.99,
-    "printing_set": "MSH",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-10-09",
-    "change_7d_pct": 0.0,
-    "change_30d_pct": -9.8,
-    "history_as_of": "2026-10-08"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Mole+Man%2C+Moloid+Master",
-   "sources": [
-    {
-     "channel": "@NitpickingNerds",
-     "channel_name": "Nitpicking Nerds",
-     "video_id": "U4z_Wi9XU6U",
-     "video_title": "This is Why Your Commander Decks Aren't Winning",
-     "published": "2026-09-30",
-     "t": 1353,
-     "url": "https://www.youtube.com/watch?v=U4z_Wi9XU6U&t=1353s",
-     "quote": "script, maar ik wil het hebben over Mole Man, Moloid Master. Je kunt landen uit de graveyard spelen, en",
-     "judge_note": "maar ik wil het hebben over mole man moloid master je kunt landen uit de graveyard spelen",
      "anchored_by": "quote match 100"
     }
    ]
@@ -12335,74 +11161,6 @@
    ]
   },
   {
-   "card": "Overwhelming Stampede",
-   "scryfall_id": "6996b9c4-e78c-4970-91c7-9025a0a4f670",
-   "image": "https://cards.scryfall.io/small/front/6/9/6996b9c4-e78c-4970-91c7-9025a0a4f670.jpg?1783903228",
-   "reserved": false,
-   "first_printed": "2010-07-16",
-   "first_printed_set": {
-    "code": "m11",
-    "name": "Magic 2011"
-   },
-   "is_reprint": true,
-   "reprint_count": 10,
-   "paper_sets": [
-    "Magic 2011",
-    "Commander 2014",
-    "Modern Masters 2015",
-    "Commander 2015",
-    "Commander Anthology",
-    "Commander 2019",
-    "Tales of Middle-earth Commander",
-    "Duskmourn: House of Horror Commander",
-    "Marvel Super Heroes Commander",
-    "Foundations Commander"
-   ],
-   "latest_reprint_set": {
-    "code": "fdc",
-    "name": "Foundations Commander"
-   },
-   "latest_reprint_date": "2026-10-02",
-   "reprint_set": {
-    "code": "fdc",
-    "name": "Foundations Commander"
-   },
-   "reprint_released": "2026-10-02",
-   "vibe": "positive",
-   "score": 1.0,
-   "positive": 1,
-   "neutral": 0,
-   "negative": 0,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 0.68,
-    "usd_foil": null,
-    "printing_set": "FDC",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-10-09",
-    "change_7d_pct": -40.2,
-    "change_30d_pct": null,
-    "history_as_of": "2026-10-08"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Overwhelming+Stampede",
-   "sources": [
-    {
-     "channel": "@NitpickingNerds",
-     "channel_name": "Nitpicking Nerds",
-     "video_id": "U4z_Wi9XU6U",
-     "video_title": "This is Why Your Commander Decks Aren't Winning",
-     "published": "2026-09-30",
-     "t": 2621,
-     "url": "https://www.youtube.com/watch?v=U4z_Wi9XU6U&t=2621s",
-     "quote": "aan \"overruns\" denk, heb ik liever zoiets als Overwhelming Stampede. Natuurlijk minder mana en het is eenmalig, maar het",
-     "judge_note": "denk heb ik liever zoiets als overwhelming stampede natuurlijk minder mana en het is eenmalig",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
    "card": "Paradox Shaper // Omit Variables",
    "scryfall_id": "e61b9d48-0ace-4453-afe0-a1024444bac0",
    "image": "https://cards.scryfall.io/small/front/e/6/e61b9d48-0ace-4453-afe0-a1024444bac0.jpg?1788329390",
@@ -13215,81 +11973,6 @@
    ]
   },
   {
-   "card": "Rampaging Baloths",
-   "scryfall_id": "84aa18de-6acc-46cc-8e28-3046790a6751",
-   "image": "https://cards.scryfall.io/small/front/8/4/84aa18de-6acc-46cc-8e28-3046790a6751.jpg?1783906033",
-   "reserved": false,
-   "first_printed": "2009-10-02",
-   "first_printed_set": {
-    "code": "zen",
-    "name": "Zendikar"
-   },
-   "is_reprint": true,
-   "reprint_count": 17,
-   "paper_sets": [
-    "Zendikar",
-    "Commander 2013",
-    "Commander 2014",
-    "Commander Anthology",
-    "Archenemy: Nicol Bolas",
-    "Iconic Masters",
-    "Commander 2018",
-    "Commander 2019",
-    "Zendikar Rising Commander",
-    "Commander Legends",
-    "Commander 2021",
-    "Jumpstart 2022",
-    "Modern Horizons 3 Commander",
-    "Bloomburrow Commander",
-    "Foundations",
-    "Edge of Eternities Commander",
-    "Secret Lair Drop"
-   ],
-   "latest_reprint_set": {
-    "code": "sld",
-    "name": "Secret Lair Drop"
-   },
-   "latest_reprint_date": "2026-03-02",
-   "reprint_set": {
-    "code": "sld",
-    "name": "Secret Lair Drop"
-   },
-   "reprint_released": "2026-03-02",
-   "vibe": "negative",
-   "score": -1.0,
-   "positive": 0,
-   "neutral": 0,
-   "negative": 1,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 0.27,
-    "usd_foil": null,
-    "printing_set": "EOC",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-10-09",
-    "change_7d_pct": -9.1,
-    "change_30d_pct": 0.0,
-    "history_as_of": "2026-10-08"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Rampaging+Baloths",
-   "sources": [
-    {
-     "channel": "@NitpickingNerds",
-     "channel_name": "Nitpicking Nerds",
-     "video_id": "U4z_Wi9XU6U",
-     "video_title": "This is Why Your Commander Decks Aren't Winning",
-     "published": "2026-09-30",
-     "t": 1289,
-     "url": "https://www.youtube.com/watch?v=U4z_Wi9XU6U&t=1289s",
-     "quote": "over niet wachten hebben, wat is de volgende? Rampaging Baloths. Dit is er een die een plekje in mijn",
-     "judge_note": "wachten hebben wat is de volgende rampaging baloths dit is er een die een plekje",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
    "card": "Refurbish",
    "scryfall_id": "f60e2ac4-f21f-4232-abc8-db078472408b",
    "image": "https://cards.scryfall.io/small/front/f/6/f60e2ac4-f21f-4232-abc8-db078472408b.jpg?1783937229",
@@ -13527,73 +12210,6 @@
    ]
   },
   {
-   "card": "Rite of Replication",
-   "scryfall_id": "5032d71d-d9f8-498c-97d1-271c2e9c1c47",
-   "image": "https://cards.scryfall.io/small/front/5/0/5032d71d-d9f8-498c-97d1-271c2e9c1c47.jpg?1783903790",
-   "reserved": false,
-   "first_printed": "2009-10-02",
-   "first_printed_set": {
-    "code": "zen",
-    "name": "Zendikar"
-   },
-   "is_reprint": true,
-   "reprint_count": 9,
-   "paper_sets": [
-    "Zendikar",
-    "Commander 2014",
-    "Commander 2015",
-    "Commander 2021",
-    "Foundations",
-    "Tarkir: Dragonstorm Commander",
-    "Final Fantasy Commander",
-    "Marvel Universe",
-    "Secrets of Strixhaven Commander"
-   ],
-   "latest_reprint_set": {
-    "code": "soc",
-    "name": "Secrets of Strixhaven Commander"
-   },
-   "latest_reprint_date": "2026-04-24",
-   "reprint_set": {
-    "code": "soc",
-    "name": "Secrets of Strixhaven Commander"
-   },
-   "reprint_released": "2026-04-24",
-   "vibe": "positive",
-   "score": 1.0,
-   "positive": 1,
-   "neutral": 0,
-   "negative": 0,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 0.26,
-    "usd_foil": null,
-    "printing_set": "FIC",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-10-09",
-    "change_7d_pct": 7.4,
-    "change_30d_pct": 16.0,
-    "history_as_of": "2026-10-08"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Rite+of+Replication",
-   "sources": [
-    {
-     "channel": "@NitpickingNerds",
-     "channel_name": "Nitpicking Nerds",
-     "video_id": "U4z_Wi9XU6U",
-     "video_title": "This is Why Your Commander Decks Aren't Winning",
-     "published": "2026-09-30",
-     "t": 1192,
-     "url": "https://www.youtube.com/watch?v=U4z_Wi9XU6U&t=1192s",
-     "quote": "ze om te blokken of iets dergelijks. Rite of Replication is goed als je al een doelwit hebt. Ik",
-     "judge_note": "om te blokken of iets dergelijks rite of replication is goed als je al een doelwit",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
    "card": "Roads Go Ever, Ever On",
    "scryfall_id": "b3c1ebd6-967f-4b8c-8f1f-442ce8c1da24",
    "image": "https://cards.scryfall.io/small/front/b/3/b3c1ebd6-967f-4b8c-8f1f-442ce8c1da24.jpg?1784673434",
@@ -13704,71 +12320,6 @@
      "url": "https://www.youtube.com/watch?v=YrS3WoKV4JA&t=442s",
      "quote": "and its average full price is $9.13. Scout's warning from future sight. This foils up 40.6% today from $28.97",
      "judge_note": "average full price is 9 13 scouts warning from future sight this foils up 40",
-     "anchored_by": "quote match 99"
-    }
-   ]
-  },
-  {
-   "card": "Scute Swarm",
-   "scryfall_id": "ea630ba1-22f9-4a10-bdc6-0d03128214f4",
-   "image": "https://cards.scryfall.io/small/front/e/a/ea630ba1-22f9-4a10-bdc6-0d03128214f4.jpg?1783909601",
-   "reserved": false,
-   "first_printed": "2020-09-25",
-   "first_printed_set": {
-    "code": "znr",
-    "name": "Zendikar Rising"
-   },
-   "is_reprint": true,
-   "reprint_count": 7,
-   "paper_sets": [
-    "Zendikar Rising",
-    "New Capenna Commander",
-    "Outlaws of Thunder Junction Commander",
-    "Modern Horizons 3 Commander",
-    "Duskmourn: House of Horror Commander",
-    "Secret Lair Drop",
-    "The Zeta Set"
-   ],
-   "latest_reprint_set": {
-    "code": "slz",
-    "name": "The Zeta Set"
-   },
-   "latest_reprint_date": "2026-09-02",
-   "reprint_set": {
-    "code": "slz",
-    "name": "The Zeta Set"
-   },
-   "reprint_released": "2026-09-02",
-   "vibe": "positive",
-   "score": 1.0,
-   "positive": 1,
-   "neutral": 0,
-   "negative": 0,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 8.53,
-    "usd_foil": null,
-    "printing_set": "DSC",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-10-09",
-    "change_7d_pct": -3.1,
-    "change_30d_pct": -3.9,
-    "history_as_of": "2026-10-08"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Scute+Swarm",
-   "sources": [
-    {
-     "channel": "@NitpickingNerds",
-     "channel_name": "Nitpicking Nerds",
-     "video_id": "U4z_Wi9XU6U",
-     "video_title": "This is Why Your Commander Decks Aren't Winning",
-     "published": "2026-09-30",
-     "t": 1337,
-     "url": "https://www.youtube.com/watch?v=U4z_Wi9XU6U&t=1337s",
-     "quote": "ik ook 1/1's kan krijgen? Iedereen weet dat Scute Swarm beter is dan Rampaging Baloths, maar dit is het",
-     "judge_note": "1s kan krijgen iedereen weet dat scute swarm beter is dan rampaging baloths maar dit",
      "anchored_by": "quote match 99"
     }
    ]
@@ -14021,6 +12572,70 @@
      "url": "https://www.youtube.com/watch?v=sVUJHMGB6bA&t=640s",
      "quote": "Let's go. Gaea's Cradle or Orrey is awesome. Seer's Sundial should be more expensive. Four-mana artifact with landfall. Whenever",
      "judge_note": "gaeas cradle or orrey is awesome seers sundial should be more expensive four mana artifact",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
+   "card": "Selfless Spirit",
+   "scryfall_id": "9cd16dac-3bf9-4a71-a906-0cfbf98cdca5",
+   "image": "https://cards.scryfall.io/small/front/9/c/9cd16dac-3bf9-4a71-a906-0cfbf98cdca5.jpg?1783903802",
+   "reserved": false,
+   "first_printed": "2016-07-22",
+   "first_printed_set": {
+    "code": "emn",
+    "name": "Eldritch Moon"
+   },
+   "is_reprint": true,
+   "reprint_count": 6,
+   "paper_sets": [
+    "Eldritch Moon",
+    "Commander Legends: Battle for Baldur's Gate",
+    "Jumpstart 2022",
+    "Bloomburrow Commander",
+    "Tarkir: Dragonstorm Commander",
+    "Secrets of Strixhaven Commander"
+   ],
+   "latest_reprint_set": {
+    "code": "soc",
+    "name": "Secrets of Strixhaven Commander"
+   },
+   "latest_reprint_date": "2026-04-24",
+   "reprint_set": {
+    "code": "soc",
+    "name": "Secrets of Strixhaven Commander"
+   },
+   "reprint_released": "2026-04-24",
+   "vibe": "positive",
+   "score": 1.0,
+   "positive": 1,
+   "neutral": 0,
+   "negative": 0,
+   "channels": 1,
+   "potential_to_rise": false,
+   "potential_reasons": [],
+   "price": {
+    "usd": 0.4,
+    "usd_foil": null,
+    "printing_set": "SOC",
+    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
+    "as_of": "2026-10-09",
+    "change_7d_pct": -6.4,
+    "change_30d_pct": 12.8,
+    "history_as_of": "2026-10-08"
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Selfless+Spirit",
+   "sources": [
+    {
+     "channel": "@TheCommandersQuarters",
+     "channel_name": "The Commander's Quarters",
+     "video_id": "73lqy68Prpg",
+     "video_title": "The Best S Tier Staples Under $1",
+     "published": "2026-10-06",
+     "t": 1100,
+     "url": "https://www.youtube.com/watch?v=73lqy68Prpg&t=1100s",
+     "quote": "up right now for just 48. Next up, selfless spirit. At just 47 cents, a two-1 spirit cleric with",
+     "judge_note": "now for just 48 next up selfless spirit at just 47 cents a two 1",
      "anchored_by": "quote match 100"
     }
    ]
@@ -14840,59 +13455,6 @@
    ]
   },
   {
-   "card": "Springheart Nantuko",
-   "scryfall_id": "54a3ea87-005e-4985-b2a5-21711d0b71c0",
-   "image": "https://cards.scryfall.io/small/front/5/4/54a3ea87-005e-4985-b2a5-21711d0b71c0.jpg?1783911255",
-   "reserved": false,
-   "first_printed": "2024-06-14",
-   "first_printed_set": {
-    "code": "mh3",
-    "name": "Modern Horizons 3"
-   },
-   "is_reprint": false,
-   "reprint_count": 1,
-   "paper_sets": [
-    "Modern Horizons 3"
-   ],
-   "latest_reprint_set": null,
-   "latest_reprint_date": null,
-   "reprint_set": null,
-   "reprint_released": null,
-   "vibe": "positive",
-   "score": 1.0,
-   "positive": 1,
-   "neutral": 0,
-   "negative": 0,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 6.17,
-    "usd_foil": 5.78,
-    "printing_set": "PMH3",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-10-09",
-    "change_7d_pct": 0.8,
-    "change_30d_pct": 7.9,
-    "history_as_of": "2026-10-08"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Springheart+Nantuko",
-   "sources": [
-    {
-     "channel": "@NitpickingNerds",
-     "channel_name": "Nitpicking Nerds",
-     "video_id": "U4z_Wi9XU6U",
-     "video_title": "This is Why Your Commander Decks Aren't Winning",
-     "published": "2026-09-30",
-     "t": 1412,
-     "url": "https://www.youtube.com/watch?v=U4z_Wi9XU6U&t=1412s",
-     "quote": "speelt met Ice-Out Explorer en er ligt al Springheart Nantuko op met bestow, dan zeg ik niet dat dit",
-     "judge_note": "out explorer en er ligt al springheart nantuko op met bestow dan zeg ik niet",
-     "anchored_by": "quote match 97"
-    }
-   ]
-  },
-  {
    "card": "Starwinder",
    "scryfall_id": "27d1a010-5790-4b35-9fdc-0e366eed021d",
    "image": "https://cards.scryfall.io/small/front/2/7/27d1a010-5790-4b35-9fdc-0e366eed021d.jpg?1783905975",
@@ -14941,6 +13503,61 @@
      "url": "https://www.youtube.com/watch?v=PMDDWq7eImo&t=1100s",
      "quote": "it, too. Finally, weird things like Starwinder are absolutely amazing with this, too. 7 Leviathan with warp for four",
      "judge_note": "absolutely amazing with this",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
+   "card": "Stensian Sanguinist // Exsanguinate",
+   "scryfall_id": "909a52bc-53f6-4654-9db7-e8f48333d765",
+   "image": "https://cards.scryfall.io/small/front/9/0/909a52bc-53f6-4654-9db7-e8f48333d765.jpg?1783903860",
+   "reserved": false,
+   "first_printed": "2026-04-24",
+   "first_printed_set": {
+    "code": "soc",
+    "name": "Secrets of Strixhaven Commander"
+   },
+   "is_reprint": false,
+   "reprint_count": 1,
+   "paper_sets": [
+    "Secrets of Strixhaven Commander"
+   ],
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
+   "reprint_set": null,
+   "reprint_released": null,
+   "vibe": "positive",
+   "score": 1.0,
+   "positive": 1,
+   "neutral": 0,
+   "negative": 0,
+   "channels": 1,
+   "potential_to_rise": true,
+   "potential_reasons": [
+    "recommended buy at 25 cents"
+   ],
+   "price": {
+    "usd": 5.4,
+    "usd_foil": null,
+    "printing_set": "SOC",
+    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
+    "as_of": "2026-10-09",
+    "change_7d_pct": 4.4,
+    "change_30d_pct": 4.8,
+    "history_as_of": "2026-10-08"
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Stensian+Sanguinist+%2F%2F+Exsanguinate",
+   "sources": [
+    {
+     "channel": "@TheCommandersQuarters",
+     "channel_name": "The Commander's Quarters",
+     "video_id": "73lqy68Prpg",
+     "video_title": "The Best S Tier Staples Under $1",
+     "published": "2026-10-06",
+     "t": 2330,
+     "url": "https://www.youtube.com/watch?v=73lqy68Prpg&t=2330s",
+     "quote": "gain strategies of course as well. Exanguinite. Pick it up for just 25. Next up, a card that in",
+     "judge_note": "pick it up for just 25",
      "anchored_by": "quote match 100"
     }
    ]
@@ -15882,66 +14499,6 @@
    ]
   },
   {
-   "card": "Torment of Hailfire",
-   "scryfall_id": "f69d77d1-5980-436c-bf48-790939b069aa",
-   "image": "https://cards.scryfall.io/small/front/f/6/f69d77d1-5980-436c-bf48-790939b069aa.jpg?1783936036",
-   "reserved": false,
-   "first_printed": "2017-07-14",
-   "first_printed_set": {
-    "code": "hou",
-    "name": "Hour of Devastation"
-   },
-   "is_reprint": true,
-   "reprint_count": 2,
-   "paper_sets": [
-    "Hour of Devastation",
-    "Secret Lair Drop"
-   ],
-   "latest_reprint_set": {
-    "code": "sld",
-    "name": "Secret Lair Drop"
-   },
-   "latest_reprint_date": "2024-05-13",
-   "reprint_set": {
-    "code": "sld",
-    "name": "Secret Lair Drop"
-   },
-   "reprint_released": "2024-05-13",
-   "vibe": "neutral",
-   "score": 0.0,
-   "positive": 0,
-   "neutral": 1,
-   "negative": 0,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 36.04,
-    "usd_foil": 54.28,
-    "printing_set": "HOU",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-10-09",
-    "change_7d_pct": 1.1,
-    "change_30d_pct": -2.0,
-    "history_as_of": "2026-10-08"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Torment+of+Hailfire",
-   "sources": [
-    {
-     "channel": "@NitpickingNerds",
-     "channel_name": "Nitpicking Nerds",
-     "video_id": "U4z_Wi9XU6U",
-     "video_title": "This is Why Your Commander Decks Aren't Winning",
-     "published": "2026-09-30",
-     "t": 846,
-     "url": "https://www.youtube.com/watch?v=U4z_Wi9XU6U&t=846s",
-     "quote": "speelt, bijvoorbeeld, dan concurreer je met kaarten als Torment of Hailfire, die in de Sultai-kleuren vallen, of met een",
-     "judge_note": "dan concurreer je met kaarten als torment of hailfire die in de sultai kleuren vallen of",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
    "card": "Tormod's Crypt",
    "scryfall_id": "752bf493-5839-47e8-95f2-6d8201907428",
    "image": "https://cards.scryfall.io/small/front/7/5/752bf493-5839-47e8-95f2-6d8201907428.jpg?1783918410",
@@ -16351,72 +14908,6 @@
    ]
   },
   {
-   "card": "Unnatural Growth",
-   "scryfall_id": "08fa38c0-353c-4f6a-b87e-3f6366af44d8",
-   "image": "https://cards.scryfall.io/small/front/0/8/08fa38c0-353c-4f6a-b87e-3f6366af44d8.jpg?1783908086",
-   "reserved": false,
-   "first_printed": "2021-09-24",
-   "first_printed_set": {
-    "code": "mid",
-    "name": "Innistrad: Midnight Hunt"
-   },
-   "is_reprint": true,
-   "reprint_count": 8,
-   "paper_sets": [
-    "Innistrad: Midnight Hunt",
-    "Innistrad: Double Feature",
-    "Wilds of Eldraine: Enchanting Tales",
-    "Bloomburrow Commander",
-    "Secret Lair Drop",
-    "Innistrad Remastered",
-    "Marvel Universe",
-    "Foundations Commander"
-   ],
-   "latest_reprint_set": {
-    "code": "fdc",
-    "name": "Foundations Commander"
-   },
-   "latest_reprint_date": "2026-10-02",
-   "reprint_set": {
-    "code": "fdc",
-    "name": "Foundations Commander"
-   },
-   "reprint_released": "2026-10-02",
-   "vibe": "neutral",
-   "score": 0.0,
-   "positive": 0,
-   "neutral": 1,
-   "negative": 0,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 1.65,
-    "usd_foil": null,
-    "printing_set": "FDC",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-10-09",
-    "change_7d_pct": -38.3,
-    "change_30d_pct": null,
-    "history_as_of": "2026-10-08"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Unnatural+Growth",
-   "sources": [
-    {
-     "channel": "@NitpickingNerds",
-     "channel_name": "Nitpicking Nerds",
-     "video_id": "U4z_Wi9XU6U",
-     "video_title": "This is Why Your Commander Decks Aren't Winning",
-     "published": "2026-09-30",
-     "t": 2737,
-     "url": "https://www.youtube.com/watch?v=U4z_Wi9XU6U&t=2737s",
-     "quote": "niet dat ik het sowieso wil spelen, maar unnatural growth is een hardnekkiger ding omdat het een betovering is",
-     "judge_note": "ik het sowieso wil spelen maar unnatural growth is een hardnekkiger ding omdat het een",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
    "card": "Unsummon",
    "scryfall_id": "ddad9f16-52d5-49de-82b0-b1a5294a9c44",
    "image": "https://cards.scryfall.io/small/front/d/d/ddad9f16-52d5-49de-82b0-b1a5294a9c44.jpg?1789556722",
@@ -16817,69 +15308,6 @@
      "url": "https://www.youtube.com/watch?v=73lqy68Prpg&t=778s",
      "quote": "reanimation though at 52 cents with victimize. A card that is so good and can absolutely turn games around.",
      "judge_note": "a card that is so good",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
-   "card": "Villainous Wealth",
-   "scryfall_id": "a467072c-99d9-4013-8d28-607a06cf50fe",
-   "image": "https://cards.scryfall.io/small/front/a/4/a467072c-99d9-4013-8d28-607a06cf50fe.jpg?1783911892",
-   "reserved": false,
-   "first_printed": "2014-09-26",
-   "first_printed_set": {
-    "code": "ktk",
-    "name": "Khans of Tarkir"
-   },
-   "is_reprint": true,
-   "reprint_count": 5,
-   "paper_sets": [
-    "Khans of Tarkir",
-    "Commander 2020",
-    "Double Masters 2022",
-    "Outlaws of Thunder Junction Commander",
-    "Breaking News"
-   ],
-   "latest_reprint_set": {
-    "code": "otc",
-    "name": "Outlaws of Thunder Junction Commander"
-   },
-   "latest_reprint_date": "2024-04-19",
-   "reprint_set": {
-    "code": "otc",
-    "name": "Outlaws of Thunder Junction Commander"
-   },
-   "reprint_released": "2024-04-19",
-   "vibe": "negative",
-   "score": -1.0,
-   "positive": 0,
-   "neutral": 0,
-   "negative": 1,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 0.26,
-    "usd_foil": 8.76,
-    "printing_set": "KTK",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-10-09",
-    "change_7d_pct": 4.0,
-    "change_30d_pct": -7.1,
-    "history_as_of": "2026-10-08"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Villainous+Wealth",
-   "sources": [
-    {
-     "channel": "@NitpickingNerds",
-     "channel_name": "Nitpicking Nerds",
-     "video_id": "U4z_Wi9XU6U",
-     "video_title": "This is Why Your Commander Decks Aren't Winning",
-     "published": "2026-09-30",
-     "t": 741,
-     "url": "https://www.youtube.com/watch?v=U4z_Wi9XU6U&t=741s",
-     "quote": "Ik laat je hem zelf lezen. Het is Villainous Wealth. X groen blauw zwart voor een sorcery. Drie doelwit",
-     "judge_note": "je hem zelf lezen het is villainous wealth x groen blauw zwart voor een sorcery",
      "anchored_by": "quote match 100"
     }
    ]
@@ -17603,82 +16031,6 @@
    ]
   },
   {
-   "card": "Wood Elves",
-   "scryfall_id": "2476e42b-b209-4207-8ed9-cb668f89b218",
-   "image": "https://cards.scryfall.io/small/front/2/4/2476e42b-b209-4207-8ed9-cb668f89b218.jpg?1783902784",
-   "reserved": false,
-   "first_printed": "1997-05-01",
-   "first_printed_set": {
-    "code": "por",
-    "name": "Portal"
-   },
-   "is_reprint": true,
-   "reprint_count": 18,
-   "paper_sets": [
-    "Portal",
-    "Exodus",
-    "Starter 1999",
-    "Seventh Edition",
-    "Eighth Edition",
-    "Ninth Edition",
-    "Duel Decks: Elves vs. Goblins",
-    "Commander 2014",
-    "Duel Decks Anthology: Elves vs. Goblins",
-    "Commander 2015",
-    "Duel Decks: Nissa vs. Ob Nixilis",
-    "Commander Anthology",
-    "Kaldheim Commander",
-    "New Capenna Commander",
-    "Secret Lair Drop",
-    "March of the Machine Commander",
-    "Tales of Middle-earth Commander",
-    "The Hobbit"
-   ],
-   "latest_reprint_set": {
-    "code": "hob",
-    "name": "The Hobbit"
-   },
-   "latest_reprint_date": "2026-08-14",
-   "reprint_set": {
-    "code": "hob",
-    "name": "The Hobbit"
-   },
-   "reprint_released": "2026-08-14",
-   "vibe": "neutral",
-   "score": 0.0,
-   "positive": 0,
-   "neutral": 1,
-   "negative": 0,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 0.24,
-    "usd_foil": 0.29,
-    "printing_set": "HOB",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-10-09",
-    "change_7d_pct": 0.0,
-    "change_30d_pct": 68.8,
-    "history_as_of": "2026-10-08"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Wood+Elves",
-   "sources": [
-    {
-     "channel": "@NitpickingNerds",
-     "channel_name": "Nitpicking Nerds",
-     "video_id": "U4z_Wi9XU6U",
-     "video_title": "This is Why Your Commander Decks Aren't Winning",
-     "published": "2026-09-30",
-     "t": 1493,
-     "url": "https://www.youtube.com/watch?v=U4z_Wi9XU6U&t=1493s",
-     "quote": "als je het opschaalt, Springheart en twee op wood elves. Elke twee mana geeft je gewoon een forest die",
-     "judge_note": "het opschaalt springheart en twee op wood elves elke twee mana geeft je gewoon een",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
    "card": "Worldfire",
    "scryfall_id": "2ef3d4b5-0453-4bf0-b018-23b0c3b9ae11",
    "image": "https://cards.scryfall.io/small/front/2/e/2ef3d4b5-0453-4bf0-b018-23b0c3b9ae11.jpg?1783940477",
@@ -17893,76 +16245,6 @@
    ]
   },
   {
-   "card": "Young Pyromancer",
-   "scryfall_id": "c0d74ecd-a595-4012-81b4-083264b40c94",
-   "image": "https://cards.scryfall.io/small/front/c/0/c0d74ecd-a595-4012-81b4-083264b40c94.jpg?1783907139",
-   "reserved": false,
-   "first_printed": "2013-07-19",
-   "first_printed_set": {
-    "code": "m14",
-    "name": "Magic 2014"
-   },
-   "is_reprint": true,
-   "reprint_count": 12,
-   "paper_sets": [
-    "Magic 2014",
-    "Eternal Masters",
-    "Duel Decks: Mind vs. Might",
-    "Ultimate Masters",
-    "Signature Spellbook: Chandra",
-    "Jumpstart",
-    "Time Spiral Remastered",
-    "Double Masters 2022",
-    "Jumpstart 2022",
-    "Outlaws of Thunder Junction Commander",
-    "Foundations Jumpstart",
-    "Tarkir: Dragonstorm Commander"
-   ],
-   "latest_reprint_set": {
-    "code": "tdc",
-    "name": "Tarkir: Dragonstorm Commander"
-   },
-   "latest_reprint_date": "2025-04-11",
-   "reprint_set": {
-    "code": "tdc",
-    "name": "Tarkir: Dragonstorm Commander"
-   },
-   "reprint_released": "2025-04-11",
-   "vibe": "positive",
-   "score": 1.0,
-   "positive": 1,
-   "neutral": 0,
-   "negative": 0,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 0.25,
-    "usd_foil": null,
-    "printing_set": "DDS",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-10-09",
-    "change_7d_pct": 0.0,
-    "change_30d_pct": 0.0,
-    "history_as_of": "2026-10-08"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Young+Pyromancer",
-   "sources": [
-    {
-     "channel": "@NitpickingNerds",
-     "channel_name": "Nitpicking Nerds",
-     "video_id": "U4z_Wi9XU6U",
-     "video_title": "This is Why Your Commander Decks Aren't Winning",
-     "published": "2026-09-30",
-     "t": 585,
-     "url": "https://www.youtube.com/watch?v=U4z_Wi9XU6U&t=585s",
-     "quote": "alleen om lichamen te doen is, moet je Young Pyromancer spelen. Er zijn een paar versies daarvan, zoals, je",
-     "judge_note": "lichamen te doen is moet je young pyromancer spelen er zijn een paar versies daarvan",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
    "card": "Zombify",
    "scryfall_id": "dc798e6f-13c4-457c-b052-b7b65bc83cfe",
    "image": "https://cards.scryfall.io/small/front/d/c/dc798e6f-13c4-457c-b052-b7b65bc83cfe.jpg?1783909070",
@@ -18025,59 +16307,6 @@
      "url": "https://www.youtube.com/watch?v=rZap1SGzP34&t=2867s",
      "quote": "Also, this is really good with the uncommon zombifi void extrapolator I like more than the stats suggest. I",
      "judge_note": "is really good with the uncommon zombifi void extrapolator i like more than the",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
-   "card": "Zopandrel, Hunger Dominus",
-   "scryfall_id": "fb419d9d-e06f-48c8-a4f8-a57f9be39e50",
-   "image": "https://cards.scryfall.io/small/front/f/b/fb419d9d-e06f-48c8-a4f8-a57f9be39e50.jpg?1783918004",
-   "reserved": false,
-   "first_printed": "2023-02-10",
-   "first_printed_set": {
-    "code": "one",
-    "name": "Phyrexia: All Will Be One"
-   },
-   "is_reprint": false,
-   "reprint_count": 1,
-   "paper_sets": [
-    "Phyrexia: All Will Be One"
-   ],
-   "latest_reprint_set": null,
-   "latest_reprint_date": null,
-   "reprint_set": null,
-   "reprint_released": null,
-   "vibe": "neutral",
-   "score": 0.0,
-   "positive": 0,
-   "neutral": 1,
-   "negative": 0,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 11.85,
-    "usd_foil": 13.77,
-    "printing_set": "ONE",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-10-09",
-    "change_7d_pct": -7.4,
-    "change_30d_pct": -11.7,
-    "history_as_of": "2026-10-08"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Zopandrel%2C+Hunger+Dominus",
-   "sources": [
-    {
-     "channel": "@NitpickingNerds",
-     "channel_name": "Nitpicking Nerds",
-     "video_id": "U4z_Wi9XU6U",
-     "video_title": "This is Why Your Commander Decks Aren't Winning",
-     "published": "2026-09-30",
-     "t": 2570,
-     "url": "https://www.youtube.com/watch?v=U4z_Wi9XU6U&t=2570s",
-     "quote": "wel. Weg ermee. Laten we praten over Zopandrel, Hunger Dominus. Dit is vijf groen groen voor een 4/6 met",
-     "judge_note": "weg ermee laten we praten over zopandrel hunger dominus dit is vijf groen groen voor een",
      "anchored_by": "quote match 100"
     }
    ]
@@ -18384,66 +16613,6 @@
      "url": "https://www.youtube.com/watch?v=PMDDWq7eImo&t=2355s",
      "quote": "Deck can have any number cards named rat colony. It's amazing. Again, you literally just get this out, get",
      "judge_note": "its amazing",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
-   "card": "Stensian Sanguinist // Exsanguinate",
-   "reasons": [
-    "recommended buy at 25 cents"
-   ],
-   "vibe": "positive",
-   "reserved": false,
-   "paper_sets": [
-    "Secrets of Strixhaven Commander"
-   ],
-   "first_printed": "2026-04-24",
-   "first_printed_set": {
-    "code": "soc",
-    "name": "Secrets of Strixhaven Commander"
-   },
-   "is_reprint": false,
-   "reprint_count": 1,
-   "latest_reprint_set": null,
-   "latest_reprint_date": null,
-   "reprint_set": null,
-   "reprint_released": null,
-   "channels": 2,
-   "price": {
-    "usd": 5.4,
-    "usd_foil": null,
-    "printing_set": "SOC",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-10-09",
-    "change_7d_pct": 4.4,
-    "change_30d_pct": 4.8,
-    "history_as_of": "2026-10-08"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Stensian+Sanguinist+%2F%2F+Exsanguinate",
-   "sources": [
-    {
-     "channel": "@TheCommandersQuarters",
-     "channel_name": "The Commander's Quarters",
-     "video_id": "73lqy68Prpg",
-     "video_title": "The Best S Tier Staples Under $1",
-     "published": "2026-10-06",
-     "t": 2330,
-     "url": "https://www.youtube.com/watch?v=73lqy68Prpg&t=2330s",
-     "quote": "gain strategies of course as well. Exanguinite. Pick it up for just 25. Next up, a card that in",
-     "judge_note": "pick it up for just 25",
-     "anchored_by": "quote match 100"
-    },
-    {
-     "channel": "@NitpickingNerds",
-     "channel_name": "Nitpicking Nerds",
-     "video_id": "U4z_Wi9XU6U",
-     "video_title": "This is Why Your Commander Decks Aren't Winning",
-     "published": "2026-09-30",
-     "t": 850,
-     "url": "https://www.youtube.com/watch?v=U4z_Wi9XU6U&t=850s",
-     "quote": "vallen, of met een andere X-spell zoals Exsanguinate, waarmee je het spel direct kunt winnen, of jezelf in ieder",
-     "judge_note": "met een andere x spell zoals exsanguinate waarmee je het spel direct kunt winnen of",
      "anchored_by": "quote match 100"
     }
    ]
@@ -19964,6 +18133,54 @@
    ]
   },
   {
+   "card": "Stensian Sanguinist // Exsanguinate",
+   "reasons": [
+    "recommended buy at 25 cents"
+   ],
+   "vibe": "positive",
+   "reserved": false,
+   "paper_sets": [
+    "Secrets of Strixhaven Commander"
+   ],
+   "first_printed": "2026-04-24",
+   "first_printed_set": {
+    "code": "soc",
+    "name": "Secrets of Strixhaven Commander"
+   },
+   "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
+   "reprint_set": null,
+   "reprint_released": null,
+   "channels": 1,
+   "price": {
+    "usd": 5.4,
+    "usd_foil": null,
+    "printing_set": "SOC",
+    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
+    "as_of": "2026-10-09",
+    "change_7d_pct": 4.4,
+    "change_30d_pct": 4.8,
+    "history_as_of": "2026-10-08"
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Stensian+Sanguinist+%2F%2F+Exsanguinate",
+   "sources": [
+    {
+     "channel": "@TheCommandersQuarters",
+     "channel_name": "The Commander's Quarters",
+     "video_id": "73lqy68Prpg",
+     "video_title": "The Best S Tier Staples Under $1",
+     "published": "2026-10-06",
+     "t": 2330,
+     "url": "https://www.youtube.com/watch?v=73lqy68Prpg&t=2330s",
+     "quote": "gain strategies of course as well. Exanguinite. Pick it up for just 25. Next up, a card that in",
+     "judge_note": "pick it up for just 25",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
    "card": "Urborg Volcano",
    "reasons": [
     "foil up 31.2%"
@@ -20501,15 +18718,6 @@
    "title": "RC Analysis from Ottawa and Japan + Korea With Decks & Metagame | Modern MTG",
    "published": "2026-10-05",
    "url": "https://www.youtube.com/watch?v=U4u48xXIr0w",
-   "cited": true
-  },
-  {
-   "video_id": "U4z_Wi9XU6U",
-   "channel": "@NitpickingNerds",
-   "channel_name": "Nitpicking Nerds",
-   "title": "This is Why Your Commander Decks Aren't Winning",
-   "published": "2026-09-30",
-   "url": "https://www.youtube.com/watch?v=U4z_Wi9XU6U",
    "cited": true
   },
   {
