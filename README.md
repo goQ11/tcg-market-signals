@@ -5,4 +5,4 @@ Weekly `signals.json` feed for TCG Seller Hub. Card names, short quotes, and lin
 Schema 1.4.0: cards carry `reserved` (on Wizards' Reserved List, never reprinted), `paper_sets` (distinct paper set names, oldest first), `first_printed`, `first_printed_set`, `is_reprint` (printed in 2+ distinct paper sets), `reprint_count`, `latest_reprint_set`, `latest_reprint_date`. (`is_new` was removed in 1.3.0.)
 
 ## How it's updated
-`pipeline/` holds the pipeline. `.github/workflows/market-signals.yml` runs it every week on GitHub Actions and publishes only if the new file passes validation. See `pipeline/SETUP_ACTIONS.md`. `generated_at` (ISO 8601) records when the file was built.
+`pipeline/` holds the pipeline; the weekly update runs on the box (Mondays 1:13 PM CT) and publishes only if the new file passes validation and the publish gate. `.github/workflows/market-signals.yml` is a free daily watchdog that fails (and emails the owner) if `signals.json` is more than 8 days old or malformed. See `pipeline/SETUP_ACTIONS.md`. `generated_at` (ISO 8601) records when the file was built.
