@@ -10,6 +10,7 @@ SIG = re.compile(r"\b(ban\w*|restrict\w*|good|great|best|busted|broken|strong|po
 EN = {"the", "and", "you", "is", "that", "this", "to", "a", "it", "of"}
 def is_english(tr, segs):
     """Non-English captions (e.g. a YouTube auto-dub track) make the English SIG gate drop almost everything."""
+    if tr and tr.get("source") == "description": return True  # chapter titles only; too short to detect language
     if tr and tr.get("language"): return str(tr["language"]).lower().startswith("en")
     w = " ".join(s["text"] for s in segs[:200]).lower().split()
     return not w or sum(x in EN for x in w) / len(w) >= 0.08

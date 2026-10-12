@@ -84,18 +84,25 @@ def chapters(v):
             segs.append({"start": t, "text": m.group(2)})
     if len(segs) < 2: raise RuntimeError("no chapters in description")
     return segs
+BLOCKED = {"ytapi": 0, "ytdlp": 0}  # after 3 IP-block errors in a row, stop trying that source this run (cloud IPs are often blocked)
+def blocked(e): s = type(e).__name__ + str(e); return "RequestBlocked" in s or "IpBlocked" in s or "not a bot" in s or "returned non-zero" in s
 for k, v in enumerate([v for v in todo if not have(v["id"])]):
     if k: time.sleep(PAUSE)
     done = False
-    if "ytapi" not in SKIP:
-        try: segs, auto = retry(lambda: ytapi(v)); put(v, "youtube_transcript_api", segs, "en", auto); done = True
-        except Exception as e: log(v["id"], "ytapi failed:", type(e).__name__, str(e)[:120].replace("\n", " "))
-    if not done and "ytdlp" not in SKIP:
-        try: put(v, "yt-dlp", retry(lambda: ytdlp(v)), "en", True); done = True
-        except Exception as e: log(v["id"], "yt-dlp failed:", str(e)[:120])
+    if "ytapi" not in SKIP and BLOCKED["ytapi"] < 3:
+        try: segs, auto = retry(lambda: ytapi(v)); put(v, "youtube_transcript_api", segs, "en", auto); done = True; BLOCKED["ytapi"] = 0
+        except Exception as e:
+            BLOCKED["ytapi"] = BLOCKED["ytapi"] + 1 if blocked(e) else 0
+            log(v["id"], "ytapi failed:", type(e).__name__, str(e)[:120].replace("\n", " "))
+    if not done and "ytdlp" not in SKIP and BLOCKED["ytdlp"] < 3:
+        try: put(v, "yt-dlp", retry(lambda: ytdlp(v)), "en", True); done = True; BLOCKED["ytdlp"] = 0
+        except Exception as e:
+            BLOCKED["ytdlp"] = BLOCKED["ytdlp"] + 1 if blocked(e) else 0
+            log(v["id"], "yt-dlp failed:", str(e)[:120])
     if not done:
         try: put(v, "description", chapters(v), None, None); done = True
         except Exception: report["failed"][v["id"]] = "all fallbacks failed (title/description still used as metadata)"
 n = sum(have(v["id"]) for v in vids)
 report["coverage"] = f"{n}/{len(vids)}"; save(f"runs/{run}/transcripts_report.json", report)
+if any(c >= 3 for c in BLOCKED.values()): log("::warning::YouTube blocked free caption sources from this server; set the APIFY_TOKEN secret for full coverage")
 log(f"coverage {n}/{len(vids)} by source {report['by_source']}, Apify cost ${report['cost_usd']:.4f}")
