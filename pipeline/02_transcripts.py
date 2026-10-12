@@ -31,7 +31,7 @@ def retry(fn, tries=3, base=3.0):
         except Exception as e:
             last = e
             s = (type(e).__name__ + str(e)).lower()
-            if "disabled" in s or "notranscript" in s or "no transcript" in s or "unavailable" in s: break
+            if "requestblocked" in s or "not a bot" in s or "disabled" in s or "notranscript" in s or "no transcript" in s or "unavailable" in s: break
             if n < tries - 1: time.sleep(base * 2 ** n + random.random())
     raise last
 
