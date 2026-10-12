@@ -1,0 +1,10 @@
+cache/scry_cache.json
+cache/AllPrices.json.xz
+cache/mtgjson_sets/
+cache/*.json
+!cache/.keep
+out/
+runs/
+state/
+cache/transcripts/
+__pycache__/

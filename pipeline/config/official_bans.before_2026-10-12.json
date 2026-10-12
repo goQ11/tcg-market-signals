@@ -1,0 +1,13 @@
+{
+  "_note": "Update after each Wizards B&R announcement (magic.wizards.com/en/news/announcements). Scryfall legality is checked too.",
+  "last_announcement": {"date": "2026-08-10", "url": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-august-10-2026"},
+  "next_announcement": "2026-10-12",
+  "recent_changes": [
+    {"card": "Badgermole Cub", "format": "standard", "action": "ban", "date": "2026-08-10"},
+    {"card": "Stormchaser's Talent", "format": "standard", "action": "ban", "date": "2026-08-10"},
+    {"card": "Gran-Gran", "format": "standard", "action": "ban", "date": "2026-08-10"},
+    {"card": "The Fantasticar", "format": "legacy", "action": "ban", "date": "2026-08-10"},
+    {"card": "The Fantasticar", "format": "vintage", "action": "restrict", "date": "2026-08-10"},
+    {"card": "Seeker of Skybreak", "format": "pauper", "action": "ban", "date": "2026-06-29"}
+  ]
+}

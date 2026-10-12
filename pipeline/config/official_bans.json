@@ -1,0 +1,95 @@
+{
+  "_note": "Update after each Wizards B&R announcement (magic.wizards.com/en/news/announcements). Scryfall legality is checked too.",
+  "last_announcement": {
+    "date": "2026-10-12",
+    "url": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-october-12-2026",
+    "summary": "No changes in Standard, Pioneer, Modern, Legacy, Vintage, Pauper, Alchemy, Historic, Timeless, Brawl. Competitive Brawl (Arena) commander-ban changes only."
+  },
+  "next_announcement": "2026-11-30",
+  "recent_changes": [
+    {
+      "card": "Yuriko, the Tiger's Shadow",
+      "format": "competitive_brawl",
+      "action": "ban",
+      "date": "2026-10-12"
+    },
+    {
+      "card": "Spider-Man 2099",
+      "format": "competitive_brawl",
+      "action": "ban",
+      "date": "2026-10-12"
+    },
+    {
+      "card": "Light-Paws, Emperor's Voice",
+      "format": "competitive_brawl",
+      "action": "ban",
+      "date": "2026-10-12"
+    },
+    {
+      "card": "Ajani, Nacatl Pariah",
+      "format": "competitive_brawl",
+      "action": "banned_as_commander_only",
+      "date": "2026-10-12"
+    },
+    {
+      "card": "Nadu, Winged Wisdom",
+      "format": "competitive_brawl",
+      "action": "banned_as_commander_only",
+      "date": "2026-10-12"
+    },
+    {
+      "card": "Oko, Thief of Crowns",
+      "format": "competitive_brawl",
+      "action": "banned_as_commander_only",
+      "date": "2026-10-12"
+    },
+    {
+      "card": "Old Stickfingers",
+      "format": "competitive_brawl",
+      "action": "banned_as_commander_only",
+      "date": "2026-10-12"
+    },
+    {
+      "card": "Ragavan, Nimble Pilferer",
+      "format": "competitive_brawl",
+      "action": "banned_as_commander_only",
+      "date": "2026-10-12"
+    },
+    {
+      "card": "Badgermole Cub",
+      "format": "standard",
+      "action": "ban",
+      "date": "2026-08-10"
+    },
+    {
+      "card": "Stormchaser's Talent",
+      "format": "standard",
+      "action": "ban",
+      "date": "2026-08-10"
+    },
+    {
+      "card": "Gran-Gran",
+      "format": "standard",
+      "action": "ban",
+      "date": "2026-08-10"
+    },
+    {
+      "card": "The Fantasticar",
+      "format": "legacy",
+      "action": "ban",
+      "date": "2026-08-10"
+    },
+    {
+      "card": "The Fantasticar",
+      "format": "vintage",
+      "action": "restrict",
+      "date": "2026-08-10"
+    },
+    {
+      "card": "Seeker of Skybreak",
+      "format": "pauper",
+      "action": "ban",
+      "date": "2026-06-29"
+    }
+  ]
+}
