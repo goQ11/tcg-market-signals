@@ -1,0 +1,106 @@
+{
+ "channels": [
+  {
+   "name": "Ashlizzlle",
+   "handle": "@Ashlizzlle",
+   "channel_id": "UC9HvNU6-MihLe5JGBkJ3DgQ",
+   "max_videos_per_run": 15
+  },
+  {
+   "name": "MTGGoldfish",
+   "handle": "@MTGGoldfish",
+   "channel_id": "UCZAZTSd0xnor7hJFmINIBIw",
+   "max_videos_per_run": 15
+  },
+  {
+   "name": "MTG Joe",
+   "handle": "@MTGJoe",
+   "channel_id": "UC4b7ZZGTiRkd8DbedW7A8Pg",
+   "max_videos_per_run": 15
+  },
+  {
+   "name": "CovertGoBlue",
+   "handle": "@covertgoblue",
+   "channel_id": "UC-UZjHl2kZ-6XKBLgbFgGAQ",
+   "max_videos_per_run": 15
+  },
+  {
+   "name": "Strictly Better MtG",
+   "handle": "@SBMTG",
+   "channel_id": "UCpZCNYMXJI_ptSBD3t47NOQ",
+   "max_videos_per_run": 15
+  },
+  {
+   "name": "CoreyBMTG",
+   "handle": "@CoreyBMTG",
+   "channel_id": "UCpsCt-B6Jo6NlTNotMW6DeA",
+   "max_videos_per_run": 15
+  },
+  {
+   "name": "Andrea Mengucci VEEDEO",
+   "handle": "@AndreaMengucci",
+   "channel_id": "UCwIFsLCPrc1NGoNS0OGn0mw",
+   "max_videos_per_run": 15
+  },
+  {
+   "name": "Magic Aids",
+   "handle": "@MagicAids",
+   "channel_id": "UClaWphnKi16UJxRdkmFpw3A",
+   "max_videos_per_run": 15
+  },
+  {
+   "name": "Mengu's Workshop",
+   "handle": "@MengusWorkshop",
+   "channel_id": "UCGZdKNOxKdSNL1Qht9aC8tQ",
+   "max_videos_per_run": 15
+  },
+  {
+   "name": "TogoresMTG",
+   "handle": "@TogoresMTG",
+   "channel_id": "UCWDUiVfRPmXqOq_KhjSGh8A",
+   "max_videos_per_run": 15
+  },
+  {
+   "name": "Play to Win",
+   "handle": "@PlaytoWinMTG",
+   "channel_id": "UC7339iJMCETmek3jdx9LOkg",
+   "max_videos_per_run": 15
+  },
+  {
+   "name": "cEDH TV",
+   "handle": "@cedhtv",
+   "channel_id": "UCzt3cj_wzuNp4yRP9ZEBAmg",
+   "max_videos_per_run": 15
+  },
+  {
+   "name": "The Commander's Quarters",
+   "handle": "@TheCommandersQuarters",
+   "channel_id": "UC-w5MNByr4SNy3z2232sj0g",
+   "max_videos_per_run": 15
+  },
+  {
+   "name": "Sam Black",
+   "handle": "@samuelhblack",
+   "channel_id": "UCNcYDRuP08Uh_Ob5TpLk47A",
+   "max_videos_per_run": 15
+  },
+  {
+   "name": "Mattcaster Mage MTG",
+   "handle": "@MattcasterMage",
+   "channel_id": "UCH46VDfTe-_II_XfbHIdFZg",
+   "max_videos_per_run": 15
+  },
+  {
+   "name": "Nitpicking Nerds",
+   "handle": "@NitpickingNerds",
+   "channel_id": "UCh76d0-ff5eaN68V2OaoghA",
+   "max_videos_per_run": 15
+  },
+  {
+   "name": "Joel Are Magic",
+   "handle": "@JoelareMagic",
+   "channel_id": "UCKEBvYjd5fiP_AcdnwMl9DA",
+   "max_videos_per_run": 15
+  }
+ ]
+}

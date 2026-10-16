@@ -1,0 +1,14 @@
+{
+  "lookback_days_first_run": 14,
+  "max_videos_per_channel": 15,
+  "skip_shorts": true,
+  "apify_actor": "automationnation~youtube-transcript-scraper",
+  "apify_max_charge_usd_per_run": 1.0,
+  "apify_price_per_transcript_usd": 0.0015,
+  "signals_window_days": 14,
+  "new_card_since": "2026-07-01",
+  "tcgplayer_search_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q={q}",
+  "affiliate_param": "",
+  "official_bans": "config/official_bans.json",
+  "mtgjson_allprices": "cache/AllPrices.json.xz"
+}

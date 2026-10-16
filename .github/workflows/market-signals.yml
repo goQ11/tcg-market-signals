@@ -1,0 +1,36 @@
+name: Market Signals watchdog
+
+# Free daily health check of the published feed. No secrets and no paid services.
+# The weekly update itself runs on the box (Mondays 1:13 PM CT): discovery, captions, judging, publish gate, push.
+# If the live signals.json is more than 8 days old or its schema is broken, this job fails and GitHub emails the repo owner.
+# The fully automated pipeline (LLM judge + Apify in Actions) is kept dormant in pipeline/ci_run.sh + judge_llm.py; see pipeline/SETUP_ACTIONS.md.
+
+on:
+  schedule:
+    - cron: "0 15 * * *"        # every day 15:00 UTC (10 AM CT during CDT)
+  pull_request:
+    paths: ["pipeline/**", "signals.json", ".github/workflows/market-signals.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  watchdog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check live signals.json (freshness + schema)
+        env:
+          MAX_AGE_DAYS: "8"
+        run: python3 pipeline/watchdog.py
+      - name: Check the publish gate still works (repo copy vs itself must be rejected as not newer)
+        run: |
+          if python3 pipeline/gate.py signals.json signals.json > /dev/null; then echo "::error::gate accepted a non-newer file"; exit 1; fi
+          echo "gate correctly refuses a file that is not newer"
