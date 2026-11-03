@@ -14,6 +14,7 @@ def entries():
     for pr in S["impact_pairs"]: yield "impact_pairs", [pr["new_card"], pr["existing_card"]], f"makes existing {pr['effect']}", pr["sources"]
     for v in S["card_vibes"]: yield "card_vibes", [v["card"]], f"vibe {v['vibe']}", v["sources"]
     for r in S["potential_risers"]: yield "potential_risers", [r["card"]], "potential to rise: " + "; ".join(r.get("reasons") or []), r["sources"]
+    for g in S.get("ambiguous_mentions") or []: yield "ambiguous_mentions", [g["options"][0]["card"]], f"'{g['short_name']}' could be any of {len(g['options'])} cards", g["sources"]
 rows = []
 for sec, cards, claim, srcs in entries():
     for s in srcs:

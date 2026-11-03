@@ -7,6 +7,7 @@ A weekly job that turns MTG YouTube videos from 16 creators into one public `sig
 python3 -m venv /workspace/venv && /workspace/venv/bin/pip install -r requirements.txt
 curl -s -A "TCGSellerHub/1.0" https://api.scryfall.com/catalog/card-names -o cache/cardnames.json
 for f in keyword-abilities:kw keyword-actions:ka ability-words:aw; do curl -s -A "TCGSellerHub/1.0" https://api.scryfall.com/catalog/${f%%:*} -o cache/${f##*:}.json; done
+python3 tools_fetch_recent_names.py   # cards first printed since new_card_since; refresh weekly with cardnames.json
 # optional, enables 7- and 30-day price change (~1 GB, refresh weekly):
 curl -s -o cache/AllPrices.json.xz https://mtgjson.com/api/v5/AllPrices.json.xz
 export APIFY_TOKEN=...   # never commit, print, or log it
@@ -30,6 +31,7 @@ export APIFY_TOKEN=...   # never commit, print, or log it
 
 - **Spend:** the Apify actor `automationnation~youtube-transcript-scraper` costs $0.0015 per transcript. Each run is hard-capped at `apify_max_charge_usd_per_run` (passed to Apify as `maxTotalChargeUsd`). About 80 videos a week costs about $0.12.
 - **After each Wizards ban announcement:** update `config/official_bans.json`. Scryfall legality is checked automatically.
+- **Matcher, short names:** a bare name before the comma ("Ajani", "Danitha") shared by 2+ paper cards of any age becomes one "could be any of these" item (new cards listed first; Alchemy "A-" names skipped). A name only one card has resolves to it. Full names and clearly unique subtitles ("adversary of tyrants") always resolve to the card. In signals.json, options are sorted newest printing first and capped at 8, with `options_total` and `more_options`. Tests: `python tests_matcher.py`.
 - **Matcher:** new caption mangles go in `config/aliases.json`; new false-positive words go in `config/blocklist.json`.
 - **Affiliate link:** set `affiliate_param` in `config/settings.json`. The placeholder is `partner=__TCGPLAYER_AFFILIATE_ID__`.
 - **First run:** `tools_bootstrap_from_v3.py prepare|convert` seeded run `2026-10-09_bootstrap` from the v3 prototype.

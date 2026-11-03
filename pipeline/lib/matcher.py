@@ -11,7 +11,12 @@ SHARDS = set("esper grixis jund naya bant abzan jeskai sultai mardu temur azoriu
 EXTRA = load("config/blocklist.json", {"phrases": []})["phrases"]
 BLOCK = KW | SHARDS | {norm(x) for x in EXTRA}
 ALIAS = {norm(k): v for k, v in load("config/aliases.json", {}).items() if not k.startswith("_")}
-lex = {}
+# Cards printed since settings.new_card_since (cache/recent_names.json, built by tools_fetch_recent_names.py).
+RECENT = set(load("cache/recent_names.json", {"data": []})["data"])
+def canon(n):
+    """'X // X' catalog duplicates (same name on both faces) are one card."""
+    f = n.split(" // "); return f[0] if len(set(f)) == 1 else n
+lex = {}; SUB = {}; SHORT = {}  # SHORT: bare short name before the comma ("danitha") -> every card sharing it
 for n in names:
     for part in n.split(" // "):
         q = norm(part); toks = q.split()
@@ -23,15 +28,36 @@ for n in names:
             lex[q] = n
         if "," in part:
             s = norm(part.split(",")[0])
-            if len(s) >= 4 and len(s.split()) <= 2 and s not in BLOCK and zf(s.split()[0], "en") < 2.5: lex.setdefault(s, n)
+            if len(s) >= 4 and len(s.split()) <= 2 and s not in BLOCK and zf(s.split()[0], "en") < 2.5 and canon(n) not in SHORT.get(s, []): SHORT.setdefault(s, []).append(canon(n))
+            sub = norm(part.split(",", 1)[1]); st = sub.split()
+            if len(st) >= 2 and any(zf(t, "en") < 3.0 for t in st if len(t) > 3) and sub not in BLOCK: SUB.setdefault(sub, set()).add(n)
+def paper_name(n): return not n.startswith("A-")  # skip Alchemy rebalanced (digital-only) names; tokens/art cards aren't in the catalog
+def resolve_short(cands, recent=RECENT):
+    """A bare short name (the part before the comma). Exactly one paper card -> it. Two or more -> None
+    (ambiguous, any age: shown as a 'could be any of these' group). A full name always wins earlier (longest n-gram first)."""
+    cands = [c for c in cands if paper_name(c)]
+    return cands[0] if len(cands) == 1 else None
+def order_candidates(cands, recent=RECENT):
+    """New-set cards first, then the rest (05 re-sorts by newest printing once it has Scryfall dates)."""
+    return sorted((c for c in cands if paper_name(c)), key=lambda c: (c not in recent, c))
+AMBIG = {}  # short name -> every paper card it could mean; matched but not credited to any single card
+for s_, cands in SHORT.items():
+    if s_ in lex: continue
+    r = resolve_short(cands)
+    if r: lex[s_] = r
+    elif len([c for c in cands if paper_name(c)]) > 1: AMBIG[s_] = order_candidates(cands)
+# a clearly unique subtitle said on its own ("adversary of tyrants") -> that card
+for sub, ns in SUB.items():
+    if len(ns) == 1 and sub not in lex and sub not in AMBIG: lex[sub] = next(iter(ns))
 COMMON1 = {}
 for n in names:
     q = norm(n.split(" // ")[0])
-    if " " not in q and len(q) >= 5 and q not in lex and q not in BLOCK and zf(q, "en") >= 2.8: COMMON1[q] = n
+    if " " not in q and len(q) >= 5 and q not in lex and q not in AMBIG and q not in BLOCK and zf(q, "en") >= 2.8: COMMON1[q] = n
 IDIOM = {k for k in lex if all(zf(t, "en") >= 3.5 for t in k.split())}
 CTX = re.compile(r"\b(cast|casting|play|playing|copies|copy|card|cards|deck|resolve|target|sideboard|maindeck|exile|counter|activate|ban\w*|unban\w*|restrict\w*|spec|specs|buy|buying|pick up|foil|printing|reprint\w*|price|bucks|dollars|cents)\b")
 GATE1 = re.compile(r"\b(ban\w*|restrict\w*|copies of|cast(ing)?|play(ing)?|card)\b")
-single = [k for k in lex if " " not in k and len(k) >= 7]
+single = [k for k in list(lex) + list(AMBIG) if " " not in k and len(k) >= 7]
+def _card(k): return lex.get(k)  # None for an ambiguous short name
 PHON = {}
 for k in single: PHON.setdefault(jellyfish.metaphone(k), []).append(k)
 _fz = {}
@@ -41,15 +67,18 @@ def fuzzy_tok(w):
     r = None
     if len(w) >= 7 and zf(w, "en") < 1.5:
         m = process.extractOne(w, single, scorer=fuzz.ratio, score_cutoff=86)
-        if m and m[0][0] == w[0]: r = (lex[m[0]], "fuzzy")
+        if m and m[0][0] == w[0]: r = (_card(m[0]), "fuzzy", m[0])
         else:
             c = PHON.get(jellyfish.metaphone(w))
-            if c and len(c) == 1 and fuzz.ratio(w, c[0]) >= 70: r = (lex[c[0]], "phonetic")
+            if c and len(c) == 1 and fuzz.ratio(w, c[0]) >= 70: r = (_card(c[0]), "phonetic", c[0])
     _fz[w] = r; return r
 maxlen = max(len(k.split()) for k in lex)
+AMBIGUOUS_HITS = []  # (index, length, short name) of ambiguous short names found by the last find(); candidates = AMBIG[short]
 def find(words):
-    """Return [(index, length, card_name, how)] for a list of normalized words."""
-    hits = []; i = 0
+    """Return [(index, length, card_name, how)] for a list of normalized words.
+    A bare short name shared by several recent-set cards is not returned here; it is listed in AMBIGUOUS_HITS
+    (03 queues it as one 'could be any of these' item with every candidate)."""
+    hits = []; i = 0; AMBIGUOUS_HITS.clear()
     while i < len(words):
         got = None
         for L in range(min(maxlen, len(words) - i), 0, -1):
@@ -57,13 +86,16 @@ def find(words):
             if q in ALIAS: got = (L, ALIAS[q], "alias"); break
             if L == 1 and q in COMMON1 and zf(q, "en") < 4.2 and GATE1.search(" ".join(words[max(0, i - 5):i + 6])):
                 got = (1, COMMON1[q], "common-gated"); break
+            if q in AMBIG: got = (L, None, q); break
             if q in lex:
                 if q in IDIOM and not CTX.search(" ".join(words[max(0, i - 8):i + L + 8])): break
                 got = (L, lex[q], "exact"); break
         if not got:
             f = fuzzy_tok(words[i])
-            if f: got = (1, f[0], f[1])
-        if got: hits.append((i,) + got); i += got[0]
+            if f: got = (1, f[0], f[1] if f[0] else f[2])
+        if got and got[1] is None:
+            AMBIGUOUS_HITS.append((i, got[0], got[2])); i += got[0]
+        elif got: hits.append((i,) + got); i += got[0]
         else: i += 1
     return hits
 def tokens_from_segments(segs):

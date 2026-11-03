@@ -32,6 +32,12 @@ for v in vids:
             if not SIG.search(" ".join(words[max(0, i - 7):i]) + " | " + " ".join(words[i + L:i + L + 7])): continue  # exclude the name itself ("Price of Freedom")
             queue.append(dict(item_id=iid(v["id"], stream, i, card), kind="mention", video_id=v["id"], channel=v["channel"], card=card, match=how,
                               t=toks[i][1] if stream == "transcript" else 0, stream=stream, context=" ".join(words[max(0, i - 16):i + L + 16])))
+        for (i, L, short) in list(matcher.AMBIGUOUS_HITS):  # bare name shared by 2+ new cards: one item, every candidate
+            stats["ambiguous"] = stats.get("ambiguous", 0) + 1
+            if not SIG.search(" ".join(words[max(0, i - 7):i]) + " | " + " ".join(words[i + L:i + L + 7])): continue
+            queue.append(dict(item_id=iid(v["id"], stream, i, "ambiguous:" + short), kind="mention", video_id=v["id"], channel=v["channel"], card=None,
+                              short_name=short, candidates=matcher.AMBIG[short], match="ambiguous",
+                              t=toks[i][1] if stream == "transcript" else 0, stream=stream, context=" ".join(words[max(0, i - 16):i + L + 16])))
     for k, s in enumerate(segs):
         if BANLINE.search(s["text"]):
             ctx = " ".join(x["text"] for x in segs[max(0, k - 3):k + 4]).replace("\n", " ")
@@ -44,4 +50,5 @@ save(f"runs/{run}/judge_queue.json", {"schema": "msp.judge_queue/1", "run_id": r
      "videos": {v["id"]: {"channel": v["channel"], "title": v["title"], "published": v["published"]} for v in vids},
      "instructions": "See JUDGING.md. Write runs/<run_id>/judgments.json with one entry per item_id.",
      "items": queue})
+log(f"{stats.get('ambiguous', 0)} bare short names shared by 2+ new cards (queued as 'could be any of these' items)")
 log(f"{stats['mentions']} raw mentions -> {sum(q['kind']=='mention' for q in queue)} mention items + {sum(q['kind']=='ban_line' for q in queue)} ban lines, {len(matcher_cards)} cards")

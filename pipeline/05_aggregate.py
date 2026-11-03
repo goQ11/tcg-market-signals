@@ -5,10 +5,10 @@ Usage: 05_aggregate.py [--as-of YYYY-MM-DD] [--no-history]"""
 import sys, os, argparse, collections, datetime as dt, urllib.parse, shutil
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "lib"))
 from common import *
-import prices, anchor
+import prices, anchor, ambiguous, versions
 ALIASES = anchor.load_aliases()
 REVIEW = []  # claims/sources dropped because the transcript doesn't support them
-SCHEMA_VERSION = "1.4.0"  # 1.4: paper_sets (distinct paper set names, oldest first); 1.3: removed is_new/new_card_verified_new; added reserved (Wizards Reserved List); 1.2: generic reprint (reprint_count, latest_reprint_set/date);  # 1.1: additive printing fields (first_printed, is_reprint, reprint_set, reprint_released)
+SCHEMA_VERSION = "1.6.0"  # 1.6: ambiguous_mentions[] (short name shared by 2+ new cards; options each with price); price is always an object with label "TCGplayer Market", display ("$x.xx" or "unavailable") and printing; ban_alerts/impact cards carry price; 1.4: paper_sets (distinct paper set names, oldest first); 1.3: removed is_new/new_card_verified_new; added reserved (Wizards Reserved List); 1.2: generic reprint (reprint_count, latest_reprint_set/date);  # 1.1: additive printing fields (first_printed, is_reprint, reprint_set, reprint_released)
 ap = argparse.ArgumentParser(); ap.add_argument("--as-of"); ap.add_argument("--no-history", action="store_true"); a = ap.parse_args()
 as_of = dt.date.fromisoformat(a.as_of) if a.as_of else dt.date.today()
 start = as_of - dt.timedelta(days=SETTINGS["signals_window_days"])
@@ -44,7 +44,7 @@ def card(n):
     first = pi["first_printed"]; ch = scry_cheapest_today(d["name"])
     CARD[n] = dict(name=d["name"], scryfall_id=d["id"], legal=d["legalities"], first=first, printing=pi,
                    image=(d.get("image_uris") or (d.get("card_faces") or [{}])[0].get("image_uris") or {}).get("small"),
-                   cheapest=dict(set=ch["set"], id=ch["id"], usd=ch["prices"].get("usd"), usd_foil=ch["prices"].get("usd_foil")) if ch else None)
+                   cheapest=dict(set=ch["set"], set_name=ch.get("set_name"), collector_number=ch.get("collector_number"), id=ch["id"], usd=ch["prices"].get("usd"), usd_foil=ch["prices"].get("usd_foil")) if ch else None)
     return CARD[n]
 def tcg(n):
     u = SETTINGS["tcgplayer_search_url"].format(q=urllib.parse.quote_plus(n))
@@ -80,6 +80,7 @@ for j in J.values():
         sc = src(j, [n["name"], o["name"]], None, "impact_pairs")
         if sc: pairs.setdefault((n["name"], o["name"], pr["effect"]), dict(format=pr.get("format"), s=[]))["s"].append(sc)
     if it["kind"] != "mention" or not j["card_ok"] or j["vibe"] == "none": continue
+    if not (j.get("card") or it["card"]): continue  # ambiguous short name: grouped in ambiguous_mentions
     c = card(j.get("card") or it["card"])
     if not c: continue
     a_ = vib[c["name"]]; a_["ch"].add(it["channel"])
@@ -98,13 +99,27 @@ for (n, o, eff), d in pairs.items():
                        new_card_info=printing(n), existing_card_info=printing(o)))
 impact.sort(key=lambda x: -x["channels"])
 # prices
-hist = {} if a.no_history else prices.history({CARD[n]["cheapest"]["id"]: CARD[n]["cheapest"]["set"] for n in vib if CARD.get(n) and CARD[n]["cheapest"]})
+AMB = ambiguous.collect(J)
+for _g in AMB.values():
+    for _n in _g["options"]: card(_n)
+hist = {} if a.no_history else prices.history({CARD[n]["cheapest"]["id"]: CARD[n]["cheapest"]["set"] for n in list(CARD) if CARD.get(n) and CARD[n].get("cheapest")})
+PRICE_LABEL = "TCGplayer Market"
+PRICE_SOURCE = "TCGplayer Market Price via Scryfall prices.usd (cheapest non-foil paper printing)"
 def price(c):
-    ch = c["cheapest"]
-    if not ch: return None
-    h = hist.get(ch["id"], {})
-    return dict(usd=float(ch["usd"]) if ch["usd"] else None, usd_foil=float(ch["usd_foil"]) if ch["usd_foil"] else None, printing_set=ch["set"].upper(),
-                source="Scryfall (TCGplayer market, cheapest paper printing)", as_of=as_of.isoformat(),
+    """Headline price plus version_groups (every printing grouped by finish/treatment, each with its own TCGplayer Market Price)."""
+    out = _price(c)
+    out.update(versions.groups(c["name"]) if c else dict(version_groups=[], version_groups_complete=False))
+    return out
+def _price(c):
+    """TCGplayer Market Price of the cheapest non-foil paper printing (Scryfall prices.usd). Never guessed: 'unavailable' if missing."""
+    ch = (c or {}).get("cheapest")
+    if not ch or not ch.get("usd"):
+        return dict(label=PRICE_LABEL, usd=None, usd_foil=None, display="unavailable", printing=None, printing_set=None, printing_basis="cheapest non-foil paper printing",
+                    source=PRICE_SOURCE, as_of=as_of.isoformat(), change_7d_pct=None, change_30d_pct=None, history_as_of=None)
+    h = hist.get(ch["id"], {}); usd = float(ch["usd"])
+    pr = f'{ch.get("set_name") or ch["set"].upper()} #{ch["collector_number"]}' if ch.get("collector_number") else (ch.get("set_name") or ch["set"].upper())
+    return dict(label=PRICE_LABEL, usd=usd, usd_foil=float(ch["usd_foil"]) if ch["usd_foil"] else None, display=f"${usd:,.2f}", printing=pr, printing_set=ch["set"].upper(),
+                printing_basis="cheapest non-foil paper printing", source=PRICE_SOURCE, as_of=as_of.isoformat(),
                 change_7d_pct=prices.change(h, 7), change_30d_pct=prices.change(h, 30), history_as_of=max(h) if h else None)
 vibes = []
 for n, a_ in vib.items():
@@ -126,19 +141,24 @@ for n, a_ in vib.items():
 vibes.sort(key=lambda v: (-v["channels"], -(v["positive"] + v["negative"] + v["neutral"]), v["card"]))
 risers = [dict(card=v["card"], reasons=v["potential_reasons"], vibe=v["vibe"], **{k: v[k] for k in ("reserved", "paper_sets", "first_printed", "first_printed_set", "is_reprint", "reprint_count", "latest_reprint_set", "latest_reprint_date", "reprint_set", "reprint_released")}, channels=v["channels"], price=v["price"], tcgplayer_url=v["tcgplayer_url"], sources=v["sources"])
           for v in vibes if v["potential_to_rise"]]
+amb_out = ambiguous.build(AMB, card, printing, price, tcg, src)
+for b in ban_alerts:
+    if b.get("game", "mtg") == "mtg": b["price"] = price(card(b["card"]))
+for x in impact:
+    if x.get("game", "mtg") == "mtg": x["new_card_info"]["price"] = price(card(x["new_card"])); x["existing_card_info"]["price"] = price(card(x["existing_card"]))
 save("out/needs_review.json", REVIEW)
 log(f"{len(REVIEW)} sources dropped (not supported by captions) -> out/needs_review.json")
-used = {s["video_id"] for x in ban_alerts + impact + vibes for s in x["sources"]}
+used = {s["video_id"] for x in ban_alerts + impact + vibes + amb_out for s in x["sources"]}
 win_vids = sorted({j["_item"]["video_id"] for j in J.values()})
 out = dict(schema_version=SCHEMA_VERSION, generated_at=dt.datetime.now().astimezone().isoformat(timespec="seconds"), run_id=load("state/state.json", {}).get("current_run"),
            window=dict(start=start.isoformat(), end=as_of.isoformat(), days=SETTINGS["signals_window_days"]),
            ban_announcements=dict(last=OB["last_announcement"], next=OB["next_announcement"]),
-           counts=dict(videos=len(win_vids), channels=len({V[v]["channel"] for v in win_vids}), ban_alerts=len(ban_alerts), impact_pairs=len(impact), card_vibes=len(vibes), potential_risers=len(risers)),
+           counts=dict(videos=len(win_vids), channels=len({V[v]["channel"] for v in win_vids}), ban_alerts=len(ban_alerts), impact_pairs=len(impact), card_vibes=len(vibes), potential_risers=len(risers), ambiguous_mentions=len(amb_out)),
            disclaimers=["Not financial advice. Signals summarize opinions from YouTube creators and can be wrong.",
                         "Ban alerts marked 'speculation' are creator opinions, not official Wizards of the Coast announcements.",
-                        "Prices are Scryfall's TCGplayer market prices for the cheapest paper printing and may be out of date."],
+                        "Prices are TCGplayer Market Prices (via Scryfall) for the cheapest non-foil paper printing and may be out of date. 'unavailable' means no market price was listed."],
            affiliate_disclosure="",
-           ban_alerts=ban_alerts, impact_pairs=impact, card_vibes=vibes, potential_risers=risers,
+           ban_alerts=ban_alerts, impact_pairs=impact, card_vibes=vibes, potential_risers=risers, ambiguous_mentions=amb_out,
            sources=[dict(video_id=v, channel=V[v]["channel"], channel_name=CH.get(V[v]["channel"], V[v]["channel"]), title=V[v]["title"], published=V[v]["published"][:10],
                          url=url(v, 0), cited=v in used) for v in win_vids])
 scry_save()

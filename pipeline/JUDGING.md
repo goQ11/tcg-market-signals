@@ -32,6 +32,7 @@ Step 03 writes `runs/<run_id>/judge_queue.json`. The judge (the assistant, in it
 ```
 | field | rule |
 |---|---|
+| ambiguous items | `card` is null, `match` is `ambiguous`, and `candidates` lists every paper card sharing `short_name` (new cards first). Judge the vibe as usual. Set `card` only if the context clearly names one candidate (e.g. says the subtitle); otherwise leave it null and the mention is shown as one "could be any of these" entry. |
 | card_ok | `false` if the matched words are not really that card (an idiom, a different card, or garbled text). Then use vibe `none`. |
 | card | optional exact Scryfall name to replace a wrong but fixable match (for example the right Emrakul) |
 | vibe | `positive`, `neutral`, `negative`, or `none`. It must be about **this card itself**, not a nearby card. Play-by-play narration ("I cast X, pass") is `none`. |

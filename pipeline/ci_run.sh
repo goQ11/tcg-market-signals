@@ -12,6 +12,7 @@ UA="TCGSellerHub-MarketSignals/1.0"
 for f in keyword-abilities:kw keyword-actions:ka ability-words:aw; do
   [ -s "cache/${f##*:}.json" ] || { curl -sf --retry 4 -A "$UA" "https://api.scryfall.com/catalog/${f%%:*}" -o "cache/${f##*:}.json"; sleep 0.2; }
 done
+$PY tools_fetch_recent_names.py   # new-set names, so bare short names ("Danitha") prefer the new card (lib/matcher.py)
 $PY 01_discover.py ${DISCOVER_ARGS:-}
 $PY 02_transcripts.py ${TRANSCRIPT_ARGS:-}
 $PY 03_candidates.py
