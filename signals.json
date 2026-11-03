@@ -1,6 +1,6 @@
 {
  "schema_version": "1.5.0",
- "generated_at": "2026-11-02T13:39:04-06:00",
+ "generated_at": "2026-11-02T19:24:59-06:00",
  "run_id": "2026-11-02_1318",
  "window": {
   "start": "2026-10-19",
@@ -21,7 +21,7 @@
   "channels": 27,
   "ban_alerts": 7,
   "impact_pairs": 7,
-  "card_vibes": 624,
+  "card_vibes": 613,
   "potential_risers": 22
  },
  "disclaimers": [
@@ -1480,33 +1480,24 @@
   },
   {
    "game": "mtg",
-   "card": "Emrakul, the Aeons Torn",
-   "scryfall_id": "249db4d4-2542-47ee-a216-e13ffbc2319c",
-   "image": "https://cards.scryfall.io/small/front/2/4/249db4d4-2542-47ee-a216-e13ffbc2319c.jpg?1783921940",
+   "card": "Emrakul, the Exigent Doom",
+   "scryfall_id": "c3ff8dd3-88a8-49dc-a59b-e2748680623c",
+   "image": "https://cards.scryfall.io/small/front/c/3/c3ff8dd3-88a8-49dc-a59b-e2748680623c.jpg?1790829846",
    "reserved": false,
-   "first_printed": "2010-04-23",
+   "first_printed": "2026-10-02",
    "first_printed_set": {
-    "code": "roe",
-    "name": "Rise of the Eldrazi"
+    "code": "fra",
+    "name": "Reality Fracture"
    },
-   "is_reprint": true,
-   "reprint_count": 4,
+   "is_reprint": false,
+   "reprint_count": 1,
    "paper_sets": [
-    "Rise of the Eldrazi",
-    "Modern Masters 2015",
-    "Ultimate Masters",
-    "Double Masters 2022"
+    "Reality Fracture"
    ],
-   "latest_reprint_set": {
-    "code": "2x2",
-    "name": "Double Masters 2022"
-   },
-   "latest_reprint_date": "2022-07-08",
-   "reprint_set": {
-    "code": "2x2",
-    "name": "Double Masters 2022"
-   },
-   "reprint_released": "2022-07-08",
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
+   "reprint_set": null,
+   "reprint_released": null,
    "vibe": "positive",
    "score": 1.0,
    "positive": 3,
@@ -1516,16 +1507,16 @@
    "potential_to_rise": false,
    "potential_reasons": [],
    "price": {
-    "usd": 9.05,
-    "usd_foil": null,
-    "printing_set": "P10",
+    "usd": 13.4,
+    "usd_foil": 17.31,
+    "printing_set": "FRA",
     "source": "Scryfall (TCGplayer market, cheapest paper printing)",
     "as_of": "2026-11-02",
-    "change_7d_pct": 8950.0,
-    "change_30d_pct": null,
+    "change_7d_pct": -9.4,
+    "change_30d_pct": -52.2,
     "history_as_of": "2026-10-26"
    },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Emrakul%2C+the+Aeons+Torn",
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Emrakul%2C+the+Exigent+Doom",
    "sources": [
     {
      "channel": "@MTGGoldfish",
@@ -1714,84 +1705,6 @@
      "url": "https://www.youtube.com/watch?v=EWB6X6gGJ5U&t=68s",
      "quote": "B Master Number going down. Ragaban is very strong right now in modern and one of the reasons why",
      "judge_note": "ragaban is very strong right now in modern",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
-   "game": "mtg",
-   "card": "Saheeli, Consul of Oversight",
-   "scryfall_id": "07572be0-6610-493c-a21e-14b78e9805c9",
-   "image": "https://cards.scryfall.io/small/front/0/7/07572be0-6610-493c-a21e-14b78e9805c9.jpg?1789645608",
-   "reserved": false,
-   "first_printed": "2026-10-02",
-   "first_printed_set": {
-    "code": "fra",
-    "name": "Reality Fracture"
-   },
-   "is_reprint": false,
-   "reprint_count": 1,
-   "paper_sets": [
-    "Reality Fracture"
-   ],
-   "latest_reprint_set": null,
-   "latest_reprint_date": null,
-   "reprint_set": null,
-   "reprint_released": null,
-   "vibe": "neutral",
-   "score": 0.25,
-   "positive": 4,
-   "neutral": 2,
-   "negative": 2,
-   "channels": 2,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 0.16,
-    "usd_foil": 0.28,
-    "printing_set": "FRA",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-11-02",
-    "change_7d_pct": 37.5,
-    "change_30d_pct": -37.1,
-    "history_as_of": "2026-10-26"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Saheeli%2C+Consul+of+Oversight",
-   "sources": [
-    {
-     "channel": "@haumph",
-     "channel_name": "Paul Cheon",
-     "video_id": "TJ8Dagt2e3M",
-     "video_title": "Complete Domination With Infinite Tokens | Reality Fracture Draft | MTG Arena",
-     "published": "2026-11-02",
-     "t": 4178,
-     "url": "https://www.youtube.com/watch?v=TJ8Dagt2e3M&t=4178s",
-     "quote": "to live the blue white surveil dream. Even Saheeli was pretty good. Right? So yeah, I mean this deck",
-     "judge_note": "even saheeli was pretty good",
-     "anchored_by": "quote match 100"
-    },
-    {
-     "channel": "@numotthenummyyt",
-     "channel_name": "NumotTheNummy",
-     "video_id": "8VHqS9Tfb4E",
-     "video_title": "Omniscience Draft Is Hilarious | Reality Fracture Omniscience Draft | MTG Arena",
-     "published": "2026-10-31",
-     "t": 536,
-     "url": "https://www.youtube.com/watch?v=8VHqS9Tfb4E&t=536s",
-     "quote": "Sphinx's Approach again, and a Saheeli. Saheeli's another pretty good win con. But, hard to pass up the card",
-     "judge_note": "saheelis another pretty good win con",
-     "anchored_by": "quote match 100"
-    },
-    {
-     "channel": "@numotthenummyyt",
-     "channel_name": "NumotTheNummy",
-     "video_id": "8VHqS9Tfb4E",
-     "video_title": "Omniscience Draft Is Hilarious | Reality Fracture Omniscience Draft | MTG Arena",
-     "published": "2026-10-31",
-     "t": 536,
-     "url": "https://www.youtube.com/watch?v=8VHqS9Tfb4E&t=536s",
-     "quote": "Sphinx's Approach again, and a Saheeli. Saheeli's another pretty good win con. But, hard to pass up the card",
-     "judge_note": "saheelis another pretty good win con",
      "anchored_by": "quote match 100"
     }
    ]
@@ -2481,91 +2394,6 @@
      "url": "https://www.youtube.com/watch?v=8VHqS9Tfb4E&t=449s",
      "quote": "fine over any of those others. Sphinx's approach here eighth pick is fantastic, of course. See, these are all",
      "judge_note": "sphinxs approach here eighth pick is fantastic",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
-   "game": "mtg",
-   "card": "Vraska, Betrayal's Sting",
-   "scryfall_id": "9f1fa1c5-ff87-4bbc-89aa-dbebc91eada0",
-   "image": "https://cards.scryfall.io/small/front/9/f/9f1fa1c5-ff87-4bbc-89aa-dbebc91eada0.jpg?1783904555",
-   "reserved": false,
-   "first_printed": "2023-02-10",
-   "first_printed_set": {
-    "code": "one",
-    "name": "Phyrexia: All Will Be One"
-   },
-   "is_reprint": true,
-   "reprint_count": 2,
-   "paper_sets": [
-    "Phyrexia: All Will Be One",
-    "Lorwyn Eclipsed Commander"
-   ],
-   "latest_reprint_set": {
-    "code": "ecc",
-    "name": "Lorwyn Eclipsed Commander"
-   },
-   "latest_reprint_date": "2026-01-23",
-   "reprint_set": {
-    "code": "ecc",
-    "name": "Lorwyn Eclipsed Commander"
-   },
-   "reprint_released": "2026-01-23",
-   "vibe": "positive",
-   "score": 1.0,
-   "positive": 5,
-   "neutral": 0,
-   "negative": 0,
-   "channels": 2,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 2.76,
-    "usd_foil": 3.1,
-    "printing_set": "ONE",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-11-02",
-    "change_7d_pct": -0.7,
-    "change_30d_pct": -5.8,
-    "history_as_of": "2026-10-26"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Vraska%2C+Betrayal%27s+Sting",
-   "sources": [
-    {
-     "channel": "@haumph",
-     "channel_name": "Paul Cheon",
-     "video_id": "67nwuTpUQA4",
-     "video_title": "Sometimes Magic Is 100% Pure Luck | Reality Fracture Contender Draft | MTG Arena",
-     "published": "2026-10-27",
-     "t": 1054,
-     "url": "https://www.youtube.com/watch?v=67nwuTpUQA4&t=1054s",
-     "quote": "with my turn? Vraska, okay. Oh, Vraska plus theoretical necromancer, that's really good. Black black green cuz I have",
-     "judge_note": "oh vraska plus theoretical necromancer thats really good",
-     "anchored_by": "quote match 100"
-    },
-    {
-     "channel": "@haumph",
-     "channel_name": "Paul Cheon",
-     "video_id": "67nwuTpUQA4",
-     "video_title": "Sometimes Magic Is 100% Pure Luck | Reality Fracture Contender Draft | MTG Arena",
-     "published": "2026-10-27",
-     "t": 1204,
-     "url": "https://www.youtube.com/watch?v=67nwuTpUQA4&t=1204s",
-     "quote": "kill my Hypatia. Yeah, I mean, Vraska is a very good magic card. Fblthp knows the way. I only",
-     "judge_note": "vraska is a very good magic card",
-     "anchored_by": "quote match 100"
-    },
-    {
-     "channel": "@numotthenummyyt",
-     "channel_name": "NumotTheNummy",
-     "video_id": "8VHqS9Tfb4E",
-     "video_title": "Omniscience Draft Is Hilarious | Reality Fracture Omniscience Draft | MTG Arena",
-     "published": "2026-10-31",
-     "t": 597,
-     "url": "https://www.youtube.com/watch?v=8VHqS9Tfb4E&t=597s",
-     "quote": "We can get back my Saheeli or my Vraska, which are good win cons. All right, we're just getting",
-     "judge_note": "my saheeli or my vraska which are good win cons",
      "anchored_by": "quote match 100"
     }
    ]
@@ -6824,72 +6652,6 @@
   },
   {
    "game": "mtg",
-   "card": "Traxos, Academy Guardian",
-   "scryfall_id": "a349800f-b634-4e74-a9d9-185df37ad909",
-   "image": "https://cards.scryfall.io/small/front/a/3/a349800f-b634-4e74-a9d9-185df37ad909.jpg?1789568451",
-   "reserved": false,
-   "first_printed": "2026-10-02",
-   "first_printed_set": {
-    "code": "fra",
-    "name": "Reality Fracture"
-   },
-   "is_reprint": false,
-   "reprint_count": 1,
-   "paper_sets": [
-    "Reality Fracture"
-   ],
-   "latest_reprint_set": null,
-   "latest_reprint_date": null,
-   "reprint_set": null,
-   "reprint_released": null,
-   "vibe": "positive",
-   "score": 0.5,
-   "positive": 1,
-   "neutral": 1,
-   "negative": 0,
-   "channels": 2,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 0.21,
-    "usd_foil": 0.27,
-    "printing_set": "FRA",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-11-02",
-    "change_7d_pct": 90.5,
-    "change_30d_pct": -66.1,
-    "history_as_of": "2026-10-26"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Traxos%2C+Academy+Guardian",
-   "sources": [
-    {
-     "channel": "@TheCommandersQuarters",
-     "channel_name": "The Commander's Quarters",
-     "video_id": "9Zg1zAsXsQ8",
-     "video_title": "Commanders That Are 100% Worth Building Around",
-     "published": "2026-10-25",
-     "t": 664,
-     "url": "https://www.youtube.com/watch?v=9Zg1zAsXsQ8&t=664s",
-     "quote": "the top card of your library. Traxos is another great one as well. Another one of the kind of",
-     "judge_note": "traxos is another great one as well",
-     "anchored_by": "quote match 100"
-    },
-    {
-     "channel": "@haumph",
-     "channel_name": "Paul Cheon",
-     "video_id": "VcIWsp8WmSo",
-     "video_title": "Going For Top 10 Mythic In This Draft | Reality Fracture Contender Draft | MTG Arena",
-     "published": "2026-10-26",
-     "t": 679,
-     "url": "https://www.youtube.com/watch?v=VcIWsp8WmSo&t=679s",
-     "quote": "also extended absence. As much as I like Traxos, extended absence is simply too good. Here, same thing. I'm",
-     "judge_note": "as much as i like traxos extended absence is simply too good",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
-   "game": "mtg",
    "card": "Trinisphere",
    "scryfall_id": "316caa4e-a53a-460b-978c-5f0fba7bc549",
    "image": "https://cards.scryfall.io/small/front/3/1/316caa4e-a53a-460b-978c-5f0fba7bc549.jpg?1783930090",
@@ -7184,36 +6946,24 @@
   },
   {
    "game": "mtg",
-   "card": "Yargle, Glutton of Urborg",
-   "scryfall_id": "04c816fb-5951-4db1-8834-ed3f0b36bfe1",
-   "image": "https://cards.scryfall.io/small/front/0/4/04c816fb-5951-4db1-8834-ed3f0b36bfe1.jpg?1789127722",
+   "card": "Yargle, Goliath of Otaria",
+   "scryfall_id": "f45ba926-6496-4bd4-96eb-663946d56bbf",
+   "image": "https://cards.scryfall.io/small/front/f/4/f45ba926-6496-4bd4-96eb-663946d56bbf.jpg?1789128043",
    "reserved": false,
-   "first_printed": "2018-04-27",
+   "first_printed": "2026-10-02",
    "first_printed_set": {
-    "code": "dom",
-    "name": "Dominaria"
+    "code": "fra",
+    "name": "Reality Fracture"
    },
-   "is_reprint": true,
-   "reprint_count": 7,
+   "is_reprint": false,
+   "reprint_count": 1,
    "paper_sets": [
-    "Dominaria",
-    "Jumpstart 2022",
-    "Multiverse Legends",
-    "Commander Masters",
-    "Secret Lair Drop",
-    "The Zeta Set",
     "Reality Fracture"
    ],
-   "latest_reprint_set": {
-    "code": "fra",
-    "name": "Reality Fracture"
-   },
-   "latest_reprint_date": "2026-10-02",
-   "reprint_set": {
-    "code": "fra",
-    "name": "Reality Fracture"
-   },
-   "reprint_released": "2026-10-02",
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
+   "reprint_set": null,
+   "reprint_released": null,
    "vibe": "negative",
    "score": -0.5,
    "positive": 0,
@@ -7223,16 +6973,16 @@
    "potential_to_rise": false,
    "potential_reasons": [],
    "price": {
-    "usd": 0.13,
-    "usd_foil": null,
-    "printing_set": "J22",
+    "usd": 0.14,
+    "usd_foil": 0.23,
+    "printing_set": "FRA",
     "source": "Scryfall (TCGplayer market, cheapest paper printing)",
     "as_of": "2026-11-02",
-    "change_7d_pct": 0.0,
-    "change_30d_pct": 0.0,
+    "change_7d_pct": 15.4,
+    "change_30d_pct": -85.7,
     "history_as_of": "2026-10-26"
    },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Yargle%2C+Glutton+of+Urborg",
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Yargle%2C+Goliath+of+Otaria",
    "sources": [
     {
      "channel": "@haumph",
@@ -7817,84 +7567,6 @@
      "url": "https://www.youtube.com/watch?v=67nwuTpUQA4&t=91s",
      "quote": "easy Hipatra. Great card. Last Gasp is of course the more flexible removal spell. Murmuring Volume is nice. Icy",
      "judge_note": "last gasp is of course the more flexible removal spell",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
-   "game": "mtg",
-   "card": "Danitha, Benalia's Hope",
-   "scryfall_id": "845e5663-2959-44ae-b4c6-d6ea41f01d6e",
-   "image": "https://cards.scryfall.io/small/front/8/4/845e5663-2959-44ae-b4c6-d6ea41f01d6e.jpg?1783921367",
-   "reserved": false,
-   "first_printed": "2022-09-09",
-   "first_printed_set": {
-    "code": "dmu",
-    "name": "Dominaria United"
-   },
-   "is_reprint": false,
-   "reprint_count": 1,
-   "paper_sets": [
-    "Dominaria United"
-   ],
-   "latest_reprint_set": null,
-   "latest_reprint_date": null,
-   "reprint_set": null,
-   "reprint_released": null,
-   "vibe": "positive",
-   "score": 1.0,
-   "positive": 5,
-   "neutral": 0,
-   "negative": 0,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 0.33,
-    "usd_foil": 0.41,
-    "printing_set": "DMU",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-11-02",
-    "change_7d_pct": -2.9,
-    "change_30d_pct": 0.0,
-    "history_as_of": "2026-10-26"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Danitha%2C+Benalia%27s+Hope",
-   "sources": [
-    {
-     "channel": "@numotthenummyyt",
-     "channel_name": "NumotTheNummy",
-     "video_id": "T0xgFdbbY0E",
-     "video_title": "This Deck Is Pure Nastiness | Reality Fracture Premier Draft | MTG Arena",
-     "published": "2026-10-29",
-     "t": 762,
-     "url": "https://www.youtube.com/watch?v=T0xgFdbbY0E&t=762s",
-     "quote": "got past a an ingress. [gasps] Land good, Danitha good, Gallia good. Sheesh. This came together extremely well. What?",
-     "judge_note": "good danitha good gallia good",
-     "anchored_by": "quote match 100"
-    },
-    {
-     "channel": "@numotthenummyyt",
-     "channel_name": "NumotTheNummy",
-     "video_id": "T0xgFdbbY0E",
-     "video_title": "This Deck Is Pure Nastiness | Reality Fracture Premier Draft | MTG Arena",
-     "published": "2026-10-29",
-     "t": 1046,
-     "url": "https://www.youtube.com/watch?v=T0xgFdbbY0E&t=1046s",
-     "quote": "This delays me from playing summoner, but Danitha's also really good here. Like, now I can cycle inferno for",
-     "judge_note": "danithas also really good here",
-     "anchored_by": "quote match 100"
-    },
-    {
-     "channel": "@numotthenummyyt",
-     "channel_name": "NumotTheNummy",
-     "video_id": "T0xgFdbbY0E",
-     "video_title": "This Deck Is Pure Nastiness | Reality Fracture Premier Draft | MTG Arena",
-     "published": "2026-10-29",
-     "t": 3259,
-     "url": "https://www.youtube.com/watch?v=T0xgFdbbY0E&t=3259s",
-     "quote": "bad for me. That's good. Danitha with the Vox Manster can do some work, I guess. I mean, how",
-     "judge_note": "danitha with the vox manster can do some work",
      "anchored_by": "quote match 100"
     }
    ]
@@ -11011,72 +10683,6 @@
   },
   {
    "game": "mtg",
-   "card": "Fblthp, Impossibly Lost",
-   "scryfall_id": "a3a2edbb-d144-4670-acad-17316cea98d2",
-   "image": "https://cards.scryfall.io/small/front/a/3/a3a2edbb-d144-4670-acad-17316cea98d2.jpg?1789127697",
-   "reserved": false,
-   "first_printed": "2026-10-02",
-   "first_printed_set": {
-    "code": "fra",
-    "name": "Reality Fracture"
-   },
-   "is_reprint": false,
-   "reprint_count": 1,
-   "paper_sets": [
-    "Reality Fracture"
-   ],
-   "latest_reprint_set": null,
-   "latest_reprint_date": null,
-   "reprint_set": null,
-   "reprint_released": null,
-   "vibe": "neutral",
-   "score": 0.0,
-   "positive": 0,
-   "neutral": 2,
-   "negative": 0,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 0.21,
-    "usd_foil": 0.32,
-    "printing_set": "FRA",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-11-02",
-    "change_7d_pct": 16.0,
-    "change_30d_pct": -64.2,
-    "history_as_of": "2026-10-26"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Fblthp%2C+Impossibly+Lost",
-   "sources": [
-    {
-     "channel": "@numotthenummyyt",
-     "channel_name": "NumotTheNummy",
-     "video_id": "XPwHm2cRhuQ",
-     "video_title": "The Big Soup Deck Returns! | Reality Fracture Premier Draft | MTG Arena",
-     "published": "2026-10-30",
-     "t": 3395,
-     "url": "https://www.youtube.com/watch?v=XPwHm2cRhuQ&t=3395s",
-     "quote": "to be casting vine lasher adept. What is my best draw? Probably Fblthp. Best draw is like Fblthp, get",
-     "judge_note": "what is my best draw probably fblthp",
-     "anchored_by": "quote match 100"
-    },
-    {
-     "channel": "@numotthenummyyt",
-     "channel_name": "NumotTheNummy",
-     "video_id": "XPwHm2cRhuQ",
-     "video_title": "The Big Soup Deck Returns! | Reality Fracture Premier Draft | MTG Arena",
-     "published": "2026-10-30",
-     "t": 3403,
-     "url": "https://www.youtube.com/watch?v=XPwHm2cRhuQ&t=3403s",
-     "quote": "best draw? Probably Fblthp. Best draw is like Fblthp, get four land, thin out my deck, and then drawing",
-     "judge_note": "best draw is like fblthp get four land thin out my deck",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
-   "game": "mtg",
    "card": "Fblthp, Knows the Way",
    "scryfall_id": "28fbb55a-5c9d-45ee-bf42-a84b1048f5d2",
    "image": "https://cards.scryfall.io/small/front/2/8/28fbb55a-5c9d-45ee-bf42-a84b1048f5d2.jpg?1789127976",
@@ -11789,72 +11395,6 @@
      "url": "https://www.youtube.com/watch?v=iKcu9WgiIoE&t=2935s",
      "quote": "we get two or three planeswalkers down, how bad is Jeskai Revelation? Jeskai Revelation is a mean, mean card.",
      "judge_note": "how bad is jeskai revelation",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
-   "game": "mtg",
-   "card": "Karn, Argent Defender",
-   "scryfall_id": "1ebbbddb-2dc3-4194-b72b-13bcebe2ab89",
-   "image": "https://cards.scryfall.io/small/front/1/e/1ebbbddb-2dc3-4194-b72b-13bcebe2ab89.jpg?1788878301",
-   "reserved": false,
-   "first_printed": "2026-10-02",
-   "first_printed_set": {
-    "code": "fra",
-    "name": "Reality Fracture"
-   },
-   "is_reprint": false,
-   "reprint_count": 1,
-   "paper_sets": [
-    "Reality Fracture"
-   ],
-   "latest_reprint_set": null,
-   "latest_reprint_date": null,
-   "reprint_set": null,
-   "reprint_released": null,
-   "vibe": "neutral",
-   "score": 0.0,
-   "positive": 0,
-   "neutral": 2,
-   "negative": 0,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 0.44,
-    "usd_foil": 1.02,
-    "printing_set": "FRA",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-11-02",
-    "change_7d_pct": 11.5,
-    "change_30d_pct": -87.5,
-    "history_as_of": "2026-10-26"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Karn%2C+Argent+Defender",
-   "sources": [
-    {
-     "channel": "@TogoresMTG",
-     "channel_name": "TogoresMTG",
-     "video_id": "WEMYT-bgwyo",
-     "video_title": "The Perfect Eldrazi Tron does not exi...  | Modern MTG",
-     "published": "2026-11-01",
-     "t": 1004,
-     "url": "https://www.youtube.com/watch?v=WEMYT-bgwyo&t=1004s",
-     "quote": "an issue. Dismember, Coercer's Command, Sire Karn. Maybe Karn is not that bad. Maybe that's T. So, this is",
-     "judge_note": "maybe karn is not that bad",
-     "anchored_by": "quote match 100"
-    },
-    {
-     "channel": "@TogoresMTG",
-     "channel_name": "TogoresMTG",
-     "video_id": "WEMYT-bgwyo",
-     "video_title": "The Perfect Eldrazi Tron does not exi...  | Modern MTG",
-     "published": "2026-11-01",
-     "t": 1004,
-     "url": "https://www.youtube.com/watch?v=WEMYT-bgwyo&t=1004s",
-     "quote": "an issue. Dismember, Coercer's Command, Sire Karn. Maybe Karn is not that bad. Maybe that's T. So, this is",
-     "judge_note": "maybe karn is not that bad",
      "anchored_by": "quote match 100"
     }
    ]
@@ -22773,60 +22313,6 @@
    ]
   },
   {
-   "game": "mtg",
-   "card": "Gallia, Tragic Host",
-   "scryfall_id": "498fa810-8522-4020-b773-52ad404c9f65",
-   "image": "https://cards.scryfall.io/small/front/4/9/498fa810-8522-4020-b773-52ad404c9f65.jpg?1789385697",
-   "reserved": false,
-   "first_printed": "2026-10-02",
-   "first_printed_set": {
-    "code": "fra",
-    "name": "Reality Fracture"
-   },
-   "is_reprint": false,
-   "reprint_count": 1,
-   "paper_sets": [
-    "Reality Fracture"
-   ],
-   "latest_reprint_set": null,
-   "latest_reprint_date": null,
-   "reprint_set": null,
-   "reprint_released": null,
-   "vibe": "positive",
-   "score": 1.0,
-   "positive": 1,
-   "neutral": 0,
-   "negative": 0,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 0.16,
-    "usd_foil": 0.2,
-    "printing_set": "FRA",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-11-02",
-    "change_7d_pct": 30.8,
-    "change_30d_pct": -85.0,
-    "history_as_of": "2026-10-26"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Gallia%2C+Tragic+Host",
-   "sources": [
-    {
-     "channel": "@numotthenummyyt",
-     "channel_name": "NumotTheNummy",
-     "video_id": "T0xgFdbbY0E",
-     "video_title": "This Deck Is Pure Nastiness | Reality Fracture Premier Draft | MTG Arena",
-     "published": "2026-10-29",
-     "t": 762,
-     "url": "https://www.youtube.com/watch?v=T0xgFdbbY0E&t=762s",
-     "quote": "got past a an ingress. [gasps] Land good, Danitha good, Gallia good. Sheesh. This came together extremely well. What?",
-     "judge_note": "good danitha good gallia good",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
    "game": "pokemon",
    "card": "Gastly",
    "scryfall_id": null,
@@ -27383,60 +26869,6 @@
      "url": "https://www.youtube.com/watch?v=7XpUvfPtC5w&t=359s",
      "quote": "foil price is $139.65. Mark of Asylum from Conflux. This oldframe foil is up 19.6% from $5.31 to $6.35",
      "judge_note": "mark of asylum from conflux this oldframe foil is up 19 6",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
-   "game": "mtg",
-   "card": "Marwyn, the Clearcutter",
-   "scryfall_id": "f93da73c-ca8b-438e-8387-6109dac3fc1a",
-   "image": "https://cards.scryfall.io/small/front/f/9/f93da73c-ca8b-438e-8387-6109dac3fc1a.jpg?1789644549",
-   "reserved": false,
-   "first_printed": "2026-10-02",
-   "first_printed_set": {
-    "code": "fra",
-    "name": "Reality Fracture"
-   },
-   "is_reprint": false,
-   "reprint_count": 1,
-   "paper_sets": [
-    "Reality Fracture"
-   ],
-   "latest_reprint_set": null,
-   "latest_reprint_date": null,
-   "reprint_set": null,
-   "reprint_released": null,
-   "vibe": "negative",
-   "score": -1.0,
-   "positive": 0,
-   "neutral": 0,
-   "negative": 1,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 0.18,
-    "usd_foil": 0.22,
-    "printing_set": "FRA",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-11-02",
-    "change_7d_pct": 6.7,
-    "change_30d_pct": -90.6,
-    "history_as_of": "2026-10-26"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Marwyn%2C+the+Clearcutter",
-   "sources": [
-    {
-     "channel": "@samuelhblack",
-     "channel_name": "Sam Black",
-     "video_id": "NKKipcmMKrY",
-     "video_title": "Sam's Table 57: Content Creation and Writer's Block",
-     "published": "2026-10-23",
-     "t": 2293,
-     "url": "https://www.youtube.com/watch?v=NKKipcmMKrY&t=2293s",
-     "quote": "don't think that justifies how much worse Marwyn is as a commander than Nick Fury and all the other",
-     "judge_note": "how much worse marwyn is as a commander than nick fury",
      "anchored_by": "quote match 100"
     }
    ]
@@ -32316,60 +31748,6 @@
      "url": "https://www.youtube.com/watch?v=KBE6GYFFsBc&t=64s",
      "quote": "is $21.23. Roaming Throne from The Lost Caverns of Ixalan. This artifact creature golem is down 6.9% from $51.86",
      "judge_note": "roaming throne from the lost caverns of ixalan this artifact creature golem is down 6 9",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
-   "game": "mtg",
-   "card": "Ruric Thar, Biomagus",
-   "scryfall_id": "00af4e87-5576-4a43-9422-4c35b2b66775",
-   "image": "https://cards.scryfall.io/small/front/0/0/00af4e87-5576-4a43-9422-4c35b2b66775.jpg?1789127229",
-   "reserved": false,
-   "first_printed": "2026-10-02",
-   "first_printed_set": {
-    "code": "fra",
-    "name": "Reality Fracture"
-   },
-   "is_reprint": false,
-   "reprint_count": 1,
-   "paper_sets": [
-    "Reality Fracture"
-   ],
-   "latest_reprint_set": null,
-   "latest_reprint_date": null,
-   "reprint_set": null,
-   "reprint_released": null,
-   "vibe": "positive",
-   "score": 1.0,
-   "positive": 1,
-   "neutral": 0,
-   "negative": 0,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 0.16,
-    "usd_foil": 0.2,
-    "printing_set": "FRA",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-11-02",
-    "change_7d_pct": -23.8,
-    "change_30d_pct": -42.9,
-    "history_as_of": "2026-10-26"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Ruric+Thar%2C+Biomagus",
-   "sources": [
-    {
-     "channel": "@haumph",
-     "channel_name": "Paul Cheon",
-     "video_id": "mRMGF-ibRIc",
-     "video_title": "Big Chillin With Chandra Ramp | Reality Fracture Draft | MTG Arena",
-     "published": "2026-10-30",
-     "t": 4321,
-     "url": "https://www.youtube.com/watch?v=mRMGF-ibRIc&t=4321s",
-     "quote": "need to sort through. All right. That Ruric Thar is getting me good. Do you have creatures in your",
-     "judge_note": "that ruric thar is getting me good",
      "anchored_by": "quote match 100"
     }
    ]
@@ -37572,67 +36950,6 @@
   },
   {
    "game": "mtg",
-   "card": "Tomik, Distinguished Advokist",
-   "scryfall_id": "0eea32dc-dbac-47a9-97b2-311413f1de9d",
-   "image": "https://cards.scryfall.io/small/front/0/e/0eea32dc-dbac-47a9-97b2-311413f1de9d.jpg?1783913341",
-   "reserved": false,
-   "first_printed": "2019-05-03",
-   "first_printed_set": {
-    "code": "war",
-    "name": "War of the Spark"
-   },
-   "is_reprint": true,
-   "reprint_count": 2,
-   "paper_sets": [
-    "War of the Spark",
-    "Ravnica Remastered"
-   ],
-   "latest_reprint_set": {
-    "code": "rvr",
-    "name": "Ravnica Remastered"
-   },
-   "latest_reprint_date": "2024-01-12",
-   "reprint_set": {
-    "code": "rvr",
-    "name": "Ravnica Remastered"
-   },
-   "reprint_released": "2024-01-12",
-   "vibe": "positive",
-   "score": 1.0,
-   "positive": 1,
-   "neutral": 0,
-   "negative": 0,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 0.29,
-    "usd_foil": 0.4,
-    "printing_set": "WAR",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-11-02",
-    "change_7d_pct": -12.1,
-    "change_30d_pct": -9.4,
-    "history_as_of": "2026-10-26"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Tomik%2C+Distinguished+Advokist",
-   "sources": [
-    {
-     "channel": "@PowrDragn",
-     "channel_name": "PowrDragn",
-     "video_id": "Djmu4eKOvyI",
-     "video_title": "The FASTEST Way To Rank In MTG Arena Right Now | Standard Mythic Ranked Rakdos",
-     "published": "2026-10-30",
-     "t": 2408,
-     "url": "https://www.youtube.com/watch?v=Djmu4eKOvyI&t=2408s",
-     "quote": "me is that Tomik was great, right? Way better under Probably underplayed and underrepresented in Standard as a whole",
-     "judge_note": "tomik was great right way better under probably underplayed and underrepresented in standard",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
-   "game": "mtg",
    "card": "Torch the Tower",
    "scryfall_id": "b3d6027c-813f-46df-95b4-e2e305a67620",
    "image": "https://cards.scryfall.io/small/front/b/3/b3d6027c-813f-46df-95b4-e2e305a67620.jpg?1783915088",
@@ -40539,60 +39856,6 @@
   },
   {
    "game": "mtg",
-   "card": "Yoshimaru, Beloved Companion",
-   "scryfall_id": "384f3b7d-8d7f-41bf-bebd-64e8babe7fca",
-   "image": "https://cards.scryfall.io/small/front/3/8/384f3b7d-8d7f-41bf-bebd-64e8babe7fca.jpg?1789470881",
-   "reserved": false,
-   "first_printed": "2026-10-02",
-   "first_printed_set": {
-    "code": "fra",
-    "name": "Reality Fracture"
-   },
-   "is_reprint": false,
-   "reprint_count": 1,
-   "paper_sets": [
-    "Reality Fracture"
-   ],
-   "latest_reprint_set": null,
-   "latest_reprint_date": null,
-   "reprint_set": null,
-   "reprint_released": null,
-   "vibe": "positive",
-   "score": 1.0,
-   "positive": 1,
-   "neutral": 0,
-   "negative": 0,
-   "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
-   "price": {
-    "usd": 0.32,
-    "usd_foil": 0.34,
-    "printing_set": "FRA",
-    "source": "Scryfall (TCGplayer market, cheapest paper printing)",
-    "as_of": "2026-11-02",
-    "change_7d_pct": 254.8,
-    "change_30d_pct": 150.0,
-    "history_as_of": "2026-10-26"
-   },
-   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Yoshimaru%2C+Beloved+Companion",
-   "sources": [
-    {
-     "channel": "@numotthenummyyt",
-     "channel_name": "NumotTheNummy",
-     "video_id": "CDpSiSiaUbc",
-     "video_title": "The Battle Of The Garbage! | Reality Fracture Premier Draft | MTG Arena",
-     "published": "2026-11-01",
-     "t": 251,
-     "url": "https://www.youtube.com/watch?v=CDpSiSiaUbc&t=251s",
-     "quote": "Yoshimaru looks pretty good here. Hunter's Axe with uh Tramplers is just",
-     "judge_note": "yoshimaru looks pretty good here",
-     "anchored_by": "quote match 100"
-    }
-   ]
-  },
-  {
-   "game": "mtg",
    "card": "Zero, Incorporeal Sensate",
    "scryfall_id": "93f616fe-6906-4e5d-b9fe-b432cccdb0ec",
    "image": "https://cards.scryfall.io/small/front/9/3/93f616fe-6906-4e5d-b9fe-b432cccdb0ec.jpg?1792508418",
@@ -43074,7 +42337,7 @@
    "title": "This Deck Is Pure Nastiness | Reality Fracture Premier Draft | MTG Arena",
    "published": "2026-10-29",
    "url": "https://www.youtube.com/watch?v=T0xgFdbbY0E",
-   "cited": true
+   "cited": false
   },
   {
    "video_id": "TJ8Dagt2e3M",

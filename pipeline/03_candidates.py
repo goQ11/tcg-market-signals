@@ -44,4 +44,5 @@ save(f"runs/{run}/judge_queue.json", {"schema": "msp.judge_queue/1", "run_id": r
      "videos": {v["id"]: {"channel": v["channel"], "title": v["title"], "published": v["published"]} for v in vids},
      "instructions": "See JUDGING.md. Write runs/<run_id>/judgments.json with one entry per item_id.",
      "items": queue})
+if matcher.AMBIGUOUS_HITS: log(f"{len(matcher.AMBIGUOUS_HITS)} bare short names skipped as ambiguous between new-set cards (e.g. {sorted({w for _, w in matcher.AMBIGUOUS_HITS})[:8]})")
 log(f"{stats['mentions']} raw mentions -> {sum(q['kind']=='mention' for q in queue)} mention items + {sum(q['kind']=='ban_line' for q in queue)} ban lines, {len(matcher_cards)} cards")
