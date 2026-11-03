@@ -13,7 +13,10 @@ BLOCK = KW | SHARDS | {norm(x) for x in EXTRA}
 ALIAS = {norm(k): v for k, v in load("config/aliases.json", {}).items() if not k.startswith("_")}
 # Cards printed since settings.new_card_since (cache/recent_names.json, built by tools_fetch_recent_names.py).
 RECENT = set(load("cache/recent_names.json", {"data": []})["data"])
-lex = {}; SHORT = {}  # SHORT: bare short name before the comma ("danitha") -> every card sharing it
+def canon(n):
+    """'X // X' catalog duplicates (same name on both faces) are one card."""
+    f = n.split(" // "); return f[0] if len(set(f)) == 1 else n
+lex = {}; SUB = {}; SHORT = {}  # SHORT: bare short name before the comma ("danitha") -> every card sharing it
 for n in names:
     for part in n.split(" // "):
         q = norm(part); toks = q.split()
@@ -25,22 +28,27 @@ for n in names:
             lex[q] = n
         if "," in part:
             s = norm(part.split(",")[0])
-            if len(s) >= 4 and len(s.split()) <= 2 and s not in BLOCK and zf(s.split()[0], "en") < 2.5: SHORT.setdefault(s, []).append(n)
+            if len(s) >= 4 and len(s.split()) <= 2 and s not in BLOCK and zf(s.split()[0], "en") < 2.5 and canon(n) not in SHORT.get(s, []): SHORT.setdefault(s, []).append(canon(n))
+            sub = norm(part.split(",", 1)[1]); st = sub.split()
+            if len(st) >= 2 and any(zf(t, "en") < 3.0 for t in st if len(t) > 3) and sub not in BLOCK: SUB.setdefault(sub, set()).add(n)
+def paper_name(n): return not n.startswith("A-")  # skip Alchemy rebalanced (digital-only) names; tokens/art cards aren't in the catalog
 def resolve_short(cands, recent=RECENT):
-    """Pick the card a bare short name means. A full name always wins earlier (longest n-gram first).
-    One card -> it. Several -> the single recent-set card if there is exactly one; several recent cards
-    -> None (ambiguous: never credit an older card). No recent card -> first catalog name (previous behavior)."""
-    if len(cands) == 1: return cands[0]
-    rec = [c for c in cands if c in recent]
-    if len(rec) == 1: return rec[0]
-    if len(rec) > 1: return None
-    return cands[0]
-AMBIG = {}  # short name -> recent cards it could mean; matched but not credited to any card
+    """A bare short name (the part before the comma). Exactly one paper card -> it. Two or more -> None
+    (ambiguous, any age: shown as a 'could be any of these' group). A full name always wins earlier (longest n-gram first)."""
+    cands = [c for c in cands if paper_name(c)]
+    return cands[0] if len(cands) == 1 else None
+def order_candidates(cands, recent=RECENT):
+    """New-set cards first, then the rest (05 re-sorts by newest printing once it has Scryfall dates)."""
+    return sorted((c for c in cands if paper_name(c)), key=lambda c: (c not in recent, c))
+AMBIG = {}  # short name -> every paper card it could mean; matched but not credited to any single card
 for s_, cands in SHORT.items():
     if s_ in lex: continue
     r = resolve_short(cands)
     if r: lex[s_] = r
-    else: AMBIG[s_] = sorted(c for c in cands if c in RECENT)
+    elif len([c for c in cands if paper_name(c)]) > 1: AMBIG[s_] = order_candidates(cands)
+# a clearly unique subtitle said on its own ("adversary of tyrants") -> that card
+for sub, ns in SUB.items():
+    if len(ns) == 1 and sub not in lex and sub not in AMBIG: lex[sub] = next(iter(ns))
 COMMON1 = {}
 for n in names:
     q = norm(n.split(" // ")[0])
