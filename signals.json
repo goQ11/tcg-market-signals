@@ -1,6 +1,6 @@
 {
  "schema_version": "1.6.0",
- "generated_at": "2026-11-02T21:46:07-06:00",
+ "generated_at": "2026-11-02T23:41:15-06:00",
  "run_id": "2026-11-02_1318",
  "window": {
   "start": "2026-10-19",
@@ -120318,7 +120318,10 @@
      "judge_note": "i want that jace and that ajani and those lands right buy those as singles",
      "anchored_by": "quote match 100"
     }
-   ]
+   ],
+   "potential_to_rise": false,
+   "reasons": [],
+   "potential_reasons": []
   },
   {
    "short_name": "emrakul",
@@ -121163,7 +121166,10 @@
      "judge_note": "they play emrakuls and ugin and thats their strongest cards against me",
      "anchored_by": "quote match 100"
     }
-   ]
+   ],
+   "potential_to_rise": false,
+   "reasons": [],
+   "potential_reasons": []
   },
   {
    "short_name": "saheeli",
@@ -122024,7 +122030,10 @@
      "judge_note": "i dont love saheeli just cuz theres a lot of good removal in this format",
      "anchored_by": "quote match 100"
     }
-   ]
+   ],
+   "potential_to_rise": false,
+   "reasons": [],
+   "potential_reasons": []
   },
   {
    "short_name": "vraska",
@@ -123186,7 +123195,10 @@
      "judge_note": "splashing vraska yeah this is great so far",
      "anchored_by": "quote match 100"
     }
-   ]
+   ],
+   "potential_to_rise": false,
+   "reasons": [],
+   "potential_reasons": []
   },
   {
    "short_name": "ugin",
@@ -123902,7 +123914,10 @@
      "judge_note": "the ugin which is the most powerful card in the pack",
      "anchored_by": "quote match 100"
     }
-   ]
+   ],
+   "potential_to_rise": false,
+   "reasons": [],
+   "potential_reasons": []
   },
   {
    "short_name": "kaito",
@@ -124455,7 +124470,10 @@
      "judge_note": "they cant really ninjutsu the kaito in so its not even that great",
      "anchored_by": "quote match 100"
     }
-   ]
+   ],
+   "potential_to_rise": false,
+   "reasons": [],
+   "potential_reasons": []
   },
   {
    "short_name": "ghalta",
@@ -125009,7 +125027,10 @@
      "judge_note": "ghalta into draw eight holy crap",
      "anchored_by": "quote match 100"
     }
-   ]
+   ],
+   "potential_to_rise": false,
+   "reasons": [],
+   "potential_reasons": []
   },
   {
    "short_name": "teferi",
@@ -126435,7 +126456,10 @@
      "judge_note": "the two cards i hate the most about modern are teferi and ragavan",
      "anchored_by": "quote match 100"
     }
-   ]
+   ],
+   "potential_to_rise": false,
+   "reasons": [],
+   "potential_reasons": []
   },
   {
    "short_name": "traxos",
@@ -126772,7 +126796,10 @@
      "judge_note": "as much as i like traxos extended absence is simply too good",
      "anchored_by": "quote match 100"
     }
-   ]
+   ],
+   "potential_to_rise": false,
+   "reasons": [],
+   "potential_reasons": []
   },
   {
    "short_name": "yargle",
@@ -127188,7 +127215,10 @@
      "judge_note": "yargle nine power is great but i want a card draw effect",
      "anchored_by": "quote match 100"
     }
-   ]
+   ],
+   "potential_to_rise": false,
+   "reasons": [],
+   "potential_reasons": []
   },
   {
    "short_name": "danitha",
@@ -127736,7 +127766,10 @@
      "judge_note": "danitha wielder is good",
      "anchored_by": "quote match 100"
     }
-   ]
+   ],
+   "potential_to_rise": false,
+   "reasons": [],
+   "potential_reasons": []
   },
   {
    "short_name": "etali",
@@ -128289,7 +128322,10 @@
      "judge_note": "i just made etali way worse",
      "anchored_by": "quote match 100"
     }
-   ]
+   ],
+   "potential_to_rise": false,
+   "reasons": [],
+   "potential_reasons": []
   },
   {
    "short_name": "fblthp",
@@ -128921,7 +128957,10 @@
      "judge_note": "best draw is like fblthp get four land thin out my deck",
      "anchored_by": "quote match 100"
     }
-   ]
+   ],
+   "potential_to_rise": false,
+   "reasons": [],
+   "potential_reasons": []
   },
   {
    "short_name": "karn",
@@ -130062,7 +130101,10 @@
      "judge_note": "maybe karn is not that bad",
      "anchored_by": "quote match 100"
     }
-   ]
+   ],
+   "potential_to_rise": false,
+   "reasons": [],
+   "potential_reasons": []
   },
   {
    "short_name": "lutri",
@@ -130366,7 +130408,10 @@
      "judge_note": "lutri was uh pretty mediocre honestly",
      "anchored_by": "quote match 100"
     }
-   ]
+   ],
+   "potential_to_rise": false,
+   "reasons": [],
+   "potential_reasons": []
   },
   {
    "short_name": "narset",
@@ -131137,7 +131182,10 @@
      "judge_note": "narsets are fine",
      "anchored_by": "quote match 100"
     }
-   ]
+   ],
+   "potential_to_rise": false,
+   "reasons": [],
+   "potential_reasons": []
   },
   {
    "short_name": "gallia",
@@ -131310,7 +131358,10 @@
      "judge_note": "good danitha good gallia good",
      "anchored_by": "quote match 100"
     }
-   ]
+   ],
+   "potential_to_rise": false,
+   "reasons": [],
+   "potential_reasons": []
   },
   {
    "short_name": "kiora",
@@ -132058,7 +132109,10 @@
      "judge_note": "liliana is a much weaker card this cards absolutely ridiculous",
      "anchored_by": "quote match 100"
     }
-   ]
+   ],
+   "potential_to_rise": false,
+   "reasons": [],
+   "potential_reasons": []
   },
   {
    "short_name": "marwyn",
@@ -132461,7 +132515,10 @@
      "judge_note": "how much worse marwyn is as a commander than nick fury",
      "anchored_by": "quote match 100"
     }
-   ]
+   ],
+   "potential_to_rise": false,
+   "reasons": [],
+   "potential_reasons": []
   },
   {
    "short_name": "noctis",
@@ -132729,7 +132786,10 @@
      "judge_note": "in noctis we get a bant commander",
      "anchored_by": "quote match 100"
     }
-   ]
+   ],
+   "potential_to_rise": false,
+   "reasons": [],
+   "potential_reasons": []
   },
   {
    "short_name": "ruric thar",
@@ -133050,7 +133110,10 @@
      "judge_note": "that ruric thar is getting me good",
      "anchored_by": "quote match 100"
     }
-   ]
+   ],
+   "potential_to_rise": false,
+   "reasons": [],
+   "potential_reasons": []
   },
   {
    "short_name": "tomik",
@@ -133472,7 +133535,10 @@
      "judge_note": "tomik was great right way better under probably underplayed and underrepresented in standard",
      "anchored_by": "quote match 100"
     }
-   ]
+   ],
+   "potential_to_rise": false,
+   "reasons": [],
+   "potential_reasons": []
   },
   {
    "short_name": "tyvar",
@@ -133831,7 +133897,10 @@
      "judge_note": "keeping this tyvar is such a house",
      "anchored_by": "quote match 100"
     }
-   ]
+   ],
+   "potential_to_rise": false,
+   "reasons": [],
+   "potential_reasons": []
   },
   {
    "short_name": "yoshimaru",
@@ -134178,7 +134247,10 @@
      "judge_note": "yoshimaru looks pretty good here",
      "anchored_by": "quote match 100"
     }
-   ]
+   ],
+   "potential_to_rise": false,
+   "reasons": [],
+   "potential_reasons": []
   }
  ],
  "channels": [
