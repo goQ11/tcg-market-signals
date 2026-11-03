@@ -59,17 +59,18 @@ def fuzzy_tok(w):
     r = None
     if len(w) >= 7 and zf(w, "en") < 1.5:
         m = process.extractOne(w, single, scorer=fuzz.ratio, score_cutoff=86)
-        if m and m[0][0] == w[0]: r = (_card(m[0]), "fuzzy")
+        if m and m[0][0] == w[0]: r = (_card(m[0]), "fuzzy", m[0])
         else:
             c = PHON.get(jellyfish.metaphone(w))
-            if c and len(c) == 1 and fuzz.ratio(w, c[0]) >= 70: r = (_card(c[0]), "phonetic")
+            if c and len(c) == 1 and fuzz.ratio(w, c[0]) >= 70: r = (_card(c[0]), "phonetic", c[0])
     _fz[w] = r; return r
 maxlen = max(len(k.split()) for k in lex)
-AMBIGUOUS_HITS = []  # (index, words) of ambiguous short names skipped by find(); for logging/review
+AMBIGUOUS_HITS = []  # (index, length, short name) of ambiguous short names found by the last find(); candidates = AMBIG[short]
 def find(words):
     """Return [(index, length, card_name, how)] for a list of normalized words.
-    A bare short name shared by several recent-set cards is consumed but not returned (see AMBIG)."""
-    hits = []; i = 0
+    A bare short name shared by several recent-set cards is not returned here; it is listed in AMBIGUOUS_HITS
+    (03 queues it as one 'could be any of these' item with every candidate)."""
+    hits = []; i = 0; AMBIGUOUS_HITS.clear()
     while i < len(words):
         got = None
         for L in range(min(maxlen, len(words) - i), 0, -1):
@@ -77,15 +78,15 @@ def find(words):
             if q in ALIAS: got = (L, ALIAS[q], "alias"); break
             if L == 1 and q in COMMON1 and zf(q, "en") < 4.2 and GATE1.search(" ".join(words[max(0, i - 5):i + 6])):
                 got = (1, COMMON1[q], "common-gated"); break
-            if q in AMBIG: got = (L, None, "ambiguous"); break
+            if q in AMBIG: got = (L, None, q); break
             if q in lex:
                 if q in IDIOM and not CTX.search(" ".join(words[max(0, i - 8):i + L + 8])): break
                 got = (L, lex[q], "exact"); break
         if not got:
             f = fuzzy_tok(words[i])
-            if f: got = (1, f[0], f[1] if f[0] else "ambiguous")
+            if f: got = (1, f[0], f[1] if f[0] else f[2])
         if got and got[1] is None:
-            AMBIGUOUS_HITS.append((i, " ".join(words[i:i + got[0]]))); i += got[0]
+            AMBIGUOUS_HITS.append((i, got[0], got[2])); i += got[0]
         elif got: hits.append((i,) + got); i += got[0]
         else: i += 1
     return hits

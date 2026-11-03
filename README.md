@@ -2,7 +2,7 @@
 
 Weekly `signals.json` feed for TCG Seller Hub. Card names, short quotes, and links to public YouTube videos. Not financial advice.
 
-Schema 1.4.0: cards carry `reserved` (on Wizards' Reserved List, never reprinted), `paper_sets` (distinct paper set names, oldest first), `first_printed`, `first_printed_set`, `is_reprint` (printed in 2+ distinct paper sets), `reprint_count`, `latest_reprint_set`, `latest_reprint_date`. (`is_new` was removed in 1.3.0.)
+Schema 1.6.0 adds `ambiguous_mentions[]` (a bare name shared by 2+ new cards, shown as one "could be any of these" entry with every option) and a `price` object everywhere (label "TCGplayer Market", `display` "$x.xx" or "unavailable", `printing`, `version_groups[]` of printings each with its own price). Schema 1.4.0: cards carry `reserved` (on Wizards' Reserved List, never reprinted), `paper_sets` (distinct paper set names, oldest first), `first_printed`, `first_printed_set`, `is_reprint` (printed in 2+ distinct paper sets), `reprint_count`, `latest_reprint_set`, `latest_reprint_date`. (`is_new` was removed in 1.3.0.)
 
 ## How it's updated
 `pipeline/` holds the pipeline; the weekly update runs on the box (Mondays 1:13 PM CT) and publishes only if the new file passes validation and the publish gate. `.github/workflows/market-signals.yml` is a free daily watchdog that fails (and emails the owner) if `signals.json` is more than 8 days old or malformed. See `pipeline/SETUP_ACTIONS.md`. `generated_at` (ISO 8601) records when the file was built.
