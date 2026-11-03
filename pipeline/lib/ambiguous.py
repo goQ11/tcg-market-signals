@@ -45,5 +45,8 @@ def build(groups, card, printing, price, tcg, src):
         out.append(dict(short_name=short, label="Could be any of these", note="The creator said only the short name; it could be any of these cards. Watch the video to check.",
                         options=opts, options_total=total, more_options=total - len(opts), vibe="positive" if net >= 0.34 else "negative" if net <= -0.34 else "neutral", score=round(net, 2),
                         positive=P, neutral=Z, negative=N, channels=len(a["ch"]), sources=srcs))
+        g = out[-1]; rs = sorted({(j.get("potential") or {}).get("reason") for j in a["pot"] if (j.get("potential") or {}).get("reason")})[:3]
+        g["potential_to_rise"] = bool(a["pot"]) and g["vibe"] != "negative"  # same rule as normal risers
+        g["reasons"] = rs; g["potential_reasons"] = rs
     out.sort(key=lambda x: (-x["channels"], -(x["positive"] + x["neutral"] + x["negative"]), x["short_name"]))
     return out
