@@ -15,6 +15,9 @@ The pipeline code in `pipeline/` is the same code the box uses.
 `signals.json` and fails if it is older than 8 days or the schema is broken. GitHub emails the repo owner when a scheduled
 workflow fails, so a missed Monday is noticed within a day. (Scheduled runs only start once this is on `main`.)
 
+## Daily price moves (GitHub Actions)
+`.github/workflows/price-moves.yml` runs at 16:00 UTC and posts 1-day jumps and drops. It does not build or change `signals.json`. Add `DISCORD_JUMPS_WEBHOOK` and `DISCORD_DROPS_WEBHOOK` as repository secrets when those channels should receive posts. Leave either one unset to skip that channel. The job commits only `pipeline/price_post_state.json` so the same price date is not posted twice. A manual run can set dry-run to print the messages without posting.
+
 ## Dormant: fully automated version (for later)
 `pipeline/ci_run.sh` + `pipeline/judge_llm.py` can run the whole update in Actions with an AI judge
 (`LLM_API_KEY` secret, `LLM_BASE_URL`/`LLM_MODEL` variables) and `APIFY_TOKEN` (YouTube blocks free caption sources from

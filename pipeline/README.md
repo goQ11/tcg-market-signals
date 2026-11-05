@@ -20,6 +20,16 @@ export APIFY_TOKEN=...   # never commit, print, or log it
 ./finish_weekly.sh     # 04 validate + merge judgments -> 05 aggregate -> out/signals.json
 ```
 
+## Daily price moves
+`.github/workflows/price-moves.yml` is separate from the Monday run and does not change `signals.json`. It runs at 16:00 UTC (10:00 AM CT in winter, 11:00 AM CT in summer), after the daily price file is published. Each card keeps its cheapest non-foil printing. A jump is now at least $5 and up at least 20% from the previous point. A drop was at least $5 and fell at least 20%. The previous point is skipped when it is more than 2 days old. Sets in their first 14 days are skipped. The top 15 of each list are posted. An empty list posts nothing.
+
+Optional secrets, never committed: `DISCORD_JUMPS_WEBHOOK`, `DISCORD_DROPS_WEBHOOK`. A missing secret or a Discord error does not fail the job. The only saved record is `pipeline/price_post_state.json`, the price date already settled for each channel.
+
+```bash
+python3 pipeline/tests_price_moves.py
+python3 pipeline/price_moves.py --dry-run --prices prices.json --printings printings.json
+```
+
 | Step | Script | Reads | Writes |
 |---|---|---|---|
 | a | `01_discover.py [--since D] [--run-id ID]` | config/channels.json, YouTube RSS, state/state.json | runs/<id>/videos.json, state.current_run |
