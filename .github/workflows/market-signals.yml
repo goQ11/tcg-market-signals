@@ -34,3 +34,5 @@ jobs:
         run: |
           if python3 pipeline/gate.py signals.json signals.json > /dev/null; then echo "::error::gate accepted a non-newer file"; exit 1; fi
           echo "gate correctly refuses a file that is not newer"
+      - name: Check the #whats-moving Discord message rules
+        run: python3 pipeline/tests_discord_moving.py

@@ -1,0 +1,29 @@
+name: Market Signals Discord
+
+# After publish.sh pushes a new signals.json to main, post #whats-moving.
+# DISCORD_MOVING_WEBHOOK is optional. A missing secret, a same-week file, empty
+# sections, or a Discord error does not fail this job.
+
+on:
+  push:
+    branches: [main]
+    paths: ["signals.json"]
+
+permissions:
+  contents: read
+
+jobs:
+  discord:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Post #whats-moving when this week's file is new
+        env:
+          DISCORD_MOVING_WEBHOOK: ${{ secrets.DISCORD_MOVING_WEBHOOK }}
+        run: python3 pipeline/discord_moving.py signals.json
