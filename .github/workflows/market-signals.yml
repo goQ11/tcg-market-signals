@@ -36,3 +36,8 @@ jobs:
           echo "gate correctly refuses a file that is not newer"
       - name: Check the #whats-moving Discord message rules
         run: python3 pipeline/tests_discord_moving.py
+      - name: Check daily price-move rules
+        if: github.event_name == 'pull_request'
+        run: |
+          python3 -m pip install ijson
+          python3 pipeline/tests_price_moves.py

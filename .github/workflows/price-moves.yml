@@ -1,0 +1,66 @@
+name: Daily price moves
+
+# Separate from the Monday signals.json update.
+# MTGJSON publishes around 9:00 AM EST (14:00 UTC). 16:00 UTC is 10:00 AM CT
+# in winter and 11:00 AM CT in summer, after that publish.
+# DISCORD_JUMPS_WEBHOOK and DISCORD_DROPS_WEBHOOK are optional.
+# A missing secret, an empty list, or a Discord error does not fail this job.
+# The only file this job commits is pipeline/price_post_state.json (the price
+# date already settled for each channel).
+
+on:
+  schedule:
+    - cron: "0 16 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Print the messages only. Does not post or save the price date.
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  price-moves:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install ijson
+        run: python3 -m pip install ijson
+      - name: Compute and post
+        env:
+          DISCORD_JUMPS_WEBHOOK: ${{ secrets.DISCORD_JUMPS_WEBHOOK }}
+          DISCORD_DROPS_WEBHOOK: ${{ secrets.DISCORD_DROPS_WEBHOOK }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run == true && '1' || '' }}
+        run: |
+          if [ "$DRY_RUN" = "1" ]; then
+            python3 pipeline/price_moves.py --dry-run
+          else
+            python3 pipeline/price_moves.py
+          fi
+      - name: Record the settled price date
+        if: github.event_name != 'workflow_dispatch' || inputs.dry_run != true
+        run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          if git diff --quiet -- pipeline/price_post_state.json; then
+            echo "price date unchanged"
+            exit 0
+          fi
+          # Checkout leaves a detached HEAD. Put the date on the latest main
+          # and push only that file, even if this run was started from another ref.
+          git stash push -m price-date -- pipeline/price_post_state.json
+          git fetch origin main
+          git checkout -B main origin/main
+          git stash pop
+          git add pipeline/price_post_state.json
+          git commit -m "Record price-move post date"
+          git push origin HEAD:main

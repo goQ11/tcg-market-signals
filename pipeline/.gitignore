@@ -1,5 +1,8 @@
 cache/scry_cache.json
 cache/AllPrices.json.xz
+cache/AllPrintings.json.xz
+cache/*.partial
+price_post_state.json.tmp
 cache/mtgjson_sets/
 cache/*.json
 !cache/.keep
