@@ -21,6 +21,8 @@ import urllib.error
 import urllib.request
 from decimal import Decimal, ROUND_HALF_UP
 
+from discord_username import DISCORD_USERNAME
+
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DEFAULT_STATE = os.path.join(ROOT, "price_post_state.json")
 CACHE = os.path.join(ROOT, "cache")
@@ -273,7 +275,7 @@ def save_state(path, state):
 
 
 def post_discord(url, content):
-    data = json.dumps({"content": content}).encode()
+    data = json.dumps({"content": content, "username": DISCORD_USERNAME}).encode()
     req = urllib.request.Request(
         url,
         data=data,
