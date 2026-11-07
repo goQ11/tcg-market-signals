@@ -16,7 +16,7 @@ import sys
 import urllib.error
 import urllib.request
 
-MARKET_SIGNALS_URL = "https://tcg-seller-hub-git-web-beta-tcg-hub1.vercel.app/market-signals"
+MARKET_SIGNALS_URL = "https://tcguardian-radar.vercel.app/market-signals"
 DISCLAIMER = (
     "⚠️ Signal, not fact. This is what TCG YouTubers said this week. "
     "It can be wrong. Not financial advice."

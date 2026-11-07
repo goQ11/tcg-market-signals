@@ -7,7 +7,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import discord_moving as d
 
-URL = "https://tcg-seller-hub-git-web-beta-tcg-hub1.vercel.app/market-signals"
+URL = "https://tcguardian-radar.vercel.app/market-signals"
 
 
 def doc(end, risers=None, impacts=None, **extra):
