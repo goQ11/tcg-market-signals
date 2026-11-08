@@ -16,6 +16,8 @@ import sys
 import urllib.error
 import urllib.request
 
+from discord_username import DISCORD_USERNAME
+
 MARKET_SIGNALS_URL = "https://tcguardian-radar.vercel.app/market-signals"
 DISCLAIMER = (
     "⚠️ Signal, not fact. This is what TCG YouTubers said this week. "
@@ -144,7 +146,7 @@ def build_message(doc):
 
 
 def post_discord(url, content):
-    data = json.dumps({"content": content}).encode()
+    data = json.dumps({"content": content, "username": DISCORD_USERNAME}).encode()
     req = urllib.request.Request(
         url,
         data=data,
