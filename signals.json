@@ -1,6 +1,6 @@
 {
  "schema_version": "1.6.0",
- "generated_at": "2026-11-09T14:58:44-06:00",
+ "generated_at": "2026-11-09T16:01:18-06:00",
  "run_id": "2026-11-09_newch",
  "window": {
   "start": "2026-10-26",
@@ -22,7 +22,7 @@
   "ban_alerts": 10,
   "impact_pairs": 6,
   "card_vibes": 769,
-  "potential_risers": 42,
+  "potential_risers": 67,
   "ambiguous_mentions": 29
  },
  "disclaimers": [
@@ -79282,8 +79282,11 @@
    "neutral": 0,
    "negative": 0,
    "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
+   "potential_to_rise": true,
+   "potential_reasons": [
+    "Creator reports +19.7% recently",
+    "Creator reports +64.6% this week"
+   ],
    "price": {
     "label": "TCGplayer Market",
     "usd": 4.0,
@@ -79380,10 +79383,10 @@
      "video_id": "DFinMN75Pq4",
      "video_title": "MTG Movers Of The Week! Nov 1st - Nov 7th | Spacecraft Cards Trending This Week! Inspirit & Uthros!",
      "published": "2026-11-07",
-     "t": 270,
-     "url": "https://www.youtube.com/watch?v=DFinMN75Pq4&t=270s",
-     "quote": "Multiverse Architect. Next winner is Valkyrie Harbinger from Kaldheim. This rare is up 64.6% this week from $4.52 [music]",
-     "judge_note": "next winner is valkyrie harbinger from kaldheim this rare is up 64 6 this week",
+     "t": 268,
+     "url": "https://www.youtube.com/watch?v=DFinMN75Pq4&t=268s",
+     "quote": "the Multiverse Architect. Next winner is Valkyrie Harbinger from Kaldheim. This rare is up 64.6% this week from $4.52",
+     "judge_note": "Next winner is Valkyrie Harbinger from Kaldheim. This rare is up 64.6%",
      "anchored_by": "quote match 100"
     },
     {
@@ -79394,8 +79397,8 @@
      "published": "2026-11-06",
      "t": 309,
      "url": "https://www.youtube.com/watch?v=x9WHXKr8yB4&t=309s",
-     "quote": "here on our list is Valkyrie Harbinger from Kaldheim. This card is up 19.7% from $6.03 [music] to $7.22",
-     "judge_note": "valkyrie harbinger from kaldheim this card is up 19 7",
+     "quote": "our final winner here on our list is Valkyrie Harbinger from Kaldheim. This card is up 19.7% from $6.03",
+     "judge_note": "winner here on our list is Valkyrie Harbinger from Kaldheim. This card is up 19.7%",
      "anchored_by": "quote match 100"
     }
    ]
@@ -85128,8 +85131,10 @@
    "neutral": 0,
    "negative": 0,
    "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
+   "potential_to_rise": true,
+   "potential_reasons": [
+    "Creator reports +42.4% recently"
+   ],
    "price": {
     "label": "TCGplayer Market",
     "usd": 0.06,
@@ -85242,7 +85247,7 @@
      "t": 452,
      "url": "https://www.youtube.com/watch?v=ENbOmOUkkvI&t=452s",
      "quote": "average foil price is $5.58. Anaba Shaman from 9th Edition. This foils up 42.4% from $7.12 to $10.14 for",
-     "judge_note": "anaba shaman from 9th edition this foils up 42 4",
+     "judge_note": "Anaba Shaman from 9th Edition. This foils up 42.4%",
      "anchored_by": "quote match 100"
     }
    ]
@@ -90499,8 +90504,10 @@
    "neutral": 0,
    "negative": 0,
    "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
+   "potential_to_rise": true,
+   "potential_reasons": [
+    "Creator reports +36.7% recently"
+   ],
    "price": {
     "label": "TCGplayer Market",
     "usd": 28.97,
@@ -90768,10 +90775,10 @@
      "video_id": "x9WHXKr8yB4",
      "video_title": "MTG Market Movers - Nov 6th - Commander Cards Moving Up! Valkyrie Harbinger & Thassa, God of the Sea",
      "published": "2026-11-06",
-     "t": 407,
-     "url": "https://www.youtube.com/watch?v=x9WHXKr8yB4&t=407s",
-     "quote": "is $5.63. [music] Bitterblossom from Morningtide. This foil is up 36.7% from $139 to $190 for its foil market",
-     "judge_note": "bitterblossom from morningtide this foil is up 36 7 from 139 to 190",
+     "t": 405,
+     "url": "https://www.youtube.com/watch?v=x9WHXKr8yB4&t=405s",
+     "quote": "foil price is $5.63. [music] Bitterblossom from Morningtide. This foil is up 36.7% from $139 to $190 for its",
+     "judge_note": "Bitterblossom from Morningtide. This foil is up 36.7%",
      "anchored_by": "quote match 100"
     }
    ]
@@ -99431,8 +99438,10 @@
    "neutral": 0,
    "negative": 0,
    "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
+   "potential_to_rise": true,
+   "potential_reasons": [
+    "Creator reports +43.4% recently"
+   ],
    "price": {
     "label": "TCGplayer Market",
     "usd": 0.22,
@@ -99716,7 +99725,7 @@
      "t": 373,
      "url": "https://www.youtube.com/watch?v=eGT4sO8tQxQ&t=373s",
      "quote": "full price is $111.55. Cleansing Nova from Core Set 2019, this foil is at 43.4% from $2.49 to $3.57",
-     "judge_note": "cleansing nova from core set 2019 this foil is at 43 4",
+     "judge_note": "Cleansing Nova from Core Set 2019, this foil is at 43.4%",
      "anchored_by": "quote match 100"
     }
    ]
@@ -104443,8 +104452,10 @@
    "neutral": 0,
    "negative": 0,
    "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
+   "potential_to_rise": true,
+   "potential_reasons": [
+    "Creator reports +39.4% recently"
+   ],
    "price": {
     "label": "TCGplayer Market",
     "usd": 42.99,
@@ -104557,7 +104568,7 @@
      "t": 419,
      "url": "https://www.youtube.com/watch?v=x9WHXKr8yB4&t=419s",
      "quote": "foil price is $197.39. [music] Darksteel Forge from Darksteel. This foil is up 39.4% from [music] $93.24 to $130",
-     "judge_note": "darksteel forge from darksteel this foil is up 39 4",
+     "judge_note": "Darksteel Forge from Darksteel. This foil is up 39.4%",
      "anchored_by": "quote match 100"
     }
    ]
@@ -120604,8 +120615,10 @@
    "neutral": 0,
    "negative": 0,
    "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
+   "potential_to_rise": true,
+   "potential_reasons": [
+    "Creator reports +35.4% recently"
+   ],
    "price": {
     "label": "TCGplayer Market",
     "usd": 2.42,
@@ -120708,7 +120721,7 @@
      "t": 382,
      "url": "https://www.youtube.com/watch?v=zTXK6WTG90E&t=382s",
      "quote": "full price is $25.30. Graveborn Muse from Legions. This old frame foils at 35.4% from $239.95 to $325 for",
-     "judge_note": "graveborn muse from legions this old frame foils at 35 4",
+     "judge_note": "Graveborn Muse from Legions. This old frame foils at 35.4%",
      "anchored_by": "quote match 100"
     }
    ]
@@ -124274,8 +124287,10 @@
    "neutral": 0,
    "negative": 0,
    "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
+   "potential_to_rise": true,
+   "potential_reasons": [
+    "Creator reports +29.1% recently"
+   ],
    "price": {
     "label": "TCGplayer Market",
     "usd": 0.23,
@@ -124385,7 +124400,7 @@
      "t": 409,
      "url": "https://www.youtube.com/watch?v=fJeT9GPPdNE&t=409s",
      "quote": "f price is $2.7. Homing sliver from future site. This foil is up 29.1% from $7.93 to $10.24 for",
-     "judge_note": "homing sliver from future site this foil is up 29 1",
+     "judge_note": "Homing sliver from future site. This foil is up 29.1%",
      "anchored_by": "quote match 100"
     }
    ]
@@ -131447,8 +131462,10 @@
    "neutral": 0,
    "negative": 0,
    "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
+   "potential_to_rise": true,
+   "potential_reasons": [
+    "Creator reports +43.1% recently"
+   ],
    "price": {
     "label": "TCGplayer Market",
     "usd": 0.87,
@@ -131565,7 +131582,7 @@
      "t": 410,
      "url": "https://www.youtube.com/watch?v=zTXK6WTG90E&t=410s",
      "quote": "$3.30. Last Night Together in the The Search for from Universes Beyond Doctor Who. This foils at 43.1% from",
-     "judge_note": "last night together in the the search for from universes beyond doctor who this foils at 43 1",
+     "judge_note": "Together in the The Search for from Universes Beyond Doctor Who. This foils at 43.1%",
      "anchored_by": "quote match 100"
     }
    ]
@@ -133103,8 +133120,10 @@
    "neutral": 0,
    "negative": 0,
    "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
+   "potential_to_rise": true,
+   "potential_reasons": [
+    "Creator reports +41% recently"
+   ],
    "price": {
     "label": "TCGplayer Market",
     "usd": 3.27,
@@ -133177,7 +133196,7 @@
      "t": 361,
      "url": "https://www.youtube.com/watch?v=eGT4sO8tQxQ&t=361s",
      "quote": "full price is $2.40. Lightning Crafter from Morning Tide, this foil is at 41% today from $78 to $110",
-     "judge_note": "lightning crafter from morning tide this foil is at 41 today",
+     "judge_note": "Lightning Crafter from Morning Tide, this foil is at 41%",
      "anchored_by": "quote match 100"
     }
    ]
@@ -134782,8 +134801,10 @@
    "neutral": 0,
    "negative": 0,
    "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
+   "potential_to_rise": true,
+   "potential_reasons": [
+    "Creator reports +22.3% recently"
+   ],
    "price": {
     "label": "TCGplayer Market",
     "usd": 9.76,
@@ -134930,7 +134951,7 @@
      "t": 381,
      "url": "https://www.youtube.com/watch?v=x9WHXKr8yB4&t=381s",
      "quote": "foil price is $6.49. Lord of the Void from Gatecrash. This foil is up 22.3% from $12.85 to $15.71",
-     "judge_note": "lord of the void from gatecrash this foil is up 22 3",
+     "judge_note": "Lord of the Void from Gatecrash. This foil is up 22.3%",
      "anchored_by": "quote match 100"
     }
    ]
@@ -135477,8 +135498,10 @@
    "neutral": 0,
    "negative": 0,
    "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
+   "potential_to_rise": true,
+   "potential_reasons": [
+    "Creator reports +41.5% recently"
+   ],
    "price": {
     "label": "TCGplayer Market",
     "usd": 0.17,
@@ -135560,8 +135583,8 @@
      "published": "2026-11-04",
      "t": 397,
      "url": "https://www.youtube.com/watch?v=zTXK6WTG90E&t=397s",
-     "quote": "price is exactly the same. Maggot Carrier from Planechase. This foils at 41.5% from $2.82 to $4 for its",
-     "judge_note": "maggot carrier from planechase this foils at 41 5",
+     "quote": "full price is exactly the same. Maggot Carrier from Planechase. This foils at 41.5% from $2.82 to $4 for",
+     "judge_note": "same. Maggot Carrier from Planechase. This foils at 41.5%",
      "anchored_by": "quote match 100"
     }
    ]
@@ -138086,8 +138109,10 @@
    "neutral": 0,
    "negative": 0,
    "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
+   "potential_to_rise": true,
+   "potential_reasons": [
+    "Creator reports +52.3% recently"
+   ],
    "price": {
     "label": "TCGplayer Market",
     "usd": 0.73,
@@ -138150,7 +138175,7 @@
      "t": 433,
      "url": "https://www.youtube.com/watch?v=zTXK6WTG90E&t=433s",
      "quote": "full price is $16.34. Mana Cache from Nemesis. This old frame foils at 52.3% from $7.02 to $10.69 for",
-     "judge_note": "mana cache from nemesis this old frame foils at 52 3",
+     "judge_note": "Mana Cache from Nemesis. This old frame foils at 52.3%",
      "anchored_by": "quote match 100"
     }
    ]
@@ -139089,8 +139114,10 @@
    "neutral": 0,
    "negative": 0,
    "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
+   "potential_to_rise": true,
+   "potential_reasons": [
+    "Creator reports +45.3% recently"
+   ],
    "price": {
     "label": "TCGplayer Market",
     "usd": 0.27,
@@ -139153,7 +139180,7 @@
      "t": 435,
      "url": "https://www.youtube.com/watch?v=fJeT9GPPdNE&t=435s",
      "quote": "price is $4069. Mark of the Oni from Betrayers of Kamigawa. This foil is up 45.3% from $42 to",
-     "judge_note": "mark of the oni from betrayers of kamigawa this foil is up 45 3",
+     "judge_note": "Mark of the Oni from Betrayers of Kamigawa. This foil is up 45.3%",
      "anchored_by": "quote match 100"
     }
    ]
@@ -139458,8 +139485,10 @@
    "neutral": 0,
    "negative": 0,
    "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
+   "potential_to_rise": true,
+   "potential_reasons": [
+    "Creator reports +27.9% recently"
+   ],
    "price": {
     "label": "TCGplayer Market",
     "usd": 0.15,
@@ -139532,7 +139561,7 @@
      "t": 320,
      "url": "https://www.youtube.com/watch?v=eGT4sO8tQxQ&t=320s",
      "quote": "average foil price is $3.92. Master Thief from Magic 2012. This foil's up 27.9% from $4.13 to $5.28 for",
-     "judge_note": "master thief from magic 2012 this foils up 27 9",
+     "judge_note": "Master Thief from Magic 2012. This foil's up 27.9%",
      "anchored_by": "quote match 100"
     }
    ]
@@ -142378,8 +142407,10 @@
    "neutral": 0,
    "negative": 0,
    "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
+   "potential_to_rise": true,
+   "potential_reasons": [
+    "Creator reports +43.2% recently"
+   ],
    "price": {
     "label": "TCGplayer Market",
     "usd": 0.45,
@@ -142511,8 +142542,8 @@
      "published": "2026-11-04",
      "t": 294,
      "url": "https://www.youtube.com/watch?v=zTXK6WTG90E&t=294s",
-     "quote": "our list here today is Mindslicer from Odyssey. This card is up 43.2% from $2.96 to $4.24 for its",
-     "judge_note": "mindslicer from odyssey this card is up 43 2",
+     "quote": "our final winner on our list here today is Mindslicer from Odyssey. This card is up 43.2% from $2.96",
+     "judge_note": "winner on our list here today is Mindslicer from Odyssey. This card is up 43.2%",
      "anchored_by": "quote match 100"
     }
    ]
@@ -148194,8 +148225,10 @@
    "neutral": 0,
    "negative": 0,
    "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
+   "potential_to_rise": true,
+   "potential_reasons": [
+    "Creator reports +27.7% recently"
+   ],
    "price": {
     "label": "TCGplayer Market",
     "usd": 1.6,
@@ -148278,7 +148311,7 @@
      "t": 399,
      "url": "https://www.youtube.com/watch?v=ENbOmOUkkvI&t=399s",
      "quote": "price is $6.74. Patron of the Moon from Betrayers of Kamigawa. This foils up 27.7% from $27.41 to $35",
-     "judge_note": "patron of the moon from betrayers of kamigawa this foils up 27 7",
+     "judge_note": "Patron of the Moon from Betrayers of Kamigawa. This foils up 27.7%",
      "anchored_by": "quote match 100"
     }
    ]
@@ -158188,8 +158221,10 @@
    "neutral": 0,
    "negative": 0,
    "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
+   "potential_to_rise": true,
+   "potential_reasons": [
+    "Creator reports +18.2% recently"
+   ],
    "price": {
     "label": "TCGplayer Market",
     "usd": 0.5,
@@ -158369,7 +158404,7 @@
      "t": 373,
      "url": "https://www.youtube.com/watch?v=ENbOmOUkkvI&t=373s",
      "quote": "average foil price is $13.35. Revelark from Morning Tide. This foils up 18.2% from $30 to $35.46 for its",
-     "judge_note": "revelark from morning tide this foils up 18 2",
+     "judge_note": "Revelark from Morning Tide. This foils up 18.2%",
      "anchored_by": "quote match 100"
     }
    ]
@@ -175414,8 +175449,10 @@
    "neutral": 0,
    "negative": 0,
    "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
+   "potential_to_rise": true,
+   "potential_reasons": [
+    "Creator reports +31.2% recently"
+   ],
    "price": {
     "label": "TCGplayer Market",
     "usd": 0.05,
@@ -175528,7 +175565,7 @@
      "t": 335,
      "url": "https://www.youtube.com/watch?v=eGT4sO8tQxQ&t=335s",
      "quote": "foil price is $1.54. Sylvan Might from Odyssey. This old frame foil's up 31.2% from $6.67 to $8.75 for",
-     "judge_note": "sylvan might from odyssey this old frame foils up 31 2",
+     "judge_note": "Sylvan Might from Odyssey. This old frame foil's up 31.2%",
      "anchored_by": "quote match 100"
     }
    ]
@@ -188499,8 +188536,10 @@
    "neutral": 0,
    "negative": 0,
    "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
+   "potential_to_rise": true,
+   "potential_reasons": [
+    "Creator reports +31.5% recently"
+   ],
    "price": {
     "label": "TCGplayer Market",
     "usd": 0.42,
@@ -188563,7 +188602,7 @@
      "t": 427,
      "url": "https://www.youtube.com/watch?v=ENbOmOUkkvI&t=427s",
      "quote": "[music] price is $81.20. Unifying Theory from Odyssey. Another old frame foil up 31.5% from $8 to $10.51 for",
-     "judge_note": "unifying theory from odyssey another old frame foil up 31 5",
+     "judge_note": "Unifying Theory from Odyssey. Another old frame foil up 31.5%",
      "anchored_by": "quote match 100"
     }
    ]
@@ -188909,8 +188948,10 @@
    "neutral": 0,
    "negative": 0,
    "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
+   "potential_to_rise": true,
+   "potential_reasons": [
+    "Creator reports +18.1% recently"
+   ],
    "price": {
     "label": "TCGplayer Market",
     "usd": 3.94,
@@ -189104,7 +189145,7 @@
      "t": 358,
      "url": "https://www.youtube.com/watch?v=ENbOmOUkkvI&t=358s",
      "quote": "list off here with Urabrask the Hidden from Iconic Masters. This foils up 18.1% today from $9.53 to $11.25",
-     "judge_note": "urabrask the hidden from iconic masters this foils up 18 1 today",
+     "judge_note": "Urabrask the Hidden from Iconic Masters. This foils up 18.1%",
      "anchored_by": "quote match 100"
     }
    ]
@@ -190237,8 +190278,10 @@
    "neutral": 0,
    "negative": 0,
    "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
+   "potential_to_rise": true,
+   "potential_reasons": [
+    "Creator reports +43.6% recently"
+   ],
    "price": {
     "label": "TCGplayer Market",
     "usd": 1.73,
@@ -190321,7 +190364,7 @@
      "t": 421,
      "url": "https://www.youtube.com/watch?v=zTXK6WTG90E&t=421s",
      "quote": "average full price is $11.02. Utopia Tree from Ninth Edition. This foils at 43.6% from $5 to $7.18 for",
-     "judge_note": "utopia tree from ninth edition this foils at 43 6",
+     "judge_note": "Utopia Tree from Ninth Edition. This foils at 43.6%",
      "anchored_by": "quote match 100"
     }
    ]
@@ -190610,8 +190653,10 @@
    "neutral": 0,
    "negative": 0,
    "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
+   "potential_to_rise": true,
+   "potential_reasons": [
+    "Creator reports +20.6% recently"
+   ],
    "price": {
     "label": "TCGplayer Market",
     "usd": 0.38,
@@ -190815,7 +190860,7 @@
      "t": 382,
      "url": "https://www.youtube.com/watch?v=fJeT9GPPdNE&t=382s",
      "quote": "list off here with Fencer Shaper Savant from Future Sight. This foils up 20.6% today from $49.75 to $60",
-     "judge_note": "fencer shaper savant from future sight this foils up 20 6 today",
+     "judge_note": "Fencer Shaper Savant from Future Sight. This foils up 20.6%",
      "anchored_by": "quote match 100"
     }
    ]
@@ -191918,8 +191963,10 @@
    "neutral": 0,
    "negative": 0,
    "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
+   "potential_to_rise": true,
+   "potential_reasons": [
+    "Creator reports +20.3% recently"
+   ],
    "price": {
     "label": "TCGplayer Market",
     "usd": 2.79,
@@ -192133,8 +192180,8 @@
      "published": "2026-11-03",
      "t": 386,
      "url": "https://www.youtube.com/watch?v=ENbOmOUkkvI&t=386s",
-     "quote": "is $32.55. Vraska, Betrayal's Sting from Phyrexia: All Will Be One. This foils up 20.3% today from $5.37 to",
-     "judge_note": "vraska betrayals sting from phyrexia all will be one this foils up 20 3 today",
+     "quote": "price is $32.55. Vraska, Betrayal's Sting from Phyrexia: All Will Be One. This foils up 20.3% today from $5.37",
+     "judge_note": "Vraska, Betrayal's Sting from Phyrexia: All Will Be One. This foils up 20.3%",
      "anchored_by": "quote match 100"
     }
    ]
@@ -195597,8 +195644,10 @@
    "neutral": 0,
    "negative": 0,
    "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
+   "potential_to_rise": true,
+   "potential_reasons": [
+    "Creator reports +31.4% recently"
+   ],
    "price": {
     "label": "TCGplayer Market",
     "usd": 0.15,
@@ -195681,7 +195730,7 @@
      "t": 357,
      "url": "https://www.youtube.com/watch?v=zTXK6WTG90E&t=357s",
      "quote": "foil price is $5.04. Wormfang Drake from Judgment. This old frame foils at 31.4% from $3.66 to $4.81 for",
-     "judge_note": "wormfang drake from judgment this old frame foils at 31 4",
+     "judge_note": "Wormfang Drake from Judgment. This old frame foils at 31.4%",
      "anchored_by": "quote match 100"
     }
    ]
@@ -197375,8 +197424,10 @@
    "neutral": 0,
    "negative": 0,
    "channels": 1,
-   "potential_to_rise": false,
-   "potential_reasons": [],
+   "potential_to_rise": true,
+   "potential_reasons": [
+    "Creator reports +33.8% recently"
+   ],
    "price": {
     "label": "TCGplayer Market",
     "usd": 0.2,
@@ -197620,7 +197671,7 @@
      "t": 348,
      "url": "https://www.youtube.com/watch?v=eGT4sO8tQxQ&t=348s",
      "quote": "foil price is $5.08. Setalpa, Primal Dawn from Rivals of Ixalan. This foil's up 33.8% from $3.61 to $4.83",
-     "judge_note": "setalpa primal dawn from rivals of ixalan this foils up 33 8",
+     "judge_note": "Setalpa, Primal Dawn from Rivals of Ixalan. This foil's up 33.8%",
      "anchored_by": "quote match 100"
     }
    ]
@@ -214241,6 +214292,155 @@
    ]
   },
   {
+   "game": "mtg",
+   "card": "Valkyrie Harbinger",
+   "reasons": [
+    "Creator reports +19.7% recently",
+    "Creator reports +64.6% this week"
+   ],
+   "vibe": "positive",
+   "reserved": false,
+   "paper_sets": [
+    "Kaldheim",
+    "Jumpstart 2022",
+    "Secret Lair Drop",
+    "Foundations Jumpstart"
+   ],
+   "first_printed": "2021-02-05",
+   "first_printed_set": {
+    "code": "khm",
+    "name": "Kaldheim"
+   },
+   "is_reprint": true,
+   "reprint_count": 4,
+   "latest_reprint_set": {
+    "code": "j25",
+    "name": "Foundations Jumpstart"
+   },
+   "latest_reprint_date": "2024-11-15",
+   "reprint_set": {
+    "code": "j25",
+    "name": "Foundations Jumpstart"
+   },
+   "reprint_released": "2024-11-15",
+   "channels": 1,
+   "price": {
+    "label": "TCGplayer Market",
+    "usd": 4.0,
+    "usd_foil": null,
+    "display": "$4.00",
+    "printing": "Jumpstart 2022 #261",
+    "printing_set": "J22",
+    "printing_basis": "cheapest non-foil paper printing",
+    "source": "TCGplayer Market Price via Scryfall prices.usd (cheapest non-foil paper printing)",
+    "as_of": "2026-11-09",
+    "change_7d_pct": 6.1,
+    "change_30d_pct": 21.0,
+    "history_as_of": "2026-10-26",
+    "version_groups": [
+     {
+      "group": "Regular",
+      "label": "TCGplayer Market",
+      "collapsed": false,
+      "printings": [
+       {
+        "set": "J22",
+        "set_name": "Jumpstart 2022",
+        "collector_number": "261",
+        "released": "2022-12-02",
+        "finish": "nonfoil",
+        "usd": 4.0,
+        "display": "$4.00",
+        "scryfall_id": "e9828a61-bc29-4a6d-8a41-e439dcb822db"
+       },
+       {
+        "set": "J25",
+        "set_name": "Foundations Jumpstart",
+        "collector_number": "275",
+        "released": "2024-11-15",
+        "finish": "nonfoil",
+        "usd": 4.41,
+        "display": "$4.41",
+        "scryfall_id": "e976523b-55cf-4cc0-b537-bb7c629004b4"
+       },
+       {
+        "set": "KHM",
+        "set_name": "Kaldheim",
+        "collector_number": "374",
+        "released": "2021-02-05",
+        "finish": "nonfoil",
+        "usd": 8.04,
+        "display": "$8.04",
+        "scryfall_id": "edab83a9-35b5-4312-b8ee-1c042c02aa31"
+       }
+      ]
+     },
+     {
+      "group": "Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "SLD",
+        "set_name": "Secret Lair Drop",
+        "collector_number": "1347",
+        "released": "2023-08-10",
+        "finish": "foil",
+        "usd": 4.54,
+        "display": "$4.54",
+        "scryfall_id": "a79ecdf5-2167-4590-a964-e9d7eb32dfe6"
+       }
+      ]
+     },
+     {
+      "group": "Promo Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "PKHM",
+        "set_name": "Kaldheim Promos",
+        "collector_number": "374★",
+        "released": "2022-10-10",
+        "finish": "foil",
+        "usd": 5.35,
+        "display": "$5.35",
+        "scryfall_id": "ebfd7235-bbda-41c1-a21d-072ea0a80e7f"
+       }
+      ]
+     }
+    ],
+    "version_groups_complete": true
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Valkyrie+Harbinger",
+   "sources": [
+    {
+     "channel": "@MattcasterMage",
+     "channel_name": "Mattcaster Mage MTG",
+     "video_id": "DFinMN75Pq4",
+     "video_title": "MTG Movers Of The Week! Nov 1st - Nov 7th | Spacecraft Cards Trending This Week! Inspirit & Uthros!",
+     "published": "2026-11-07",
+     "t": 268,
+     "url": "https://www.youtube.com/watch?v=DFinMN75Pq4&t=268s",
+     "quote": "the Multiverse Architect. Next winner is Valkyrie Harbinger from Kaldheim. This rare is up 64.6% this week from $4.52",
+     "judge_note": "Next winner is Valkyrie Harbinger from Kaldheim. This rare is up 64.6%",
+     "anchored_by": "quote match 100"
+    },
+    {
+     "channel": "@MattcasterMage",
+     "channel_name": "Mattcaster Mage MTG",
+     "video_id": "x9WHXKr8yB4",
+     "video_title": "MTG Market Movers - Nov 6th - Commander Cards Moving Up! Valkyrie Harbinger & Thassa, God of the Sea",
+     "published": "2026-11-06",
+     "t": 309,
+     "url": "https://www.youtube.com/watch?v=x9WHXKr8yB4&t=309s",
+     "quote": "our final winner here on our list is Valkyrie Harbinger from Kaldheim. This card is up 19.7% from $6.03",
+     "judge_note": "winner here on our list is Valkyrie Harbinger from Kaldheim. This card is up 19.7%",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
    "game": "pokemon",
    "card": "Zapdos",
    "reasons": [
@@ -215238,6 +215438,155 @@
    ]
   },
   {
+   "game": "mtg",
+   "card": "Anaba Shaman",
+   "reasons": [
+    "Creator reports +42.4% recently"
+   ],
+   "vibe": "positive",
+   "reserved": false,
+   "paper_sets": [
+    "Homelands",
+    "Classic Sixth Edition",
+    "Eighth Edition",
+    "Ninth Edition"
+   ],
+   "first_printed": "1995-10-01",
+   "first_printed_set": {
+    "code": "hml",
+    "name": "Homelands"
+   },
+   "is_reprint": true,
+   "reprint_count": 4,
+   "latest_reprint_set": {
+    "code": "9ed",
+    "name": "Ninth Edition"
+   },
+   "latest_reprint_date": "2005-07-29",
+   "reprint_set": {
+    "code": "9ed",
+    "name": "Ninth Edition"
+   },
+   "reprint_released": "2005-07-29",
+   "channels": 1,
+   "price": {
+    "label": "TCGplayer Market",
+    "usd": 0.06,
+    "usd_foil": null,
+    "display": "$0.06",
+    "printing": "Ninth Edition #172",
+    "printing_set": "9ED",
+    "printing_basis": "cheapest non-foil paper printing",
+    "source": "TCGplayer Market Price via Scryfall prices.usd (cheapest non-foil paper printing)",
+    "as_of": "2026-11-09",
+    "change_7d_pct": 0.0,
+    "change_30d_pct": 0.0,
+    "history_as_of": "2026-10-26",
+    "version_groups": [
+     {
+      "group": "Regular",
+      "label": "TCGplayer Market",
+      "collapsed": false,
+      "printings": [
+       {
+        "set": "9ED",
+        "set_name": "Ninth Edition",
+        "collector_number": "172",
+        "released": "2005-07-29",
+        "finish": "nonfoil",
+        "usd": 0.06,
+        "display": "$0.06",
+        "scryfall_id": "7cae202e-63f1-4d8b-bf85-2bf1a03c054c"
+       },
+       {
+        "set": "8ED",
+        "set_name": "Eighth Edition",
+        "collector_number": "175",
+        "released": "2003-07-28",
+        "finish": "nonfoil",
+        "usd": 0.08,
+        "display": "$0.08",
+        "scryfall_id": "f3c2a5d1-cdf0-4551-aad0-c6590fb3c018"
+       },
+       {
+        "set": "HML",
+        "set_name": "Homelands",
+        "collector_number": "67a",
+        "released": "1995-10-01",
+        "finish": "nonfoil",
+        "usd": 0.1,
+        "display": "$0.10",
+        "scryfall_id": "c55d086a-d848-43bc-8c1e-de96d10877e1"
+       },
+       {
+        "set": "HML",
+        "set_name": "Homelands",
+        "collector_number": "67b",
+        "released": "1995-10-01",
+        "finish": "nonfoil",
+        "usd": 0.11,
+        "display": "$0.11",
+        "scryfall_id": "4b456355-9f73-45c2-9554-6e6b20d949a1"
+       },
+       {
+        "set": "6ED",
+        "set_name": "Classic Sixth Edition",
+        "collector_number": "165",
+        "released": "1999-04-21",
+        "finish": "nonfoil",
+        "usd": 0.13,
+        "display": "$0.13",
+        "scryfall_id": "d1f8eccc-551d-4109-866e-7285435ffd19"
+       }
+      ]
+     },
+     {
+      "group": "Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "8ED",
+        "set_name": "Eighth Edition",
+        "collector_number": "175★",
+        "released": "2003-07-28",
+        "finish": "foil",
+        "usd": 0.5,
+        "display": "$0.50",
+        "scryfall_id": "142260bd-4e4f-4057-b124-4744cea698d7"
+       },
+       {
+        "set": "9ED",
+        "set_name": "Ninth Edition",
+        "collector_number": "172★",
+        "released": "2005-07-29",
+        "finish": "foil",
+        "usd": 10.14,
+        "display": "$10.14",
+        "scryfall_id": "ca583969-51f1-489e-ae34-8bb997ee8a6c"
+       }
+      ]
+     }
+    ],
+    "version_groups_complete": true
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Anaba+Shaman",
+   "sources": [
+    {
+     "channel": "@MattcasterMage",
+     "channel_name": "Mattcaster Mage MTG",
+     "video_id": "ENbOmOUkkvI",
+     "video_title": "MTG Market Movers - Nov 3rd - Modern & Commander Rising! The Fire Crystal & Solphim Mayhem Dominus!",
+     "published": "2026-11-03",
+     "t": 452,
+     "url": "https://www.youtube.com/watch?v=ENbOmOUkkvI&t=452s",
+     "quote": "average foil price is $5.58. Anaba Shaman from 9th Edition. This foils up 42.4% from $7.12 to $10.14 for",
+     "judge_note": "Anaba Shaman from 9th Edition. This foils up 42.4%",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
    "game": "yugioh",
    "card": "Armory Arm",
    "reasons": [
@@ -215610,6 +215959,643 @@
      "url": "https://www.youtube.com/watch?v=sWUmme2Nu4Y&t=1116s",
      "quote": "the sense of water, Dragoons as well. Atlantean Dragoons was three bucks. Then it's eight bucks, and now it's",
      "judge_note": "water dragoons as well atlantean dragoons was three bucks then its eight",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
+   "game": "mtg",
+   "card": "Bitterblossom",
+   "reasons": [
+    "Creator reports +36.7% recently"
+   ],
+   "vibe": "positive",
+   "reserved": false,
+   "paper_sets": [
+    "Morningtide",
+    "Modern Masters 2015",
+    "Ultimate Masters",
+    "Secret Lair Drop",
+    "Double Masters 2022",
+    "Wilds of Eldraine: Enchanting Tales",
+    "Special Guests"
+   ],
+   "first_printed": "2008-02-01",
+   "first_printed_set": {
+    "code": "mor",
+    "name": "Morningtide"
+   },
+   "is_reprint": true,
+   "reprint_count": 7,
+   "latest_reprint_set": {
+    "code": "spg",
+    "name": "Special Guests"
+   },
+   "latest_reprint_date": "2026-01-23",
+   "reprint_set": {
+    "code": "spg",
+    "name": "Special Guests"
+   },
+   "reprint_released": "2026-01-23",
+   "channels": 1,
+   "price": {
+    "label": "TCGplayer Market",
+    "usd": 28.97,
+    "usd_foil": 38.51,
+    "display": "$28.97",
+    "printing": "Wilds of Eldraine: Enchanting Tales #72",
+    "printing_set": "WOT",
+    "printing_basis": "cheapest non-foil paper printing",
+    "source": "TCGplayer Market Price via Scryfall prices.usd (cheapest non-foil paper printing)",
+    "as_of": "2026-11-09",
+    "change_7d_pct": -0.6,
+    "change_30d_pct": -7.1,
+    "history_as_of": "2026-10-26",
+    "version_groups": [
+     {
+      "group": "Regular",
+      "label": "TCGplayer Market",
+      "collapsed": false,
+      "printings": [
+       {
+        "set": "2X2",
+        "set_name": "Double Masters 2022",
+        "collector_number": "69",
+        "released": "2022-07-08",
+        "finish": "nonfoil",
+        "usd": 33.52,
+        "display": "$33.52",
+        "scryfall_id": "b9640cbf-b016-410e-9eff-e8924883517b"
+       },
+       {
+        "set": "UMA",
+        "set_name": "Ultimate Masters",
+        "collector_number": "85",
+        "released": "2018-12-07",
+        "finish": "nonfoil",
+        "usd": 33.72,
+        "display": "$33.72",
+        "scryfall_id": "547872bd-d2b3-4c24-b3fb-481e0c90c3c0"
+       },
+       {
+        "set": "MM2",
+        "set_name": "Modern Masters 2015",
+        "collector_number": "71",
+        "released": "2015-05-22",
+        "finish": "nonfoil",
+        "usd": 34.32,
+        "display": "$34.32",
+        "scryfall_id": "349f13c9-9a4e-4460-873e-fec58798646c"
+       },
+       {
+        "set": "MOR",
+        "set_name": "Morningtide",
+        "collector_number": "58",
+        "released": "2008-02-01",
+        "finish": "nonfoil",
+        "usd": 35.51,
+        "display": "$35.51",
+        "scryfall_id": "8145fed6-6b51-420a-84cf-4ea5e0aa1883"
+       },
+       {
+        "set": "SLD",
+        "set_name": "Secret Lair Drop",
+        "collector_number": "12",
+        "released": "2019-12-03",
+        "finish": "nonfoil",
+        "usd": 37.22,
+        "display": "$37.22",
+        "scryfall_id": "80f88df1-4e1a-4557-bb7a-1ac86641043e"
+       }
+      ]
+     },
+     {
+      "group": "Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "2X2",
+        "set_name": "Double Masters 2022",
+        "collector_number": "69",
+        "released": "2022-07-08",
+        "finish": "foil",
+        "usd": 36.63,
+        "display": "$36.63",
+        "scryfall_id": "b9640cbf-b016-410e-9eff-e8924883517b"
+       },
+       {
+        "set": "UMA",
+        "set_name": "Ultimate Masters",
+        "collector_number": "85",
+        "released": "2018-12-07",
+        "finish": "foil",
+        "usd": 40.08,
+        "display": "$40.08",
+        "scryfall_id": "547872bd-d2b3-4c24-b3fb-481e0c90c3c0"
+       },
+       {
+        "set": "MM2",
+        "set_name": "Modern Masters 2015",
+        "collector_number": "71",
+        "released": "2015-05-22",
+        "finish": "foil",
+        "usd": 43.1,
+        "display": "$43.10",
+        "scryfall_id": "349f13c9-9a4e-4460-873e-fec58798646c"
+       },
+       {
+        "set": "MOR",
+        "set_name": "Morningtide",
+        "collector_number": "58",
+        "released": "2008-02-01",
+        "finish": "foil",
+        "usd": 190.0,
+        "display": "$190.00",
+        "scryfall_id": "8145fed6-6b51-420a-84cf-4ea5e0aa1883"
+       }
+      ]
+     },
+     {
+      "group": "Etched Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "2X2",
+        "set_name": "Double Masters 2022",
+        "collector_number": "436",
+        "released": "2022-07-08",
+        "finish": "etched",
+        "usd": 45.63,
+        "display": "$45.63",
+        "scryfall_id": "bb0b3575-c7bd-411d-9aa4-3a986b7876a9"
+       }
+      ]
+     },
+     {
+      "group": "Borderless",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "WOT",
+        "set_name": "Wilds of Eldraine: Enchanting Tales",
+        "collector_number": "72",
+        "released": "2023-09-08",
+        "finish": "nonfoil",
+        "usd": 28.97,
+        "display": "$28.97",
+        "scryfall_id": "4d6c0dc6-ab2e-4ab5-951a-1ddd6698e80e"
+       },
+       {
+        "set": "WOT",
+        "set_name": "Wilds of Eldraine: Enchanting Tales",
+        "collector_number": "27",
+        "released": "2023-09-08",
+        "finish": "nonfoil",
+        "usd": 31.84,
+        "display": "$31.84",
+        "scryfall_id": "bdf9661d-b581-4496-9004-f292d9ac03ef"
+       },
+       {
+        "set": "SPG",
+        "set_name": "Special Guests",
+        "collector_number": "133",
+        "released": "2026-01-23",
+        "finish": "nonfoil",
+        "usd": 33.04,
+        "display": "$33.04",
+        "scryfall_id": "4c2fd7bd-6528-453b-b55d-a708967b14e8"
+       }
+      ]
+     },
+     {
+      "group": "Borderless Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "WOT",
+        "set_name": "Wilds of Eldraine: Enchanting Tales",
+        "collector_number": "27",
+        "released": "2023-09-08",
+        "finish": "foil",
+        "usd": 35.05,
+        "display": "$35.05",
+        "scryfall_id": "bdf9661d-b581-4496-9004-f292d9ac03ef"
+       },
+       {
+        "set": "SPG",
+        "set_name": "Special Guests",
+        "collector_number": "133",
+        "released": "2026-01-23",
+        "finish": "foil",
+        "usd": 36.1,
+        "display": "$36.10",
+        "scryfall_id": "4c2fd7bd-6528-453b-b55d-a708967b14e8"
+       },
+       {
+        "set": "WOT",
+        "set_name": "Wilds of Eldraine: Enchanting Tales",
+        "collector_number": "72",
+        "released": "2023-09-08",
+        "finish": "foil",
+        "usd": 38.51,
+        "display": "$38.51",
+        "scryfall_id": "4d6c0dc6-ab2e-4ab5-951a-1ddd6698e80e"
+       },
+       {
+        "set": "SLD",
+        "set_name": "Secret Lair Drop",
+        "collector_number": "1898",
+        "released": "2025-05-12",
+        "finish": "foil",
+        "usd": 48.63,
+        "display": "$48.63",
+        "scryfall_id": "776b5cdd-a1e3-4b41-aeb4-d68f1dbaf56d"
+       },
+       {
+        "set": "WOT",
+        "set_name": "Wilds of Eldraine: Enchanting Tales",
+        "collector_number": "92",
+        "released": "2023-09-08",
+        "finish": "foil",
+        "usd": 123.49,
+        "display": "$123.49",
+        "scryfall_id": "07ed5249-ac56-4f56-a8ca-f1808460dac6"
+       }
+      ]
+     },
+     {
+      "group": "Promo Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "PUMA",
+        "set_name": "Ultimate Box Topper",
+        "collector_number": "U7",
+        "released": "2018-12-07",
+        "finish": "foil",
+        "usd": 50.31,
+        "display": "$50.31",
+        "scryfall_id": "25dd861f-ee63-4d79-b31b-173c9c336426"
+       },
+       {
+        "set": "G11",
+        "set_name": "Judge Gift Cards 2011",
+        "collector_number": "1",
+        "released": "2011-01-01",
+        "finish": "foil",
+        "usd": 62.01,
+        "display": "$62.01",
+        "scryfall_id": "fc0d11d3-4d55-43a4-b59d-acc41aa671c5"
+       }
+      ]
+     }
+    ],
+    "version_groups_complete": true
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Bitterblossom",
+   "sources": [
+    {
+     "channel": "@MattcasterMage",
+     "channel_name": "Mattcaster Mage MTG",
+     "video_id": "x9WHXKr8yB4",
+     "video_title": "MTG Market Movers - Nov 6th - Commander Cards Moving Up! Valkyrie Harbinger & Thassa, God of the Sea",
+     "published": "2026-11-06",
+     "t": 405,
+     "url": "https://www.youtube.com/watch?v=x9WHXKr8yB4&t=405s",
+     "quote": "foil price is $5.63. [music] Bitterblossom from Morningtide. This foil is up 36.7% from $139 to $190 for its",
+     "judge_note": "Bitterblossom from Morningtide. This foil is up 36.7%",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
+   "game": "mtg",
+   "card": "Cleansing Nova",
+   "reasons": [
+    "Creator reports +43.4% recently"
+   ],
+   "vibe": "positive",
+   "reserved": false,
+   "paper_sets": [
+    "Core Set 2019",
+    "Commander 2020",
+    "Kaldheim Commander",
+    "Commander 2021",
+    "Midnight Hunt Commander",
+    "Starter Commander Decks",
+    "Secret Lair Drop",
+    "Commander Masters",
+    "Final Fantasy Commander",
+    "Marvel Super Heroes Commander",
+    "Foundations Commander"
+   ],
+   "first_printed": "2018-07-13",
+   "first_printed_set": {
+    "code": "m19",
+    "name": "Core Set 2019"
+   },
+   "is_reprint": true,
+   "reprint_count": 11,
+   "latest_reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
+   "reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "reprint_released": "2026-10-02",
+   "channels": 1,
+   "price": {
+    "label": "TCGplayer Market",
+    "usd": 0.22,
+    "usd_foil": null,
+    "display": "$0.22",
+    "printing": "Foundations Commander #20",
+    "printing_set": "FDC",
+    "printing_basis": "cheapest non-foil paper printing",
+    "source": "TCGplayer Market Price via Scryfall prices.usd (cheapest non-foil paper printing)",
+    "as_of": "2026-11-09",
+    "change_7d_pct": 5.0,
+    "change_30d_pct": null,
+    "history_as_of": "2026-10-26",
+    "version_groups": [
+     {
+      "group": "Regular",
+      "label": "TCGplayer Market",
+      "collapsed": false,
+      "printings": [
+       {
+        "set": "FDC",
+        "set_name": "Foundations Commander",
+        "collector_number": "20",
+        "released": "2026-10-02",
+        "finish": "nonfoil",
+        "usd": 0.22,
+        "display": "$0.22",
+        "scryfall_id": "7b46929d-f63c-4026-8223-e2a4a159e017"
+       },
+       {
+        "set": "SCD",
+        "set_name": "Starter Commander Decks",
+        "collector_number": "12",
+        "released": "2022-12-02",
+        "finish": "nonfoil",
+        "usd": 0.26,
+        "display": "$0.26",
+        "scryfall_id": "31619741-1899-4503-bc1c-176a3248df86"
+       },
+       {
+        "set": "FIC",
+        "set_name": "Final Fantasy Commander",
+        "collector_number": "235",
+        "released": "2025-06-13",
+        "finish": "nonfoil",
+        "usd": 0.29,
+        "display": "$0.29",
+        "scryfall_id": "81096eba-ad0a-4fa8-8d56-5a1ea9a9155b"
+       },
+       {
+        "set": "MSC",
+        "set_name": "Marvel Super Heroes Commander",
+        "collector_number": "124",
+        "released": "2026-06-26",
+        "finish": "nonfoil",
+        "usd": 0.3,
+        "display": "$0.30",
+        "scryfall_id": "670e4457-927e-42ed-a36f-28b60c2f7566"
+       },
+       {
+        "set": "KHC",
+        "set_name": "Kaldheim Commander",
+        "collector_number": "20",
+        "released": "2021-02-05",
+        "finish": "nonfoil",
+        "usd": 0.36,
+        "display": "$0.36",
+        "scryfall_id": "990a7ec3-0ace-4245-a374-690d11a827ae"
+       },
+       {
+        "set": "C20",
+        "set_name": "Commander 2020",
+        "collector_number": "83",
+        "released": "2020-04-17",
+        "finish": "nonfoil",
+        "usd": 0.38,
+        "display": "$0.38",
+        "scryfall_id": "9b576ac4-a4b4-4d2c-820c-cf9fcc0c57c0"
+       },
+       {
+        "set": "MIC",
+        "set_name": "Midnight Hunt Commander",
+        "collector_number": "82",
+        "released": "2021-09-24",
+        "finish": "nonfoil",
+        "usd": 0.38,
+        "display": "$0.38",
+        "scryfall_id": "e75658ef-9ae4-4f4b-ab5d-a7d4b31a9fce"
+       },
+       {
+        "set": "CMM",
+        "set_name": "Commander Masters",
+        "collector_number": "817",
+        "released": "2023-08-04",
+        "finish": "nonfoil",
+        "usd": 0.39,
+        "display": "$0.39",
+        "scryfall_id": "167d2e51-eb69-488c-a6b6-042a7b0e1744"
+       },
+       {
+        "set": "M19",
+        "set_name": "Core Set 2019",
+        "collector_number": "9",
+        "released": "2018-07-13",
+        "finish": "nonfoil",
+        "usd": 0.45,
+        "display": "$0.45",
+        "scryfall_id": "5be8eed7-c033-42cc-bd21-4512db7af66c"
+       },
+       {
+        "set": "C21",
+        "set_name": "Commander 2021",
+        "collector_number": "86",
+        "released": "2021-04-23",
+        "finish": "nonfoil",
+        "usd": 0.47,
+        "display": "$0.47",
+        "scryfall_id": "11f1b6cd-d89a-4468-a097-7a54efe22f2c"
+       },
+       {
+        "set": "PLST",
+        "set_name": "The List",
+        "collector_number": "C21-86",
+        "released": "2023-08-10",
+        "finish": "nonfoil",
+        "usd": 0.63,
+        "display": "$0.63",
+        "scryfall_id": "14675074-a5f0-4a6e-ae60-520eb7b46b3a"
+       },
+       {
+        "set": "SLD",
+        "set_name": "Secret Lair Drop",
+        "collector_number": "730",
+        "released": "2023-04-23",
+        "finish": "nonfoil",
+        "usd": 1.49,
+        "display": "$1.49",
+        "scryfall_id": "84590fb7-a79e-4708-bce4-bb16b1b0dd7e"
+       },
+       {
+        "set": "SLD",
+        "set_name": "Secret Lair Drop",
+        "collector_number": "1251",
+        "released": "2023-04-23",
+        "finish": "nonfoil",
+        "usd": 2.22,
+        "display": "$2.22",
+        "scryfall_id": "a4310db6-9757-469a-a20a-496331d6ff53"
+       }
+      ]
+     },
+     {
+      "group": "Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "SLD",
+        "set_name": "Secret Lair Drop",
+        "collector_number": "730",
+        "released": "2023-04-23",
+        "finish": "foil",
+        "usd": 1.75,
+        "display": "$1.75",
+        "scryfall_id": "84590fb7-a79e-4708-bce4-bb16b1b0dd7e"
+       },
+       {
+        "set": "SLD",
+        "set_name": "Secret Lair Drop",
+        "collector_number": "1251",
+        "released": "2023-04-23",
+        "finish": "foil",
+        "usd": 1.96,
+        "display": "$1.96",
+        "scryfall_id": "a4310db6-9757-469a-a20a-496331d6ff53"
+       },
+       {
+        "set": "M19",
+        "set_name": "Core Set 2019",
+        "collector_number": "9",
+        "released": "2018-07-13",
+        "finish": "foil",
+        "usd": 3.57,
+        "display": "$3.57",
+        "scryfall_id": "5be8eed7-c033-42cc-bd21-4512db7af66c"
+       },
+       {
+        "set": "FIC",
+        "set_name": "Final Fantasy Commander",
+        "collector_number": "235",
+        "released": "2025-06-13",
+        "finish": "foil",
+        "usd": null,
+        "display": "unavailable",
+        "scryfall_id": "81096eba-ad0a-4fa8-8d56-5a1ea9a9155b"
+       },
+       {
+        "set": "MSC",
+        "set_name": "Marvel Super Heroes Commander",
+        "collector_number": "124",
+        "released": "2026-06-26",
+        "finish": "foil",
+        "usd": null,
+        "display": "unavailable",
+        "scryfall_id": "670e4457-927e-42ed-a36f-28b60c2f7566"
+       }
+      ]
+     },
+     {
+      "group": "Extended Art",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "MSC",
+        "set_name": "Marvel Super Heroes Commander",
+        "collector_number": "297",
+        "released": "2026-06-26",
+        "finish": "nonfoil",
+        "usd": 0.83,
+        "display": "$0.83",
+        "scryfall_id": "b54c6054-bf05-4347-aa9c-07c6ab79e6df"
+       }
+      ]
+     },
+     {
+      "group": "Promo",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "PM19",
+        "set_name": "Core Set 2019 Promos",
+        "collector_number": "9p",
+        "released": "2018-07-13",
+        "finish": "nonfoil",
+        "usd": 1.05,
+        "display": "$1.05",
+        "scryfall_id": "388703ff-16c5-46a6-bb05-a9c60ed6f06f"
+       }
+      ]
+     },
+     {
+      "group": "Promo Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "PM19",
+        "set_name": "Core Set 2019 Promos",
+        "collector_number": "9p",
+        "released": "2018-07-13",
+        "finish": "foil",
+        "usd": 2.0,
+        "display": "$2.00",
+        "scryfall_id": "388703ff-16c5-46a6-bb05-a9c60ed6f06f"
+       },
+       {
+        "set": "PM19",
+        "set_name": "Core Set 2019 Promos",
+        "collector_number": "9s",
+        "released": "2018-07-13",
+        "finish": "foil",
+        "usd": 2.75,
+        "display": "$2.75",
+        "scryfall_id": "d25eb278-8d4e-4e26-a4bc-eb210d3ec1eb"
+       }
+      ]
+     }
+    ],
+    "version_groups_complete": true
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Cleansing+Nova",
+   "sources": [
+    {
+     "channel": "@MattcasterMage",
+     "channel_name": "Mattcaster Mage MTG",
+     "video_id": "eGT4sO8tQxQ",
+     "video_title": "MTG Market Movers - Nov 5th - Commander & Standard Moves! Susur Secundi, Void Altar!",
+     "published": "2026-11-05",
+     "t": 373,
+     "url": "https://www.youtube.com/watch?v=eGT4sO8tQxQ&t=373s",
+     "quote": "full price is $111.55. Cleansing Nova from Core Set 2019, this foil is at 43.4% from $2.49 to $3.57",
+     "judge_note": "Cleansing Nova from Core Set 2019, this foil is at 43.4%",
      "anchored_by": "quote match 100"
     }
    ]
@@ -216382,6 +217368,155 @@
      "url": "https://www.youtube.com/watch?v=qKI5QnmLx2M&t=2202s",
      "quote": "move on up in price. Same as Cyberse Contract Witch from Mambo. You can see, you know, the demand",
      "judge_note": "in price same as cyberse contract witch from mambo you can see you",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
+   "game": "mtg",
+   "card": "Darksteel Forge",
+   "reasons": [
+    "Creator reports +39.4% recently"
+   ],
+   "vibe": "positive",
+   "reserved": false,
+   "paper_sets": [
+    "Darksteel",
+    "Planechase",
+    "Magic 2014",
+    "Double Masters"
+   ],
+   "first_printed": "2004-02-06",
+   "first_printed_set": {
+    "code": "dst",
+    "name": "Darksteel"
+   },
+   "is_reprint": true,
+   "reprint_count": 4,
+   "latest_reprint_set": {
+    "code": "2xm",
+    "name": "Double Masters"
+   },
+   "latest_reprint_date": "2020-08-07",
+   "reprint_set": {
+    "code": "2xm",
+    "name": "Double Masters"
+   },
+   "reprint_released": "2020-08-07",
+   "channels": 1,
+   "price": {
+    "label": "TCGplayer Market",
+    "usd": 42.99,
+    "usd_foil": 129.99,
+    "display": "$42.99",
+    "printing": "Darksteel #110",
+    "printing_set": "DST",
+    "printing_basis": "cheapest non-foil paper printing",
+    "source": "TCGplayer Market Price via Scryfall prices.usd (cheapest non-foil paper printing)",
+    "as_of": "2026-11-09",
+    "change_7d_pct": 1.2,
+    "change_30d_pct": 0.4,
+    "history_as_of": "2026-10-26",
+    "version_groups": [
+     {
+      "group": "Regular",
+      "label": "TCGplayer Market",
+      "collapsed": false,
+      "printings": [
+       {
+        "set": "DST",
+        "set_name": "Darksteel",
+        "collector_number": "110",
+        "released": "2004-02-06",
+        "finish": "nonfoil",
+        "usd": 42.99,
+        "display": "$42.99",
+        "scryfall_id": "99078ecc-f50a-43e0-93c1-63240cd97bf7"
+       },
+       {
+        "set": "2XM",
+        "set_name": "Double Masters",
+        "collector_number": "248",
+        "released": "2020-08-07",
+        "finish": "nonfoil",
+        "usd": 43.14,
+        "display": "$43.14",
+        "scryfall_id": "421089c4-c8d3-48c5-b313-fb1741546271"
+       },
+       {
+        "set": "HOP",
+        "set_name": "Planechase",
+        "collector_number": "111",
+        "released": "2009-09-04",
+        "finish": "nonfoil",
+        "usd": 51.07,
+        "display": "$51.07",
+        "scryfall_id": "5dbceca6-74ac-4811-b879-bec6ae957d0e"
+       },
+       {
+        "set": "M14",
+        "set_name": "Magic 2014",
+        "collector_number": "206",
+        "released": "2013-07-19",
+        "finish": "nonfoil",
+        "usd": 52.22,
+        "display": "$52.22",
+        "scryfall_id": "2c95a0a1-9c2c-44df-b0fe-c22efb6d87ee"
+       }
+      ]
+     },
+     {
+      "group": "Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "M14",
+        "set_name": "Magic 2014",
+        "collector_number": "206",
+        "released": "2013-07-19",
+        "finish": "foil",
+        "usd": 55.53,
+        "display": "$55.53",
+        "scryfall_id": "2c95a0a1-9c2c-44df-b0fe-c22efb6d87ee"
+       },
+       {
+        "set": "2XM",
+        "set_name": "Double Masters",
+        "collector_number": "248",
+        "released": "2020-08-07",
+        "finish": "foil",
+        "usd": 89.26,
+        "display": "$89.26",
+        "scryfall_id": "421089c4-c8d3-48c5-b313-fb1741546271"
+       },
+       {
+        "set": "DST",
+        "set_name": "Darksteel",
+        "collector_number": "110",
+        "released": "2004-02-06",
+        "finish": "foil",
+        "usd": 129.99,
+        "display": "$129.99",
+        "scryfall_id": "99078ecc-f50a-43e0-93c1-63240cd97bf7"
+       }
+      ]
+     }
+    ],
+    "version_groups_complete": true
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Darksteel+Forge",
+   "sources": [
+    {
+     "channel": "@MattcasterMage",
+     "channel_name": "Mattcaster Mage MTG",
+     "video_id": "x9WHXKr8yB4",
+     "video_title": "MTG Market Movers - Nov 6th - Commander Cards Moving Up! Valkyrie Harbinger & Thassa, God of the Sea",
+     "published": "2026-11-06",
+     "t": 419,
+     "url": "https://www.youtube.com/watch?v=x9WHXKr8yB4&t=419s",
+     "quote": "foil price is $197.39. [music] Darksteel Forge from Darksteel. This foil is up 39.4% from [music] $93.24 to $130",
+     "judge_note": "Darksteel Forge from Darksteel. This foil is up 39.4%",
      "anchored_by": "quote match 100"
     }
    ]
@@ -217166,6 +218301,144 @@
    ]
   },
   {
+   "game": "mtg",
+   "card": "Graveborn Muse",
+   "reasons": [
+    "Creator reports +35.4% recently"
+   ],
+   "vibe": "positive",
+   "reserved": false,
+   "paper_sets": [
+    "Legions",
+    "Tenth Edition",
+    "Foundations Commander"
+   ],
+   "first_printed": "2003-02-03",
+   "first_printed_set": {
+    "code": "lgn",
+    "name": "Legions"
+   },
+   "is_reprint": true,
+   "reprint_count": 3,
+   "latest_reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "latest_reprint_date": "2026-10-02",
+   "reprint_set": {
+    "code": "fdc",
+    "name": "Foundations Commander"
+   },
+   "reprint_released": "2026-10-02",
+   "channels": 1,
+   "price": {
+    "label": "TCGplayer Market",
+    "usd": 2.42,
+    "usd_foil": null,
+    "display": "$2.42",
+    "printing": "Foundations Commander #103",
+    "printing_set": "FDC",
+    "printing_basis": "cheapest non-foil paper printing",
+    "source": "TCGplayer Market Price via Scryfall prices.usd (cheapest non-foil paper printing)",
+    "as_of": "2026-11-09",
+    "change_7d_pct": -20.1,
+    "change_30d_pct": null,
+    "history_as_of": "2026-10-26",
+    "version_groups": [
+     {
+      "group": "Regular",
+      "label": "TCGplayer Market",
+      "collapsed": false,
+      "printings": [
+       {
+        "set": "FDC",
+        "set_name": "Foundations Commander",
+        "collector_number": "103",
+        "released": "2026-10-02",
+        "finish": "nonfoil",
+        "usd": 2.42,
+        "display": "$2.42",
+        "scryfall_id": "49b8e4af-5a44-4aec-a386-729443af4140"
+       },
+       {
+        "set": "10E",
+        "set_name": "Tenth Edition",
+        "collector_number": "145",
+        "released": "2007-07-13",
+        "finish": "nonfoil",
+        "usd": 12.37,
+        "display": "$12.37",
+        "scryfall_id": "3d460b79-f1a5-41c4-a5b3-61f703fd97df"
+       },
+       {
+        "set": "PLST",
+        "set_name": "The List",
+        "collector_number": "10E-145",
+        "released": "2021-09-25",
+        "finish": "nonfoil",
+        "usd": 18.66,
+        "display": "$18.66",
+        "scryfall_id": "ac98f86b-687f-4f70-9046-0d5f8616dbd1"
+       },
+       {
+        "set": "LGN",
+        "set_name": "Legions",
+        "collector_number": "73",
+        "released": "2003-02-03",
+        "finish": "nonfoil",
+        "usd": 19.03,
+        "display": "$19.03",
+        "scryfall_id": "aa432e4e-ff23-4ad2-8d0a-403efee86f11"
+       }
+      ]
+     },
+     {
+      "group": "Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "10E",
+        "set_name": "Tenth Edition",
+        "collector_number": "145",
+        "released": "2007-07-13",
+        "finish": "foil",
+        "usd": 20.71,
+        "display": "$20.71",
+        "scryfall_id": "3d460b79-f1a5-41c4-a5b3-61f703fd97df"
+       },
+       {
+        "set": "LGN",
+        "set_name": "Legions",
+        "collector_number": "73",
+        "released": "2003-02-03",
+        "finish": "foil",
+        "usd": 324.99,
+        "display": "$324.99",
+        "scryfall_id": "aa432e4e-ff23-4ad2-8d0a-403efee86f11"
+       }
+      ]
+     }
+    ],
+    "version_groups_complete": true
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Graveborn+Muse",
+   "sources": [
+    {
+     "channel": "@MattcasterMage",
+     "channel_name": "Mattcaster Mage MTG",
+     "video_id": "zTXK6WTG90E",
+     "video_title": "MTG Market Movers - Nov 4th - Cards To Keep An Eye One! Mindslicer & Teferi, Master of Time!",
+     "published": "2026-11-04",
+     "t": 382,
+     "url": "https://www.youtube.com/watch?v=zTXK6WTG90E&t=382s",
+     "quote": "full price is $25.30. Graveborn Muse from Legions. This old frame foils at 35.4% from $239.95 to $325 for",
+     "judge_note": "Graveborn Muse from Legions. This old frame foils at 35.4%",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
    "game": "yugioh",
    "card": "Guardian Chimera",
    "reasons": [
@@ -217720,6 +218993,152 @@
    ]
   },
   {
+   "game": "mtg",
+   "card": "Homing Sliver",
+   "reasons": [
+    "Creator reports +29.1% recently"
+   ],
+   "vibe": "positive",
+   "reserved": false,
+   "paper_sets": [
+    "Future Sight",
+    "Premium Deck Series: Slivers",
+    "Time Spiral Remastered",
+    "Secret Lair Drop"
+   ],
+   "first_printed": "2007-05-04",
+   "first_printed_set": {
+    "code": "fut",
+    "name": "Future Sight"
+   },
+   "is_reprint": true,
+   "reprint_count": 4,
+   "latest_reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "latest_reprint_date": "2022-12-16",
+   "reprint_set": {
+    "code": "sld",
+    "name": "Secret Lair Drop"
+   },
+   "reprint_released": "2022-12-16",
+   "channels": 1,
+   "price": {
+    "label": "TCGplayer Market",
+    "usd": 0.23,
+    "usd_foil": 1.03,
+    "display": "$0.23",
+    "printing": "Time Spiral Remastered #171",
+    "printing_set": "TSR",
+    "printing_basis": "cheapest non-foil paper printing",
+    "source": "TCGplayer Market Price via Scryfall prices.usd (cheapest non-foil paper printing)",
+    "as_of": "2026-11-09",
+    "change_7d_pct": -14.3,
+    "change_30d_pct": -11.1,
+    "history_as_of": "2026-10-26",
+    "version_groups": [
+     {
+      "group": "Regular",
+      "label": "TCGplayer Market",
+      "collapsed": false,
+      "printings": [
+       {
+        "set": "TSR",
+        "set_name": "Time Spiral Remastered",
+        "collector_number": "171",
+        "released": "2021-03-19",
+        "finish": "nonfoil",
+        "usd": 0.23,
+        "display": "$0.23",
+        "scryfall_id": "a7f2073b-bc1f-4611-9bdf-73cb86892886"
+       },
+       {
+        "set": "FUT",
+        "set_name": "Future Sight",
+        "collector_number": "118",
+        "released": "2007-05-04",
+        "finish": "nonfoil",
+        "usd": 0.38,
+        "display": "$0.38",
+        "scryfall_id": "0c876479-5040-4d36-b43a-54d7fc9160c1"
+       }
+      ]
+     },
+     {
+      "group": "Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "TSR",
+        "set_name": "Time Spiral Remastered",
+        "collector_number": "171",
+        "released": "2021-03-19",
+        "finish": "foil",
+        "usd": 1.03,
+        "display": "$1.03",
+        "scryfall_id": "a7f2073b-bc1f-4611-9bdf-73cb86892886"
+       },
+       {
+        "set": "H09",
+        "set_name": "Premium Deck Series: Slivers",
+        "collector_number": "19",
+        "released": "2009-11-20",
+        "finish": "foil",
+        "usd": 1.08,
+        "display": "$1.08",
+        "scryfall_id": "2a50d5c6-8e9c-4950-8d8d-4aad0ce044cb"
+       },
+       {
+        "set": "FUT",
+        "set_name": "Future Sight",
+        "collector_number": "118",
+        "released": "2007-05-04",
+        "finish": "foil",
+        "usd": 10.24,
+        "display": "$10.24",
+        "scryfall_id": "0c876479-5040-4d36-b43a-54d7fc9160c1"
+       }
+      ]
+     },
+     {
+      "group": "Extended Art Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "SLD",
+        "set_name": "Secret Lair Drop",
+        "collector_number": "640",
+        "released": "2022-12-16",
+        "finish": "foil",
+        "usd": 2.99,
+        "display": "$2.99",
+        "scryfall_id": "7bc92a34-a623-49eb-8ea5-6d04d8688567"
+       }
+      ]
+     }
+    ],
+    "version_groups_complete": true
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Homing+Sliver",
+   "sources": [
+    {
+     "channel": "@MattcasterMage",
+     "channel_name": "Mattcaster Mage MTG",
+     "video_id": "fJeT9GPPdNE",
+     "video_title": "MTG Market Movers - Nov 9th - Cards Trending Now! Song of Totentanz & Nethergoyf!",
+     "published": "2026-11-09",
+     "t": 409,
+     "url": "https://www.youtube.com/watch?v=fJeT9GPPdNE&t=409s",
+     "quote": "f price is $2.7. Homing sliver from future site. This foil is up 29.1% from $7.93 to $10.24 for",
+     "judge_note": "Homing sliver from future site. This foil is up 29.1%",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
    "game": "yugioh",
    "card": "Jar of Greed",
    "reasons": [
@@ -217980,6 +219399,250 @@
      "url": "https://www.youtube.com/watch?v=qKI5QnmLx2M&t=1174s",
      "quote": "commons. Metamorphosis as a common, that's crazy. Jar of Greed, that's crazy. That's a good pick up. A long",
      "judge_note": "a common thats crazy jar of greed thats crazy thats a good pick",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
+   "game": "mtg",
+   "card": "Last Night Together",
+   "reasons": [
+    "Creator reports +43.1% recently"
+   ],
+   "vibe": "positive",
+   "reserved": false,
+   "paper_sets": [
+    "Doctor Who"
+   ],
+   "first_printed": "2023-10-13",
+   "first_printed_set": {
+    "code": "who",
+    "name": "Doctor Who"
+   },
+   "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
+   "reprint_set": null,
+   "reprint_released": null,
+   "channels": 1,
+   "price": {
+    "label": "TCGplayer Market",
+    "usd": 0.87,
+    "usd_foil": 1.01,
+    "display": "$0.87",
+    "printing": "Doctor Who #140",
+    "printing_set": "WHO",
+    "printing_basis": "cheapest non-foil paper printing",
+    "source": "TCGplayer Market Price via Scryfall prices.usd (cheapest non-foil paper printing)",
+    "as_of": "2026-11-09",
+    "change_7d_pct": -22.4,
+    "change_30d_pct": 36.4,
+    "history_as_of": "2026-10-26",
+    "version_groups": [
+     {
+      "group": "Regular",
+      "label": "TCGplayer Market",
+      "collapsed": false,
+      "printings": [
+       {
+        "set": "WHO",
+        "set_name": "Doctor Who",
+        "collector_number": "140",
+        "released": "2023-10-13",
+        "finish": "nonfoil",
+        "usd": 0.87,
+        "display": "$0.87",
+        "scryfall_id": "7d4ed521-eff6-4bdd-939d-8304b26ad256"
+       }
+      ]
+     },
+     {
+      "group": "Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "WHO",
+        "set_name": "Doctor Who",
+        "collector_number": "140",
+        "released": "2023-10-13",
+        "finish": "foil",
+        "usd": 1.01,
+        "display": "$1.01",
+        "scryfall_id": "7d4ed521-eff6-4bdd-939d-8304b26ad256"
+       },
+       {
+        "set": "WHO",
+        "set_name": "Doctor Who",
+        "collector_number": "745",
+        "released": "2023-10-13",
+        "finish": "foil",
+        "usd": 8.57,
+        "display": "$8.57",
+        "scryfall_id": "08fbaf77-8afa-41c7-804b-ba7b740fffe8"
+       }
+      ]
+     },
+     {
+      "group": "Extended Art",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "WHO",
+        "set_name": "Doctor Who",
+        "collector_number": "423",
+        "released": "2023-10-13",
+        "finish": "nonfoil",
+        "usd": 1.82,
+        "display": "$1.82",
+        "scryfall_id": "98048265-cdab-4a21-89f9-3403babf34e6"
+       }
+      ]
+     },
+     {
+      "group": "Extended Art Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "WHO",
+        "set_name": "Doctor Who",
+        "collector_number": "423",
+        "released": "2023-10-13",
+        "finish": "foil",
+        "usd": 2.33,
+        "display": "$2.33",
+        "scryfall_id": "98048265-cdab-4a21-89f9-3403babf34e6"
+       },
+       {
+        "set": "WHO",
+        "set_name": "Doctor Who",
+        "collector_number": "1014",
+        "released": "2023-10-13",
+        "finish": "foil",
+        "usd": 3.45,
+        "display": "$3.45",
+        "scryfall_id": "2964a050-bed3-4e2e-b44b-e93561c4c643"
+       }
+      ]
+     }
+    ],
+    "version_groups_complete": true
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Last+Night+Together",
+   "sources": [
+    {
+     "channel": "@MattcasterMage",
+     "channel_name": "Mattcaster Mage MTG",
+     "video_id": "zTXK6WTG90E",
+     "video_title": "MTG Market Movers - Nov 4th - Cards To Keep An Eye One! Mindslicer & Teferi, Master of Time!",
+     "published": "2026-11-04",
+     "t": 410,
+     "url": "https://www.youtube.com/watch?v=zTXK6WTG90E&t=410s",
+     "quote": "$3.30. Last Night Together in the The Search for from Universes Beyond Doctor Who. This foils at 43.1% from",
+     "judge_note": "Together in the The Search for from Universes Beyond Doctor Who. This foils at 43.1%",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
+   "game": "mtg",
+   "card": "Lightning Crafter",
+   "reasons": [
+    "Creator reports +41% recently"
+   ],
+   "vibe": "positive",
+   "reserved": false,
+   "paper_sets": [
+    "Morningtide"
+   ],
+   "first_printed": "2008-02-01",
+   "first_printed_set": {
+    "code": "mor",
+    "name": "Morningtide"
+   },
+   "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
+   "reprint_set": null,
+   "reprint_released": null,
+   "channels": 1,
+   "price": {
+    "label": "TCGplayer Market",
+    "usd": 3.27,
+    "usd_foil": 109.99,
+    "display": "$3.27",
+    "printing": "Morningtide #93",
+    "printing_set": "MOR",
+    "printing_basis": "cheapest non-foil paper printing",
+    "source": "TCGplayer Market Price via Scryfall prices.usd (cheapest non-foil paper printing)",
+    "as_of": "2026-11-09",
+    "change_7d_pct": -0.3,
+    "change_30d_pct": -0.9,
+    "history_as_of": "2026-10-26",
+    "version_groups": [
+     {
+      "group": "Regular",
+      "label": "TCGplayer Market",
+      "collapsed": false,
+      "printings": [
+       {
+        "set": "MOR",
+        "set_name": "Morningtide",
+        "collector_number": "93",
+        "released": "2008-02-01",
+        "finish": "nonfoil",
+        "usd": 3.27,
+        "display": "$3.27",
+        "scryfall_id": "f68f5ac9-0345-4052-9f93-d9f7afc66932"
+       },
+       {
+        "set": "PLST",
+        "set_name": "The List",
+        "collector_number": "MOR-93",
+        "released": "2020-09-01",
+        "finish": "nonfoil",
+        "usd": 7.43,
+        "display": "$7.43",
+        "scryfall_id": "1caa3ca6-40e3-46d5-bee7-52b34dc4569c"
+       }
+      ]
+     },
+     {
+      "group": "Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "MOR",
+        "set_name": "Morningtide",
+        "collector_number": "93",
+        "released": "2008-02-01",
+        "finish": "foil",
+        "usd": 109.99,
+        "display": "$109.99",
+        "scryfall_id": "f68f5ac9-0345-4052-9f93-d9f7afc66932"
+       }
+      ]
+     }
+    ],
+    "version_groups_complete": true
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Lightning+Crafter",
+   "sources": [
+    {
+     "channel": "@MattcasterMage",
+     "channel_name": "Mattcaster Mage MTG",
+     "video_id": "eGT4sO8tQxQ",
+     "video_title": "MTG Market Movers - Nov 5th - Commander & Standard Moves! Susur Secundi, Void Altar!",
+     "published": "2026-11-05",
+     "t": 361,
+     "url": "https://www.youtube.com/watch?v=eGT4sO8tQxQ&t=361s",
+     "quote": "full price is $2.40. Lightning Crafter from Morning Tide, this foil is at 41% today from $78 to $110",
+     "judge_note": "Lightning Crafter from Morning Tide, this foil is at 41%",
      "anchored_by": "quote match 100"
     }
    ]
@@ -218424,6 +220087,1088 @@
      "url": "https://www.youtube.com/watch?v=xo0ALhJSikA&t=2771s",
      "quote": "out. Card is too good. We have Lightning Vortex QCSR. Card was 20 bucks, a 20 dollar bill. You",
      "judge_note": "too good we have lightning vortex qcsr card was 20 bucks a",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
+   "game": "mtg",
+   "card": "Lord of the Void",
+   "reasons": [
+    "Creator reports +22.3% recently"
+   ],
+   "vibe": "positive",
+   "reserved": false,
+   "paper_sets": [
+    "Gatecrash",
+    "Ravnica Remastered"
+   ],
+   "first_printed": "2013-02-01",
+   "first_printed_set": {
+    "code": "gtc",
+    "name": "Gatecrash"
+   },
+   "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "rvr",
+    "name": "Ravnica Remastered"
+   },
+   "latest_reprint_date": "2024-01-12",
+   "reprint_set": {
+    "code": "rvr",
+    "name": "Ravnica Remastered"
+   },
+   "reprint_released": "2024-01-12",
+   "channels": 1,
+   "price": {
+    "label": "TCGplayer Market",
+    "usd": 9.76,
+    "usd_foil": 17.8,
+    "display": "$9.76",
+    "printing": "Gatecrash #71",
+    "printing_set": "GTC",
+    "printing_basis": "cheapest non-foil paper printing",
+    "source": "TCGplayer Market Price via Scryfall prices.usd (cheapest non-foil paper printing)",
+    "as_of": "2026-11-09",
+    "change_7d_pct": -1.0,
+    "change_30d_pct": 3.9,
+    "history_as_of": "2026-10-26",
+    "version_groups": [
+     {
+      "group": "Regular",
+      "label": "TCGplayer Market",
+      "collapsed": false,
+      "printings": [
+       {
+        "set": "GTC",
+        "set_name": "Gatecrash",
+        "collector_number": "71",
+        "released": "2013-02-01",
+        "finish": "nonfoil",
+        "usd": 9.76,
+        "display": "$9.76",
+        "scryfall_id": "75b83fe5-fd00-4532-bc67-07836abfc99c"
+       },
+       {
+        "set": "RVR",
+        "set_name": "Ravnica Remastered",
+        "collector_number": "327",
+        "released": "2024-01-12",
+        "finish": "nonfoil",
+        "usd": 9.79,
+        "display": "$9.79",
+        "scryfall_id": "896d2e10-ccde-4de0-bc07-3da68dbce09b"
+       },
+       {
+        "set": "RVR",
+        "set_name": "Ravnica Remastered",
+        "collector_number": "81",
+        "released": "2024-01-12",
+        "finish": "nonfoil",
+        "usd": 15.57,
+        "display": "$15.57",
+        "scryfall_id": "2e014649-0d96-4bc9-8446-e57df50a2a4c"
+       }
+      ]
+     },
+     {
+      "group": "Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "RVR",
+        "set_name": "Ravnica Remastered",
+        "collector_number": "327",
+        "released": "2024-01-12",
+        "finish": "foil",
+        "usd": 10.95,
+        "display": "$10.95",
+        "scryfall_id": "896d2e10-ccde-4de0-bc07-3da68dbce09b"
+       },
+       {
+        "set": "RVR",
+        "set_name": "Ravnica Remastered",
+        "collector_number": "81",
+        "released": "2024-01-12",
+        "finish": "foil",
+        "usd": 14.16,
+        "display": "$14.16",
+        "scryfall_id": "2e014649-0d96-4bc9-8446-e57df50a2a4c"
+       },
+       {
+        "set": "GTC",
+        "set_name": "Gatecrash",
+        "collector_number": "71",
+        "released": "2013-02-01",
+        "finish": "foil",
+        "usd": 17.8,
+        "display": "$17.80",
+        "scryfall_id": "75b83fe5-fd00-4532-bc67-07836abfc99c"
+       },
+       {
+        "set": "RVR",
+        "set_name": "Ravnica Remastered",
+        "collector_number": "327z",
+        "released": "2024-01-12",
+        "finish": "foil",
+        "usd": null,
+        "display": "unavailable",
+        "scryfall_id": "e83dafa5-7bad-4f6c-8c5f-6fc9eb9f94cb"
+       }
+      ]
+     },
+     {
+      "group": "Borderless",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "RVR",
+        "set_name": "Ravnica Remastered",
+        "collector_number": "424",
+        "released": "2024-01-12",
+        "finish": "nonfoil",
+        "usd": 18.26,
+        "display": "$18.26",
+        "scryfall_id": "e8f57607-7823-4b28-88a0-4b6330001552"
+       }
+      ]
+     },
+     {
+      "group": "Borderless Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "RVR",
+        "set_name": "Ravnica Remastered",
+        "collector_number": "424",
+        "released": "2024-01-12",
+        "finish": "foil",
+        "usd": 27.35,
+        "display": "$27.35",
+        "scryfall_id": "e8f57607-7823-4b28-88a0-4b6330001552"
+       }
+      ]
+     }
+    ],
+    "version_groups_complete": true
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Lord+of+the+Void",
+   "sources": [
+    {
+     "channel": "@MattcasterMage",
+     "channel_name": "Mattcaster Mage MTG",
+     "video_id": "x9WHXKr8yB4",
+     "video_title": "MTG Market Movers - Nov 6th - Commander Cards Moving Up! Valkyrie Harbinger & Thassa, God of the Sea",
+     "published": "2026-11-06",
+     "t": 381,
+     "url": "https://www.youtube.com/watch?v=x9WHXKr8yB4&t=381s",
+     "quote": "foil price is $6.49. Lord of the Void from Gatecrash. This foil is up 22.3% from $12.85 to $15.71",
+     "judge_note": "Lord of the Void from Gatecrash. This foil is up 22.3%",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
+   "game": "mtg",
+   "card": "Maggot Carrier",
+   "reasons": [
+    "Creator reports +41.5% recently"
+   ],
+   "vibe": "positive",
+   "reserved": false,
+   "paper_sets": [
+    "Planeshift",
+    "Eighth Edition"
+   ],
+   "first_printed": "2001-02-05",
+   "first_printed_set": {
+    "code": "pls",
+    "name": "Planeshift"
+   },
+   "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "8ed",
+    "name": "Eighth Edition"
+   },
+   "latest_reprint_date": "2003-07-28",
+   "reprint_set": {
+    "code": "8ed",
+    "name": "Eighth Edition"
+   },
+   "reprint_released": "2003-07-28",
+   "channels": 1,
+   "price": {
+    "label": "TCGplayer Market",
+    "usd": 0.17,
+    "usd_foil": 3.99,
+    "display": "$0.17",
+    "printing": "Planeshift #45",
+    "printing_set": "PLS",
+    "printing_basis": "cheapest non-foil paper printing",
+    "source": "TCGplayer Market Price via Scryfall prices.usd (cheapest non-foil paper printing)",
+    "as_of": "2026-11-09",
+    "change_7d_pct": 0.0,
+    "change_30d_pct": -15.0,
+    "history_as_of": "2026-10-26",
+    "version_groups": [
+     {
+      "group": "Regular",
+      "label": "TCGplayer Market",
+      "collapsed": false,
+      "printings": [
+       {
+        "set": "PLS",
+        "set_name": "Planeshift",
+        "collector_number": "45",
+        "released": "2001-02-05",
+        "finish": "nonfoil",
+        "usd": 0.17,
+        "display": "$0.17",
+        "scryfall_id": "ab2c3dc4-bb49-4ec3-a6c8-4256d1939326"
+       },
+       {
+        "set": "8ED",
+        "set_name": "Eighth Edition",
+        "collector_number": "142",
+        "released": "2003-07-28",
+        "finish": "nonfoil",
+        "usd": 0.23,
+        "display": "$0.23",
+        "scryfall_id": "cd2ee72e-68d3-46b9-abc6-08532ce412b2"
+       }
+      ]
+     },
+     {
+      "group": "Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "8ED",
+        "set_name": "Eighth Edition",
+        "collector_number": "142★",
+        "released": "2003-07-28",
+        "finish": "foil",
+        "usd": 0.48,
+        "display": "$0.48",
+        "scryfall_id": "4aa250a2-f3e2-42b0-aea0-7816f60f4d1d"
+       },
+       {
+        "set": "PLS",
+        "set_name": "Planeshift",
+        "collector_number": "45",
+        "released": "2001-02-05",
+        "finish": "foil",
+        "usd": 3.99,
+        "display": "$3.99",
+        "scryfall_id": "ab2c3dc4-bb49-4ec3-a6c8-4256d1939326"
+       }
+      ]
+     }
+    ],
+    "version_groups_complete": true
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Maggot+Carrier",
+   "sources": [
+    {
+     "channel": "@MattcasterMage",
+     "channel_name": "Mattcaster Mage MTG",
+     "video_id": "zTXK6WTG90E",
+     "video_title": "MTG Market Movers - Nov 4th - Cards To Keep An Eye One! Mindslicer & Teferi, Master of Time!",
+     "published": "2026-11-04",
+     "t": 397,
+     "url": "https://www.youtube.com/watch?v=zTXK6WTG90E&t=397s",
+     "quote": "full price is exactly the same. Maggot Carrier from Planechase. This foils at 41.5% from $2.82 to $4 for",
+     "judge_note": "same. Maggot Carrier from Planechase. This foils at 41.5%",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
+   "game": "mtg",
+   "card": "Mana Cache",
+   "reasons": [
+    "Creator reports +52.3% recently"
+   ],
+   "vibe": "positive",
+   "reserved": false,
+   "paper_sets": [
+    "Nemesis"
+   ],
+   "first_printed": "2000-02-14",
+   "first_printed_set": {
+    "code": "nem",
+    "name": "Nemesis"
+   },
+   "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
+   "reprint_set": null,
+   "reprint_released": null,
+   "channels": 1,
+   "price": {
+    "label": "TCGplayer Market",
+    "usd": 0.73,
+    "usd_foil": 10.69,
+    "display": "$0.73",
+    "printing": "Nemesis #92",
+    "printing_set": "NEM",
+    "printing_basis": "cheapest non-foil paper printing",
+    "source": "TCGplayer Market Price via Scryfall prices.usd (cheapest non-foil paper printing)",
+    "as_of": "2026-11-09",
+    "change_7d_pct": -1.4,
+    "change_30d_pct": -1.4,
+    "history_as_of": "2026-10-26",
+    "version_groups": [
+     {
+      "group": "Regular",
+      "label": "TCGplayer Market",
+      "collapsed": false,
+      "printings": [
+       {
+        "set": "NEM",
+        "set_name": "Nemesis",
+        "collector_number": "92",
+        "released": "2000-02-14",
+        "finish": "nonfoil",
+        "usd": 0.73,
+        "display": "$0.73",
+        "scryfall_id": "583a33b3-7833-48e5-88c3-849a5771ef6e"
+       }
+      ]
+     },
+     {
+      "group": "Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "NEM",
+        "set_name": "Nemesis",
+        "collector_number": "92",
+        "released": "2000-02-14",
+        "finish": "foil",
+        "usd": 10.69,
+        "display": "$10.69",
+        "scryfall_id": "583a33b3-7833-48e5-88c3-849a5771ef6e"
+       }
+      ]
+     }
+    ],
+    "version_groups_complete": true
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Mana+Cache",
+   "sources": [
+    {
+     "channel": "@MattcasterMage",
+     "channel_name": "Mattcaster Mage MTG",
+     "video_id": "zTXK6WTG90E",
+     "video_title": "MTG Market Movers - Nov 4th - Cards To Keep An Eye One! Mindslicer & Teferi, Master of Time!",
+     "published": "2026-11-04",
+     "t": 433,
+     "url": "https://www.youtube.com/watch?v=zTXK6WTG90E&t=433s",
+     "quote": "full price is $16.34. Mana Cache from Nemesis. This old frame foils at 52.3% from $7.02 to $10.69 for",
+     "judge_note": "Mana Cache from Nemesis. This old frame foils at 52.3%",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
+   "game": "mtg",
+   "card": "Mark of the Oni",
+   "reasons": [
+    "Creator reports +45.3% recently"
+   ],
+   "vibe": "positive",
+   "reserved": false,
+   "paper_sets": [
+    "Betrayers of Kamigawa"
+   ],
+   "first_printed": "2005-02-04",
+   "first_printed_set": {
+    "code": "bok",
+    "name": "Betrayers of Kamigawa"
+   },
+   "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
+   "reprint_set": null,
+   "reprint_released": null,
+   "channels": 1,
+   "price": {
+    "label": "TCGplayer Market",
+    "usd": 0.27,
+    "usd_foil": 5.84,
+    "display": "$0.27",
+    "printing": "Betrayers of Kamigawa #73",
+    "printing_set": "BOK",
+    "printing_basis": "cheapest non-foil paper printing",
+    "source": "TCGplayer Market Price via Scryfall prices.usd (cheapest non-foil paper printing)",
+    "as_of": "2026-11-09",
+    "change_7d_pct": 0.0,
+    "change_30d_pct": 0.0,
+    "history_as_of": "2026-10-26",
+    "version_groups": [
+     {
+      "group": "Regular",
+      "label": "TCGplayer Market",
+      "collapsed": false,
+      "printings": [
+       {
+        "set": "BOK",
+        "set_name": "Betrayers of Kamigawa",
+        "collector_number": "73",
+        "released": "2005-02-04",
+        "finish": "nonfoil",
+        "usd": 0.27,
+        "display": "$0.27",
+        "scryfall_id": "632679e5-7368-4660-a765-07be196c3c35"
+       }
+      ]
+     },
+     {
+      "group": "Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "BOK",
+        "set_name": "Betrayers of Kamigawa",
+        "collector_number": "73",
+        "released": "2005-02-04",
+        "finish": "foil",
+        "usd": 5.84,
+        "display": "$5.84",
+        "scryfall_id": "632679e5-7368-4660-a765-07be196c3c35"
+       }
+      ]
+     }
+    ],
+    "version_groups_complete": true
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Mark+of+the+Oni",
+   "sources": [
+    {
+     "channel": "@MattcasterMage",
+     "channel_name": "Mattcaster Mage MTG",
+     "video_id": "fJeT9GPPdNE",
+     "video_title": "MTG Market Movers - Nov 9th - Cards Trending Now! Song of Totentanz & Nethergoyf!",
+     "published": "2026-11-09",
+     "t": 435,
+     "url": "https://www.youtube.com/watch?v=fJeT9GPPdNE&t=435s",
+     "quote": "price is $4069. Mark of the Oni from Betrayers of Kamigawa. This foil is up 45.3% from $42 to",
+     "judge_note": "Mark of the Oni from Betrayers of Kamigawa. This foil is up 45.3%",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
+   "game": "mtg",
+   "card": "Master Thief",
+   "reasons": [
+    "Creator reports +27.9% recently"
+   ],
+   "vibe": "positive",
+   "reserved": false,
+   "paper_sets": [
+    "Magic 2012",
+    "Zendikar Rising Commander"
+   ],
+   "first_printed": "2011-07-15",
+   "first_printed_set": {
+    "code": "m12",
+    "name": "Magic 2012"
+   },
+   "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "znc",
+    "name": "Zendikar Rising Commander"
+   },
+   "latest_reprint_date": "2020-09-25",
+   "reprint_set": {
+    "code": "znc",
+    "name": "Zendikar Rising Commander"
+   },
+   "reprint_released": "2020-09-25",
+   "channels": 1,
+   "price": {
+    "label": "TCGplayer Market",
+    "usd": 0.15,
+    "usd_foil": null,
+    "display": "$0.15",
+    "printing": "Zendikar Rising Commander #30",
+    "printing_set": "ZNC",
+    "printing_basis": "cheapest non-foil paper printing",
+    "source": "TCGplayer Market Price via Scryfall prices.usd (cheapest non-foil paper printing)",
+    "as_of": "2026-11-09",
+    "change_7d_pct": 0.0,
+    "change_30d_pct": 0.0,
+    "history_as_of": "2026-10-26",
+    "version_groups": [
+     {
+      "group": "Regular",
+      "label": "TCGplayer Market",
+      "collapsed": false,
+      "printings": [
+       {
+        "set": "ZNC",
+        "set_name": "Zendikar Rising Commander",
+        "collector_number": "30",
+        "released": "2020-09-25",
+        "finish": "nonfoil",
+        "usd": 0.15,
+        "display": "$0.15",
+        "scryfall_id": "703f57d5-d8bb-4fb6-9dc9-71a5b4308f04"
+       },
+       {
+        "set": "M12",
+        "set_name": "Magic 2012",
+        "collector_number": "64",
+        "released": "2011-07-15",
+        "finish": "nonfoil",
+        "usd": 0.19,
+        "display": "$0.19",
+        "scryfall_id": "77c273d3-ef0f-40c6-baf5-e39279d10509"
+       }
+      ]
+     },
+     {
+      "group": "Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "M12",
+        "set_name": "Magic 2012",
+        "collector_number": "64",
+        "released": "2011-07-15",
+        "finish": "foil",
+        "usd": 5.28,
+        "display": "$5.28",
+        "scryfall_id": "77c273d3-ef0f-40c6-baf5-e39279d10509"
+       }
+      ]
+     }
+    ],
+    "version_groups_complete": true
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Master+Thief",
+   "sources": [
+    {
+     "channel": "@MattcasterMage",
+     "channel_name": "Mattcaster Mage MTG",
+     "video_id": "eGT4sO8tQxQ",
+     "video_title": "MTG Market Movers - Nov 5th - Commander & Standard Moves! Susur Secundi, Void Altar!",
+     "published": "2026-11-05",
+     "t": 320,
+     "url": "https://www.youtube.com/watch?v=eGT4sO8tQxQ&t=320s",
+     "quote": "average foil price is $3.92. Master Thief from Magic 2012. This foil's up 27.9% from $4.13 to $5.28 for",
+     "judge_note": "Master Thief from Magic 2012. This foil's up 27.9%",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
+   "game": "mtg",
+   "card": "Mindslicer",
+   "reasons": [
+    "Creator reports +43.2% recently"
+   ],
+   "vibe": "positive",
+   "reserved": false,
+   "paper_sets": [
+    "Odyssey",
+    "Ninth Edition",
+    "Dominaria Remastered"
+   ],
+   "first_printed": "2001-10-01",
+   "first_printed_set": {
+    "code": "ody",
+    "name": "Odyssey"
+   },
+   "is_reprint": true,
+   "reprint_count": 3,
+   "latest_reprint_set": {
+    "code": "dmr",
+    "name": "Dominaria Remastered"
+   },
+   "latest_reprint_date": "2023-01-13",
+   "reprint_set": {
+    "code": "dmr",
+    "name": "Dominaria Remastered"
+   },
+   "reprint_released": "2023-01-13",
+   "channels": 1,
+   "price": {
+    "label": "TCGplayer Market",
+    "usd": 0.45,
+    "usd_foil": 0.71,
+    "display": "$0.45",
+    "printing": "Dominaria Remastered #305",
+    "printing_set": "DMR",
+    "printing_basis": "cheapest non-foil paper printing",
+    "source": "TCGplayer Market Price via Scryfall prices.usd (cheapest non-foil paper printing)",
+    "as_of": "2026-11-09",
+    "change_7d_pct": 0.0,
+    "change_30d_pct": 2.3,
+    "history_as_of": "2026-10-26",
+    "version_groups": [
+     {
+      "group": "Regular",
+      "label": "TCGplayer Market",
+      "collapsed": false,
+      "printings": [
+       {
+        "set": "DMR",
+        "set_name": "Dominaria Remastered",
+        "collector_number": "305",
+        "released": "2023-01-13",
+        "finish": "nonfoil",
+        "usd": 0.45,
+        "display": "$0.45",
+        "scryfall_id": "e93e4486-aaf3-4f56-ab34-1ff1aeebb021"
+       },
+       {
+        "set": "DMR",
+        "set_name": "Dominaria Remastered",
+        "collector_number": "91",
+        "released": "2023-01-13",
+        "finish": "nonfoil",
+        "usd": 0.64,
+        "display": "$0.64",
+        "scryfall_id": "afc86134-8af6-4355-b1ad-96917c99ff3c"
+       },
+       {
+        "set": "9ED",
+        "set_name": "Ninth Edition",
+        "collector_number": "146",
+        "released": "2005-07-29",
+        "finish": "nonfoil",
+        "usd": 1.12,
+        "display": "$1.12",
+        "scryfall_id": "c1d5437b-158f-4a50-9397-bbde1c4a98d5"
+       },
+       {
+        "set": "PLST",
+        "set_name": "The List",
+        "collector_number": "ODY-149",
+        "released": "2021-06-19",
+        "finish": "nonfoil",
+        "usd": 4.14,
+        "display": "$4.14",
+        "scryfall_id": "e16e7ea2-0062-4469-8f73-c1ac27f4fac0"
+       },
+       {
+        "set": "ODY",
+        "set_name": "Odyssey",
+        "collector_number": "149",
+        "released": "2001-10-01",
+        "finish": "nonfoil",
+        "usd": 5.64,
+        "display": "$5.64",
+        "scryfall_id": "895b1c9b-b1a1-457b-92cd-3469a38b69a3"
+       }
+      ]
+     },
+     {
+      "group": "Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "DMR",
+        "set_name": "Dominaria Remastered",
+        "collector_number": "305",
+        "released": "2023-01-13",
+        "finish": "foil",
+        "usd": 0.71,
+        "display": "$0.71",
+        "scryfall_id": "e93e4486-aaf3-4f56-ab34-1ff1aeebb021"
+       },
+       {
+        "set": "DMR",
+        "set_name": "Dominaria Remastered",
+        "collector_number": "91",
+        "released": "2023-01-13",
+        "finish": "foil",
+        "usd": 1.11,
+        "display": "$1.11",
+        "scryfall_id": "afc86134-8af6-4355-b1ad-96917c99ff3c"
+       },
+       {
+        "set": "9ED",
+        "set_name": "Ninth Edition",
+        "collector_number": "146★",
+        "released": "2005-07-29",
+        "finish": "foil",
+        "usd": 16.99,
+        "display": "$16.99",
+        "scryfall_id": "94e704e8-1cb3-4c24-bdaa-e2528ffc7a8a"
+       },
+       {
+        "set": "ODY",
+        "set_name": "Odyssey",
+        "collector_number": "149",
+        "released": "2001-10-01",
+        "finish": "foil",
+        "usd": 27.0,
+        "display": "$27.00",
+        "scryfall_id": "895b1c9b-b1a1-457b-92cd-3469a38b69a3"
+       }
+      ]
+     }
+    ],
+    "version_groups_complete": true
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Mindslicer",
+   "sources": [
+    {
+     "channel": "@MattcasterMage",
+     "channel_name": "Mattcaster Mage MTG",
+     "video_id": "zTXK6WTG90E",
+     "video_title": "MTG Market Movers - Nov 4th - Cards To Keep An Eye One! Mindslicer & Teferi, Master of Time!",
+     "published": "2026-11-04",
+     "t": 294,
+     "url": "https://www.youtube.com/watch?v=zTXK6WTG90E&t=294s",
+     "quote": "our final winner on our list here today is Mindslicer from Odyssey. This card is up 43.2% from $2.96",
+     "judge_note": "winner on our list here today is Mindslicer from Odyssey. This card is up 43.2%",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
+   "game": "mtg",
+   "card": "Patron of the Moon",
+   "reasons": [
+    "Creator reports +27.7% recently"
+   ],
+   "vibe": "positive",
+   "reserved": false,
+   "paper_sets": [
+    "Betrayers of Kamigawa"
+   ],
+   "first_printed": "2005-02-04",
+   "first_printed_set": {
+    "code": "bok",
+    "name": "Betrayers of Kamigawa"
+   },
+   "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
+   "reprint_set": null,
+   "reprint_released": null,
+   "channels": 1,
+   "price": {
+    "label": "TCGplayer Market",
+    "usd": 1.6,
+    "usd_foil": 1.35,
+    "display": "$1.60",
+    "printing": "The List #BOK-45",
+    "printing_set": "PLST",
+    "printing_basis": "cheapest non-foil paper printing",
+    "source": "TCGplayer Market Price via Scryfall prices.usd (cheapest non-foil paper printing)",
+    "as_of": "2026-11-09",
+    "change_7d_pct": -0.6,
+    "change_30d_pct": -26.8,
+    "history_as_of": "2026-10-26",
+    "version_groups": [
+     {
+      "group": "Regular",
+      "label": "TCGplayer Market",
+      "collapsed": false,
+      "printings": [
+       {
+        "set": "PLST",
+        "set_name": "The List",
+        "collector_number": "BOK-45",
+        "released": "2020-03-13",
+        "finish": "nonfoil",
+        "usd": 1.6,
+        "display": "$1.60",
+        "scryfall_id": "c350bff7-8fa0-41b6-a9b2-962e76a79d5a"
+       },
+       {
+        "set": "BOK",
+        "set_name": "Betrayers of Kamigawa",
+        "collector_number": "45",
+        "released": "2005-02-04",
+        "finish": "nonfoil",
+        "usd": 4.62,
+        "display": "$4.62",
+        "scryfall_id": "5e5fcd6f-1653-44bf-a796-4c9ff9adf390"
+       }
+      ]
+     },
+     {
+      "group": "Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "PLST",
+        "set_name": "The List",
+        "collector_number": "BOK-45",
+        "released": "2020-03-13",
+        "finish": "foil",
+        "usd": 1.35,
+        "display": "$1.35",
+        "scryfall_id": "c350bff7-8fa0-41b6-a9b2-962e76a79d5a"
+       },
+       {
+        "set": "BOK",
+        "set_name": "Betrayers of Kamigawa",
+        "collector_number": "45",
+        "released": "2005-02-04",
+        "finish": "foil",
+        "usd": 35.0,
+        "display": "$35.00",
+        "scryfall_id": "5e5fcd6f-1653-44bf-a796-4c9ff9adf390"
+       }
+      ]
+     }
+    ],
+    "version_groups_complete": true
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Patron+of+the+Moon",
+   "sources": [
+    {
+     "channel": "@MattcasterMage",
+     "channel_name": "Mattcaster Mage MTG",
+     "video_id": "ENbOmOUkkvI",
+     "video_title": "MTG Market Movers - Nov 3rd - Modern & Commander Rising! The Fire Crystal & Solphim Mayhem Dominus!",
+     "published": "2026-11-03",
+     "t": 399,
+     "url": "https://www.youtube.com/watch?v=ENbOmOUkkvI&t=399s",
+     "quote": "price is $6.74. Patron of the Moon from Betrayers of Kamigawa. This foils up 27.7% from $27.41 to $35",
+     "judge_note": "Patron of the Moon from Betrayers of Kamigawa. This foils up 27.7%",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
+   "game": "mtg",
+   "card": "Reveillark",
+   "reasons": [
+    "Creator reports +18.2% recently"
+   ],
+   "vibe": "positive",
+   "reserved": false,
+   "paper_sets": [
+    "Morningtide",
+    "Modern Masters",
+    "Commander 2016",
+    "Commander Anthology Volume II",
+    "Ultimate Masters",
+    "Commander 2020",
+    "Double Masters 2022"
+   ],
+   "first_printed": "2008-02-01",
+   "first_printed_set": {
+    "code": "mor",
+    "name": "Morningtide"
+   },
+   "is_reprint": true,
+   "reprint_count": 7,
+   "latest_reprint_set": {
+    "code": "2x2",
+    "name": "Double Masters 2022"
+   },
+   "latest_reprint_date": "2022-07-08",
+   "reprint_set": {
+    "code": "2x2",
+    "name": "Double Masters 2022"
+   },
+   "reprint_released": "2022-07-08",
+   "channels": 1,
+   "price": {
+    "label": "TCGplayer Market",
+    "usd": 0.5,
+    "usd_foil": null,
+    "display": "$0.50",
+    "printing": "Commander 2016 #74",
+    "printing_set": "C16",
+    "printing_basis": "cheapest non-foil paper printing",
+    "source": "TCGplayer Market Price via Scryfall prices.usd (cheapest non-foil paper printing)",
+    "as_of": "2026-11-09",
+    "change_7d_pct": 0.0,
+    "change_30d_pct": -3.8,
+    "history_as_of": "2026-10-26",
+    "version_groups": [
+     {
+      "group": "Regular",
+      "label": "TCGplayer Market",
+      "collapsed": false,
+      "printings": [
+       {
+        "set": "C16",
+        "set_name": "Commander 2016",
+        "collector_number": "74",
+        "released": "2016-11-11",
+        "finish": "nonfoil",
+        "usd": 0.5,
+        "display": "$0.50",
+        "scryfall_id": "bf0f006b-b7d7-4ff2-b7aa-363977575240"
+       },
+       {
+        "set": "CM2",
+        "set_name": "Commander Anthology Volume II",
+        "collector_number": "35",
+        "released": "2018-06-08",
+        "finish": "nonfoil",
+        "usd": 0.53,
+        "display": "$0.53",
+        "scryfall_id": "95464df9-71eb-4cb7-9d93-6f07ba318ff8"
+       },
+       {
+        "set": "C20",
+        "set_name": "Commander 2020",
+        "collector_number": "97",
+        "released": "2020-04-17",
+        "finish": "nonfoil",
+        "usd": 0.53,
+        "display": "$0.53",
+        "scryfall_id": "7db7e70c-ce79-4a52-b97b-f1bd46e0768c"
+       },
+       {
+        "set": "2X2",
+        "set_name": "Double Masters 2022",
+        "collector_number": "26",
+        "released": "2022-07-08",
+        "finish": "nonfoil",
+        "usd": 0.57,
+        "display": "$0.57",
+        "scryfall_id": "53b4dcd6-b1b6-4f1c-9264-e58bdc87399b"
+       },
+       {
+        "set": "MOR",
+        "set_name": "Morningtide",
+        "collector_number": "22",
+        "released": "2008-02-01",
+        "finish": "nonfoil",
+        "usd": 0.66,
+        "display": "$0.66",
+        "scryfall_id": "5629edd4-b5d3-43f8-8c7c-f9d916e35158"
+       },
+       {
+        "set": "UMA",
+        "set_name": "Ultimate Masters",
+        "collector_number": "31",
+        "released": "2018-12-07",
+        "finish": "nonfoil",
+        "usd": 0.72,
+        "display": "$0.72",
+        "scryfall_id": "4bcf9b52-d249-41e7-8ed1-ba9acc816f30"
+       },
+       {
+        "set": "PLST",
+        "set_name": "The List",
+        "collector_number": "UMA-31",
+        "released": "2020-09-01",
+        "finish": "nonfoil",
+        "usd": 0.79,
+        "display": "$0.79",
+        "scryfall_id": "f87f8bdf-565c-4e53-8d69-3078b9530aa3"
+       },
+       {
+        "set": "MMA",
+        "set_name": "Modern Masters",
+        "collector_number": "26",
+        "released": "2013-06-07",
+        "finish": "nonfoil",
+        "usd": 0.99,
+        "display": "$0.99",
+        "scryfall_id": "06a4d2e0-1410-41f4-8070-2b0144c71e1d"
+       }
+      ]
+     },
+     {
+      "group": "Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "UMA",
+        "set_name": "Ultimate Masters",
+        "collector_number": "31",
+        "released": "2018-12-07",
+        "finish": "foil",
+        "usd": 0.87,
+        "display": "$0.87",
+        "scryfall_id": "4bcf9b52-d249-41e7-8ed1-ba9acc816f30"
+       },
+       {
+        "set": "2X2",
+        "set_name": "Double Masters 2022",
+        "collector_number": "26",
+        "released": "2022-07-08",
+        "finish": "foil",
+        "usd": 1.19,
+        "display": "$1.19",
+        "scryfall_id": "53b4dcd6-b1b6-4f1c-9264-e58bdc87399b"
+       },
+       {
+        "set": "MMA",
+        "set_name": "Modern Masters",
+        "collector_number": "26",
+        "released": "2013-06-07",
+        "finish": "foil",
+        "usd": 3.39,
+        "display": "$3.39",
+        "scryfall_id": "06a4d2e0-1410-41f4-8070-2b0144c71e1d"
+       },
+       {
+        "set": "MOR",
+        "set_name": "Morningtide",
+        "collector_number": "22",
+        "released": "2008-02-01",
+        "finish": "foil",
+        "usd": 35.46,
+        "display": "$35.46",
+        "scryfall_id": "5629edd4-b5d3-43f8-8c7c-f9d916e35158"
+       }
+      ]
+     },
+     {
+      "group": "Etched Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "2X2",
+        "set_name": "Double Masters 2022",
+        "collector_number": "422",
+        "released": "2022-07-08",
+        "finish": "etched",
+        "usd": 4.64,
+        "display": "$4.64",
+        "scryfall_id": "4be8ab20-e402-48d9-8a39-7cf09d333374"
+       }
+      ]
+     }
+    ],
+    "version_groups_complete": true
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Reveillark",
+   "sources": [
+    {
+     "channel": "@MattcasterMage",
+     "channel_name": "Mattcaster Mage MTG",
+     "video_id": "ENbOmOUkkvI",
+     "video_title": "MTG Market Movers - Nov 3rd - Modern & Commander Rising! The Fire Crystal & Solphim Mayhem Dominus!",
+     "published": "2026-11-03",
+     "t": 373,
+     "url": "https://www.youtube.com/watch?v=ENbOmOUkkvI&t=373s",
+     "quote": "average foil price is $13.35. Revelark from Morning Tide. This foils up 18.2% from $30 to $35.46 for its",
+     "judge_note": "Revelark from Morning Tide. This foils up 18.2%",
      "anchored_by": "quote match 100"
     }
    ]
@@ -219415,6 +222160,155 @@
    ]
   },
   {
+   "game": "mtg",
+   "card": "Sylvan Might",
+   "reasons": [
+    "Creator reports +31.2% recently"
+   ],
+   "vibe": "positive",
+   "reserved": false,
+   "paper_sets": [
+    "Odyssey",
+    "Eternal Masters",
+    "Duel Decks: Mind vs. Might",
+    "Double Masters"
+   ],
+   "first_printed": "2001-10-01",
+   "first_printed_set": {
+    "code": "ody",
+    "name": "Odyssey"
+   },
+   "is_reprint": true,
+   "reprint_count": 4,
+   "latest_reprint_set": {
+    "code": "2xm",
+    "name": "Double Masters"
+   },
+   "latest_reprint_date": "2020-08-07",
+   "reprint_set": {
+    "code": "2xm",
+    "name": "Double Masters"
+   },
+   "reprint_released": "2020-08-07",
+   "channels": 1,
+   "price": {
+    "label": "TCGplayer Market",
+    "usd": 0.05,
+    "usd_foil": null,
+    "display": "$0.05",
+    "printing": "Duel Decks: Mind vs. Might #51",
+    "printing_set": "DDS",
+    "printing_basis": "cheapest non-foil paper printing",
+    "source": "TCGplayer Market Price via Scryfall prices.usd (cheapest non-foil paper printing)",
+    "as_of": "2026-11-09",
+    "change_7d_pct": 0.0,
+    "change_30d_pct": 0.0,
+    "history_as_of": "2026-10-26",
+    "version_groups": [
+     {
+      "group": "Regular",
+      "label": "TCGplayer Market",
+      "collapsed": false,
+      "printings": [
+       {
+        "set": "DDS",
+        "set_name": "Duel Decks: Mind vs. Might",
+        "collector_number": "51",
+        "released": "2017-03-31",
+        "finish": "nonfoil",
+        "usd": 0.05,
+        "display": "$0.05",
+        "scryfall_id": "b421e954-0fb4-4e64-b83c-0e81d7397fb4"
+       },
+       {
+        "set": "ODY",
+        "set_name": "Odyssey",
+        "collector_number": "277",
+        "released": "2001-10-01",
+        "finish": "nonfoil",
+        "usd": 0.16,
+        "display": "$0.16",
+        "scryfall_id": "576e3ccd-40a3-4ea9-8e76-5e70b2ef9123"
+       },
+       {
+        "set": "EMA",
+        "set_name": "Eternal Masters",
+        "collector_number": "188",
+        "released": "2016-06-10",
+        "finish": "nonfoil",
+        "usd": 0.25,
+        "display": "$0.25",
+        "scryfall_id": "9f905cc8-dd34-4e56-a92e-1ea1814d1983"
+       },
+       {
+        "set": "2XM",
+        "set_name": "Double Masters",
+        "collector_number": "181",
+        "released": "2020-08-07",
+        "finish": "nonfoil",
+        "usd": 0.25,
+        "display": "$0.25",
+        "scryfall_id": "a4e1ecf4-bf72-4ae9-9993-9b9a6ca80da7"
+       }
+      ]
+     },
+     {
+      "group": "Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "EMA",
+        "set_name": "Eternal Masters",
+        "collector_number": "188",
+        "released": "2016-06-10",
+        "finish": "foil",
+        "usd": 0.1,
+        "display": "$0.10",
+        "scryfall_id": "9f905cc8-dd34-4e56-a92e-1ea1814d1983"
+       },
+       {
+        "set": "2XM",
+        "set_name": "Double Masters",
+        "collector_number": "181",
+        "released": "2020-08-07",
+        "finish": "foil",
+        "usd": 0.12,
+        "display": "$0.12",
+        "scryfall_id": "a4e1ecf4-bf72-4ae9-9993-9b9a6ca80da7"
+       },
+       {
+        "set": "ODY",
+        "set_name": "Odyssey",
+        "collector_number": "277",
+        "released": "2001-10-01",
+        "finish": "foil",
+        "usd": 8.75,
+        "display": "$8.75",
+        "scryfall_id": "576e3ccd-40a3-4ea9-8e76-5e70b2ef9123"
+       }
+      ]
+     }
+    ],
+    "version_groups_complete": true
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Sylvan+Might",
+   "sources": [
+    {
+     "channel": "@MattcasterMage",
+     "channel_name": "Mattcaster Mage MTG",
+     "video_id": "eGT4sO8tQxQ",
+     "video_title": "MTG Market Movers - Nov 5th - Commander & Standard Moves! Susur Secundi, Void Altar!",
+     "published": "2026-11-05",
+     "t": 335,
+     "url": "https://www.youtube.com/watch?v=eGT4sO8tQxQ&t=335s",
+     "quote": "foil price is $1.54. Sylvan Might from Odyssey. This old frame foil's up 31.2% from $6.67 to $8.75 for",
+     "judge_note": "Sylvan Might from Odyssey. This old frame foil's up 31.2%",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
    "game": "pokemon",
    "card": "Sylveon VMAX",
    "reasons": [
@@ -219662,6 +222556,687 @@
      "url": "https://www.youtube.com/watch?v=u56FHQ52j2s&t=340s",
      "quote": "is something like the sword of Shan Yu. This card actually just got bought out on TCGplayer. Last time",
      "judge_note": "the sword of shan yu this card actually just got bought out",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
+   "game": "mtg",
+   "card": "Unifying Theory",
+   "reasons": [
+    "Creator reports +31.5% recently"
+   ],
+   "vibe": "positive",
+   "reserved": false,
+   "paper_sets": [
+    "Odyssey"
+   ],
+   "first_printed": "2001-10-01",
+   "first_printed_set": {
+    "code": "ody",
+    "name": "Odyssey"
+   },
+   "is_reprint": false,
+   "reprint_count": 1,
+   "latest_reprint_set": null,
+   "latest_reprint_date": null,
+   "reprint_set": null,
+   "reprint_released": null,
+   "channels": 1,
+   "price": {
+    "label": "TCGplayer Market",
+    "usd": 0.42,
+    "usd_foil": 8.0,
+    "display": "$0.42",
+    "printing": "Odyssey #112",
+    "printing_set": "ODY",
+    "printing_basis": "cheapest non-foil paper printing",
+    "source": "TCGplayer Market Price via Scryfall prices.usd (cheapest non-foil paper printing)",
+    "as_of": "2026-11-09",
+    "change_7d_pct": 0.0,
+    "change_30d_pct": 0.0,
+    "history_as_of": "2026-10-26",
+    "version_groups": [
+     {
+      "group": "Regular",
+      "label": "TCGplayer Market",
+      "collapsed": false,
+      "printings": [
+       {
+        "set": "ODY",
+        "set_name": "Odyssey",
+        "collector_number": "112",
+        "released": "2001-10-01",
+        "finish": "nonfoil",
+        "usd": 0.42,
+        "display": "$0.42",
+        "scryfall_id": "8aa4bf82-65e7-4b0c-9f96-dd84a67dcfb2"
+       }
+      ]
+     },
+     {
+      "group": "Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "ODY",
+        "set_name": "Odyssey",
+        "collector_number": "112",
+        "released": "2001-10-01",
+        "finish": "foil",
+        "usd": 8.0,
+        "display": "$8.00",
+        "scryfall_id": "8aa4bf82-65e7-4b0c-9f96-dd84a67dcfb2"
+       }
+      ]
+     }
+    ],
+    "version_groups_complete": true
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Unifying+Theory",
+   "sources": [
+    {
+     "channel": "@MattcasterMage",
+     "channel_name": "Mattcaster Mage MTG",
+     "video_id": "ENbOmOUkkvI",
+     "video_title": "MTG Market Movers - Nov 3rd - Modern & Commander Rising! The Fire Crystal & Solphim Mayhem Dominus!",
+     "published": "2026-11-03",
+     "t": 427,
+     "url": "https://www.youtube.com/watch?v=ENbOmOUkkvI&t=427s",
+     "quote": "[music] price is $81.20. Unifying Theory from Odyssey. Another old frame foil up 31.5% from $8 to $10.51 for",
+     "judge_note": "Unifying Theory from Odyssey. Another old frame foil up 31.5%",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
+   "game": "mtg",
+   "card": "Urabrask the Hidden",
+   "reasons": [
+    "Creator reports +18.1% recently"
+   ],
+   "vibe": "positive",
+   "reserved": false,
+   "paper_sets": [
+    "New Phyrexia",
+    "Iconic Masters",
+    "Secret Lair Drop",
+    "Commander Legends: Battle for Baldur's Gate",
+    "Multiverse Legends"
+   ],
+   "first_printed": "2011-05-13",
+   "first_printed_set": {
+    "code": "nph",
+    "name": "New Phyrexia"
+   },
+   "is_reprint": true,
+   "reprint_count": 5,
+   "latest_reprint_set": {
+    "code": "mul",
+    "name": "Multiverse Legends"
+   },
+   "latest_reprint_date": "2023-04-21",
+   "reprint_set": {
+    "code": "mul",
+    "name": "Multiverse Legends"
+   },
+   "reprint_released": "2023-04-21",
+   "channels": 1,
+   "price": {
+    "label": "TCGplayer Market",
+    "usd": 3.94,
+    "usd_foil": null,
+    "display": "$3.94",
+    "printing": "The List #IMA-152",
+    "printing_set": "PLST",
+    "printing_basis": "cheapest non-foil paper printing",
+    "source": "TCGplayer Market Price via Scryfall prices.usd (cheapest non-foil paper printing)",
+    "as_of": "2026-11-09",
+    "change_7d_pct": 0.5,
+    "change_30d_pct": -1.6,
+    "history_as_of": "2026-10-26",
+    "version_groups": [
+     {
+      "group": "Regular",
+      "label": "TCGplayer Market",
+      "collapsed": false,
+      "printings": [
+       {
+        "set": "PLST",
+        "set_name": "The List",
+        "collector_number": "IMA-152",
+        "released": "2022-04-29",
+        "finish": "nonfoil",
+        "usd": 3.94,
+        "display": "$3.94",
+        "scryfall_id": "a86cb092-407a-4a4e-8e3e-359dafc385ea"
+       },
+       {
+        "set": "IMA",
+        "set_name": "Iconic Masters",
+        "collector_number": "152",
+        "released": "2017-11-17",
+        "finish": "nonfoil",
+        "usd": 4.5,
+        "display": "$4.50",
+        "scryfall_id": "1ba50b62-710e-4c92-9e02-736c1a987bb9"
+       },
+       {
+        "set": "SLD",
+        "set_name": "Secret Lair Drop",
+        "collector_number": "212",
+        "released": "2021-06-21",
+        "finish": "nonfoil",
+        "usd": 4.52,
+        "display": "$4.52",
+        "scryfall_id": "f60f6330-f1ce-4a39-ab58-49bb5fa96081"
+       },
+       {
+        "set": "CLB",
+        "set_name": "Commander Legends: Battle for Baldur's Gate",
+        "collector_number": "811",
+        "released": "2022-06-10",
+        "finish": "nonfoil",
+        "usd": 4.59,
+        "display": "$4.59",
+        "scryfall_id": "93970fae-19f7-41dd-9750-ca428ae1de7a"
+       },
+       {
+        "set": "NPH",
+        "set_name": "New Phyrexia",
+        "collector_number": "98",
+        "released": "2011-05-13",
+        "finish": "nonfoil",
+        "usd": 5.09,
+        "display": "$5.09",
+        "scryfall_id": "b06fcab2-891e-4fa3-8583-068ba56c2e27"
+       }
+      ]
+     },
+     {
+      "group": "Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "SLD",
+        "set_name": "Secret Lair Drop",
+        "collector_number": "212",
+        "released": "2021-06-21",
+        "finish": "foil",
+        "usd": 4.25,
+        "display": "$4.25",
+        "scryfall_id": "f60f6330-f1ce-4a39-ab58-49bb5fa96081"
+       },
+       {
+        "set": "IMA",
+        "set_name": "Iconic Masters",
+        "collector_number": "152",
+        "released": "2017-11-17",
+        "finish": "foil",
+        "usd": 11.25,
+        "display": "$11.25",
+        "scryfall_id": "1ba50b62-710e-4c92-9e02-736c1a987bb9"
+       },
+       {
+        "set": "NPH",
+        "set_name": "New Phyrexia",
+        "collector_number": "98",
+        "released": "2011-05-13",
+        "finish": "foil",
+        "usd": 44.08,
+        "display": "$44.08",
+        "scryfall_id": "b06fcab2-891e-4fa3-8583-068ba56c2e27"
+       }
+      ]
+     },
+     {
+      "group": "Etched Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "MUL",
+        "set_name": "Multiverse Legends",
+        "collector_number": "88",
+        "released": "2023-04-21",
+        "finish": "etched",
+        "usd": 14.7,
+        "display": "$14.70",
+        "scryfall_id": "c5ee69c3-e9fb-4b7d-a3ba-08e7e4300081"
+       }
+      ]
+     },
+     {
+      "group": "Borderless",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "MUL",
+        "set_name": "Multiverse Legends",
+        "collector_number": "23",
+        "released": "2023-04-21",
+        "finish": "nonfoil",
+        "usd": 5.24,
+        "display": "$5.24",
+        "scryfall_id": "0533d7e4-6b5b-4e2e-8407-279fe438c676"
+       }
+      ]
+     },
+     {
+      "group": "Borderless Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "MUL",
+        "set_name": "Multiverse Legends",
+        "collector_number": "23",
+        "released": "2023-04-21",
+        "finish": "foil",
+        "usd": 6.09,
+        "display": "$6.09",
+        "scryfall_id": "0533d7e4-6b5b-4e2e-8407-279fe438c676"
+       },
+       {
+        "set": "MUL",
+        "set_name": "Multiverse Legends",
+        "collector_number": "153",
+        "released": "2023-04-21",
+        "finish": "foil",
+        "usd": 37.18,
+        "display": "$37.18",
+        "scryfall_id": "b6bb6cbd-1ac2-48da-8456-33829bf3dec2"
+       },
+       {
+        "set": "MUL",
+        "set_name": "Multiverse Legends",
+        "collector_number": "153z",
+        "released": "2023-04-21",
+        "finish": "foil",
+        "usd": null,
+        "display": "unavailable",
+        "scryfall_id": "9827b52d-5a4c-4b20-a7e2-507b06d7b9af"
+       }
+      ]
+     }
+    ],
+    "version_groups_complete": true
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Urabrask+the+Hidden",
+   "sources": [
+    {
+     "channel": "@MattcasterMage",
+     "channel_name": "Mattcaster Mage MTG",
+     "video_id": "ENbOmOUkkvI",
+     "video_title": "MTG Market Movers - Nov 3rd - Modern & Commander Rising! The Fire Crystal & Solphim Mayhem Dominus!",
+     "published": "2026-11-03",
+     "t": 358,
+     "url": "https://www.youtube.com/watch?v=ENbOmOUkkvI&t=358s",
+     "quote": "list off here with Urabrask the Hidden from Iconic Masters. This foils up 18.1% today from $9.53 to $11.25",
+     "judge_note": "Urabrask the Hidden from Iconic Masters. This foils up 18.1%",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
+   "game": "mtg",
+   "card": "Utopia Tree",
+   "reasons": [
+    "Creator reports +43.6% recently"
+   ],
+   "vibe": "positive",
+   "reserved": false,
+   "paper_sets": [
+    "Invasion",
+    "Ninth Edition"
+   ],
+   "first_printed": "2000-10-02",
+   "first_printed_set": {
+    "code": "inv",
+    "name": "Invasion"
+   },
+   "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "9ed",
+    "name": "Ninth Edition"
+   },
+   "latest_reprint_date": "2005-07-29",
+   "reprint_set": {
+    "code": "9ed",
+    "name": "Ninth Edition"
+   },
+   "reprint_released": "2005-07-29",
+   "channels": 1,
+   "price": {
+    "label": "TCGplayer Market",
+    "usd": 1.73,
+    "usd_foil": null,
+    "display": "$1.73",
+    "printing": "Ninth Edition #277",
+    "printing_set": "9ED",
+    "printing_basis": "cheapest non-foil paper printing",
+    "source": "TCGplayer Market Price via Scryfall prices.usd (cheapest non-foil paper printing)",
+    "as_of": "2026-11-09",
+    "change_7d_pct": 0.0,
+    "change_30d_pct": -8.9,
+    "history_as_of": "2026-10-26",
+    "version_groups": [
+     {
+      "group": "Regular",
+      "label": "TCGplayer Market",
+      "collapsed": false,
+      "printings": [
+       {
+        "set": "9ED",
+        "set_name": "Ninth Edition",
+        "collector_number": "277",
+        "released": "2005-07-29",
+        "finish": "nonfoil",
+        "usd": 1.73,
+        "display": "$1.73",
+        "scryfall_id": "49bed540-da8d-4148-8794-8e8d01ed5387"
+       },
+       {
+        "set": "INV",
+        "set_name": "Invasion",
+        "collector_number": "219",
+        "released": "2000-10-02",
+        "finish": "nonfoil",
+        "usd": 3.21,
+        "display": "$3.21",
+        "scryfall_id": "720452e9-3245-4b0e-94b6-843cbcb641a5"
+       }
+      ]
+     },
+     {
+      "group": "Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "9ED",
+        "set_name": "Ninth Edition",
+        "collector_number": "277★",
+        "released": "2005-07-29",
+        "finish": "foil",
+        "usd": 7.18,
+        "display": "$7.18",
+        "scryfall_id": "4e20c289-2bfa-4e2f-9cb3-37642e9a4a88"
+       },
+       {
+        "set": "INV",
+        "set_name": "Invasion",
+        "collector_number": "219",
+        "released": "2000-10-02",
+        "finish": "foil",
+        "usd": 21.1,
+        "display": "$21.10",
+        "scryfall_id": "720452e9-3245-4b0e-94b6-843cbcb641a5"
+       }
+      ]
+     }
+    ],
+    "version_groups_complete": true
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Utopia+Tree",
+   "sources": [
+    {
+     "channel": "@MattcasterMage",
+     "channel_name": "Mattcaster Mage MTG",
+     "video_id": "zTXK6WTG90E",
+     "video_title": "MTG Market Movers - Nov 4th - Cards To Keep An Eye One! Mindslicer & Teferi, Master of Time!",
+     "published": "2026-11-04",
+     "t": 421,
+     "url": "https://www.youtube.com/watch?v=zTXK6WTG90E&t=421s",
+     "quote": "average full price is $11.02. Utopia Tree from Ninth Edition. This foils at 43.6% from $5 to $7.18 for",
+     "judge_note": "Utopia Tree from Ninth Edition. This foils at 43.6%",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
+   "game": "mtg",
+   "card": "Venser, Shaper Savant",
+   "reasons": [
+    "Creator reports +20.6% recently"
+   ],
+   "vibe": "positive",
+   "reserved": false,
+   "paper_sets": [
+    "Future Sight",
+    "From the Vault: Twenty",
+    "Modern Masters 2017",
+    "Time Spiral Remastered",
+    "Double Masters 2022",
+    "Foundations Jumpstart",
+    "Final Fantasy: Through the Ages"
+   ],
+   "first_printed": "2007-05-04",
+   "first_printed_set": {
+    "code": "fut",
+    "name": "Future Sight"
+   },
+   "is_reprint": true,
+   "reprint_count": 7,
+   "latest_reprint_set": {
+    "code": "fca",
+    "name": "Final Fantasy: Through the Ages"
+   },
+   "latest_reprint_date": "2025-06-13",
+   "reprint_set": {
+    "code": "fca",
+    "name": "Final Fantasy: Through the Ages"
+   },
+   "reprint_released": "2025-06-13",
+   "channels": 1,
+   "price": {
+    "label": "TCGplayer Market",
+    "usd": 0.38,
+    "usd_foil": null,
+    "display": "$0.38",
+    "printing": "Foundations Jumpstart #66",
+    "printing_set": "J25",
+    "printing_basis": "cheapest non-foil paper printing",
+    "source": "TCGplayer Market Price via Scryfall prices.usd (cheapest non-foil paper printing)",
+    "as_of": "2026-11-09",
+    "change_7d_pct": -9.1,
+    "change_30d_pct": 21.2,
+    "history_as_of": "2026-10-26",
+    "version_groups": [
+     {
+      "group": "Regular",
+      "label": "TCGplayer Market",
+      "collapsed": false,
+      "printings": [
+       {
+        "set": "J25",
+        "set_name": "Foundations Jumpstart",
+        "collector_number": "66",
+        "released": "2024-11-15",
+        "finish": "nonfoil",
+        "usd": 0.38,
+        "display": "$0.38",
+        "scryfall_id": "61c1b191-e471-479b-96a8-6d0325965767"
+       },
+       {
+        "set": "2X2",
+        "set_name": "Double Masters 2022",
+        "collector_number": "66",
+        "released": "2022-07-08",
+        "finish": "nonfoil",
+        "usd": 0.99,
+        "display": "$0.99",
+        "scryfall_id": "77e19416-aa6c-46f1-b247-a94da5d1a13a"
+       },
+       {
+        "set": "TSR",
+        "set_name": "Time Spiral Remastered",
+        "collector_number": "96",
+        "released": "2021-03-19",
+        "finish": "nonfoil",
+        "usd": 1.13,
+        "display": "$1.13",
+        "scryfall_id": "c08dabd1-c043-4bcf-afa8-271225a099e1"
+       },
+       {
+        "set": "PLST",
+        "set_name": "The List",
+        "collector_number": "TSR-96",
+        "released": "2023-02-10",
+        "finish": "nonfoil",
+        "usd": 1.29,
+        "display": "$1.29",
+        "scryfall_id": "4b4911ea-ddcf-45c4-8f06-6ec4947a2c9d"
+       },
+       {
+        "set": "MM3",
+        "set_name": "Modern Masters 2017",
+        "collector_number": "55",
+        "released": "2017-03-17",
+        "finish": "nonfoil",
+        "usd": 1.61,
+        "display": "$1.61",
+        "scryfall_id": "92a0243a-4661-4c7c-8dd2-9237bf9238de"
+       },
+       {
+        "set": "FUT",
+        "set_name": "Future Sight",
+        "collector_number": "46",
+        "released": "2007-05-04",
+        "finish": "nonfoil",
+        "usd": 1.71,
+        "display": "$1.71",
+        "scryfall_id": "0e84fc99-4045-4518-b588-512a675f2933"
+       }
+      ]
+     },
+     {
+      "group": "Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "2X2",
+        "set_name": "Double Masters 2022",
+        "collector_number": "66",
+        "released": "2022-07-08",
+        "finish": "foil",
+        "usd": 1.09,
+        "display": "$1.09",
+        "scryfall_id": "77e19416-aa6c-46f1-b247-a94da5d1a13a"
+       },
+       {
+        "set": "MM3",
+        "set_name": "Modern Masters 2017",
+        "collector_number": "55",
+        "released": "2017-03-17",
+        "finish": "foil",
+        "usd": 1.26,
+        "display": "$1.26",
+        "scryfall_id": "92a0243a-4661-4c7c-8dd2-9237bf9238de"
+       },
+       {
+        "set": "TSR",
+        "set_name": "Time Spiral Remastered",
+        "collector_number": "96",
+        "released": "2021-03-19",
+        "finish": "foil",
+        "usd": 1.81,
+        "display": "$1.81",
+        "scryfall_id": "c08dabd1-c043-4bcf-afa8-271225a099e1"
+       },
+       {
+        "set": "V13",
+        "set_name": "From the Vault: Twenty",
+        "collector_number": "15",
+        "released": "2013-08-23",
+        "finish": "foil",
+        "usd": 1.82,
+        "display": "$1.82",
+        "scryfall_id": "b4fd3241-ac43-45fc-ac06-e441daee1b31"
+       },
+       {
+        "set": "FUT",
+        "set_name": "Future Sight",
+        "collector_number": "46",
+        "released": "2007-05-04",
+        "finish": "foil",
+        "usd": 59.99,
+        "display": "$59.99",
+        "scryfall_id": "0e84fc99-4045-4518-b588-512a675f2933"
+       }
+      ]
+     },
+     {
+      "group": "Etched Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "2X2",
+        "set_name": "Double Masters 2022",
+        "collector_number": "435",
+        "released": "2022-07-08",
+        "finish": "etched",
+        "usd": 5.47,
+        "display": "$5.47",
+        "scryfall_id": "68409196-abd1-4ac5-87d0-72cb1e4a68fd"
+       }
+      ]
+     },
+     {
+      "group": "Borderless",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "FCA",
+        "set_name": "Final Fantasy: Through the Ages",
+        "collector_number": "6",
+        "released": "2025-06-13",
+        "finish": "nonfoil",
+        "usd": 1.66,
+        "display": "$1.66",
+        "scryfall_id": "d9aa060d-8682-4803-9ab9-052250e3d794"
+       }
+      ]
+     },
+     {
+      "group": "Borderless Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "FCA",
+        "set_name": "Final Fantasy: Through the Ages",
+        "collector_number": "6",
+        "released": "2025-06-13",
+        "finish": "foil",
+        "usd": 12.45,
+        "display": "$12.45",
+        "scryfall_id": "d9aa060d-8682-4803-9ab9-052250e3d794"
+       }
+      ]
+     }
+    ],
+    "version_groups_complete": true
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Venser%2C+Shaper+Savant",
+   "sources": [
+    {
+     "channel": "@MattcasterMage",
+     "channel_name": "Mattcaster Mage MTG",
+     "video_id": "fJeT9GPPdNE",
+     "video_title": "MTG Market Movers - Nov 9th - Cards Trending Now! Song of Totentanz & Nethergoyf!",
+     "published": "2026-11-09",
+     "t": 382,
+     "url": "https://www.youtube.com/watch?v=fJeT9GPPdNE&t=382s",
+     "quote": "list off here with Fencer Shaper Savant from Future Sight. This foils up 20.6% today from $49.75 to $60",
+     "judge_note": "Fencer Shaper Savant from Future Sight. This foils up 20.6%",
      "anchored_by": "quote match 100"
     }
    ]
@@ -220054,6 +223629,372 @@
    ]
   },
   {
+   "game": "mtg",
+   "card": "Vraska, Betrayal's Sting",
+   "reasons": [
+    "Creator reports +20.3% recently"
+   ],
+   "vibe": "positive",
+   "reserved": false,
+   "paper_sets": [
+    "Phyrexia: All Will Be One",
+    "Lorwyn Eclipsed Commander"
+   ],
+   "first_printed": "2023-02-10",
+   "first_printed_set": {
+    "code": "one",
+    "name": "Phyrexia: All Will Be One"
+   },
+   "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "ecc",
+    "name": "Lorwyn Eclipsed Commander"
+   },
+   "latest_reprint_date": "2026-01-23",
+   "reprint_set": {
+    "code": "ecc",
+    "name": "Lorwyn Eclipsed Commander"
+   },
+   "reprint_released": "2026-01-23",
+   "channels": 1,
+   "price": {
+    "label": "TCGplayer Market",
+    "usd": 2.79,
+    "usd_foil": 3.17,
+    "display": "$2.79",
+    "printing": "Phyrexia: All Will Be One #326",
+    "printing_set": "ONE",
+    "printing_basis": "cheapest non-foil paper printing",
+    "source": "TCGplayer Market Price via Scryfall prices.usd (cheapest non-foil paper printing)",
+    "as_of": "2026-11-09",
+    "change_7d_pct": -0.7,
+    "change_30d_pct": -5.8,
+    "history_as_of": "2026-10-26",
+    "version_groups": [
+     {
+      "group": "Regular",
+      "label": "TCGplayer Market",
+      "collapsed": false,
+      "printings": [
+       {
+        "set": "ECC",
+        "set_name": "Lorwyn Eclipsed Commander",
+        "collector_number": "88",
+        "released": "2026-01-23",
+        "finish": "nonfoil",
+        "usd": 4.54,
+        "display": "$4.54",
+        "scryfall_id": "9f1fa1c5-ff87-4bbc-89aa-dbebc91eada0"
+       },
+       {
+        "set": "ONE",
+        "set_name": "Phyrexia: All Will Be One",
+        "collector_number": "115",
+        "released": "2023-02-10",
+        "finish": "nonfoil",
+        "usd": 5.24,
+        "display": "$5.24",
+        "scryfall_id": "f59f2b07-47ad-4efd-ae8c-1c04b9265024"
+       }
+      ]
+     },
+     {
+      "group": "Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "ONE",
+        "set_name": "Phyrexia: All Will Be One",
+        "collector_number": "115",
+        "released": "2023-02-10",
+        "finish": "foil",
+        "usd": 7.15,
+        "display": "$7.15",
+        "scryfall_id": "f59f2b07-47ad-4efd-ae8c-1c04b9265024"
+       }
+      ]
+     },
+     {
+      "group": "Showcase",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "ONE",
+        "set_name": "Phyrexia: All Will Be One",
+        "collector_number": "326",
+        "released": "2023-02-10",
+        "finish": "nonfoil",
+        "usd": 2.79,
+        "display": "$2.79",
+        "scryfall_id": "7bdbadc3-f93d-4ec8-aa56-3fe235b9a85e"
+       }
+      ]
+     },
+     {
+      "group": "Showcase Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "ONE",
+        "set_name": "Phyrexia: All Will Be One",
+        "collector_number": "326",
+        "released": "2023-02-10",
+        "finish": "foil",
+        "usd": 3.17,
+        "display": "$3.17",
+        "scryfall_id": "7bdbadc3-f93d-4ec8-aa56-3fe235b9a85e"
+       },
+       {
+        "set": "ONE",
+        "set_name": "Phyrexia: All Will Be One",
+        "collector_number": "443",
+        "released": "2023-02-10",
+        "finish": "foil",
+        "usd": 5.63,
+        "display": "$5.63",
+        "scryfall_id": "0af5aaae-c343-4a9e-94a3-6225100e2e25"
+       }
+      ]
+     },
+     {
+      "group": "Borderless",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "ONE",
+        "set_name": "Phyrexia: All Will Be One",
+        "collector_number": "337",
+        "released": "2023-02-10",
+        "finish": "nonfoil",
+        "usd": 18.44,
+        "display": "$18.44",
+        "scryfall_id": "fa015843-2aff-4184-9432-a548e379b1f4"
+       }
+      ]
+     },
+     {
+      "group": "Borderless Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "ONE",
+        "set_name": "Phyrexia: All Will Be One",
+        "collector_number": "337",
+        "released": "2023-02-10",
+        "finish": "foil",
+        "usd": 27.39,
+        "display": "$27.39",
+        "scryfall_id": "fa015843-2aff-4184-9432-a548e379b1f4"
+       },
+       {
+        "set": "ONE",
+        "set_name": "Phyrexia: All Will Be One",
+        "collector_number": "361",
+        "released": "2023-02-10",
+        "finish": "foil",
+        "usd": 29.66,
+        "display": "$29.66",
+        "scryfall_id": "e4e4d205-8721-46c4-81b9-017c9a5adcae"
+       },
+       {
+        "set": "ONE",
+        "set_name": "Phyrexia: All Will Be One",
+        "collector_number": "442",
+        "released": "2023-02-10",
+        "finish": "foil",
+        "usd": 39.45,
+        "display": "$39.45",
+        "scryfall_id": "3ae2dfd8-a10a-4a13-97c0-a0ac7df0aabb"
+       }
+      ]
+     },
+     {
+      "group": "Promo",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "PONE",
+        "set_name": "Phyrexia: All Will Be One Promos",
+        "collector_number": "115p",
+        "released": "2023-02-10",
+        "finish": "nonfoil",
+        "usd": 4.37,
+        "display": "$4.37",
+        "scryfall_id": "8bd2dda2-f887-49a4-b943-62403f94c14d"
+       }
+      ]
+     },
+     {
+      "group": "Promo Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "PONE",
+        "set_name": "Phyrexia: All Will Be One Promos",
+        "collector_number": "115p",
+        "released": "2023-02-10",
+        "finish": "foil",
+        "usd": 9.86,
+        "display": "$9.86",
+        "scryfall_id": "8bd2dda2-f887-49a4-b943-62403f94c14d"
+       },
+       {
+        "set": "PONE",
+        "set_name": "Phyrexia: All Will Be One Promos",
+        "collector_number": "115s",
+        "released": "2023-02-10",
+        "finish": "foil",
+        "usd": 13.44,
+        "display": "$13.44",
+        "scryfall_id": "ceac7bba-6e4e-4336-b5d6-fde3ee0c621c"
+       }
+      ]
+     }
+    ],
+    "version_groups_complete": true
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Vraska%2C+Betrayal%27s+Sting",
+   "sources": [
+    {
+     "channel": "@MattcasterMage",
+     "channel_name": "Mattcaster Mage MTG",
+     "video_id": "ENbOmOUkkvI",
+     "video_title": "MTG Market Movers - Nov 3rd - Modern & Commander Rising! The Fire Crystal & Solphim Mayhem Dominus!",
+     "published": "2026-11-03",
+     "t": 386,
+     "url": "https://www.youtube.com/watch?v=ENbOmOUkkvI&t=386s",
+     "quote": "price is $32.55. Vraska, Betrayal's Sting from Phyrexia: All Will Be One. This foils up 20.3% today from $5.37",
+     "judge_note": "Vraska, Betrayal's Sting from Phyrexia: All Will Be One. This foils up 20.3%",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
+   "game": "mtg",
+   "card": "Wormfang Drake",
+   "reasons": [
+    "Creator reports +31.4% recently"
+   ],
+   "vibe": "positive",
+   "reserved": false,
+   "paper_sets": [
+    "Judgment",
+    "Dominaria Remastered"
+   ],
+   "first_printed": "2002-05-27",
+   "first_printed_set": {
+    "code": "jud",
+    "name": "Judgment"
+   },
+   "is_reprint": true,
+   "reprint_count": 2,
+   "latest_reprint_set": {
+    "code": "dmr",
+    "name": "Dominaria Remastered"
+   },
+   "latest_reprint_date": "2023-01-13",
+   "reprint_set": {
+    "code": "dmr",
+    "name": "Dominaria Remastered"
+   },
+   "reprint_released": "2023-01-13",
+   "channels": 1,
+   "price": {
+    "label": "TCGplayer Market",
+    "usd": 0.15,
+    "usd_foil": 0.25,
+    "display": "$0.15",
+    "printing": "Dominaria Remastered #74",
+    "printing_set": "DMR",
+    "printing_basis": "cheapest non-foil paper printing",
+    "source": "TCGplayer Market Price via Scryfall prices.usd (cheapest non-foil paper printing)",
+    "as_of": "2026-11-09",
+    "change_7d_pct": -6.7,
+    "change_30d_pct": -6.7,
+    "history_as_of": "2026-10-26",
+    "version_groups": [
+     {
+      "group": "Regular",
+      "label": "TCGplayer Market",
+      "collapsed": false,
+      "printings": [
+       {
+        "set": "DMR",
+        "set_name": "Dominaria Remastered",
+        "collector_number": "74",
+        "released": "2023-01-13",
+        "finish": "nonfoil",
+        "usd": 0.15,
+        "display": "$0.15",
+        "scryfall_id": "501128c7-c541-4de8-a041-9367c032dbb3"
+       },
+       {
+        "set": "JUD",
+        "set_name": "Judgment",
+        "collector_number": "57",
+        "released": "2002-05-27",
+        "finish": "nonfoil",
+        "usd": 0.2,
+        "display": "$0.20",
+        "scryfall_id": "b6afd312-6448-4bd1-8539-0910cefead0d"
+       }
+      ]
+     },
+     {
+      "group": "Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "DMR",
+        "set_name": "Dominaria Remastered",
+        "collector_number": "74",
+        "released": "2023-01-13",
+        "finish": "foil",
+        "usd": 0.25,
+        "display": "$0.25",
+        "scryfall_id": "501128c7-c541-4de8-a041-9367c032dbb3"
+       },
+       {
+        "set": "JUD",
+        "set_name": "Judgment",
+        "collector_number": "57",
+        "released": "2002-05-27",
+        "finish": "foil",
+        "usd": 4.81,
+        "display": "$4.81",
+        "scryfall_id": "b6afd312-6448-4bd1-8539-0910cefead0d"
+       }
+      ]
+     }
+    ],
+    "version_groups_complete": true
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Wormfang+Drake",
+   "sources": [
+    {
+     "channel": "@MattcasterMage",
+     "channel_name": "Mattcaster Mage MTG",
+     "video_id": "zTXK6WTG90E",
+     "video_title": "MTG Market Movers - Nov 4th - Cards To Keep An Eye One! Mindslicer & Teferi, Master of Time!",
+     "published": "2026-11-04",
+     "t": 357,
+     "url": "https://www.youtube.com/watch?v=zTXK6WTG90E&t=357s",
+     "quote": "foil price is $5.04. Wormfang Drake from Judgment. This old frame foils at 31.4% from $3.66 to $4.81 for",
+     "judge_note": "Wormfang Drake from Judgment. This old frame foils at 31.4%",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
    "game": "yugioh",
    "card": "Xtra HERO Cross Crusader",
    "reasons": [
@@ -220275,6 +224216,292 @@
      "url": "https://www.youtube.com/watch?v=xo0ALhJSikA&t=3401s",
      "quote": "sooner rather than later. We have Xtra HERO Cross Crusader. We talked about the QCSR spiking up. The platinum",
      "judge_note": "than later we have xtra hero cross crusader we talked about the qcsr spiking",
+     "anchored_by": "quote match 100"
+    }
+   ]
+  },
+  {
+   "game": "mtg",
+   "card": "Zetalpa, Primal Dawn",
+   "reasons": [
+    "Creator reports +33.8% recently"
+   ],
+   "vibe": "positive",
+   "reserved": false,
+   "paper_sets": [
+    "Rivals of Ixalan",
+    "Commander 2019",
+    "Game Night 2019",
+    "Commander 2020",
+    "Commander 2021",
+    "Dominaria United Commander",
+    "Commander Masters",
+    "The Lost Caverns of Ixalan Commander",
+    "Foundations",
+    "Tarkir: Dragonstorm Commander"
+   ],
+   "first_printed": "2018-01-19",
+   "first_printed_set": {
+    "code": "rix",
+    "name": "Rivals of Ixalan"
+   },
+   "is_reprint": true,
+   "reprint_count": 10,
+   "latest_reprint_set": {
+    "code": "tdc",
+    "name": "Tarkir: Dragonstorm Commander"
+   },
+   "latest_reprint_date": "2025-04-11",
+   "reprint_set": {
+    "code": "tdc",
+    "name": "Tarkir: Dragonstorm Commander"
+   },
+   "reprint_released": "2025-04-11",
+   "channels": 1,
+   "price": {
+    "label": "TCGplayer Market",
+    "usd": 0.2,
+    "usd_foil": null,
+    "display": "$0.20",
+    "printing": "Foundations #584",
+    "printing_set": "FDN",
+    "printing_basis": "cheapest non-foil paper printing",
+    "source": "TCGplayer Market Price via Scryfall prices.usd (cheapest non-foil paper printing)",
+    "as_of": "2026-11-09",
+    "change_7d_pct": 19.0,
+    "change_30d_pct": -13.8,
+    "history_as_of": "2026-10-26",
+    "version_groups": [
+     {
+      "group": "Regular",
+      "label": "TCGplayer Market",
+      "collapsed": false,
+      "printings": [
+       {
+        "set": "FDN",
+        "set_name": "Foundations",
+        "collector_number": "584",
+        "released": "2024-11-15",
+        "finish": "nonfoil",
+        "usd": 0.2,
+        "display": "$0.20",
+        "scryfall_id": "694df80e-77d1-4455-b6f1-58d212267d76"
+       },
+       {
+        "set": "LCC",
+        "set_name": "The Lost Caverns of Ixalan Commander",
+        "collector_number": "141",
+        "released": "2023-11-17",
+        "finish": "nonfoil",
+        "usd": 0.23,
+        "display": "$0.23",
+        "scryfall_id": "90eb983c-ba42-45f2-9362-211fe40236e7"
+       },
+       {
+        "set": "TDC",
+        "set_name": "Tarkir: Dragonstorm Commander",
+        "collector_number": "142",
+        "released": "2025-04-11",
+        "finish": "nonfoil",
+        "usd": 0.3,
+        "display": "$0.30",
+        "scryfall_id": "78c71a23-8e73-406e-bbd0-4474c17c1d04"
+       },
+       {
+        "set": "RIX",
+        "set_name": "Rivals of Ixalan",
+        "collector_number": "30",
+        "released": "2018-01-19",
+        "finish": "nonfoil",
+        "usd": 0.31,
+        "display": "$0.31",
+        "scryfall_id": "3d10560f-199d-4d04-b573-90024f8aecc4"
+       },
+       {
+        "set": "DMC",
+        "set_name": "Dominaria United Commander",
+        "collector_number": "108",
+        "released": "2022-09-09",
+        "finish": "nonfoil",
+        "usd": 0.31,
+        "display": "$0.31",
+        "scryfall_id": "77bcb902-70c0-4406-bbcf-49d23fd71a68"
+       },
+       {
+        "set": "C19",
+        "set_name": "Commander 2019",
+        "collector_number": "79",
+        "released": "2019-08-23",
+        "finish": "nonfoil",
+        "usd": 0.33,
+        "display": "$0.33",
+        "scryfall_id": "f557ebfc-6fa2-4512-9d46-b6a2b0464eeb"
+       },
+       {
+        "set": "CMM",
+        "set_name": "Commander Masters",
+        "collector_number": "71",
+        "released": "2023-08-04",
+        "finish": "nonfoil",
+        "usd": 0.33,
+        "display": "$0.33",
+        "scryfall_id": "1c3425c9-9bec-40e4-a2e9-ce8ac4281688"
+       },
+       {
+        "set": "C20",
+        "set_name": "Commander 2020",
+        "collector_number": "107",
+        "released": "2020-04-17",
+        "finish": "nonfoil",
+        "usd": 0.35,
+        "display": "$0.35",
+        "scryfall_id": "8d5b29be-2b1a-4ba5-8958-60eee4e3bac1"
+       },
+       {
+        "set": "C21",
+        "set_name": "Commander 2021",
+        "collector_number": "112",
+        "released": "2021-04-23",
+        "finish": "nonfoil",
+        "usd": 0.35,
+        "display": "$0.35",
+        "scryfall_id": "6d471f97-e812-410e-9354-1d1d330010bc"
+       },
+       {
+        "set": "PLST",
+        "set_name": "The List",
+        "collector_number": "RIX-30",
+        "released": "2023-05-08",
+        "finish": "nonfoil",
+        "usd": 0.38,
+        "display": "$0.38",
+        "scryfall_id": "ae7e461c-b07d-482c-978b-4d98a1683abd"
+       },
+       {
+        "set": "GN2",
+        "set_name": "Game Night 2019",
+        "collector_number": "15",
+        "released": "2019-11-15",
+        "finish": "nonfoil",
+        "usd": 0.47,
+        "display": "$0.47",
+        "scryfall_id": "119836fe-70e5-4000-81b7-21e410cc04ab"
+       }
+      ]
+     },
+     {
+      "group": "Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "CMM",
+        "set_name": "Commander Masters",
+        "collector_number": "71",
+        "released": "2023-08-04",
+        "finish": "foil",
+        "usd": 1.19,
+        "display": "$1.19",
+        "scryfall_id": "1c3425c9-9bec-40e4-a2e9-ce8ac4281688"
+       },
+       {
+        "set": "RIX",
+        "set_name": "Rivals of Ixalan",
+        "collector_number": "30",
+        "released": "2018-01-19",
+        "finish": "foil",
+        "usd": 4.83,
+        "display": "$4.83",
+        "scryfall_id": "3d10560f-199d-4d04-b573-90024f8aecc4"
+       }
+      ]
+     },
+     {
+      "group": "Etched Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "CMM",
+        "set_name": "Commander Masters",
+        "collector_number": "478",
+        "released": "2023-08-04",
+        "finish": "etched",
+        "usd": 14.65,
+        "display": "$14.65",
+        "scryfall_id": "d3e0232d-5eec-4ff1-93db-1adad8167c3a"
+       }
+      ]
+     },
+     {
+      "group": "Promo",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "PRIX",
+        "set_name": "Rivals of Ixalan Promos",
+        "collector_number": "30p",
+        "released": "2018-01-19",
+        "finish": "nonfoil",
+        "usd": 4.02,
+        "display": "$4.02",
+        "scryfall_id": "b27c1231-b3cf-4dcb-ab32-4ffea5e36138"
+       }
+      ]
+     },
+     {
+      "group": "Promo Foil",
+      "label": "TCGplayer Market",
+      "collapsed": true,
+      "printings": [
+       {
+        "set": "PMEI",
+        "set_name": "Media and Collaboration Promos",
+        "collector_number": "2026-11",
+        "released": "2026-05-14",
+        "finish": "foil",
+        "usd": 0.36,
+        "display": "$0.36",
+        "scryfall_id": "9385a039-bd13-4646-9b4c-f8de7544d141"
+       },
+       {
+        "set": "PRIX",
+        "set_name": "Rivals of Ixalan Promos",
+        "collector_number": "30p",
+        "released": "2018-01-19",
+        "finish": "foil",
+        "usd": 2.69,
+        "display": "$2.69",
+        "scryfall_id": "b27c1231-b3cf-4dcb-ab32-4ffea5e36138"
+       },
+       {
+        "set": "PRIX",
+        "set_name": "Rivals of Ixalan Promos",
+        "collector_number": "30s",
+        "released": "2018-01-19",
+        "finish": "foil",
+        "usd": 4.85,
+        "display": "$4.85",
+        "scryfall_id": "4e960e96-9044-41a5-807e-8a29b30ba828"
+       }
+      ]
+     }
+    ],
+    "version_groups_complete": true
+   },
+   "tcgplayer_url": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Zetalpa%2C+Primal+Dawn",
+   "sources": [
+    {
+     "channel": "@MattcasterMage",
+     "channel_name": "Mattcaster Mage MTG",
+     "video_id": "eGT4sO8tQxQ",
+     "video_title": "MTG Market Movers - Nov 5th - Commander & Standard Moves! Susur Secundi, Void Altar!",
+     "published": "2026-11-05",
+     "t": 348,
+     "url": "https://www.youtube.com/watch?v=eGT4sO8tQxQ&t=348s",
+     "quote": "foil price is $5.08. Setalpa, Primal Dawn from Rivals of Ixalan. This foil's up 33.8% from $3.61 to $4.83",
+     "judge_note": "Setalpa, Primal Dawn from Rivals of Ixalan. This foil's up 33.8%",
      "anchored_by": "quote match 100"
     }
    ]
