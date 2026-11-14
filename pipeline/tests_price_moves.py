@@ -14,6 +14,7 @@ from contextlib import redirect_stdout
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import price_moves as pm
+from card_link import RADAR_URL
 
 DATE = "2026-11-04"
 PREV = "2026-11-03"
@@ -53,7 +54,7 @@ def assert_message(msg, title, up):
     assert msg.count("Not financial advice.") == 1
     arrow = "↑" if up else "↓"
     assert arrow in msg
-    low = msg.lower()
+    low = msg.lower().replace(RADAR_URL.lower(), "")
     for word in FORBIDDEN:
         assert word not in low, word
     assert len(msg) <= pm.MAX_CHARS
@@ -173,6 +174,8 @@ def test_tie_order_and_message():
     assert_message(jumps, "Price jumps (1-day)", True)
     assert_message(drops, "Price drops (1-day)", False)
     assert "- Card name: Alpha" in jumps
+    assert "game=magic&card=Alpha" in jumps
+    assert "game=magic&card=Drop+Card" in drops
     assert "- Then: $5.00 → Now: $6.00 (↑20.0%)" in jumps
     assert "- Then: $8.00 → Now: $5.20 (↓35.0%)" in drops
     assert pm.build_message(pm.TITLES["jumps"], [], True) is None
@@ -200,7 +203,7 @@ def test_settle_secrets_errors_and_same_date():
     assert state == {"jumps": None, "drops": None}
     assert calls == []
     assert any(line.startswith("dry-run jumps:\nPrice jumps (1-day)") for line in lines)
-    blob = "\n".join(lines).lower()
+    blob = "\n".join(lines).lower().replace(RADAR_URL.lower(), "")
     for word in FORBIDDEN:
         assert word not in blob
 
@@ -321,8 +324,9 @@ def test_files_and_main(tmp):
         text = buf.getvalue()
         assert "Price jumps (1-day)" in text and "Sol Ring" in text
         assert "jump-secret" not in text and "drop-secret" not in text
+        visible = text.lower().replace(RADAR_URL.lower(), "")
         for word in FORBIDDEN:
-            assert word not in text.lower()
+            assert word not in visible
 
         buf = io.StringIO()
         with redirect_stdout(buf):

@@ -7,7 +7,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import discord_moving as d
 
-URL = "https://tcguardian-radar.vercel.app/market-signals"
+URL = "https://tcguardian-us.com/radar"
 
 
 def doc(end, risers=None, impacts=None, **extra):
@@ -42,6 +42,16 @@ def impact(new, existing, effect, creator):
     }
 
 
+def test_card_link_uses_the_game_and_card():
+    assert d.card_href("pokemon", "Pikachu") == (
+        f"{URL}?view=market-signals&game=pokemon&card=Pikachu"
+    )
+    assert d.card_href("nope", "Sol Ring") == (
+        f"{URL}?view=market-signals&game=magic&card=Sol+Ring"
+    )
+    assert d.card_href("magic", "  ") == f"{URL}?view=market-signals&game=magic"
+
+
 def test_week():
     monday = doc("2026-11-02")
     sunday = doc("2026-11-08")
@@ -68,7 +78,9 @@ def test_message_shape():
     )
     msg = d.build_message(new)
     assert msg.startswith(d.DISCLAIMER)
-    assert msg.endswith(f"[Open Market Signals]({URL})")
+    assert msg.endswith(
+        f"[Open Market Signals]({d.card_href(None, 'Dark Matter Manipulator')})"
+    )
     assert "- Card name: Dark Matter Manipulator | Creator: Mattcaster Mage MTG | Why: showcase foil up about 28%" in msg
     sphinx = next(line for line in msg.splitlines() if "Sphinx's Approach" in line)
     assert sphinx == "- Card name: Sphinx's Approach | Creator: EugiGamez"

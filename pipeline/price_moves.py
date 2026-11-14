@@ -21,6 +21,7 @@ import urllib.error
 import urllib.request
 from decimal import Decimal, ROUND_HALF_UP
 
+from card_link import card_href
 from discord_username import DISCORD_USERNAME
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -226,6 +227,10 @@ def _render(title, rows, up):
     for row in rows:
         parts.extend(_card_lines(row, up))
     parts.append("")
+    if rows:
+        parts.append(
+            f"[Open this card in Market Signals]({card_href('magic', rows[0]['name'])})"
+        )
     parts.append(FOOTER)
     return "\n".join(parts)
 
