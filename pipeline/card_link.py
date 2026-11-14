@@ -1,16 +1,20 @@
 """Deep link to one card on the Market Signals page."""
 from urllib.parse import urlencode
 
-MARKET_SIGNALS_URL = "https://tcguardian-radar.vercel.app/market-signals"
+RADAR_URL = "https://tcguardian-us.com/radar"
 GAMES = {"magic", "pokemon", "one-piece", "yugioh", "lorcana"}
 
 
 def card_href(game, card):
-    """Right game and card. An unknown game opens Magic. A blank card opens the page."""
-    name = str(card or "").strip()
-    if not name:
-        return MARKET_SIGNALS_URL
+    """Public Radar URL. The app root forwards view=market-signals.
+
+    An unknown game opens Magic. A blank card opens Market Signals with no card.
+    """
     chosen = str(game or "").strip()
     if chosen not in GAMES:
         chosen = "magic"
-    return f"{MARKET_SIGNALS_URL}?{urlencode({'game': chosen, 'card': name})}"
+    params = {"view": "market-signals", "game": chosen}
+    name = str(card or "").strip()
+    if name:
+        params["card"] = name
+    return f"{RADAR_URL}?{urlencode(params)}"

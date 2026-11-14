@@ -16,7 +16,7 @@ import sys
 import urllib.error
 import urllib.request
 
-from card_link import MARKET_SIGNALS_URL, card_href
+from card_link import card_href
 from discord_username import DISCORD_USERNAME
 DISCLAIMER = (
     "⚠️ Signal, not fact. This is what TCG YouTubers said this week. "

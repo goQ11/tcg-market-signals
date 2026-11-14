@@ -14,7 +14,7 @@ from contextlib import redirect_stdout
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import price_moves as pm
-from card_link import MARKET_SIGNALS_URL
+from card_link import RADAR_URL
 
 DATE = "2026-11-04"
 PREV = "2026-11-03"
@@ -54,7 +54,7 @@ def assert_message(msg, title, up):
     assert msg.count("Not financial advice.") == 1
     arrow = "↑" if up else "↓"
     assert arrow in msg
-    low = msg.lower().replace(MARKET_SIGNALS_URL.lower(), "")
+    low = msg.lower().replace(RADAR_URL.lower(), "")
     for word in FORBIDDEN:
         assert word not in low, word
     assert len(msg) <= pm.MAX_CHARS
@@ -203,7 +203,7 @@ def test_settle_secrets_errors_and_same_date():
     assert state == {"jumps": None, "drops": None}
     assert calls == []
     assert any(line.startswith("dry-run jumps:\nPrice jumps (1-day)") for line in lines)
-    blob = "\n".join(lines).lower().replace(MARKET_SIGNALS_URL.lower(), "")
+    blob = "\n".join(lines).lower().replace(RADAR_URL.lower(), "")
     for word in FORBIDDEN:
         assert word not in blob
 
@@ -324,7 +324,7 @@ def test_files_and_main(tmp):
         text = buf.getvalue()
         assert "Price jumps (1-day)" in text and "Sol Ring" in text
         assert "jump-secret" not in text and "drop-secret" not in text
-        visible = text.lower().replace(MARKET_SIGNALS_URL.lower(), "")
+        visible = text.lower().replace(RADAR_URL.lower(), "")
         for word in FORBIDDEN:
             assert word not in visible
 
