@@ -16,14 +16,12 @@ import sys
 import urllib.error
 import urllib.request
 
+from card_link import MARKET_SIGNALS_URL, card_href
 from discord_username import DISCORD_USERNAME
-
-MARKET_SIGNALS_URL = "https://tcguardian-radar.vercel.app/market-signals"
 DISCLAIMER = (
     "⚠️ Signal, not fact. This is what TCG YouTubers said this week. "
     "It can be wrong. Not financial advice."
 )
-LINK_LINE = f"[Open Market Signals]({MARKET_SIGNALS_URL})"
 MAX_CHARS = 2000
 
 
@@ -87,7 +85,8 @@ def _impact_line(item):
     return _bullet(item.get("new_card"), _creator(item), why)
 
 
-def _lines(items, line_fn):
+def _linked(items, line_fn, name_key):
+    """Up to five lines, each with the game and card the link should open."""
     out = []
     if not isinstance(items, list):
         return out
@@ -95,14 +94,15 @@ def _lines(items, line_fn):
         if not isinstance(item, dict):
             continue
         line = line_fn(item)
-        if line:
-            out.append(line)
+        if not line:
+            continue
+        out.append((line, item.get("game"), item.get(name_key)))
         if len(out) == 5:
             break
     return out
 
 
-def _render(risers, impacts):
+def _render(risers, impacts, href):
     parts = [DISCLAIMER, ""]
     if risers:
         parts.append("📈 Potential Risers")
@@ -112,7 +112,7 @@ def _render(risers, impacts):
         parts.append("💥 New Card Impact")
         parts.extend(impacts)
         parts.append("")
-    parts.append(LINK_LINE)
+    parts.append(f"[Open Market Signals]({href})")
     return "\n".join(parts)
 
 
@@ -125,24 +125,32 @@ def build_message(doc):
     """
     if not isinstance(doc, dict):
         return None
-    risers = _lines(doc.get("potential_risers"), _riser_line)
-    impacts = _lines(doc.get("impact_pairs"), _impact_line)
+    risers = _linked(doc.get("potential_risers"), _riser_line, "card")
+    impacts = _linked(doc.get("impact_pairs"), _impact_line, "new_card")
 
-    def fits(chosen_risers, chosen_impacts):
-        return len(_render(chosen_risers, chosen_impacts)) <= MAX_CHARS
+    def fits(chosen_risers, chosen_impacts, href):
+        return len(_render(chosen_risers, chosen_impacts, href)) <= MAX_CHARS
 
     # Keep higher-ranked lines. Skip a line that does not fit so a shorter
     # one under it can still be posted. Dropping a line never cuts it in half.
+    # The link opens the first card that stayed in the post.
     chosen_risers, chosen_impacts = [], []
-    for line in risers:
-        if fits(chosen_risers + [line], chosen_impacts):
+    lead = None
+    for line, game, name in risers:
+        href = card_href(*(lead or (game, name)))
+        if fits(chosen_risers + [line], chosen_impacts, href):
             chosen_risers.append(line)
-    for line in impacts:
-        if fits(chosen_risers, chosen_impacts + [line]):
+            if lead is None:
+                lead = (game, name)
+    for line, game, name in impacts:
+        href = card_href(*(lead or (game, name)))
+        if fits(chosen_risers, chosen_impacts + [line], href):
             chosen_impacts.append(line)
+            if lead is None:
+                lead = (game, name)
     if not chosen_risers and not chosen_impacts:
         return None
-    return _render(chosen_risers, chosen_impacts)
+    return _render(chosen_risers, chosen_impacts, card_href(*lead))
 
 
 def post_discord(url, content):
