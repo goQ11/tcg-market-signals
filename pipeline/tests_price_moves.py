@@ -4,6 +4,7 @@
 Run: python3 pipeline/tests_price_moves.py
 The file-parse cases need ijson (`pip install ijson`).
 """
+import datetime as dt
 import io
 import json
 import lzma
@@ -40,7 +41,12 @@ def card(uuid, name, release="2020-01-01", **extra):
 
 
 def hist(then_price, now_price, then_date=PREV, now_date=DATE):
-    return {then_date: then_price, now_date: now_price}
+    """Baseline plus enough earlier days that the history rule is satisfied."""
+    out = {then_date: then_price, now_date: now_price}
+    day = dt.date.fromisoformat(then_date)
+    for i in range(1, pm.MIN_HISTORY_DAYS):
+        out[(day - dt.timedelta(days=i)).isoformat()] = then_price
+    return out
 
 
 def names(rows):
@@ -145,7 +151,7 @@ def test_skipped_printings_and_top_15():
     ]
     prices = {c["uuid"]: hist(5.00, 8.00) for c in cards}
     kept = pm.select_moves(cards, prices)
-    assert names(kept["jumps"]) == ["Secret Lair Card", "Unknown Paper"]
+    assert names(kept["jumps"]) == ["Unknown Paper"]
 
     many = []
     prices = {}
@@ -158,6 +164,103 @@ def test_skipped_printings_and_top_15():
     assert names(got["jumps"])[0] == "Card 00"
     assert "Card 15" not in names(got["jumps"])
     assert got["jumps"][0]["pct"] >= got["jumps"][-1]["pct"]
+
+
+def test_secret_lair_excluded():
+    cards = [
+        card("sld", "Drop", set_code="SLD", set_type="box", set_name="Secret Lair Drop"),
+        card("slz", "Zeta", set_code="slz", set_type="box", set_name="The Zeta Set"),
+        card("slc", "Countdown", set_code="SLC", set_type="box", set_name="Secret Lair Countdown"),
+        card("slp", "Promo", set_code="slp", set_type="promo", set_name="Secret Lair Promo"),
+        card("slu", "Ultimate", set_code="slu", set_type="box"),
+        card("pssc", "Planes", set_code="pssc", set_type="memorabilia"),
+        card("child", "Child Set", set_code="xx1", parent_code="SLD", set_name="Countdown Kit"),
+        card("named", "Named Only", set_code="zz9", set_name="Secret Lair Showcase"),
+        card("slx", "Universes Within", set_code="slx", set_type="masters", parent_code="SLD"),
+        card("box", "Challenger Card", set_code="q06", set_type="box", set_name="Challenger Decks 2021"),
+    ]
+    prices = {c["uuid"]: hist(5.00, 8.00) for c in cards}
+    got = pm.select_moves(cards, prices)
+    assert names(got["jumps"]) == ["Challenger Card", "Universes Within"]
+    assert got["drops"] == []
+
+
+def test_short_history_skipped():
+    # Six prices on or before the baseline, then today's move: still too new.
+    day = dt.date.fromisoformat(PREV)
+    short = {DATE: 8.00}
+    for i in range(pm.MIN_HISTORY_DAYS - 1):
+        short[(day - dt.timedelta(days=i)).isoformat()] = 20.00
+    assert len([d for d in short if d <= PREV]) == pm.MIN_HISTORY_DAYS - 1
+
+    ready = hist(10.00, 12.00)  # exactly MIN_HISTORY_DAYS points on or before the baseline
+    assert len([d for d in ready if d <= PREV]) == pm.MIN_HISTORY_DAYS
+
+    cards = [
+        card("short", "New Printing", set_code="zzz", release="2010-01-01"),
+        card("long", "New Printing", set_code="aaa", release="2000-01-01"),
+        card("only-short", "Only Short", set_code="old", release="2015-01-01"),
+        card("ready", "Established", release="2018-06-01"),
+        card("ahead-short", "Future Spike", release="2010-01-01"),
+    ]
+    prices = {
+        "short": short,                 # cheaper now, but not enough history to be the printing
+        "long": ready,                  # +20, this printing is the one that can alert
+        "only-short": {PREV: 20.00, DATE: 8.00},
+        "ready": hist(5.00, 8.00),
+        # Newer than DATE, but only two prices, so it must not move the price date.
+        "ahead-short": {DATE: 5.00, "2026-11-05": 12.00},
+    }
+    got = pm.select_moves(cards, prices)
+    assert got["price_date"] == DATE
+    assert names(got["jumps"]) == ["Established", "New Printing"]
+    chosen = next(row for row in got["jumps"] if row["name"] == "New Printing")
+    assert chosen["price_now"] == 12.0 and chosen["set_code"] == "aaa"
+    assert "Only Short" not in names(got["jumps"]) + names(got["drops"])
+
+
+def test_direct_low_ignored():
+    node = {"paper": {"tcgplayer": {
+        "buylist": {"normal": {PREV: 1.0, DATE: 100.0}},
+        "directLow": {"normal": {PREV: 5.0, DATE: 23.86}},
+        "retail": {
+            "normal": hist(17.65, 23.86),
+            "foil": {PREV: 17.65, DATE: 40.0},
+        },
+    }}}
+    series = pm._normal_retail(node)
+    assert series[DATE] == 23.86
+    assert series[PREV] == 17.65
+    assert 100.0 not in series.values()
+    assert 40.0 not in series.values()
+    assert pm._normal_retail({"paper": {"tcgplayer": {
+        "buylist": {"normal": {PREV: 5.0, DATE: 9.0}},
+        "retail": {"foil": {PREV: 5.0, DATE: 9.0}},
+    }}}) == {}
+
+    # The retail series itself holds Direct Low for today. The market quote replaces it.
+    retail = pm.select_moves(
+        [card("bg", "Barbarian General", set_code="ptk", product_id=427, group_id=88)],
+        {"bg": hist(17.65, 23.86)},
+    )
+    assert names(retail["jumps"]) == ["Barbarian General"]
+    quotes = {427: {"market": 17.66, "direct": 23.86}}
+    fixed = pm.apply_market_quotes(retail, quotes)
+    assert fixed["jumps"] == []
+    assert fixed["drops"] == []
+
+    # A retail point that is already the market quote is kept, even if Direct Low differs.
+    real = pm.select_moves(
+        [card("djinn", "Serendib Djinn", set_code="arn", product_id=3238)],
+        {"djinn": hist(148.75, 115.56)},
+    )
+    kept = pm.apply_market_quotes(real, {3238: {"market": 115.56, "direct": None}})
+    assert names(kept["drops"]) == ["Serendib Djinn"]
+    assert kept["drops"][0]["price_now"] == 115.56
+
+    # No market quote: do not keep a point that is only the Direct Low.
+    only_direct = pm.apply_market_quotes(retail, {427: {"market": None, "direct": 23.86}})
+    assert only_direct["jumps"] == []
 
 
 def test_tie_order_and_message():
@@ -255,10 +358,11 @@ def test_files_and_main(tmp):
 
     printings = {
         "data": {
-            "SLD": {
-                "code": "SLD",
-                "releaseDate": "2019-12-02",
-                "type": "box",
+            "LEA": {
+                "code": "LEA",
+                "name": "Limited Edition Alpha",
+                "releaseDate": "1993-08-05",
+                "type": "core",
                 "isOnlineOnly": False,
                 "isFoilOnly": False,
                 "cards": [{
@@ -266,6 +370,37 @@ def test_files_and_main(tmp):
                     "name": "Sol Ring",
                     "language": "English",
                     "finishes": ["nonfoil", "foil"],
+                    "availability": ["paper"],
+                    "layout": "normal",
+                    "identifiers": {"tcgplayerProductId": 1001},
+                }],
+            },
+            "SLD": {
+                "code": "SLD",
+                "name": "Secret Lair Drop",
+                "releaseDate": "2019-12-02",
+                "type": "box",
+                "isOnlineOnly": False,
+                "isFoilOnly": False,
+                "cards": [{
+                    "uuid": "u3",
+                    "name": "Lair Ring",
+                    "language": "English",
+                    "finishes": ["nonfoil"],
+                    "availability": ["paper"],
+                    "layout": "normal",
+                }],
+            },
+            "OLD": {
+                "code": "OLD",
+                "name": "Old Expansion",
+                "releaseDate": "2010-01-01",
+                "type": "expansion",
+                "cards": [{
+                    "uuid": "u4",
+                    "name": "Short History",
+                    "language": "English",
+                    "finishes": ["nonfoil"],
                     "availability": ["paper"],
                     "layout": "normal",
                 }],
@@ -287,11 +422,17 @@ def test_files_and_main(tmp):
     }
     prices = {
         "data": {
-            "u1": {"paper": {"tcgplayer": {"retail": {
-                "normal": {PREV: 5.0, DATE: 7.5},
-                "foil": {PREV: 5.0, DATE: 40.0},
-            }}}},
-            "u2": {"paper": {"tcgplayer": {"retail": {"normal": {PREV: 5.0, DATE: 9.0}}}}},
+            "u1": {"paper": {"tcgplayer": {
+                "buylist": {"normal": {PREV: 1.0, DATE: 100.0}},
+                "directLow": {"normal": {PREV: 5.0, DATE: 80.0}},
+                "retail": {
+                    "normal": hist(5.0, 7.5),
+                    "foil": {PREV: 5.0, DATE: 40.0},
+                },
+            }}},
+            "u2": {"paper": {"tcgplayer": {"retail": {"normal": hist(5.0, 9.0)}}}},
+            "u3": {"paper": {"tcgplayer": {"retail": {"normal": hist(5.0, 9.0)}}}},
+            "u4": {"paper": {"tcgplayer": {"retail": {"normal": {PREV: 20.0, DATE: 5.0}}}}},
         }
     }
     printings_path = os.path.join(tmp, "printings.json")
@@ -307,6 +448,9 @@ def test_files_and_main(tmp):
     assert got["price_date"] == DATE
     assert names(got["jumps"]) == ["Sol Ring"]
     assert got["jumps"][0]["price_now"] == 7.5
+    assert got["jumps"][0]["product_id"] == 1001
+    assert "Lair Ring" not in names(got["jumps"])
+    assert "Short History" not in names(got["drops"])
     assert got["drops"] == []
 
     calls = []
@@ -357,6 +501,9 @@ def main():
     test_thresholds_gap_and_price_date()
     test_cheapest_printing_and_new_sets()
     test_skipped_printings_and_top_15()
+    test_secret_lair_excluded()
+    test_short_history_skipped()
+    test_direct_low_ignored()
     test_tie_order_and_message()
     test_settle_secrets_errors_and_same_date()
     with tempfile.TemporaryDirectory() as tmp:
