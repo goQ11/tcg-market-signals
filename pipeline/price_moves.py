@@ -32,12 +32,19 @@ MIN_PRICE = 5.0
 MIN_PCT = 20.0
 MAX_GAP_DAYS = 2
 NEW_SET_DAYS = 14
+# Daily TCGplayer retail prices required on or before the baseline.
+MIN_HISTORY_DAYS = 7
 TOP_N = 15
 MAX_CHARS = 2000
 FOOTER = "Not financial advice."
 TITLES = {"jumps": "Price jumps (1-day)", "drops": "Price drops (1-day)"}
 WEBHOOK_ENV = {"jumps": "DISCORD_JUMPS_WEBHOOK", "drops": "DISCORD_DROPS_WEBHOOK"}
-SKIP_SET_CODES = {"plst", "list", "ulst", "mb1", "mb2"}
+# The List, plus Secret Lair. Type "box" is not skipped on its own: it also
+# covers Challenger Decks, Game Night, and Guild Kits. A set whose name says
+# Secret Lair, or whose parent is SLD or SLZ, is skipped too. SLX (Universes
+# Within) is parented under SLD and is not a Secret Lair product.
+SKIP_SET_CODES = {"plst", "list", "ulst", "mb1", "mb2", "sld", "slz", "slc", "slp", "slu", "pssc"}
+SECRET_LAIR_PARENTS = {"sld", "slz"}
 SKIP_LAYOUTS = {"token", "double_faced_token", "art_series"}
 
 PRICES_URL = "https://mtgjson.com/api/v5/AllPrices.json.xz"
@@ -66,6 +73,36 @@ def log(msg):
 def money_amount(value):
     """Nearest cent, half up."""
     return float(Decimal(str(value)).quantize(Decimal("0.01"), rounding=ROUND_HALF_UP))
+
+
+def _whole_number(value):
+    if isinstance(value, bool) or value in (None, ""):
+        return None
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return None
+
+
+def _optional_price(value):
+    if value in (None, ""):
+        return None
+    try:
+        price = float(value)
+    except (TypeError, ValueError):
+        return None
+    if price <= 0:
+        return None
+    return price
+
+
+def same_price(left, right):
+    if left is None or right is None:
+        return False
+    try:
+        return money_amount(left) == money_amount(right)
+    except (ArithmeticError, ValueError):
+        return False
 
 
 def percent(then_price, now_price):
@@ -99,6 +136,12 @@ def structurally_ok(card):
         return False
     if str(card.get("set_code") or "").lower() in SKIP_SET_CODES:
         return False
+    if "secret lair" in str(card.get("set_name") or "").lower():
+        return False
+    code = str(card.get("set_code") or "").lower()
+    parent = str(card.get("parent_code") or "").lower()
+    if parent in SECRET_LAIR_PARENTS and code != "slx":
+        return False
     return True
 
 
@@ -129,8 +172,8 @@ def clean_hist(raw):
     return out
 
 
-def endpoints(hist, price_date):
-    """Latest point and the previous one. None when the gap is more than 2 days."""
+def _baseline_date(hist, price_date):
+    """Previous retail date, or None when it is missing or more than 2 days back."""
     if price_date not in hist:
         return None
     prev = [day for day in hist if day < price_date]
@@ -138,6 +181,25 @@ def endpoints(hist, price_date):
         return None
     then_date = max(prev)
     if (_day(price_date) - _day(then_date)).days > MAX_GAP_DAYS:
+        return None
+    return then_date
+
+
+def history_ok(hist, price_date):
+    """True when the baseline already has MIN_HISTORY_DAYS retail prices.
+
+    Today's point does not count. A set's release date does not count either.
+    """
+    then_date = _baseline_date(hist, price_date)
+    if not then_date:
+        return False
+    return sum(1 for day in hist if day <= then_date) >= MIN_HISTORY_DAYS
+
+
+def endpoints(hist, price_date):
+    """Latest point and the previous one. None when the gap is more than 2 days."""
+    then_date = _baseline_date(hist, price_date)
+    if not then_date:
         return None
     try:
         then_price = money_amount(hist[then_date])
@@ -180,7 +242,8 @@ def select_moves(cards, prices):
         if not card or not hist:
             continue
         own_now = max(hist)
-        if not release_ok(card, own_now):
+        # A short series cannot set the price date or crowd out an older printing.
+        if not release_ok(card, own_now) or not history_ok(hist, own_now):
             continue
         if file_date is None or own_now > file_date:
             file_date = own_now
@@ -199,6 +262,12 @@ def select_moves(cards, prices):
             "price_now": now_price,
             "pct": percent(then_price, now_price),
         }
+        product_id = _whole_number(card.get("product_id"))
+        group_id = _whole_number(card.get("group_id"))
+        if product_id is not None:
+            cand["product_id"] = product_id
+        if group_id is not None:
+            cand["group_id"] = group_id
         prev = best.get(cand["name"])
         if prev is None or cheaper(cand, prev):
             best[cand["name"]] = cand
@@ -366,8 +435,11 @@ def _set_fields(set_obj, listed):
     primary = listed or {}
     return {
         "set_code": _pick(primary, set_obj, "code") or (set_obj or {}).get("code") or "",
+        "set_name": _pick(primary, set_obj, "name") or "",
+        "parent_code": _pick(primary, set_obj, "parentCode") or "",
         "release": _pick(primary, set_obj, "releaseDate"),
         "set_type": _pick(primary, set_obj, "type") or "",
+        "group_id": _pick(primary, set_obj, "tcgplayerGroupId"),
         "online_only": _flag(primary, set_obj, "isOnlineOnly"),
         "foil_only": _flag(primary, set_obj, "isFoilOnly"),
     }
@@ -399,15 +471,20 @@ def read_cards(printings_path, setlist_path=None):
             for card in set_obj.get("cards") or []:
                 if not isinstance(card, dict) or not card.get("uuid"):
                     continue
+                identifiers = card.get("identifiers") if isinstance(card.get("identifiers"), dict) else {}
                 row = {
                     "uuid": card.get("uuid"),
                     "name": card.get("name"),
                     "release": meta["release"],
                     "set_code": meta["set_code"] or card.get("setCode") or code,
+                    "set_name": meta["set_name"],
+                    "parent_code": meta["parent_code"],
                     "language": card.get("language") or "English",
                     "finishes": card.get("finishes") or [],
                     "layout": card.get("layout") or "",
                     "set_type": meta["set_type"],
+                    "group_id": meta["group_id"],
+                    "product_id": identifiers.get("tcgplayerProductId"),
                     "online_only": meta["online_only"],
                     "foil_only": meta["foil_only"],
                     "paper": _paper(card),
@@ -426,6 +503,11 @@ def iter_prices(prices_path):
 
 
 def _normal_retail(node):
+    """TCGplayer market history: paper.tcgplayer.retail.normal only.
+
+    Buylist, foil, etched, and any Direct Low sibling are not market price.
+    An empty normal series stays empty; it does not fall through to those.
+    """
     if not isinstance(node, dict):
         return {}
     paper = node.get("paper")
@@ -437,12 +519,124 @@ def _normal_retail(node):
     retail = store.get("retail")
     if not isinstance(retail, dict):
         return {}
-    return retail.get("normal") or {}
+    normal = retail.get("normal")
+    return normal if isinstance(normal, dict) else {}
 
 
 def compute(prices_path, printings_path, setlist_path=None):
     cards = read_cards(printings_path, setlist_path)
     return select_moves(cards, iter_prices(prices_path))
+
+
+def _use_market(row, quotes):
+    """Replace a retail point that is Direct Low with the market price.
+
+    MTGJSON stores one number per day at retail.normal. That number is meant
+    to be TCGplayer marketPrice. On 2026-11-16 it was 23.86 for Barbarian
+    General (PTK #100), which is the Direct Low quote; the market quote was
+    17.66. AllPrices has no separate Direct Low series, so a current Normal
+    quote is the check. A retail point that is not the Direct Low is left
+    alone: it may be the market price from the price file's own snapshot.
+    """
+    product_id = _whole_number(row.get("product_id"))
+    quote = quotes.get(product_id) if product_id is not None else None
+    if not quote:
+        return dict(row)
+    market = quote.get("market")
+    direct = quote.get("direct")
+    now = row.get("price_now")
+    if market is not None and same_price(now, direct) and not same_price(now, market):
+        now = money_amount(market)
+    elif market is None and same_price(now, direct):
+        return None
+    revised = dict(row)
+    revised["price_now"] = now
+    revised["pct"] = percent(row["price_then"], now)
+    return revised
+
+
+def apply_market_quotes(result, quotes):
+    """Drop or reprice alerts whose latest retail point is Direct Low."""
+    out = {"price_date": result.get("price_date"), "jumps": [], "drops": []}
+    for key in ("jumps", "drops"):
+        kept = []
+        for row in result.get(key) or []:
+            revised = _use_market(row, quotes or {})
+            if not revised:
+                continue
+            if key == "jumps" and revised["price_now"] >= MIN_PRICE and revised["pct"] >= MIN_PCT:
+                kept.append(revised)
+            elif key == "drops" and revised["price_then"] >= MIN_PRICE and revised["pct"] <= -MIN_PCT:
+                kept.append(revised)
+        out[key] = sorted(kept, key=lambda r: (-abs(r["pct"]), r["name"]))[:TOP_N]
+    return out
+
+
+def _fetch_group_quotes(group_id):
+    """Normal-subtype market and Direct Low for one TCGplayer group.
+
+    Only marketPrice can replace a retail point. directLowPrice is never used
+    as a price. low, mid, high, foil, and buylist rows are ignored.
+    """
+    url = f"https://tcgcsv.com/tcgplayer/1/{int(group_id)}/prices"
+    req = urllib.request.Request(url, headers={"User-Agent": "tcg-market-signals/1.0"})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        doc = json.load(resp)
+    quotes = {}
+    for row in (doc or {}).get("results") or []:
+        if not isinstance(row, dict) or str(row.get("subTypeName") or "") != "Normal":
+            continue
+        product_id = _whole_number(row.get("productId"))
+        if product_id is None:
+            continue
+        quotes[product_id] = {
+            "market": _optional_price(row.get("marketPrice")),
+            "direct": _optional_price(row.get("directLowPrice")),
+        }
+    return quotes
+
+
+def fetch_market_quotes(group_ids):
+    import time
+
+    quotes = {}
+    first = True
+    for group_id in group_ids:
+        if not first:
+            time.sleep(0.1)
+        first = False
+        try:
+            quotes.update(_fetch_group_quotes(group_id))
+        except Exception as exc:
+            log(f"market check skipped for one set: {exc.__class__.__name__}")
+    return quotes
+
+
+def correct_with_live_market(result):
+    """Ask for a current market quote for each set that produced an alert."""
+    groups = []
+    seen = set()
+    for key in ("jumps", "drops"):
+        for row in result.get(key) or []:
+            group_id = _whole_number(row.get("group_id"))
+            if group_id is None or group_id in seen:
+                continue
+            seen.add(group_id)
+            groups.append(group_id)
+    if not groups:
+        return result
+    quotes = fetch_market_quotes(groups)
+    if not quotes:
+        return result
+    updated = apply_market_quotes(result, quotes)
+    removed = []
+    for key in ("jumps", "drops"):
+        before = {row.get("name") for row in result.get(key) or []}
+        after = {row.get("name") for row in updated.get(key) or []}
+        removed.extend(sorted(before - after))
+    if removed:
+        log("market check dropped Direct Low: " + ", ".join(removed))
+    return updated
 
 
 def download(url, dest):
@@ -511,6 +705,7 @@ def main(argv=None):
     if not result.get("price_date"):
         log("no price date; no post")
         return 0
+    result = correct_with_live_market(result)
 
     state = load_state(args.state)
     webhooks = {key: os.environ.get(env, "") for key, env in WEBHOOK_ENV.items()}
